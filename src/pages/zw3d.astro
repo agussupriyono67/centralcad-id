@@ -1,0 +1,141 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import TrialFormSection from '../components/TrialFormSection.astro';
+---
+
+<Layout
+  title="ZW3D CAD/CAM Indonesia — Solusi All-in-One Desain Produk, Mold & Pemesinan CNC"
+  description="Software 3D CAD/CAM terintegrasi untuk manufaktur presisi di Indonesia. Dilengkapi Overdrive Hybrid Modeling, auto mold design, dan pemrograman mesin CNC 2-5 Axis."
+>
+  <Navbar active="zw3d" />
+
+  <main>
+    <!-- ZW3D Hero -->
+    <section class="relative bg-slate-950 text-white pt-16 pb-24 overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img
+          src="/assets/zwsoft/images/Architectural-Design-banner.png"
+          alt="ZW3D Background"
+          class="w-full h-full object-cover opacity-15 filter blur-sm"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/95 to-slate-950"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">
+          <img src="/assets/clients/Zw3d_Logo_White.webp" alt="ZW3D" class="h-4 w-auto inline" />
+          Solusi Terpadu CAD + CAM All-in-One
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight">
+          Satu Software untuk <br class="hidden sm:inline" />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-300">
+            Desain 3D, Mold &amp; Pemrograman Mesin CNC
+          </span>
+        </h1>
+
+        <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Tinggalkan kerumitan transfer file antar-software yang berbeda. <strong>ZW3D</strong> menghubungkan alur kerja tim R&amp;D, perancang cetakan (mold), hingga operator mesin CNC dalam satu lingkungan kerja yang sinkron.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+          <a
+            href="/free-download"
+            class="btn-accent text-base py-3.5 px-8"
+          >
+            Download Trial ZW3D 30 Hari
+          </a>
+          <a
+            href="https://wa.me/628111141403?text=Halo%20Central%20CAD,%20saya%20ingin%20jadwalkan%20presentasi%20dan%20demo%20ZW3D."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary text-base py-3.5 px-8"
+          >
+            Jadwalkan Live Demo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 Main Pillars ZW3D -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="badge-tag bg-cyan-50 text-cyan-800 border border-cyan-200 mb-3">
+            KEMAMPUAN MODUL LENGKAP
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Alur Kerja Manufaktur End-to-End
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Module 1: Product Design -->
+          <div class="cad-card p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-cyan-50 border border-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-xl mb-5">
+                01
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Product Design (CAD)</h3>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Ditenagai <strong>Overdrive™ Hybrid Modeling</strong>, memungkinkan Anda menggabungkan solid geometri dan kurva surface bebas secara simultan tanpa batas. Membaca langsung data CAD dari CATIA, NX, SolidWorks, Creo, dan Inventor.
+              </p>
+              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
+                <li>✓ Parametric &amp; Direct Modeling</li>
+                <li>✓ Sheet Metal &amp; Weldment Design</li>
+                <li>✓ Reverse Engineering &amp; Point Cloud</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Module 2: Mold & Die -->
+          <div class="cad-card p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 font-bold text-xl mb-5">
+                02
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Mold &amp; Die Design</h3>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Otomasi pemisahan core &amp; cavity tanpa perlu memperbaiki cacat solid secara manual. Menyediakan pustaka standar mold base global (DME, HASCO, FUTABA, LKM) serta modul pendingin dan slider.
+              </p>
+              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
+                <li>✓ Auto Parting Line &amp; Face Split</li>
+                <li>✓ Standard Mold Base &amp; Runner Library</li>
+                <li>✓ Electrode Extraction &amp; Spark Gap</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Module 3: CNC CAM -->
+          <div class="cad-card p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-xl mb-5">
+                03
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">2-5 Axis CNC Machining (CAM)</h3>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Simulasi lintasan pahat (toolpath) presisi tinggi dengan teknologi QuickMill™. Mendukung proses Milling 2 &amp; 3 Axis, Bubut (Turning), hingga permesinan 5 Axis Simultaneous lengkap dengan deteksi tabrakan.
+              </p>
+              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
+                <li>✓ QuickMill Roughing &amp; Finishing</li>
+                <li>✓ Full Machine Kinematic Simulation</li>
+                <li>✓ Custom Post-Processor (Fanuc, Heidenhain, Siemens)</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trial Section -->
+    <TrialFormSection />
+  </main>
+
+  <Footer />
+</Layout>

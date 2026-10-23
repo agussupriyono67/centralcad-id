@@ -1,0 +1,96 @@
+---
+const smartFeatures = [
+  {
+    title: 'Smart Mouse Gesture',
+    desc: 'Cukup tahan klik kanan dan goyangkan mouse membentuk huruf atau pola untuk menjalankan perintah seperti Circle, Line, Erase, atau Pan tanpa mengetik.',
+    icon: '/assets/cadindonesia/logos/Logo-Smart-Mouse.png'
+  },
+  {
+    title: 'Smart Voice Annotation',
+    desc: 'Tambahkan rekaman pesan suara langsung menempel pada titik gambar CAD Anda. Kolaborasi revisi lapangan dan review desain jadi jauh lebih cepat.',
+    icon: '/assets/cadindonesia/logos/Logo-Smart-Voice.png'
+  },
+  {
+    title: 'Smart Select Multi-Filter',
+    desc: 'Saring ribuan elemen gambar berdasarkan warna, layer, tipe garis, atau dimensi secara instan dengan satu jendela filter cerdas.',
+    icon: '/assets/cadindonesia/logos/Logo-Smart-Select.png'
+  },
+  {
+    title: 'Smart Plot Batch Printing',
+    desc: 'Cetak dan ekspor puluhan hingga ratusan lembar frame gambar di Model Space menjadi multi-page PDF hanya dalam sekali klik.',
+    icon: '/assets/cadindonesia/logos/Logo-Smartplot.png'
+  },
+  {
+    title: 'Similar Block Search',
+    desc: 'Pindai seluruh gambar untuk menemukan, menghitung kuantitas, dan mengganti blok komponen yang sama secara otomatis dengan tingkat akurasi tinggi.',
+    icon: '/assets/cadindonesia/logos/Logo-Smillar-Search.png'
+  }
+];
+---
+
+<section class="py-20 bg-slate-50 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <!-- Left: Visual Illustration -->
+      <div class="lg:col-span-5 text-center">
+        <div class="relative inline-block">
+          <div class="absolute -inset-4 bg-gradient-to-tr from-blue-400 to-indigo-500 rounded-3xl opacity-20 blur-xl"></div>
+          <img
+            src="/assets/cadindonesia/images/Gambar-otak-section-6.png"
+            alt="Fitur Pintar AI & Otomasi ZWCAD"
+            class="relative z-10 w-full max-w-sm mx-auto h-auto object-contain transform hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-6">
+          <span class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider">
+            Inovasi Produktivitas
+          </span>
+          <p class="text-xs text-slate-500 mt-2">
+            Teknologi Smart Tools eksklusif ZWCAD mempercepat waktu drafting harian hingga 40%.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: Feature List Grid -->
+      <div class="lg:col-span-7 space-y-6">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Fitur Cerdas untuk Drafter &amp; Engineer Modern
+          </h2>
+          <p class="mt-3 text-slate-600 text-base">
+            ZWCAD bukan sekadar alternatif biasa. Kami menyematkan fitur otomasi pintar yang dirancang untuk memangkas pekerjaan repetitif.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          {smartFeatures.map((feat) => (
+            <div class="cad-card p-5 flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex-shrink-0 flex items-center justify-center p-2.5">
+                <img
+                  src={feat.icon}
+                  alt={feat.title}
+                  class="w-full h-full object-contain"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <h3 class="text-base font-bold text-slate-900 leading-snug">
+                  {feat.title}
+                </h3>
+                <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                  {feat.desc}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

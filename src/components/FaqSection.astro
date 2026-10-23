@@ -1,0 +1,94 @@
+---
+const faqs = [
+  {
+    q: 'Apakah lisensi ZWCAD benar-benar seumur hidup (perpetual)?',
+    a: 'Ya, benar. Lisensi ZWCAD bersifat Perpetual (hak milik permanen). Sekali Anda membeli, software dapat digunakan selamanya tanpa batas waktu dan tanpa kewajiban membayar biaya sewa tahunan.'
+  },
+  {
+    q: 'Apakah file gambar AutoCAD (.DWG/.DXF) saya bisa dibuka di ZWCAD tanpa masalah?',
+    a: '100% kompatibel langsung tanpa konversi. ZWCAD menggunakan format native DWG dan DXF dari versi R14 hingga versi 2026 terbaru. Seluruh layer, xref, linetype, block atribut, dan text style tetap utuh.'
+  },
+  {
+    q: 'Apakah drafter kami perlu mengikuti pelatihan ulang saat beralih ke ZWCAD?',
+    a: 'Hampir tidak perlu (Zero Learning Curve). Antarmuka ZWCAD menyediakan mode Classic dan Ribbon. Semua shortcut keyboard standar (seperti L, C, PL, REC, M, CO, RO, TRIM, EXTEND) dan lisp script berjalan identik.'
+  },
+  {
+    q: 'Apa perbedaan versi ZWCAD Standard dan ZWCAD Professional?',
+    a: 'ZWCAD Standard ditujukan untuk kebutuhan drafting 2D penuh dengan fungsi printing dan plotting lengkap. ZWCAD Professional menyertakan kemampuan pemodelan 3D, integrasi API/LISP/VBA/.NET/ZRX tingkat lanjut, serta fitur ACIS 3D modeling.'
+  },
+  {
+    q: 'Bagaimana jika suatu saat kami ingin upgrade ke versi ZWCAD yang lebih baru?',
+    a: 'Upgrade versi bersifat sepenuhnya sukarela (opsional). Jika Anda tidak melakukan upgrade, software versi yang Anda miliki tetap berfungsi normal selamanya tanpa ada penalti atau pemblokiran akses.'
+  },
+  {
+    q: 'Bagaimana bentuk aktivasi lisensinya?',
+    a: 'Tersedia dua tipe aktivasi: Softkey (Aktivasi online/offline berbasis kode lisensi) dan Hardware Dongle USB (Sangat fleksibel dipindahkan antar-komputer tanpa bergantung internet). Tersedia juga sistem Network Floating License untuk sharing antartim.'
+  }
+];
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Left Column: Info & Illustration -->
+      <div class="lg:col-span-5 space-y-6">
+        <div class="badge-tag bg-blue-50 text-blue-700 border border-blue-200">
+          FAQ
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Pertanyaan yang Sering Diajukan
+        </h2>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Temukan jawaban atas pertanyaan umum terkait sistem lisensi, legalitas hukum, dan aspek teknis migrasi software CAD perusahaan Anda.
+        </p>
+
+        <div class="rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 p-4">
+          <img
+            src="/assets/cadindonesia/images/Gambar-FAQ.png"
+            alt="Customer Support & FAQ Central CAD"
+            class="w-full h-auto object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="cad-card p-5 bg-blue-50/50 border-blue-100">
+          <p class="text-xs font-semibold text-blue-900">Masih punya pertanyaan spesifik seputar perusahaan Anda?</p>
+          <a
+            href="https://wa.me/628111141403?text=Halo%20Central%20CAD,%20saya%20ingin%20bertanya%20detail%20mengenai%20skema%20lisensi%20ZWCAD."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-xs font-bold text-blue-600 hover:text-blue-800 mt-2 inline-flex items-center gap-1"
+          >
+            <span>Tanyakan langsung via WhatsApp (Respon Cepat)</span>
+            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Accordion Items -->
+      <div class="lg:col-span-7 space-y-4">
+        {faqs.map((faq, index) => (
+          <details class="cad-card p-5 group open:border-blue-300 open:shadow-md transition-all cursor-pointer">
+            <summary class="flex items-center justify-between font-bold text-slate-900 list-none text-base">
+              <span>{faq.q}</span>
+              <span class="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:bg-blue-600 group-open:text-white transition-all flex-shrink-0 ml-3">
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {faq.a}
+            </p>
+          </details>
+        ))}
+      </div>
+
+    </div>
+
+  </div>
+</section>

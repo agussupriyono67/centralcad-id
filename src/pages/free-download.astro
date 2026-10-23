@@ -1,0 +1,104 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import TrialFormSection from '../components/TrialFormSection.astro';
+---
+
+<Layout
+  title="Download Free Trial ZWCAD 2026 & ZW3D — Evaluasi Resmi 30 Hari"
+  description="Download gratis installer resmi ZWCAD 2026 64-bit dan ZW3D. Evaluasi seluruh fitur drafting 2D/3D tanpa batasan selama 30 hari."
+>
+  <Navbar active="trial" />
+
+  <main>
+    <!-- Header -->
+    <section class="py-16 bg-slate-900 text-white text-center">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+        <span class="badge-tag bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+          TRIAL EVALUASI RESMI
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+          Download Installer ZWCAD 2026 &amp; ZW3D
+        </h1>
+        <p class="text-slate-300 text-base max-w-2xl mx-auto">
+          Coba gratis selama 30 hari dengan akses fitur penuh (Full Version). Uji coba kecepatan buka file DWG Anda dan rasakan kemudahan transisinya.
+        </p>
+      </div>
+    </section>
+
+    <!-- Download Cards Grid -->
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          
+          <!-- Card 1: ZWCAD 2026 -->
+          <div class="cad-card p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <img src="/assets/cadindonesia/logos/Logo-Zwcad.png" alt="ZWCAD 2026" class="h-8 w-auto" />
+                <span class="badge-tag bg-blue-100 text-blue-800">Versi Terbaru 2026</span>
+              </div>
+
+              <h2 class="text-2xl font-bold text-slate-900 mb-2">ZWCAD 2026 (64-Bit)</h2>
+              <p class="text-xs text-slate-600 mb-6">
+                Software CAD 2D/3D profesional dengan native format .DWG, antarmuka familiar, serta fitur otomasi pintar.
+              </p>
+
+              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-600 space-y-1.5 mb-6">
+                <p><strong>Ukuran File:</strong> ~550 MB</p>
+                <p><strong>OS Didukung:</strong> Windows 11 / 10 (64-bit)</p>
+                <p><strong>Masa Trial:</strong> 30 Hari Full Fitur</p>
+                <p><strong>Format:</strong> Standalone Offline Installer</p>
+              </div>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn-accent w-full text-center py-3.5 text-sm"
+            >
+              Unduh Installer ZWCAD 2026
+            </a>
+          </div>
+
+          <!-- Card 2: ZW3D CAD/CAM -->
+          <div class="cad-card p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <img src="/assets/clients/Zw3d_Logo_White.webp" alt="ZW3D" class="h-6 w-auto filter invert" />
+                <span class="badge-tag bg-cyan-100 text-cyan-800">CAD + CAM</span>
+              </div>
+
+              <h2 class="text-2xl font-bold text-slate-900 mb-2">ZW3D 2026 (64-Bit)</h2>
+              <p class="text-xs text-slate-600 mb-6">
+                Solusi all-in-one pemodelan 3D solid-surface, perancangan mold cetakan, dan pemrograman mesin CNC 2–5 Axis.
+              </p>
+
+              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-600 space-y-1.5 mb-6">
+                <p><strong>Ukuran File:</strong> ~2.1 GB</p>
+                <p><strong>OS Didukung:</strong> Windows 11 / 10 (64-bit)</p>
+                <p><strong>Masa Trial:</strong> 30 Hari Full Fitur</p>
+                <p><strong>Modul:</strong> CAD, Mold, 2-5X Machining</p>
+              </div>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn-primary w-full text-center py-3.5 text-sm"
+            >
+              Unduh Installer ZW3D 2026
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <TrialFormSection />
+  </main>
+
+  <Footer />
+</Layout>

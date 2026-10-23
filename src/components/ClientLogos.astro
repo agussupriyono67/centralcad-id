@@ -1,0 +1,71 @@
+---
+const clients = [
+  { name: 'PT Sanoh Indonesia', logo: '/assets/clients/logo-sanoh.webp' },
+  { name: 'PT Sebastian Jaya Metal', logo: '/assets/clients/logo-sebastianjaya.png' },
+  { name: 'PT Syntek Otomasi Indonesia', logo: '/assets/clients/logo-syntek.png' },
+  { name: 'PT Superkrane Mitra Utama Tbk', logo: '/assets/clients/logo-superkrane.png' },
+  { name: 'PT Utec Indonesia', logo: '/assets/clients/logo-utec.png' },
+  { name: 'PT Twick Engineering', logo: '/assets/clients/logo-twick.png' },
+  { name: 'PT Pospro Manufaktur', logo: '/assets/clients/logo-pospro.png' },
+  { name: 'PT Prihaditama', logo: '/assets/clients/logo-prihaditama.png' },
+];
+---
+
+<section class="py-16 bg-slate-900 text-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-bold tracking-widest uppercase text-amber-400">
+        SOCIAL PROOF &amp; REPUTASI
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-2">
+        Dipercaya oleh 500+ Perusahaan Manufaktur &amp; Konsultan
+      </h2>
+      <p class="text-slate-400 text-sm mt-2">
+        Telah membuktikan penghematan anggaran belanja software hingga ratusan juta rupiah tanpa mengorbankan produktivitas tim drafting.
+      </p>
+    </div>
+
+    <!-- Client Logos Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 items-center justify-center">
+      {clients.map((c) => (
+        <div class="h-20 bg-slate-800/60 border border-slate-700/60 rounded-xl flex items-center justify-center p-4 hover:border-blue-500/50 hover:bg-slate-800 transition-all duration-300">
+          <img
+            src={c.logo}
+            alt={c.name}
+            class="max-h-10 w-auto object-contain filter brightness-90 hover:brightness-100 transition-all"
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
+
+    <!-- Authorized Distributor Certificate Banner -->
+    <div class="mt-12 bg-gradient-to-r from-blue-900/50 via-slate-800/80 to-blue-900/50 border border-blue-500/30 rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-4">
+        <div class="w-14 h-14 rounded-full bg-amber-400/20 border border-amber-400/40 flex items-center justify-center flex-shrink-0 text-amber-400">
+          <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-white">Jaminan 100% Lisensi Resmi &amp; Sah Hukum di Indonesia</h3>
+          <p class="text-xs text-slate-300 mt-1">
+            Didukung sertifikasi resmi prinsipal ZWSOFT. Setiap lisensi dilengkapi dokumen invoice, PPN resmi, dan sertifikat aktivasi langsung atas nama perusahaan Anda.
+          </p>
+        </div>
+      </div>
+      <div class="flex-shrink-0">
+        <a
+          href="https://wa.me/628111141403?text=Halo%20Central%20CAD,%20mohon%20info%20legalitas%20dan%20penawaran%20resmi%20ZWCAD."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary text-xs uppercase tracking-wider py-2.5 px-5"
+        >
+          Cek Legalitas Lisensi
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>

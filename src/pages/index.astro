@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import ValuePillars from '../components/ValuePillars.astro';
+import ComparisonTable from '../components/ComparisonTable.astro';
+import SmartFeatures from '../components/SmartFeatures.astro';
+import IndustrySolutions from '../components/IndustrySolutions.astro';
+import ClientLogos from '../components/ClientLogos.astro';
+import Zw3dFeaturette from '../components/Zw3dFeaturette.astro';
+import FaqSection from '../components/FaqSection.astro';
+import TrialFormSection from '../components/TrialFormSection.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Central CAD — Solusi CAD & BIM Berlisensi Resmi di Indonesia"
+  description="Penyedia resmi ZWCAD 2026 dan ZW3D di Indonesia. 100% kompatibel DWG, lisensi seumur hidup (perpetual), performa 3x lebih cepat tanpa biaya sewa tahunan."
+>
+  <Navbar active="home" />
+  
+  <main>
+    <Hero />
+    <ValuePillars />
+    <ComparisonTable />
+    <SmartFeatures />
+    <IndustrySolutions />
+    <ClientLogos />
+    <Zw3dFeaturette />
+    <FaqSection />
+    <TrialFormSection />
+  </main>
+
+  <Footer />
+</Layout>

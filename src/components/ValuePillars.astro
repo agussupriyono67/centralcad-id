@@ -1,0 +1,88 @@
+---
+const pillars = [
+  {
+    title: 'Lisensi Seumur Hidup (Perpetual)',
+    desc: 'Bebas dari jebakan sewa tahunan yang terus naik. Sekali beli, lisensi menjadi aset permanen perusahaan Anda tanpa batas waktu kadaluarsa.',
+    icon: '/assets/cadindonesia/logos/Logo-Lisensi-Seumur-hidup.png',
+    badge: 'Hemat Biaya Jangka Panjang'
+  },
+  {
+    title: 'Ringan & Kecepatan Tinggi',
+    desc: 'Dibangun dengan arsitektur multi-core CPU acceleration. Hemat RAM, instalasi instan di bawah 5 menit, dan sangat lancar membuka gambar berukuran 100MB+.',
+    icon: '/assets/cadindonesia/logos/Logo-Ringan-Dan-Cepat.png',
+    badge: 'Multi-Core Acceleration'
+  },
+  {
+    title: 'Tampilan & Shortcut Identik',
+    desc: 'Interface Ribbon & Classic, command line, shortcut keyboard, hingga script AutoLISP identik dengan AutoCAD. Tim drafter tidak perlu training ulang.',
+    icon: '/assets/cadindonesia/logos/Logo-Interface-Seperti.png',
+    badge: 'Zero Learning Curve'
+  },
+  {
+    title: '100% Native Kompatibel DWG',
+    desc: 'Membaca dan menyimpan format DWG/DXF dari versi R14 hingga 2026 tanpa konversi, tanpa error hilang layer, dan mempertahankan keutuhan data gambar.',
+    icon: '/assets/cadindonesia/logos/Logo-Kompitabel-dengan-DWG.png',
+    badge: 'Standar Industri Global'
+  }
+];
+---
+
+<section id="features" class="py-20 bg-white relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="badge-tag bg-blue-50 text-blue-700 border border-blue-200 mb-3">
+        KEUNGGULAN UTAMA
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+        Mengapa Lebih dari 500+ Perusahaan <br class="hidden sm:inline" />
+        Beralih ke ZWCAD?
+      </h2>
+      <p class="mt-4 text-slate-600 text-base sm:text-lg">
+        Dapatkan performa CAD kelas dunia dengan efisiensi anggaran belanja software hingga 70% dibanding langganan tahunan software CAD lainnya.
+      </p>
+    </div>
+
+    <!-- 4 Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {pillars.map((item, index) => (
+        <div class="cad-card p-6 flex flex-col justify-between group">
+          <div>
+            <!-- Icon Wrapper -->
+            <div class="w-14 h-14 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center p-2 mb-6 group-hover:scale-110 group-hover:bg-blue-600 transition-all duration-300">
+              <img
+                src={item.icon}
+                alt={item.title}
+                class="w-full h-full object-contain filter group-hover:brightness-0 group-hover:invert transition-all"
+                loading="lazy"
+              />
+            </div>
+
+            <!-- Badge -->
+            <span class="inline-block text-[11px] font-semibold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-md mb-3">
+              {item.badge}
+            </span>
+
+            <!-- Title -->
+            <h3 class="text-lg font-bold text-slate-900 mb-2 leading-snug group-hover:text-blue-600 transition-colors">
+              {item.title}
+            </h3>
+
+            <!-- Description -->
+            <p class="text-sm text-slate-600 leading-relaxed">
+              {item.desc}
+            </p>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600 group-hover:text-blue-700">
+            <span>Pelajari Lebih Lanjut</span>
+            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>

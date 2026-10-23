@@ -1,0 +1,120 @@
+---
+interface Props {
+  active?: string;
+}
+
+const { active = 'home' } = Astro.props;
+
+const navItems = [
+  { name: 'Beranda', href: '/' },
+  { name: 'ZWCAD 2026', href: '/#features' },
+  { name: 'ZW3D CAD/CAM', href: '/zw3d' },
+  { name: 'Perbandingan', href: '/#comparison' },
+  { name: 'Harga', href: '/harga' },
+  { name: 'Free Trial', href: '/free-download' },
+  { name: 'Kontak', href: '/hubungi-kami' },
+];
+---
+
+<header class="sticky top-0 z-40 w-full glass-nav transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      
+      <!-- Brand Logo -->
+      <a href="/" class="flex items-center gap-3 group">
+        <img
+          src="/images/centralcad-logo.webp"
+          alt="Central CAD Logo"
+          class="h-10 w-auto object-contain transition-transform group-hover:scale-105"
+        />
+        <div class="flex flex-col">
+          <span class="text-xl font-bold tracking-tight text-white font-['Plus_Jakarta_Sans']">
+            CENTRAL <span class="text-amber-400">CAD</span>
+          </span>
+          <span class="text-[10px] text-slate-300 tracking-wider uppercase font-medium">
+            Authorized Partner Indonesia
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        {navItems.map((item) => (
+          <a
+            href={item.href}
+            class="px-3 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+          >
+            {item.name}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden lg:flex items-center gap-3">
+        <a
+          href="/free-download"
+          class="text-xs uppercase tracking-wider font-semibold text-white/90 hover:text-white px-3 py-2"
+        >
+          Download Trial
+        </a>
+        <a
+          href="#contact"
+          class="btn-accent text-sm"
+        >
+          Minta Penawaran
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <div class="lg:hidden flex items-center">
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          aria-label="Buka Menu"
+          class="text-slate-300 hover:text-white p-2 rounded-lg focus:outline-none"
+        >
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-slate-900/95 border-b border-white/10 px-4 pt-2 pb-6 space-y-1">
+    {navItems.map((item) => (
+      <a
+        href={item.href}
+        class="block px-3 py-2.5 rounded-lg text-base font-medium text-slate-200 hover:text-white hover:bg-white/10"
+      >
+        {item.name}
+      </a>
+    ))}
+    <div class="pt-4 flex flex-col gap-2">
+      <a
+        href="/free-download"
+        class="text-center py-2.5 px-4 rounded-lg bg-white/10 text-white font-medium text-sm"
+      >
+        Download Trial 30 Hari
+      </a>
+      <a
+        href="#contact"
+        class="btn-accent text-center text-sm"
+      >
+        Minta Penawaran Resmi
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  }
+</script>

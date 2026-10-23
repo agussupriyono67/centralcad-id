@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import TrialFormSection from '../components/TrialFormSection.astro';
+---
+
+<Layout
+  title="Hubungi Kami — Central CAD Indonesia (Reseller Resmi ZWCAD)"
+  description="Kontak resmi Central CAD Indonesia. Tim kami siap melayani konsultasi pemilihan lisensi ZWCAD & ZW3D, jadwal demo teknis on-site, dan pengadaan software resmi."
+>
+  <Navbar active="contact" />
+
+  <main>
+    <!-- Header -->
+    <section class="py-16 bg-slate-900 text-white text-center">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+        <span class="badge-tag bg-blue-500/20 text-blue-300 border border-blue-400/30">
+          PUSAT LAYANAN &amp; KONSULTASI
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+          Hubungi Tim Central CAD Indonesia
+        </h1>
+        <p class="text-slate-300 text-base max-w-2xl mx-auto">
+          Kami siap memberikan konsultasi teknis, presentasi online atau on-site di kantor/pabrik Anda, serta penawaran resmi software ZWCAD &amp; ZW3D.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Cards Grid -->
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
+          
+          <!-- Card 1: WhatsApp -->
+          <div class="cad-card p-6 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
+              <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-1">WhatsApp Fast Response</h2>
+            <p class="text-xs text-slate-500 mb-4">Respon cepat untuk pertanyaan harga &amp; konsultasi teknis.</p>
+            <a
+              href="https://wa.me/628111141403?text=Halo%20Central%20CAD,%20saya%20ingin%20konsultasi%20software%20ZWCAD."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm font-bold text-emerald-600 hover:text-emerald-700"
+            >
+              0811-1141-403 (Klik Chat)
+            </a>
+          </div>
+
+          <!-- Card 2: Email -->
+          <div class="cad-card p-6 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+              <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-1">Email Resmi</h2>
+            <p class="text-xs text-slate-500 mb-4">Kirimkan permintaan penawaran harga formal perusahaan.</p>
+            <a
+              href="mailto:sales@centralcad.id"
+              class="text-sm font-bold text-blue-600 hover:text-blue-700"
+            >
+              sales@centralcad.id
+            </a>
+          </div>
+
+          <!-- Card 3: Layanan Kantor -->
+          <div class="cad-card p-6 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center mb-4">
+              <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <h2 class="text-lg font-bold text-slate-900 mb-1">Kantor &amp; Demo On-Site</h2>
+            <p class="text-xs text-slate-500 mb-4">PT Hetra Teknologi Indonesia</p>
+            <span class="text-xs font-semibold text-slate-700">
+              Layanan Seluruh Kawasan Industri Indonesia
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <TrialFormSection />
+  </main>
+
+  <Footer />
+</Layout>
