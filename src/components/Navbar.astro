@@ -7,9 +7,9 @@ const { active = 'home' } = Astro.props;
 
 const navItems = [
   { name: 'Beranda', href: '/' },
+  { name: 'Tentang Kami', href: '/tentang-kami' },
   { name: 'ZWCAD 2026', href: '/#features' },
   { name: 'ZW3D CAD/CAM', href: '/zw3d' },
-  { name: 'Perbandingan', href: '/#comparison' },
   { name: 'Harga', href: '/harga' },
   { name: 'Free Trial', href: '/free-download' },
   { name: 'Kontak', href: '/hubungi-kami' },
@@ -58,7 +58,7 @@ const navItems = [
           Download Trial
         </a>
         <a
-          href="#contact"
+          href="/hubungi-kami"
           class="btn-accent text-sm"
         >
           Minta Penawaran
@@ -100,7 +100,7 @@ const navItems = [
         Download Trial 30 Hari
       </a>
       <a
-        href="#contact"
+        href="/hubungi-kami"
         class="btn-accent text-center text-sm"
       >
         Minta Penawaran Resmi
