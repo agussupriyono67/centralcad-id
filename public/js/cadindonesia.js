@@ -878,7 +878,7 @@
 
 
 
-    var waLink = "https://wa.me/6281912244664?text=" + encodeURIComponent(waMessage);
+    var waLink = "https://wa.me/6281912244662?text=" + encodeURIComponent(waMessage);
 
 
 
