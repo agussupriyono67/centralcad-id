@@ -236,7 +236,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       height: 80px;
 
-      background: #ffffff;
+      background: #fff;
 
       border-bottom: 1px solid rgba(6, 26, 52, .08);
 
@@ -262,7 +262,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     .site-header.is-scrolled {
 
-      background: #ffffff;
+      background: #fff;
 
       border-bottom-color: rgba(6, 26, 52, .12);
 
@@ -302,46 +302,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     }
 
-    .header-actions .btn-primary { width: auto; min-width: 120px; }
+    .header-actions .btn-primary { width: 213px; }
 
-    .header-actions .btn-outline {
-      width: auto;
-      min-width: 110px;
-      border: 1.5px solid #005BFE !important;
-      color: #005BFE !important;
-      background: transparent !important;
-    }
-
-    .header-actions .btn-outline:hover {
-      background: rgba(0, 91, 254, 0.08) !important;
-      color: #0046ca !important;
-    }
-
-    .site-nav {
-      display: flex !important;
-      align-items: center !important;
-      gap: 32px !important;
-    }
-
-    .site-nav a {
-      color: #0f172a !important;
-      font-size: 15px !important;
-      font-weight: 600 !important;
-      letter-spacing: -0.01em !important;
-      text-decoration: none !important;
-      padding: 6px 8px !important;
-      transition: color 0.2s ease !important;
-      white-space: nowrap !important;
-      display: inline-block !important;
-    }
-
-    .site-nav a:hover {
-      color: #005BFE !important;
-    }
-
-    @media (max-width: 960px) {
-      .site-nav { display: none !important; }
-    }
+    .header-actions .btn-outline { width: 144px; }
 
 
 
@@ -2763,10 +2726,13 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       .top-webinar-banner__cta { font-size: 12px; padding-top: 1px; }
 
-      .header-inner { flex-wrap: nowrap !important; justify-content: space-between !important; }
-      .logo { height: 32px; width: auto; }
-      .header-actions { width: auto; justify-content: flex-end; }
-      .header-actions .desktop-action-btn { display: none !important; }
+      .header-inner { flex-wrap: wrap; }
+
+      .logo { width: 132px; }
+
+      .header-actions { width: 100%; justify-content: flex-start; }
+
+      .header-actions .btn { flex: 1 1 auto; width: auto; }
 
       .hero { min-height: auto; }
 
