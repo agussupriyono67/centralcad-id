@@ -1,0 +1,111 @@
+/* Mobile Burger Menu & Clean Header Styling */
+
+.mobile-burger-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #0f172a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-burger-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.mobile-nav-drawer {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-bottom: 2px solid #005BFE;
+  box-shadow: 0 20px 40px rgba(7, 30, 61, 0.15);
+  padding: 20px 24px 28px;
+  z-index: 99999;
+}
+
+.mobile-nav-drawer.is-open {
+  display: block !important;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+.mobile-nav-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.mobile-nav-links a:hover,
+.mobile-nav-links a:active {
+  background: #f0f7ff;
+  color: #005BFE;
+  padding-left: 18px;
+}
+
+.mobile-nav-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-nav-actions .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 46px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 820px) {
+  .site-header {
+    height: 68px !important;
+    padding: 0 !important;
+  }
+  .header-inner {
+    height: 100% !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+  .site-nav {
+    display: none !important;
+  }
+  .header-actions {
+    display: none !important;
+  }
+  .mobile-burger-btn {
+    display: inline-flex !important;
+  }
+  .logo {
+    width: 135px !important;
+    height: auto !important;
+  }
+}

@@ -148,6 +148,7 @@
 
   <!-- Exact cadindonesia Stylesheet -->
   <link rel="stylesheet" href="/css/cadindonesia.css" />
+  <link rel="stylesheet" href="/css/burger-menu.css" />
 
   <!-- Navbar Spacing & White Header Enforcement -->
   <style is:inline>
@@ -194,6 +195,34 @@
 
       </div>
 
+      <!-- Mobile Burger Toggle Button -->
+      <button id="home-burger-btn" type="button" aria-label="Buka Menu Navigasi" class="mobile-burger-btn">
+        <svg class="burger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="close-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="home-mobile-menu" class="mobile-nav-drawer">
+      <nav class="mobile-nav-links">
+        <a href="#features">ZWCAD 2026</a>
+        <a href="/zw3d">ZW3D CAD/CAM</a>
+        <a href="/harga">Harga Lisensi</a>
+        <a href="/tentang-kami">Tentang Kami</a>
+        <a href="/hubungi-kami">Kontak Layanan</a>
+      </nav>
+      <div class="mobile-nav-actions">
+        <a class="btn btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">Trial Gratis 30 Hari</a>
+        <a class="btn btn-outline" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang (WhatsApp)</a>
+      </div>
     </div>
 
   </header>
@@ -1415,6 +1444,45 @@
   <!-- Automated Google Ads & GA4 WhatsApp Conversion Tracking -->
   <script is:inline>
     document.addEventListener('DOMContentLoaded', function() {
+      // Home Mobile Burger Menu Toggle
+      var burgerBtn = document.getElementById('home-burger-btn');
+      var mobileMenu = document.getElementById('home-mobile-menu');
+      if (burgerBtn && mobileMenu) {
+        var burgerIcon = burgerBtn.querySelector('.burger-icon');
+        var closeIcon = burgerBtn.querySelector('.close-icon');
+
+        burgerBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var isOpen = mobileMenu.classList.toggle('is-open');
+          if (burgerIcon && closeIcon) {
+            burgerIcon.style.display = isOpen ? 'none' : 'block';
+            closeIcon.style.display = isOpen ? 'block' : 'none';
+          }
+        });
+
+        var navLinks = mobileMenu.querySelectorAll('a');
+        navLinks.forEach(function(l) {
+          l.addEventListener('click', function() {
+            mobileMenu.classList.remove('is-open');
+            if (burgerIcon && closeIcon) {
+              burgerIcon.style.display = 'block';
+              closeIcon.style.display = 'none';
+            }
+          });
+        });
+
+        document.addEventListener('click', function(e) {
+          if (!mobileMenu.contains(e.target) && !burgerBtn.contains(e.target)) {
+            mobileMenu.classList.remove('is-open');
+            if (burgerIcon && closeIcon) {
+              burgerIcon.style.display = 'block';
+              closeIcon.style.display = 'none';
+            }
+          }
+        });
+      }
+
+      // WhatsApp link click conversion tracking
       document.addEventListener('click', function(e) {
         var link = e.target.closest('a');
         if (!link) return;
