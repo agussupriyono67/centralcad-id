@@ -3,7 +3,7 @@ title: "ZW3D All-in-One CAD/CAM: Solusi Desain Mold, Die Casting, dan Pemrograma
 description: "Tingkatkan efisiensi manufaktur dengan ZW3D All-in-One CAD/CAM. Integrasi perancangan produk 3D, parting core & cavity mold, elektroda EDM, dan toolpath CNC milling 2-5 axis."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Manufacturing.jpg"
+image: "/images/zw3d-engine-assembly.png"
 tags: ['ZW3D CAD CAM', 'Mold Design', 'CNC Milling', 'Software Manufaktur']
 keywords: "zw3d cad cam, software cetakan mold indonesia, pemrograman cnc milling, software mold die casting, beli zw3d resmi jakarta"
 ---

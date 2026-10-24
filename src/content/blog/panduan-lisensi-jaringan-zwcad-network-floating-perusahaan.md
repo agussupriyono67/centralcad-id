@@ -3,7 +3,7 @@ title: "Panduan Lisensi Jaringan ZWCAD Network Floating: Solusi Hemat Pengadaan 
 description: "Bagaimana sistem lisensi jaringan ZWCAD Network Floating License membantu perusahaan menghemat anggaran pengadaan CAD hingga ratusan juta rupiah dengan sistem berbagi lisensi fleksibel."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/What-Makes-a-CAD-Innovator-Banner.png"
+image: "/assets_zwsoft/images/Deliver.png"
 tags: ['Network License', 'ZWCAD Floating', 'Pengadaan Software', 'Lisensi Perusahaan']
 keywords: "zwcad network license, floating license cad perusahaan, lisensi jaringan cad kantor, penghematan anggaran cad"
 ---

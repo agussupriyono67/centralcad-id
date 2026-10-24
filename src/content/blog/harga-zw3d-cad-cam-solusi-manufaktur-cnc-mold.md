@@ -3,7 +3,7 @@ title: "Harga ZW3D CAD/CAM Indonesia: Solusi All-in-One Desain Produk, Mold Ceta
 description: "Panduan lengkap modul dan harga software ZW3D CAD/CAM di Indonesia. Solusi terintegrasi untuk desain 3D solid-surface, perancangan cetakan mold, dan pemrograman mesin CNC 2-5 sumbu."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Manufacturing.jpg"
+image: "/images/zw3d-injection-mold-machine.png"
 tags: ['ZW3D', 'CAD CAM Manufaktur', 'Mold Design', 'CNC Machining']
 keywords: "harga zw3d indonesia, software cad cam mold die, permesinan cnc 2 3 5 axis, reseller resmi zw3d"
 ---

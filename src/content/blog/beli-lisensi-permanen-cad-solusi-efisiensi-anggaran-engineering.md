@@ -3,7 +3,7 @@ title: "Beli Lisensi Permanen CAD: Solusi Efisiensi Anggaran Tim Engineering Hin
 description: "Analisis komprehensif efisiensi anggaran pengadaan CAD melalui lisensi seumur hidup (perpetual). Pangkas biaya sewa tahunan berulang dan jadikan software aset resmi perusahaan."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_cadindonesia/images/cadindonesiahero.jpg"
+image: "/assets_cadindonesia/images/background-section-3.jpg"
 tags: ['Lisensi Permanen CAD', 'Efisiensi Anggaran', 'Beli Lisensi CAD', 'ZWCAD Indonesia']
 keywords: "beli lisensi permanen cad, lisensi seumur hidup cad, harga perpetual cad indonesia, efisiensi anggaran software teknik, penghematan lisensi cad perusahaan"
 ---

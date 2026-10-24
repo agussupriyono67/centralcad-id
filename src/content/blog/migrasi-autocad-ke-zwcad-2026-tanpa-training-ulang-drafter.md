@@ -3,7 +3,7 @@ title: "Panduan Migrasi AutoCAD ke ZWCAD 2026: 100% Kompatibel DWG Tanpa Trainin
 description: "Panduan praktis migrasi software CAD dari AutoCAD ke ZWCAD 2026. Antarmuka identik, shortcut sama, kompatibilitas format DWG/DXF sempurna, dan script LISP langsung jalan."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_cadindonesia/images/cadindonesiahero.jpg"
+image: "/assets_cadindonesia/images/Gambar-FAQ.png"
 tags: ['Migrasi CAD', 'ZWCAD 2026', 'Alternatif AutoCAD', 'Kompatibilitas DWG']
 keywords: "migrasi autocad ke zwcad, alternatif autocad indonesia, kompatibilitas dwg zwcad, lisp script zwcad, ganti software cad kantor"
 ---
