@@ -148,6 +148,17 @@
 
   <!-- Exact cadindonesia Stylesheet -->
   <link rel="stylesheet" href="/css/cadindonesia.css" />
+
+  <!-- Navbar Spacing & White Header Enforcement -->
+  <style is:inline>
+    .site-header { background: #ffffff !important; border-bottom: 1px solid rgba(6, 26, 52, .08) !important; }
+    .site-nav { display: flex !important; align-items: center !important; justify-content: center !important; gap: 32px !important; }
+    .site-nav a { color: #0f172a !important; font-size: 15px !important; font-weight: 600 !important; letter-spacing: -0.01em !important; text-decoration: none !important; padding: 6px 10px !important; display: inline-block !important; border-radius: 6px !important; transition: color 0.2s ease !important; }
+    .site-nav a:hover { color: #005BFE !important; }
+    .header-actions .btn-outline { border: 1.5px solid #005BFE !important; color: #005BFE !important; background: transparent !important; }
+    .header-actions .btn-outline:hover { background: rgba(0, 91, 254, 0.08) !important; color: #0046ca !important; }
+    @media (max-width: 960px) { .site-nav { display: none !important; } }
+  </style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -163,16 +174,16 @@
 
       <a href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer" aria-label="Hubungi WhatsApp CAD Indonesia">
 
-        <img decoding="async" class="logo" src="/assets_zwsoft/icons/ZWSOFT-Logo-write.svg" alt="ZWCAD">
+        <img decoding="async" class="logo" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD">
 
       </a>
 
-      <nav class="site-nav">
-        <a href="#features">ZWCAD</a>
-        <a href="/zw3d">ZW3D</a>
-        <a href="/harga">Harga</a>
-        <a href="/tentang-kami">Tentang</a>
-        <a href="/hubungi-kami">Kontak</a>
+      <nav class="site-nav" style="display: flex; align-items: center; justify-content: center; gap: 32px;">
+        <a href="#features" style="color: #0f172a; font-size: 15px; font-weight: 600; text-decoration: none; padding: 6px 8px; display: inline-block;">ZWCAD</a>
+        <a href="/zw3d" style="color: #0f172a; font-size: 15px; font-weight: 600; text-decoration: none; padding: 6px 8px; display: inline-block;">ZW3D</a>
+        <a href="/harga" style="color: #0f172a; font-size: 15px; font-weight: 600; text-decoration: none; padding: 6px 8px; display: inline-block;">Harga</a>
+        <a href="/tentang-kami" style="color: #0f172a; font-size: 15px; font-weight: 600; text-decoration: none; padding: 6px 8px; display: inline-block;">Tentang</a>
+        <a href="/hubungi-kami" style="color: #0f172a; font-size: 15px; font-weight: 600; text-decoration: none; padding: 6px 8px; display: inline-block;">Kontak</a>
       </nav>
 
       <div class="header-actions">

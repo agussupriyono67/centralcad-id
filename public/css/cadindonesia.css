@@ -236,9 +236,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       height: 80px;
 
-      background: #0b132b;
+      background: #ffffff;
 
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(6, 26, 52, .08);
 
       display: flex;
 
@@ -256,21 +256,17 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       z-index: 9999;
 
-      transition: background-color .25s ease, box-shadow .25s ease, border-color .25s ease;
+      transition: box-shadow .25s ease, border-color .25s ease;
 
     }
 
     .site-header.is-scrolled {
 
-      background: rgba(11, 19, 43, 0.96);
+      background: #ffffff;
 
-      backdrop-filter: blur(14px);
+      border-bottom-color: rgba(6, 26, 52, .12);
 
-      -webkit-backdrop-filter: blur(14px);
-
-      border-bottom-color: rgba(255, 255, 255, 0.15);
-
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 10px 30px rgba(7, 30, 61, .10);
 
     }
 
@@ -311,41 +307,40 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     .header-actions .btn-outline {
       width: auto;
       min-width: 110px;
-      border: 1.5px solid rgba(255, 255, 255, 0.6) !important;
-      color: #ffffff !important;
+      border: 1.5px solid #005BFE !important;
+      color: #005BFE !important;
       background: transparent !important;
     }
 
     .header-actions .btn-outline:hover {
-      border-color: #ffffff !important;
-      background: rgba(255, 255, 255, 0.12) !important;
-      color: #ffffff !important;
+      background: rgba(0, 91, 254, 0.08) !important;
+      color: #0046ca !important;
     }
 
     .site-nav {
-      display: flex;
-      align-items: center;
-      gap: 36px;
+      display: flex !important;
+      align-items: center !important;
+      gap: 32px !important;
     }
 
     .site-nav a {
-      color: #ffffff !important;
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-      text-decoration: none;
-      padding: 6px 4px;
-      transition: color 0.2s ease, opacity 0.2s ease;
-      white-space: nowrap;
+      color: #0f172a !important;
+      font-size: 15px !important;
+      font-weight: 600 !important;
+      letter-spacing: -0.01em !important;
+      text-decoration: none !important;
+      padding: 6px 8px !important;
+      transition: color 0.2s ease !important;
+      white-space: nowrap !important;
+      display: inline-block !important;
     }
 
     .site-nav a:hover {
-      color: #38bdf8 !important;
-      opacity: 0.95;
+      color: #005BFE !important;
     }
 
     @media (max-width: 960px) {
-      .site-nav { display: none; }
+      .site-nav { display: none !important; }
     }
 
 
