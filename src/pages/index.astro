@@ -104,38 +104,86 @@
         "@id": "https://centralcad.id/#faq",
         "mainEntity": [
           {
-            "@type": "Question",
-            "name": "Apakah lisensi ZWCAD benar-benar seumur hidup (perpetual)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ya, benar. Lisensi ZWCAD bersifat Perpetual (hak milik permanen). Sekali Anda membeli, software dapat digunakan selamanya tanpa batas waktu dan tanpa kewajiban membayar biaya sewa tahunan."
-            }
+                    "@type": "Question",
+                    "name": "Apakah lisensi ZWCAD benar-benar seumur hidup (perpetual)?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Ya, benar. Lisensi ZWCAD bersifat Perpetual (hak milik seumur hidup). Sekali perusahaan Anda membeli lisensi ZWCAD, software dapat digunakan selamanya tanpa batas waktu dan tanpa kewajiban membayar biaya sewa tahunan. Lisensi ini dicatat sebagai aset modal (CapEx) resmi perusahaan."
+                    }
           },
           {
-            "@type": "Question",
-            "name": "Apakah file gambar AutoCAD (.DWG/.DXF) saya bisa dibuka di ZWCAD tanpa masalah?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "100% kompatibel langsung tanpa konversi. ZWCAD menggunakan format native DWG dan DXF dari versi R14 hingga versi 2026 terbaru. Seluruh layer, xref, linetype, block atribut, dan text style tetap utuh."
-            }
+                    "@type": "Question",
+                    "name": "Apakah file gambar AutoCAD (.DWG / .DXF) bisa dibuka dan diedit di ZWCAD tanpa masalah?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "100% kompatibel langsung tanpa konversi. ZWCAD membaca dan menyimpan file dalam format native DWG dan DXF dari versi lawas (R14) hingga versi terbaru 2026. Seluruh layer, dimension style, linetype, external reference (Xref), block atribut, hingga hatch pattern terbuka secara presisi tanpa pergeseran koordinat atau kerusakan font."
+                    }
           },
           {
-            "@type": "Question",
-            "name": "Apakah drafter kami perlu mengikuti pelatihan ulang saat beralih ke ZWCAD?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hampir tidak perlu (Zero Learning Curve). Antarmuka ZWCAD menyediakan mode Classic dan Ribbon. Semua shortcut keyboard standar (seperti L, C, PL, REC, M, CO, RO, TRIM, EXTEND) dan lisp script berjalan identik."
-            }
+                    "@type": "Question",
+                    "name": "Apakah tim drafter dan engineer kami perlu mengikuti pelatihan ulang saat migrasi ke ZWCAD?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Hampir tidak perlu (Zero Learning Curve). Antarmuka ZWCAD dirancang sangat akrab dengan pilihan mode Ribbon modern atau Classic. Seluruh shortcut keyboard standar (seperti L untuk Line, C untuk Circle, PL untuk Polyline, REC, M, CO, RO, TR, EX) serta navigasi mouse bekerja identik dengan software CAD yang biasa digunakan, sehingga tim Anda dapat langsung produktif pada hari pertama."
+                    }
           },
           {
-            "@type": "Question",
-            "name": "Apa perbedaan versi ZWCAD Standard dan ZWCAD Professional?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "ZWCAD Standard ditujukan untuk kebutuhan drafting 2D penuh dengan fungsi printing dan plotting lengkap. ZWCAD Professional menyertakan kemampuan pemodelan 3D, integrasi API/LISP/VBA/.NET/ZRX tingkat lanjut, serta fitur ACIS 3D modeling."
-            }
+                    "@type": "Question",
+                    "name": "Apa perbedaan mendasar antara ZWCAD Standard dan ZWCAD Professional?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "ZWCAD Standard dirancang untuk kebutuhan perancangan dan drafting 2D penuh dengan performa komputasi super cepat dan fungsi cetak/plot lengkap. ZWCAD Professional menyertakan seluruh fitur Standard ditambah kemampuan pemodelan 3D solid/surface, impor Point Cloud, IFC underlay (BIM), dan dukungan penuh API pemrograman tingkat lanjut (AutoLISP, VBA, .NET, dan ZRX)."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Apakah script otomatisasi LISP dan add-on yang sudah kami miliki bisa dijalankan di ZWCAD?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Ya, script LISP Anda dapat langsung dijalankan tanpa modifikasi kode. Perintah APPLOAD bekerja sama persis dan mendukung file berekstensi .lsp, .fas, .vlx, serta file antarmuka .dcl. Untuk aplikasi kustom berbasis C++, .NET, atau VBA, ZWCAD menyediakan integrasi kode API (ZRX/ZDS) yang sangat mudah di-porting."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Bagaimana sistem kerja Lisensi Jaringan (Network Floating License) untuk perusahaan?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Lisensi Network Floating diinstal pada satu server kantor terpusat. Lisensi ini dapat diakses secara bergantian (shared) oleh seluruh staf drafter di jaringan lokal (LAN) maupun koneksi VPN remote. Skema ini sangat menghemat anggaran karena perusahaan cukup membeli jumlah lisensi sesuai jumlah pengguna bersamaan (concurrent users), bukan membeli untuk setiap unit komputer."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Apakah tersedia opsi lisensi Hardware Dongle USB untuk kebutuhan offline di lapangan?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Ya, tersedia pilihan Hardware Dongle USB. Opsi lisensi fisik ini sangat ideal untuk site office proyek konstruksi, area pertambangan, pabrik, atau anjungan lepas pantai yang tidak memiliki koneksi internet konstan. Lisensi dapat dengan mudah dipindahkan dari satu komputer ke komputer lain cukup dengan memindahkan stik USB dongle."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Apakah kami diwajibkan membayar biaya pemeliharaan tahunan (maintenance) atau biaya upgrade?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Tidak ada kewajiban berlangganan tahunan. Pembaruan (upgrade) ke versi software tahun terbaru bersifat sepenuhnya opsional dan fleksibel. Jika perusahaan memutuskan tidak melakukan upgrade, lisensi ZWCAD yang telah Anda miliki tetap aktif 100% legal dan dapat terus digunakan tanpa ada pemblokiran akses sama sekali."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Bagaimana dengan keaslian legalitas lisensi ZWCAD dan kelengkapan dokumen pengadaan?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Setiap lisensi ZWCAD yang Anda beli melalui Central CAD (PT Hetra Teknologi Indonesia) terjamin 100% legal, resmi, dan bergaransi. Anda akan mendapatkan Sertifikat Keaslian Lisensi Resmi dari ZWSOFT, Faktur Pajak PPN resmi perusahaan, serta dokumen legalitas lengkap yang sah untuk memenuhi audit kepatuhan software (software compliance)."
+                    }
+          },
+          {
+                    "@type": "Question",
+                    "name": "Bagaimana cara mendapatkan installer dan mencoba ZWCAD sebelum memutuskan pembelian?",
+                    "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Anda dapat mengunduh ZWCAD 2026 Full Version untuk evaluasi teknis secara gratis selama 30 hari tanpa batasan fitur. Silakan isi formulir pemesanan uji coba di halaman ini, atau hubungi tim teknis kami langsung melalui WhatsApp di 0819-1224-4662 untuk mendapatkan pendampingan instalasi dan demo fitur."
+                    }
           }
-        ]
+]
       }
     ]
   }
@@ -362,6 +410,109 @@
       .mobile-drawer-backdrop {
         display: block !important;
       }
+    }
+
+    /* FAQ Section Accordion Styles */
+    .faq-section {
+      background: #f8fafc;
+      border-top: 1px solid rgba(6, 26, 52, 0.06);
+      border-bottom: 1px solid rgba(6, 26, 52, 0.06);
+      padding: 92px 0;
+    }
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 40px;
+    }
+    .faq-item {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    }
+    .faq-item:hover {
+      border-color: #cbd5e1;
+    }
+    .faq-item.active {
+      border-color: #005BFE;
+      box-shadow: 0 6px 20px rgba(0, 91, 254, 0.08);
+    }
+    .faq-trigger {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 20px 24px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      transition: color 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .faq-trigger:hover, .faq-item.active .faq-trigger {
+      color: #005BFE;
+    }
+    .faq-icon-wrap {
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f1f5f9;
+      border-radius: 50%;
+      color: #64748b;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .faq-item.active .faq-icon-wrap {
+      background: #005BFE;
+      color: #ffffff;
+      transform: rotate(180deg);
+    }
+    .faq-answer {
+      display: none;
+      padding: 0 24px 22px;
+      font-size: 15px;
+      color: #475569;
+      line-height: 1.7;
+      border-top: 1px solid transparent;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+      border-top-color: #f1f5f9;
+      padding-top: 14px;
+    }
+    .faq-answer p {
+      margin: 0;
+    }
+    .faq-answer strong {
+      color: #0f172a;
+    }
+    .faq-answer code {
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #0f172a;
+    }
+    .faq-answer a {
+      color: #005BFE;
+      text-decoration: underline;
+      font-weight: 600;
     }
   </style>
 </head>
@@ -1451,6 +1602,150 @@
 
 
 
+    <!-- SECTION FAQ: 10 Tanya Jawab Seputar ZWCAD -->
+    <section class="section faq-section" id="faq">
+      <div class="faq-container">
+        <div class="aftersales-head center">
+          <span class="aftersales-eyebrow">TANYA JAWAB RESMI</span>
+          <h2 class="section-title">Pertanyaan yang Sering Diajukan Seputar ZWCAD</h2>
+          <p class="section-copy">Informasi lengkap seputar lisensi permanen, kompatibilitas file DWG, alur kerja drafter, hingga dukungan teknis resmi di Indonesia.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>1. Apakah lisensi ZWCAD benar-benar seumur hidup (perpetual)?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, benar. Lisensi ZWCAD bersifat Perpetual (hak milik seumur hidup). Sekali perusahaan Anda membeli lisensi ZWCAD, software dapat digunakan selamanya tanpa batas waktu dan tanpa kewajiban membayar biaya sewa tahunan. Lisensi ini dicatat sebagai aset modal (CapEx) resmi perusahaan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>2. Apakah file gambar AutoCAD (.DWG / .DXF) bisa dibuka dan diedit di ZWCAD tanpa masalah?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>100% kompatibel langsung tanpa konversi. ZWCAD membaca dan menyimpan file dalam format native DWG dan DXF dari versi lawas (R14) hingga versi terbaru 2026. Seluruh layer, dimension style, linetype, external reference (Xref), block atribut, hingga hatch pattern terbuka secara presisi tanpa pergeseran koordinat atau kerusakan font.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>3. Apakah tim drafter dan engineer kami perlu mengikuti pelatihan ulang saat migrasi ke ZWCAD?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Hampir tidak perlu (Zero Learning Curve). Antarmuka ZWCAD dirancang sangat akrab dengan pilihan mode Ribbon modern atau Classic. Seluruh shortcut keyboard standar (seperti L untuk Line, C untuk Circle, PL untuk Polyline, REC, M, CO, RO, TR, EX) serta navigasi mouse bekerja identik dengan software CAD yang biasa digunakan, sehingga tim Anda dapat langsung produktif pada hari pertama.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>4. Apa perbedaan mendasar antara ZWCAD Standard dan ZWCAD Professional?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p><strong>ZWCAD Standard</strong> dirancang untuk kebutuhan perancangan dan drafting 2D penuh dengan performa komputasi super cepat dan fungsi cetak/plot lengkap. <strong>ZWCAD Professional</strong> menyertakan seluruh fitur Standard ditambah kemampuan pemodelan 3D solid/surface, impor Point Cloud, IFC underlay (BIM), dan dukungan penuh API pemrograman tingkat lanjut (AutoLISP, VBA, .NET, dan ZRX).</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>5. Apakah script otomatisasi LISP dan add-on yang sudah kami miliki bisa dijalankan di ZWCAD?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, script LISP Anda dapat langsung dijalankan tanpa modifikasi kode. Perintah <code>APPLOAD</code> bekerja sama persis dan mendukung file berekstensi <code>.lsp</code>, <code>.fas</code>, <code>.vlx</code>, serta file antarmuka <code>.dcl</code>. Untuk aplikasi kustom berbasis C++, .NET, atau VBA, ZWCAD menyediakan integrasi kode API (ZRX/ZDS) yang sangat mudah di-porting.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>6. Bagaimana sistem kerja Lisensi Jaringan (Network Floating License) untuk perusahaan?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Lisensi Network Floating diinstal pada satu server kantor terpusat. Lisensi ini dapat diakses secara bergantian (shared) oleh seluruh staf drafter di jaringan lokal (LAN) maupun koneksi VPN remote. Skema ini sangat menghemat anggaran karena perusahaan cukup membeli jumlah lisensi sesuai jumlah pengguna bersamaan (concurrent users), bukan membeli untuk setiap unit komputer.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>7. Apakah tersedia opsi lisensi Hardware Dongle USB untuk kebutuhan offline di lapangan?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, tersedia pilihan Hardware Dongle USB. Opsi lisensi fisik ini sangat ideal untuk site office proyek konstruksi, area pertambangan, pabrik, atau anjungan lepas pantai yang tidak memiliki koneksi internet konstan. Lisensi dapat dengan mudah dipindahkan dari satu komputer ke komputer lain cukup dengan memindahkan stik USB dongle.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>8. Apakah kami diwajibkan membayar biaya pemeliharaan tahunan (maintenance) atau biaya upgrade?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Tidak ada kewajiban berlangganan tahunan. Pembaruan (upgrade) ke versi software tahun terbaru bersifat sepenuhnya opsional dan fleksibel. Jika perusahaan memutuskan tidak melakukan upgrade, lisensi ZWCAD yang telah Anda miliki tetap aktif 100% legal dan dapat terus digunakan tanpa ada pemblokiran akses sama sekali.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>9. Bagaimana dengan keaslian legalitas lisensi ZWCAD dan kelengkapan dokumen pengadaan?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Setiap lisensi ZWCAD yang Anda beli melalui Central CAD (PT Hetra Teknologi Indonesia) terjamin 100% legal, resmi, dan bergaransi. Anda akan mendapatkan Sertifikat Keaslian Lisensi Resmi dari ZWSOFT, Faktur Pajak PPN resmi perusahaan, serta dokumen legalitas lengkap yang sah untuk memenuhi audit kepatuhan software (software compliance).</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>10. Bagaimana cara mendapatkan installer dan mencoba ZWCAD sebelum memutuskan pembelian?</span>
+              <span class="faq-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Anda dapat mengunduh ZWCAD 2026 Full Version untuk evaluasi teknis secara gratis selama 30 hari tanpa batasan fitur. Silakan isi formulir pemesanan uji coba di halaman ini, atau hubungi tim teknis kami langsung melalui WhatsApp di <a href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">0819-1224-4662</a> untuk mendapatkan pendampingan instalasi dan demo fitur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="final-cta" id="contact">
 
       <div class="container">
@@ -1747,6 +2042,20 @@
         }
       });
     })();
+  </script>
+  <!-- FAQ Accordion Toggle Script -->
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function() {
+      var triggers = document.querySelectorAll('.faq-trigger');
+      triggers.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = btn.closest('.faq-item');
+          var isActive = item.classList.contains('active');
+          item.classList.toggle('active');
+          btn.setAttribute('aria-expanded', !isActive);
+        });
+      });
+    });
   </script>
 </body>
 </html>
