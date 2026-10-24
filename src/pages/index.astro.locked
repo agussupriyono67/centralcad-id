@@ -1,0 +1,1752 @@
+---
+// Exact cadindonesia.com landing page implementation
+---
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Central CAD — Solusi CAD &amp; BIM Berlisensi Resmi di Indonesia</title>
+  <meta name="description" content="Central CAD Indonesia menyediakan software ZWCAD 2026 dan ZW3D dengan lisensi seumur hidup permanen, 100% native DWG, lebih ringan, dan hemat biaya hingga 70%." />
+  <link rel="canonical" href="https://centralcad.id/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/zwsoft/icons/zwcad-logo.svg" />
+
+  <!-- Google Tag Manager -->
+  <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T77ZX6MD');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google tag (gtag.js): Google Ads AW-18087991581 + GA4 G-9F2SSNMBXP -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=AW-18087991581"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18087991581');
+    gtag('config', 'G-9F2SSNMBXP');
+  </script>
+
+  <!-- Robots & Search Engine Directives -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="geo.region" content="ID" />
+  <meta name="geo.placename" content="Indonesia" />
+
+  <!-- Open Graph / Facebook Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://centralcad.id/" />
+  <meta property="og:title" content="Central CAD — Solusi CAD &amp; BIM Berlisensi Resmi di Indonesia" />
+  <meta property="og:description" content="Penyedia resmi ZWCAD 2026 dan ZW3D di Indonesia. 100% kompatibel DWG, lisensi seumur hidup permanen tanpa biaya sewa tahunan, hemat anggaran hingga 70%." />
+  <meta property="og:image" content="https://centralcad.id/images/centralcad-bg.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Central CAD Indonesia" />
+  <meta property="og:locale" content="id_ID" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://centralcad.id/" />
+  <meta name="twitter:title" content="Central CAD — Solusi CAD &amp; BIM Berlisensi Resmi di Indonesia" />
+  <meta name="twitter:description" content="Penyedia resmi ZWCAD 2026 dan ZW3D di Indonesia. 100% kompatibel DWG, lisensi seumur hidup permanen tanpa biaya sewa tahunan, hemat anggaran hingga 70%." />
+  <meta name="twitter:image" content="https://centralcad.id/images/centralcad-bg.webp" />
+
+  <!-- Structured Data (Schema.org JSON-LD) -->
+  <script type="application/ld+json" is:inline>
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://centralcad.id/#organization",
+        "name": "Central CAD Indonesia",
+        "alternateName": "PT Hetra Teknologi Indonesia",
+        "url": "https://centralcad.id",
+        "logo": "https://centralcad.id/images/centralcad-logo.webp",
+        "description": "Distributor dan Reseller Resmi Software ZWCAD dan ZW3D di Indonesia.",
+        "telephone": "+6281912244662",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+62-819-1224-4662",
+            "contactType": "sales",
+            "areaServed": "ID",
+            "availableLanguage": ["Indonesian", "English"]
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://centralcad.id/#website",
+        "url": "https://centralcad.id",
+        "name": "Central CAD",
+        "publisher": { "@id": "https://centralcad.id/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://centralcad.id/#zwcad",
+        "name": "ZWCAD 2026",
+        "operatingSystem": "Windows 11, Windows 10 (64-bit)",
+        "applicationCategory": "DesignApplication",
+        "description": "Software CAD profesional 2D/3D alternatif dengan kompatibilitas format native DWG dan lisensi permanen (perpetual).",
+        "offers": {
+          "@type": "Offer",
+          "price": "Call",
+          "priceCurrency": "IDR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://centralcad.id/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apakah lisensi ZWCAD benar-benar seumur hidup (perpetual)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, benar. Lisensi ZWCAD bersifat Perpetual (hak milik permanen). Sekali Anda membeli, software dapat digunakan selamanya tanpa batas waktu dan tanpa kewajiban membayar biaya sewa tahunan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah file gambar AutoCAD (.DWG/.DXF) saya bisa dibuka di ZWCAD tanpa masalah?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "100% kompatibel langsung tanpa konversi. ZWCAD menggunakan format native DWG dan DXF dari versi R14 hingga versi 2026 terbaru. Seluruh layer, xref, linetype, block atribut, dan text style tetap utuh."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah drafter kami perlu mengikuti pelatihan ulang saat beralih ke ZWCAD?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hampir tidak perlu (Zero Learning Curve). Antarmuka ZWCAD menyediakan mode Classic dan Ribbon. Semua shortcut keyboard standar (seperti L, C, PL, REC, M, CO, RO, TRIM, EXTEND) dan lisp script berjalan identik."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apa perbedaan versi ZWCAD Standard dan ZWCAD Professional?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ZWCAD Standard ditujukan untuk kebutuhan drafting 2D penuh dengan fungsi printing dan plotting lengkap. ZWCAD Professional menyertakan kemampuan pemodelan 3D, integrasi API/LISP/VBA/.NET/ZRX tingkat lanjut, serta fitur ACIS 3D modeling."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Roboto & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Inter:wght@400;500;600;700;800&family=Roboto+Slab:wght@400;600;700&display=swap" />
+
+  <!-- Exact cadindonesia Stylesheet -->
+  <link rel="stylesheet" href="/css/cadindonesia.css" />
+
+  <!-- Scoped Navbar & Mobile Drawer Styling (Preserving Exact cadindonesia Layout) -->
+  <style is:inline>
+    /* Desktop Nav Links */
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin: 0 16px;
+    }
+    .desktop-nav-link {
+      color: #0f172a;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      padding: 6px 4px;
+      transition: color 0.2s ease;
+      white-space: nowrap;
+    }
+    .desktop-nav-link:hover {
+      color: #005BFE;
+    }
+
+    /* Burger Menu Button (44x44px Thumb-Friendly) */
+    .burger-menu-btn {
+      display: none;
+      width: 44px;
+      height: 44px;
+      padding: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      cursor: pointer;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+      z-index: 10001;
+    }
+    .burger-menu-btn:hover, .burger-menu-btn:active {
+      background: #f1f5f9;
+    }
+    .burger-bar {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #0f172a;
+      border-radius: 2px;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+      transform-origin: center;
+    }
+    /* Animated ✕ (Cross) when active */
+    .burger-menu-btn.is-active .bar-1 {
+      transform: translateY(7px) rotate(45deg);
+    }
+    .burger-menu-btn.is-active .bar-2 {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    .burger-menu-btn.is-active .bar-3 {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Mobile Dropdown Drawer (Smooth Slide Down from Top) */
+    .mobile-dropdown-drawer {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.15);
+      padding: 16px 20px 24px;
+      transform: translateY(-120%);
+      opacity: 0;
+      visibility: hidden;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, visibility 0.35s;
+      z-index: 9998;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+    }
+    .mobile-dropdown-drawer.is-open {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .mobile-menu-list {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 16px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .mobile-menu-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #1e293b;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .mobile-menu-link:hover, .mobile-menu-link:active {
+      background: #f8fafc;
+      color: #005BFE;
+    }
+    .mobile-menu-link .menu-icon {
+      color: #005BFE;
+      font-size: 14px;
+    }
+    .mobile-menu-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 16px;
+    }
+    .mobile-btn-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 13px;
+      background: #005BFE;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 91, 254, 0.25);
+    }
+    .mobile-btn-outline {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px;
+      background: #ffffff;
+      color: #005BFE;
+      border: 1.5px solid #005BFE;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    /* Backdrop Overlay */
+    .mobile-drawer-backdrop {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(2px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s;
+      z-index: 9997;
+    }
+    .mobile-drawer-backdrop.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Mobile Header (< 960px): Single Clean Row */
+    @media (max-width: 960px) {
+      .site-header {
+        height: 64px !important;
+        padding: 0 !important;
+      }
+      .page-wrap {
+        padding-top: 64px !important;
+      }
+      .header-inner {
+        width: calc(100% - 32px) !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+      }
+      .logo {
+        height: 30px !important;
+        width: auto !important;
+      }
+      .desktop-nav {
+        display: none !important;
+      }
+      .desktop-btn {
+        display: none !important;
+      }
+      .header-actions {
+        width: auto !important;
+      }
+      .burger-menu-btn {
+        display: flex !important;
+      }
+      .mobile-dropdown-drawer {
+        display: block !important;
+      }
+      .mobile-drawer-backdrop {
+        display: block !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T77ZX6MD"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<div class="page-wrap">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" aria-label="Beranda ZWCAD Indonesia">
+        <img decoding="async" class="logo" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD Indonesia" style="height: 36px; width: auto;" />
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Menu Navigasi Utama">
+        <a href="/#innovator" class="desktop-nav-link">ZWCAD</a>
+        <a href="/zw3d" class="desktop-nav-link">ZW3D</a>
+        <a href="/harga" class="desktop-nav-link">Harga</a>
+        <a href="/tentang-kami" class="desktop-nav-link">Tentang</a>
+        <a href="/hubungi-kami" class="desktop-nav-link">Kontak</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary desktop-btn" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
+        <a class="btn btn-outline desktop-btn" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
+        
+        <!-- Mobile Burger Menu Button (44x44px Thumb Target) -->
+        <button class="burger-menu-btn" id="burger-menu-btn" aria-label="Buka Menu" type="button" aria-expanded="false">
+          <span class="burger-bar bar-1"></span>
+          <span class="burger-bar bar-2"></span>
+          <span class="burger-bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Dropdown Navigation Drawer -->
+  <div class="mobile-dropdown-drawer" id="mobile-dropdown-drawer" aria-label="Menu Navigasi Mobile">
+    <ul class="mobile-menu-list">
+      <li>
+        <a href="/#innovator" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>ZWCAD 2026</span>
+        </a>
+      </li>
+      <li>
+        <a href="/zw3d" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>ZW3D CAD/CAM</span>
+        </a>
+      </li>
+      <li>
+        <a href="/harga" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Harga Lisensi</span>
+        </a>
+      </li>
+      <li>
+        <a href="/tentang-kami" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Tentang Kami</span>
+        </a>
+      </li>
+      <li>
+        <a href="/hubungi-kami" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Kontak Layanan</span>
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-menu-actions">
+      <a class="mobile-btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">
+        <span>🚀</span>
+        <span>Trial Gratis 30 Hari</span>
+      </a>
+      <a class="mobile-btn-outline" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">
+        <span>💬</span>
+        <span>Beli Sekarang (WhatsApp)</span>
+      </a>
+    </div>
+  </div>
+  <div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop"></div>
+
+
+
+  <main>
+
+
+
+    <section class="hero" id="top">
+
+      <div class="container">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">CAD #1 dengan Lisensi Seumur Hidup</span>
+
+          <h1>CAD Profesional<br>untuk <span class="hero-gradient">Inovator</span></h1>
+
+          <p>Alternatif CAD yang lebih murah, lebih ringan, interface dan command familiar, DWG native, serta pilihan lisensi yang fleksibel</p>
+
+          <div class="btn-row">
+
+            <a class="btn btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
+
+            <a class="btn btn-ghost" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
+
+          </div>
+
+          <div class="hero-badges" aria-label="Keunggulan ZWCAD">
+
+            <span class="hero-badge"><img decoding="async" src="/assets_zwsoft/images/dwg-file.png" alt="Format File DWG Native ZWCAD">Alur Kerja CAD yang Familiar</span>
+
+            <span class="hero-badge"><img decoding="async" src="/assets_zwsoft/images/flexible-licensing.png" alt="Lisensi Fleksibel ZWCAD Perpetual">Lisensi Fleksibel</span>
+
+            <span class="hero-badge"><img decoding="async" src="/assets_zwsoft/images/everyday-productivity.png" alt="Produktivitas Drafting CAD Harian">Produktivitas Sehari-hari</span>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      
+
+    </section>
+
+
+
+<section class="section innovator-section" id="innovator">
+
+      <div class="container">
+
+        <div class="innovator-grid">
+
+          <div class="innovator-text">
+
+            <h2 class="section-title">ZWCAD Bisa Digunakan di Berbagai Bidang</h2>
+
+            <p class="section-copy">Mulai dari arsitek, engineer, desainer, manufaktur, hingga profesional konstruksi, ZWCAD hadir sebagai solusi CAD andal untuk menyelesaikan pekerjaan dan proyek teknik di berbagai bidang industri dengan lebih cepat, fleksibel, dan presisi.</p>
+
+          </div>
+
+          <div class="innovator-image">
+
+            <img src="/assets_zwsoft/images/What-Makes-a-CAD-Innovator-Banner.png" alt="Inovator CAD bekerja di bidang desain, teknik, dan konstruksi" loading="lazy" decoding="async">
+
+          </div>
+
+        </div>
+
+
+
+        <div class="pillars">
+
+          <article class="pillar-card">
+
+            <div class="pillar-icon"><img decoding="async" src="/assets_zwsoft/icons/Create-Better.svg" alt="Inovasi Desain Lebih Baik ZWCAD"></div>
+
+            <h3>Lebih Murah</h3>
+
+            <p>Nikmati lisensi seumur hidup yang tidak perlu membuat Anda membayar tiap tahun!</p>
+
+          </article>
+
+          <article class="pillar-card">
+
+            <div class="pillar-icon"><img decoding="async" src="/assets_zwsoft/icons/Work-Smarter.svg" alt="Bekerja Cerdas dengan Otomasi CAD"></div>
+
+            <h3>Kompatibilitas dengan CAD</h3>
+
+            <p>Tidak perlu adaptasi lebih untuk beralih ke kami, karena interface dan command kami 99% sama dengan software CAD pada umumnya</p>
+
+          </article>
+
+          <article class="pillar-card">
+
+            <div class="pillar-icon"><img decoding="async" src="/assets_zwsoft/icons/Stay-Flexible.svg" alt="Fleksibilitas Alur Kerja Desain CAD"></div>
+
+            <h3>Lebih Ringan</h3>
+
+            <p>Tidak perlu space banyak di device, yang membuat operasional CAD Anda lebih cepat</p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+<section class="section video-section" id="what-is-zwcad">
+
+      <div class="container">
+
+        <h2 class="section-title center">Apa itu <span class="text-blue">ZWCAD</span>?</h2>
+
+        <p class="section-copy center">Inovasi terjadi setiap hari ketika tim meningkatkan cara sesuatu dirancang, didokumentasikan, dibangun, dan diselesaikan. ZWCAD memberikan solusi CAD profesional agar tim dapat bekerja lebih efisien, tetap fleksibel, dan membawa setiap proyek maju dengan percaya diri.</p>
+
+        <div class="video-frame" data-youtube-video data-video-id="poRFQEC30os">
+
+          <button class="video-cover" type="button" aria-label="Putar video ZWCAD">
+
+            <img src="/assets_external/maxresdefault.jpg" alt="Pratinjau video ZWCAD" loading="lazy" decoding="async">
+
+            <span class="play-btn" aria-hidden="true"></span>
+
+          </button>
+
+          <noscript>
+
+            <a href="https://www.youtube.com/watch?v=poRFQEC30os" target="_blank" rel="noopener noreferrer">Tonton video ini di YouTube</a>
+
+          </noscript>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+<section class="section everyday-section" id="features">
+
+      <div class="container">
+
+        <h2 class="section-title">CAD Profesional untuk Inovasi Sehari-hari</h2>
+
+        <p class="section-copy" style="max-width:760px;">Setiap peningkatan berarti: perintah yang lebih cepat, alur kerja yang lebih rapi, standar yang dapat digunakan kembali, atau pertukaran file yang lebih lancar. ZWCAD membantu tim mengubah pekerjaan CAD sehari-hari menjadi hasil proyek yang lebih baik melalui perangkat profesional, alur kerja yang sudah dikenal, dan kustomisasi yang fleksibel.</p>
+
+
+
+        <div class="everyday-layout">
+
+          <div class="accordion" data-feature-accordion>
+
+            <article class="acc-item active" data-img="/assets_zwsoft/images/Adopt.png">
+
+              <button class="acc-trigger" type="button"><span>Adopsi Lebih Cepat, Tingkatkan Lebih Awal</span><span>⌄</span></button>
+
+              <div class="acc-panel">Antarmuka CAD yang sudah dikenal membantu tim cepat produktif, sementara pengaturan, perintah, dan alur kerja yang dapat dikustomisasi memberi pengguna berpengalaman fleksibilitas untuk terus meningkatkan cara mereka bekerja.</div>
+
+            </article>
+
+            <article class="acc-item" data-img="/assets_zwsoft/images/Collaborate.png">
+
+              <button class="acc-trigger" type="button"><span>Kolaborasi Tanpa Hambatan Format File</span><span>⌄</span></button>
+
+              <div class="acc-panel">Dukungan untuk DWG, DXF, IFC, DGN, IGES, dan format umum lainnya membantu tim bekerja dengan gambar yang sudah ada, bertukar data proyek, dan berkolaborasi di berbagai lingkungan CAD.</div>
+
+            </article>
+
+            <article class="acc-item" data-img="/assets_zwsoft/images/Automate.png">
+
+              <button class="acc-trigger" type="button"><span>Otomatiskan Pekerjaan CAD yang Berulang</span><span>⌄</span></button>
+
+              <div class="acc-panel">Drafting tools, ekstensi workflow, APIs, dan plug-in khusus industri yang dapat membantu tim untuk mengotomatiskan pekerjaan yang berulang, menstandarkan alur kerja, dan mengalokasikan lebih banyak waktu untuk meningkatkan kualitas proyek.</div>
+
+            </article>
+
+            <article class="acc-item" data-img="/assets_zwsoft/images/Deliver.png">
+
+              <button class="acc-trigger" type="button"><span>Hasilkan Keluaran Profesional</span><span>⌄</span></button>
+
+              <div class="acc-panel">Drafting, dokumentasi, anotasi, plotting yang akurat, serta kinerja yang andal dapat membantu tim menghasilkan pekerjaan yang lebih terampil dan lebih percaya diri.</div>
+
+            </article>
+
+          </div>
+
+
+
+          <div class="feature-img-wrap">
+
+            <img class="feature-img" data-feature-image src="/assets_zwsoft/images/Adopt.png" alt="Pratinjau fitur ZWCAD" loading="lazy" decoding="async">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+<section class="section industry-section" id="industries">
+
+      <div class="container">
+
+        <div class="industry-head">
+
+          <h2 class="section-title center">ZWCAD dirancang untuk pekerjaan profesional di berbagai industri.</h2>
+
+          <p class="section-copy center">Mulai dari arsitektur hingga survei, ZWCAD mendukung dokumentasi yang presisi dan kolaborasi yang efisien dalam berbagai alur kerja teknis.</p>
+
+        </div>
+
+
+
+        <div class="industry-board">
+
+          <div class="industry-tabs" data-industry-tabs>
+
+            <button class="industry-tab active" type="button" data-title="Desain Arsitektur" data-copy="Buat denah lantai, gambar konstruksi, elevasi, dan dokumentasi dengan perangkat CAD 2D yang presisi." data-visual="/assets_zwsoft/images/Architectural-Design-banner.png" data-logos="/assets_zwsoft/images/b229dc8090cfb4c358b791a49b42efe6.jpg|/assets_zwsoft/images/30c29840d126e71d59b39cc828a61722.png|/assets_zwsoft/images/c1888f1adb357128c4d52ef25372a47c.jpg"><img decoding="async" src="/assets_zwsoft/images/Architectural-Design.png" alt="Solusi ZWCAD untuk Desain Arsitektur">Desain Arsitektur</button>
+
+            <button class="industry-tab" type="button" data-title="Teknik Sipil" data-copy="Buat rencana infrastruktur, tata letak jalan, gambar utilitas, rencana kontur dan elevasi, serta dokumentasi proyek dengan perangkat CAD 2D yang presisi." data-visual="/assets_zwsoft/images/Civil-Engineering.jpg" data-logos="/assets_zwsoft/images/94dab54b34cd11f957d41539e1cfd990.png|/assets_zwsoft/images/5f76c7de84f540dccf7e5e758c1faeaf.png|/assets_zwsoft/images/5dabb2b4decdd86a6c7feb846e453639.png"><img decoding="async" src="/assets_zwsoft/images/Civil.png" alt="Solusi ZWCAD untuk Teknik Sipil">Teknik Sipil</button>
+
+            <button class="industry-tab" type="button" data-title="Konstruksi" data-copy="Siapkan rencana tapak, detail konstruksi, gambar kerja, dan dokumentasi proyek." data-visual="/assets_zwsoft/images/Construction.jpg" data-logos="/assets_zwsoft/images/6ab74436c4c796049041336878f35618.png|/assets_zwsoft/images/68ea1cbf2812d320b12e8c2a80b8bd8c.png|/assets_zwsoft/images/7c486a4b3ac4c80baf6343984b78a985.png"><img decoding="async" src="/assets_zwsoft/images/Construction.png" alt="Solusi ZWCAD untuk Proyek Konstruksi">Konstruksi</button>
+
+            <button class="industry-tab" type="button" data-title="Layanan Teknik" data-copy="Buat, tinjau, dan selesaikan gambar teknis untuk proyek sipil, elektrikal, mekanikal, dan infrastruktur." data-visual="/assets_zwsoft/images/Engineering-Services.jpg" data-logos="/assets_zwsoft/images/50c4523ba7c4d1ed2791e92f7c339a78.png|/assets_zwsoft/images/469870b7a681bb1f9b401898b4876f30.png|/assets_zwsoft/images/b5d30772eb64628ebd566a43f411e44c.png"><img decoding="async" src="/assets_zwsoft/images/Engineering-Services.png" alt="Solusi ZWCAD untuk Jasa Konsultan Engineering">Layanan Teknik</button>
+
+            <button class="industry-tab" type="button" data-title="Manufaktur" data-copy="Dukung desain produk, penggambaran mekanikal, gambar komponen, dan dokumentasi produksi." data-visual="/assets_zwsoft/images/Manufacturing.jpg" data-logos="/assets_zwsoft/images/c09aaf1d92867027f26bf35e3de49f15.png|/assets_zwsoft/images/6945997d4e1905474f2ebf43320592b9.png|/assets_zwsoft/images/e548c88c60778b65099491d43d937c1a.png"><img decoding="async" src="/assets_zwsoft/images/Manufacturing.png" alt="Solusi ZWCAD untuk Industri Manufaktur">Manufaktur</button>
+
+            <button class="industry-tab" type="button" data-title="Survei" data-copy="Buat peta, tata letak, dan gambar teknis yang akurat berdasarkan data lapangan dan data proyek." data-visual="/assets_zwsoft/images/Surveying.jpg" data-logos="/assets_zwsoft/images/ef44d6c5b4219e521bf1cddd76f466a0.png|/assets_zwsoft/images/a20c5daa86dcb889411f25337ac20ba1.png|/assets_zwsoft/images/a5287cd2bd17b4916da60048bfdd0d67.png"><img decoding="async" src="/assets_zwsoft/images/Surveying.png" alt="Solusi ZWCAD untuk Pemetaan dan Surveying">Survei</button>
+
+          </div>
+
+
+
+          <article class="industry-card">
+
+            <div class="industry-copy">
+
+              <h3 data-industry-title>Desain Arsitektur</h3>
+
+              <p data-industry-copy>Buat denah lantai, gambar konstruksi, elevasi, dan dokumentasi dengan perangkat CAD 2D yang presisi.</p>
+
+              <div class="client-logos">
+
+                <img src="/assets_zwsoft/images/b229dc8090cfb4c358b791a49b42efe6.jpg" alt="Logo klien" loading="lazy" decoding="async">
+
+                <img src="/assets_zwsoft/images/30c29840d126e71d59b39cc828a61722.png" alt="Logo klien" loading="lazy" decoding="async">
+
+                <img src="/assets_zwsoft/images/c1888f1adb357128c4d52ef25372a47c.jpg" alt="Logo klien" loading="lazy" decoding="async">
+
+              </div>
+
+            </div>
+
+            <div class="industry-visual">
+
+              <img src="/assets_zwsoft/images/Architectural-Design-banner.png" alt="Visual Desain Arsitektur" data-industry-visual loading="lazy" decoding="async">
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- SECTION PRICELIST (Tentukan Kebutuhan Anda!) -->
+
+    <section class="section pricing-section" id="pricelist">
+
+      <div class="container">
+
+        <div class="pricing-head center">
+
+          <h2 class="section-title">Tentukan Kebutuhan Anda!</h2>
+
+          <p class="section-copy">Lisensi seumur hidup, update lisensi dikenakan biaya 35% dari harga</p>
+
+        </div>
+
+
+
+        <div class="pricing-grid">
+
+          <!-- Card 1: ZWCAD Standard -->
+
+          <article class="pricing-card">
+
+            <div class="pricing-card-header">
+
+              <div class="pricing-brand">
+
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo">
+
+                <span class="pricing-edition">Standard</span>
+
+              </div>
+
+              <p class="pricing-desc">Pilihan hemat untuk membuat gambar 2D CAD</p>
+
+            </div>
+
+
+
+            <div class="pricing-prices">
+
+              <div class="price-tier">
+
+                <span class="tier-label">Standalone</span>
+
+                <span class="tier-amount">IDR 15.300.000</span>
+
+              </div>
+
+              <div class="price-tier">
+
+                <span class="tier-label">Network</span>
+
+                <span class="tier-amount">IDR 17.030.000</span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="pricing-divider"></div>
+
+
+
+            <ul class="pricing-features">
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Native DWG compatibility</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>2D drafting tools</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>LISP routines</span></li>
+
+            </ul>
+
+
+
+            <div class="pricing-cta-wrap">
+
+              <a class="btn btn-primary pricing-btn" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli sekarang</a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Card 2: ZWCAD Professional -->
+
+          <article class="pricing-card pricing-card-featured">
+
+            <div class="pricing-badge-popular">PALING POPULER</div>
+
+            <div class="pricing-card-header">
+
+              <div class="pricing-brand">
+
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo">
+
+                <span class="pricing-edition">Professional</span>
+
+              </div>
+
+              <p class="pricing-desc">Pilihan tepat untuk membuat gambar 2D dan 3D modeling</p>
+
+            </div>
+
+
+
+            <div class="pricing-prices">
+
+              <div class="price-tier">
+
+                <span class="tier-label">Standalone</span>
+
+                <span class="tier-amount">IDR 23.800.000</span>
+
+              </div>
+
+              <div class="price-tier">
+
+                <span class="tier-label">Network</span>
+
+                <span class="tier-amount">IDR 26.400.000</span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="pricing-divider"></div>
+
+
+
+            <ul class="pricing-features">
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Semua fitur standard</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>3D modeling tools</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Point Cloud</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>GIS</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Raster to Vector Conversion</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Full API capabilities</span></li>
+
+            </ul>
+
+
+
+            <div class="pricing-cta-wrap">
+
+              <a class="btn btn-primary pricing-btn" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli sekarang</a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Card 3: ZWCAD MFG -->
+
+          <article class="pricing-card">
+
+            <div class="pricing-card-header">
+
+              <div class="pricing-brand">
+
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo">
+
+                <span class="pricing-edition">MFG</span>
+
+              </div>
+
+              <p class="pricing-desc">2D/3D CAD profesional dengan toolset mekanikal</p>
+
+            </div>
+
+
+
+            <div class="pricing-prices">
+
+              <div class="price-tier">
+
+                <span class="tier-label">Standalone</span>
+
+                <span class="tier-amount">IDR 28.900.000</span>
+
+              </div>
+
+              <div class="price-tier">
+
+                <span class="tier-label">Network</span>
+
+                <span class="tier-amount">IDR 31.450.000</span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="pricing-divider"></div>
+
+
+
+            <ul class="pricing-features">
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Semua fitur Professional</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Standard part library</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>AutoCAD- Mechanical compatibility</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Automatic BOM generation</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Mechanical drawing tools</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Power Dimension</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Mechanical annotation tools</span></li>
+
+              <li><svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+
+  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg> <span>Mechanical calculation tools</span></li>
+
+            </ul>
+
+
+
+            <div class="pricing-cta-wrap">
+
+              <a class="btn btn-primary pricing-btn" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli sekarang</a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+
+        <div class="pricing-notes">
+
+          <p>• Harga belum termasuk pajak 11%</p>
+
+          <p>• Lisensi akan terbit 2–14 hari (Normalnya 2 hari)</p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+    
+
+<section class="section investment-section" id="investment">
+
+      <div class="container">
+
+        <div class="investment-intro">
+
+          <h2 class="section-title">Investasi Berkelanjutan untuk Jangka Panjang</h2>
+
+          <p class="section-copy">Memilih perangkat lunak CAD juga merupakan keputusan jangka panjang. ZWCAD mendukung alur kerja yang siap untuk masa depan dengan kompatibilitas bawaan .dwg, dukungan file lama, pendekatan platform terbuka, dan pengembangan berkelanjutan.</p>
+
+        </div>
+
+
+
+        <div class="investment-cards">
+
+          <article class="investment-card">
+
+            <div class="mini-icon green">API</div>
+
+            <h3>Platform Terbuka untuk Alur Kerja Fleksibel</h3>
+
+            <p>Hubungkan ZWCAD dengan perangkat, alur kerja, dan lingkungan proyek yang sudah Anda gunakan melalui kustomisasi, API, dan dukungan ekstensi.</p>
+
+          </article>
+
+          <article class="investment-card">
+
+            <div class="mini-icon yellow">DWG</div>
+
+            <h3>Dukungan File Lama</h3>
+
+            <p>Terus bekerja dengan gambar yang sudah ada dan format file CAD yang telah digunakan untuk menjaga data proyek selama bertahun-tahun.</p>
+
+          </article>
+
+          <article class="investment-card">
+
+            <div class="mini-icon cyan">&lt;/&gt;</div>
+
+            <h3>Pengembangan Berkelanjutan</h3>
+
+            <p>Dapatkan manfaat dari peningkatan berkelanjutan yang dikembangkan berdasarkan kebutuhan pengguna CAD profesional.</p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+<section class="compare-section" id="compare">
+
+      <div class="container">
+
+        <h2 class="section-title">Bandingkan investasi CAD Anda dengan ZWCAD</h2>
+
+        <p class="section-copy">Inovasi tidak seharusnya dibatasi oleh biaya software yang berulang. ZWCAD memberikan fleksibilitas bagi tim untuk berinvestasi pada CAD profesional sesuai kebutuhan, dengan pilihan lisensi permanen dan nilai jangka panjang yang lebih terprediksi.</p>
+
+
+
+        <div class="compare-grid">
+
+          <div class="compare-left">
+
+            <ul class="compare-points">
+
+              <li><img decoding="async" src="/assets_zwsoft/images/More-Control-Over-CAD-Costs.png" alt="Pengendalian Biaya Software CAD Lebih Terjangkau"><span>Lebih Fleksibel dalam Mengelola Biaya CAD</span></li>
+
+              <li><img decoding="async" src="/assets_zwsoft/images/Built-for-Sustainable-Growth.png" alt="Investasi Software CAD untuk Pertumbuhan Berkelanjutan"><span>Dirancang untuk Pertumbuhan Bisnis</span></li>
+
+              <li><img decoding="async" src="/assets_zwsoft/images/Professional-Capability.png" alt="Kemampuan CAD Profesional Berstandar Internasional"><span>Kemampuan Profesional, Mudah Digunakan</span></li>
+
+            </ul>
+
+
+
+            <div class="calc-card">
+
+              <label class="calc-label" for="cadCost">Biaya CAD saat ini per lisensi / tahun</label>
+
+              <input class="calc-input" id="cadCost" type="text" inputmode="decimal" value="Rp 70,5 jt" placeholder="Contoh: 70,5 jt" maxlength="20" aria-label="Biaya CAD saat ini per lisensi per tahun dalam juta Rupiah">
+
+              <div class="range-row">
+
+                <label class="calc-label" for="seatRange">Jumlah lisensi</label>
+
+                <input id="seatRange" type="range" min="1" max="10" step="1" value="5">
+
+                <span class="seat-value" id="seatValue">5</span>
+
+              </div>
+
+              <p class="calc-note">Periode perbandingan: 3 tahun<br>Biaya CAD Anda saat ini dihitung sebagai langganan tahunan berulang dengan biaya per lisensi yang sama setiap tahun.</p>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="compare-right">
+
+            <div class="chart-wrap" aria-label="Grafik perbandingan investasi CAD">
+
+              <div class="bar-item">
+
+                <span class="bar-number" id="standardCost">Rp 119 jt</span>
+
+                <div class="bar cyan" id="standardBar"></div>
+
+                <span class="bar-label">ZWCAD Standard</span>
+
+              </div>
+
+              <div class="bar-item">
+
+                <span class="bar-number" id="professionalCost">Rp 185 jt</span>
+
+                <div class="bar yellow" id="professionalBar"></div>
+
+                <span class="bar-label">ZWCAD Professional</span>
+
+              </div>
+
+              <div class="bar-item">
+
+                <span class="bar-number" id="currentCost">Rp 1.057,5 jt</span>
+
+                <div class="bar blue" id="currentBar"></div>
+
+                <span class="bar-label">CAD Anda Saat Ini</span>
+
+              </div>
+
+              <div class="saving-cards">
+
+                <div class="saving-card">Estimasi selisih biaya 3 tahun dengan ZWCAD Standard<strong id="standardSaving">Rp 938,5 jt</strong></div>
+
+                <div class="saving-card">Estimasi selisih biaya 3 tahun dengan ZWCAD Professional<strong id="professionalSaving">Rp 872,5 jt</strong></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <p class="compare-disclaimer">Perbandingan ini menggunakan harga referensi Indonesia untuk lisensi mandiri: ZWCAD Standard Rp 17 jt dengan YM tahunan Rp 3,4 jt, dan ZWCAD Professional Rp 26,4 jt dengan YM tahunan Rp 5,3 jt. Biaya ZWCAD selama 3 tahun dihitung dari lisensi tahun pertama ditambah YM untuk dua tahun berikutnya. Perbandingan mengasumsikan CAD Anda saat ini menggunakan model langganan tahunan dan diperpanjang setiap tahun dengan biaya per lisensi yang sama. Harga aktual, pajak, opsi pemeliharaan, penawaran mitra penjual, dan penghematan dapat berbeda.</p>
+
+        <div class="btn-row compare-cta">
+
+          <a class="btn btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
+
+          <a class="btn btn-ghost" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+<section class="trust-section" id="trusted">
+
+      <div class="container">
+
+        <h2 class="section-title center">Dipercaya oleh ribuan tim di seluruh dunia</h2>
+
+        <div class="stats-row">
+
+          <div class="stat"><strong>1.4M+</strong><span>Pengguna di Seluruh Dunia</span></div>
+
+          <div class="stat"><strong>800+</strong><span>Mitra Ekosistem</span></div>
+
+          <div class="stat"><strong>25+</strong><span>Tahun Inovasi CAD</span></div>
+
+          <div class="stat"><strong>90+</strong><span>Negara &amp; Wilayah</span></div>
+
+          <div class="stat"><strong>15</strong><span>Bahasa</span></div>
+
+        </div>
+
+        <div class="brand-wall" aria-label="Logo merek pelanggan ZWCAD">
+
+          <img src="/assets_zwsoft/images/499aacf9215d053eb2927ffb204acee4.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/8138f6dbdff20acfffcfe5b96fcde51e.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/05fc01f3b6b2caa8d4015975d02586e5.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/677f43feb5df79b57a9d6462227339e0.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/983313a77caa916bab2fe2f43438d5c8.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/957423e3b306bb5babb1cd2150497226.png" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/22d21f108e75ebca302acdb452cce68d.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/e87b14778587f0b1420ff4892e5ffedc.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/ecf7600c151cb997e10168a000c693db.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+          <img src="/assets_zwsoft/images/3e1ad50e0c7b861fb199d45440601950.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+
+
+    <!-- SECTION AFTERSALES HIGHLIGHT -->
+
+    <section class="section aftersales-section" id="aftersales">
+
+      <div class="container">
+
+        <div class="aftersales-head center">
+
+          <span class="aftersales-eyebrow">LAYANAN After Sales TERBAIK</span>
+
+          <h2 class="section-title">Kenapa Harus Beli ZWCAD di Kami?</h2>
+
+          <p class="section-copy">Beli lisensi ZWCAD di kami bukan sekadar mendapatkan software, tapi mendapatkan dukungan penuh tanpa batas dari tim teknis berpengalaman untuk memastikan investasi CAD Anda berjalan maksimal.</p>
+
+        </div>
+
+
+
+        <div class="aftersales-grid">
+
+          <!-- Item 1 -->
+
+          <article class="aftersales-card">
+
+            <div class="aftersales-icon-wrap" style="background: rgba(0, 91, 254, 0.1); color: #005BFE;">
+
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+
+                <path d="M12 7v5l2.5-2.5"></path>
+
+              </svg>
+
+            </div>
+
+            <h3>Free Instalasi &amp; Setup</h3>
+
+            <p>Tim ahli kami siap mendampingi proses instalasi sampai ZWCAD aktif, tervalidasi lisensinya, dan siap digunakan di PC, laptop, maupun server jaringan kantor Anda tanpa ribet.</p>
+
+          </article>
+
+
+
+          <!-- Item 2 -->
+
+          <article class="aftersales-card">
+
+            <div class="aftersales-icon-wrap" style="background: rgba(16, 185, 129, 0.1); color: #10B981;">
+
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+
+              </svg>
+
+            </div>
+
+            <h3>Free Training Tim Drafter &amp; Engineer</h3>
+
+            <p>Dapatkan pelatihan pengoperasian langsung untuk tim Anda agar cepat familiar, produktif seketika, dan dapat memaksimalkan fitur canggih ZWCAD tanpa hambatan adaptasi.</p>
+
+          </article>
+
+
+
+          <!-- Item 3 -->
+
+          <article class="aftersales-card">
+
+            <div class="aftersales-icon-wrap" style="background: rgba(37, 211, 102, 0.12); color: #25D366;">
+
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+
+              </svg>
+
+            </div>
+
+            <h3>Grup WhatsApp Eksklusif Seumur Hidup</h3>
+
+            <p>Kami akan buatkan grup support Whatsapp eksklusif yang akan merespons segala permasalahan software Anda seumur hidup</p>
+
+          </article>
+
+
+
+          <!-- Item 4 -->
+
+          <article class="aftersales-card">
+
+            <div class="aftersales-icon-wrap" style="background: rgba(245, 158, 11, 0.1); color: #F59E0B;">
+
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+
+                <circle cx="9" cy="7" r="4"></circle>
+
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+
+              </svg>
+
+            </div>
+
+            <h3>Terhubung ke Komunitas Kami</h3>
+
+            <p>Konektivitas ke para profesional sesama pengguna CAD dari berbagai bidang.</p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="final-cta" id="contact">
+
+      <div class="container">
+
+        <div class="cta-grid">
+
+          <div>
+
+            <h2>Siap membawa proyek Anda lebih maju?</h2>
+
+            <p>Bergabunglah dengan tim di seluruh dunia yang menggunakan ZWCAD untuk membuat gambar yang akurat, berkolaborasi secara efisien, dan menyelesaikan proyek dengan percaya diri.</p>
+
+            <div class="btn-row">
+
+              <a class="btn btn-white" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
+
+              <a class="btn btn-white-outline" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
+
+            </div>
+
+          </div>
+
+          <div class="badges" aria-label="Lencana G2">
+
+            <img src="/assets_zwsoft/images/78d3c69d9b28ccb328f5f6ec958bd03f.png" alt="Lencana G2" loading="lazy" decoding="async">
+
+            <img src="/assets_zwsoft/images/7ecc1450211d6ed7c96f53f1372c8bcf.png" alt="Lencana G2" loading="lazy" decoding="async">
+
+            <img src="/assets_zwsoft/images/4f17dfb09b6589292f6c8ab0906d855b.png" alt="Lencana G2" loading="lazy" decoding="async">
+
+          </div>
+
+        </div>
+
+
+
+        <div class="benefit-row">
+
+          <div class="benefit-card"><img src="/assets_zwsoft/icons/Flexible-upgrade-policies.svg" alt="Kebijakan Upgrade Lisensi Fleksibel ZWCAD" loading="lazy" decoding="async">Kebijakan upgrade yang fleksibel</div>
+
+          <div class="benefit-card"><img src="/assets_zwsoft/icons/Local-Support-You-Can-Count-On.svg" alt="Dukungan Teknis Lokal Indonesia ZWCAD" loading="lazy" decoding="async">Dukungan lokal yang dapat diandalkan</div>
+
+          <div class="benefit-card"><img src="/assets_zwsoft/icons/Secure-and-Reliable.svg" alt="Keamanan dan Keaslian Lisensi Resmi ZWCAD" loading="lazy" decoding="async">Aman &amp; Andal</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+
+    <section class="section hubspot-form-section" id="hubspot-form">
+
+      <div class="container">
+
+        <div class="hubspot-form-card">
+
+          <div class="hubspot-form-copy">
+
+            <span class="hubspot-form-eyebrow">UNDUH UJI COBA GRATIS 30 HARI</span>
+
+            <h2 class="section-title">Mulai berinovasi dengan CAD profesional hari ini</h2>
+
+            <p class="section-copy">Lengkapi formulir untuk mendapatkan uji coba ZWCAD dan mulai menjelajahi solusi CAD profesional yang dirancang untuk inovator seperti Anda — fleksibel, familiar, kompatibel dengan DWG, dan dibuat untuk meningkatkan efisiensi desain.</p>
+
+            <ul class="hubspot-form-benefits" aria-label="Yang akan Anda dapatkan setelah mengirim formulir">
+
+              <li>Akses uji coba ZWCAD setelah formulir dikirim</li>
+
+              <li>Terus bekerja dengan alur kerja CAD yang sudah dikenal</li>
+
+              <li>Tingkatkan efisiensi sekaligus mengendalikan biaya perangkat lunak</li>
+
+            </ul>
+
+            <!-- Alamat Resmi PT Hetra Teknologi Indonesia -->
+
+            <div class="office-address-block">
+
+              <div class="office-address-header">
+
+                <svg class="office-pin-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+
+                  <circle cx="12" cy="10" r="3"></circle>
+
+                </svg>
+
+                <span>PT Hetra Teknologi Indonesia</span>
+
+              </div>
+
+              <p class="office-address-text">
+
+                Plaza Summarecon Bekasi, Lantai 6<br>
+
+                Jl. Bulevar Ahmad Yani, Bekasi, Jawa Barat 17143, Indonesia
+
+              </p>
+
+              <div class="office-contact-meta">
+
+                <span>📞 Telp: (021) 3831-7110</span>
+
+                <span>💬 WA: 0819-1224-4662</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="hubspot-form-wrap download-form" style="background:#ffffff; padding:24px; border-radius:14px; box-shadow:0 10px 25px rgba(0,0,0,0.06);">
+            <!-- OrderOnline Embed Code - v8.0.2 -->
+            <div class="ooef">
+              <form class="orderonline-embed-form" data-username="hetra" data-product-slug="zwcad" data-product-id="68b2e15a561755b27f060a00" id="oo-embed-form-zwcad-6711" data-origin="orderonline">
+                <div class="ooef-loader"><style is:inline>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+              </form>
+            </div>
+            <script is:inline>
+            if (typeof xLogError != 'function') {
+              var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+              };
+            }
+            try {
+              if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                  !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    s = d.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                  }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.2', 'oo-embed-js');
+                };
+              }
+              if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                  if (w.ooe) return;
+                  n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+                  if (!w._ooe) w._ooe = n;
+                  n.push = n;n.loaded = !0;n.version = '8.0.2';n.queue = [];
+                };
+              }
+              xEmbedInit(window);
+              ooe('setup', 'redirect', 'https://hetra.orderonline.id');
+              ooe('init', '68b170d3664bbd727e059fb2', '68b2e15a561755b27f060a00', '68b2e15a561755b27f060a01', 'oo-embed-form-zwcad-6711', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":true});
+              if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                  if (d.getElementById(id)) return;
+                  t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                  t.addEventListener('load', xEmbedScript);
+                  s = d.getElementsByTagName(e)[0];
+                  s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+              } else {
+                xEmbedScript();
+              }
+            } catch (e) {
+              xLogError(e);
+              throw e;
+            }
+            </script>
+            <!-- End OrderOnline Embed Code -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <a class="footer-logo-link" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer" aria-label="Hubungi kami via WhatsApp">
+
+        <img decoding="async" class="footer-logo" src="/assets_zwsoft/icons/ZWSOFT-Logo-write.svg" alt="ZWCAD">
+
+      </a>
+
+      <p class="copyright">© 2026 PT Hetra Teknologi Indonesia. Seluruh hak cipta dilindungi.</p>
+
+    </div>
+
+  </footer>
+</div>
+<a href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp CAD Indonesia">
+
+  Chat WhatsApp
+
+</a>
+
+  <!-- Exact cadindonesia Scripts -->
+  <script is:inline src="/js/cadindonesia.js"></script>
+
+  <!-- OrderOnline embed script -->
+  <script is:inline src="https://cdn.orderonline.id/js/embed-v8.0.2.js" async></script>
+  <!-- Automated Google Ads & GA4 WhatsApp Conversion Tracking -->
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link) return;
+        var href = link.getAttribute('href') || '';
+        if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
+          if (typeof gtag === 'function') {
+            gtag('event', 'conversion', {
+              send_to: 'AW-18087991581/sdN8CKya2IgdEJ2yg7FD',
+              value: 0.0,
+              currency: 'IDR',
+              transport_type: 'beacon'
+            });
+            gtag('event', 'klik_whatsapp', {
+              event_category: 'lead',
+              event_label: href
+            });
+          }
+          if (window.dataLayer) {
+            window.dataLayer.push({
+              event: 'whatsapp_click',
+              wa_url: href
+            });
+          }
+        }
+      });
+    });
+  </script>
+
+  <!-- Mobile Dropdown Navigation Drawer Script -->
+  <script is:inline>
+    (function() {
+      var burger = document.getElementById('burger-menu-btn');
+      var drawer = document.getElementById('mobile-dropdown-drawer');
+      var backdrop = document.getElementById('mobile-drawer-backdrop');
+
+      function toggle() {
+        if (!drawer) return;
+        var isOpen = drawer.classList.contains('is-open');
+        if (isOpen) {
+          close();
+        } else {
+          open();
+        }
+      }
+
+      function open() {
+        if (drawer) drawer.classList.add('is-open');
+        if (backdrop) backdrop.classList.add('is-open');
+        if (burger) {
+          burger.classList.add('is-active');
+          burger.setAttribute('aria-expanded', 'true');
+        }
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        if (drawer) drawer.classList.remove('is-open');
+        if (backdrop) backdrop.classList.remove('is-open');
+        if (burger) {
+          burger.classList.remove('is-active');
+          burger.setAttribute('aria-expanded', 'false');
+        }
+        document.body.style.overflow = '';
+      }
+
+      if (burger) burger.addEventListener('click', toggle);
+      if (backdrop) backdrop.addEventListener('click', close);
+
+      if (drawer) {
+        var links = drawer.querySelectorAll('a');
+        links.forEach(function(l) {
+          l.addEventListener('click', close);
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          close();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
