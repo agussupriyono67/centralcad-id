@@ -1,0 +1,27 @@
+{
+  "stock_photos": [
+    "https://unsplash.com",
+    "https://www.pexels.com",
+    "https://pixabay.com"
+  ],
+  "cad_3d_renders": [
+    "https://grabcad.com/library",
+    "https://www.traceparts.com",
+    "https://www.3dcontentcentral.com"
+  ],
+  "vectors_and_icons": [
+    "https://www.svgrepo.com",
+    "https://storyset.com",
+    "https://www.flaticon.com"
+  ],
+  "ai_and_tools": [
+    "https://labs.google/fx/tools/image-fx",
+    "https://www.bing.com/images/create",
+    "https://squoosh.app"
+  ],
+  "guidelines": {
+    "theme": "Teknis murni: UI CAD, blueprint DWG, konstruksi, mesin industri, komponen mekanikal, visualisasi 3D",
+    "restriction": "DILARANG menggunakan gambar manusia (terutama perempuan)",
+    "compression": "Gunakan squoosh.app untuk kompresi web (WebP/JPG) agar loading cepat dan resolusi tetap tajam (min. width 800px untuk hero banner)"
+  }
+}
