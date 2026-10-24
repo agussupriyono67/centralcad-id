@@ -2763,13 +2763,10 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       .top-webinar-banner__cta { font-size: 12px; padding-top: 1px; }
 
-      .header-inner { flex-wrap: wrap; }
-
-      .logo { width: 132px; }
-
-      .header-actions { width: 100%; justify-content: flex-start; }
-
-      .header-actions .btn { flex: 1 1 auto; width: auto; }
+      .header-inner { flex-wrap: nowrap !important; justify-content: space-between !important; }
+      .logo { height: 32px; width: auto; }
+      .header-actions { width: auto; justify-content: flex-end; }
+      .header-actions .desktop-action-btn { display: none !important; }
 
       .hero { min-height: auto; }
 
