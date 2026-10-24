@@ -23,5 +23,13 @@
     "theme": "Teknis murni: UI CAD, blueprint DWG, konstruksi, mesin industri, komponen mekanikal, visualisasi 3D",
     "restriction": "DILARANG menggunakan gambar manusia (terutama perempuan)",
     "compression": "Gunakan squoosh.app untuk kompresi web (WebP/JPG) agar loading cepat dan resolusi tetap tajam (min. width 800px untuk hero banner)"
-  }
+  },
+  "blacklisted_low_res_images": [
+    "More-Control-Over-CAD-Costs.png",
+    "flexible-licensing.png",
+    "Professional-Capability.png",
+    "dwg-file.png",
+    "Built-for-Sustainable-Growth.png",
+    "everyday-productivity.png"
+  ]
 }
