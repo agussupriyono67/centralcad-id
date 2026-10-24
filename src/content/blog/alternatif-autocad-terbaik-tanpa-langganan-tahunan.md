@@ -3,7 +3,7 @@ title: "5 Alasan Mengapa ZWCAD 2026 Menjadi Alternatif AutoCAD Terbaik Tanpa Sew
 description: "Mengapa ratusan perusahaan manufaktur dan konsultan beralih ke ZWCAD 2026 sebagai software alternatif AutoCAD terbaik. Zero learning curve, kompatibilitas DWG native, dan lisensi permanen."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Architectural-Design-banner.png"
+image: "/assets_zwsoft/images/main-banner-image.png"
 tags: ['Alternatif AutoCAD', 'ZWCAD 2026', 'CAD Indonesia', 'Software Desain']
 keywords: "alternatif autocad terbaik, software cad tanpa sewa tahunan, cad dwg native, review zwcad 2026"
 ---

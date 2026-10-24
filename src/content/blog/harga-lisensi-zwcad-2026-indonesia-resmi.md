@@ -3,7 +3,7 @@ title: "Harga Lisensi ZWCAD 2026 Indonesia: Panduan Beli Lisensi Resmi Permanen 
 description: "Informasi resmi harga lisensi ZWCAD 2026 di Indonesia. Skema lisensi seumur hidup permanen (perpetual) tanpa biaya sewa tahunan untuk edisi Standard dan Professional."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/More-Control-Over-CAD-Costs.png"
+image: "/assets_cadindonesia/images/cadindonesiahero.jpg"
 tags: ['Harga ZWCAD', 'Lisensi CAD', 'ZWCAD 2026', 'Perpetual License']
 keywords: "harga zwcad 2026, beli lisensi zwcad indonesia, lisensi permanen zwcad, distributor resmi zwcad jakarta"
 ---
