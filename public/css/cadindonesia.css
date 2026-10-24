@@ -302,9 +302,31 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     }
 
-    .header-actions .btn-primary { width: 213px; }
+    .header-actions .btn-primary { width: auto; min-width: 120px; }
 
-    .header-actions .btn-outline { width: 144px; }
+    .header-actions .btn-outline { width: auto; min-width: 110px; }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .site-nav a {
+      color: #334155;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .site-nav a:hover {
+      color: #005BFE;
+    }
+
+    @media (max-width: 960px) {
+      .site-nav { display: none; }
+    }
 
 
 

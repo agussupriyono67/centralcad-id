@@ -6,13 +6,11 @@ interface Props {
 const { active = 'home' } = Astro.props;
 
 const navItems = [
-  { name: 'Beranda', href: '/' },
-  { name: 'Tentang Kami', href: '/tentang-kami' },
-  { name: 'ZWCAD 2026', href: '/#features' },
-  { name: 'ZW3D CAD/CAM', href: '/zw3d' },
-  { name: 'Harga', href: '/harga' },
-  { name: 'Free Trial', href: '/free-download' },
-  { name: 'Kontak', href: '/hubungi-kami' },
+  { name: 'ZWCAD', href: '/#features', id: 'zwcad' },
+  { name: 'ZW3D', href: '/zw3d', id: 'zw3d' },
+  { name: 'Harga', href: '/harga', id: 'harga' },
+  { name: 'Tentang', href: '/tentang-kami', id: 'tentang' },
+  { name: 'Kontak', href: '/hubungi-kami', id: 'kontak' },
 ];
 ---
 
@@ -21,18 +19,18 @@ const navItems = [
     <div class="flex items-center justify-between h-20">
       
       <!-- Brand Logo -->
-      <a href="/" class="flex items-center gap-3 group">
+      <a href="/" class="flex items-center gap-2.5 sm:gap-3 group">
         <img
           src="/images/centralcad-logo.webp"
           alt="Central CAD Logo"
-          class="h-10 w-auto object-contain transition-transform group-hover:scale-105"
+          class="h-8 sm:h-9 w-auto object-contain transition-transform group-hover:scale-105"
         />
         <div class="flex flex-col">
-          <span class="text-xl font-bold tracking-tight text-white font-['Plus_Jakarta_Sans']">
+          <span class="text-base sm:text-lg font-bold tracking-tight text-white font-['Plus_Jakarta_Sans'] leading-tight">
             CENTRAL <span class="text-amber-400">CAD</span>
           </span>
-          <span class="text-[10px] text-slate-300 tracking-wider uppercase font-medium">
-            Authorized Partner Indonesia
+          <span class="text-[9px] text-slate-300 tracking-wider uppercase font-medium">
+            Authorized Partner
           </span>
         </div>
       </a>
@@ -42,7 +40,7 @@ const navItems = [
         {navItems.map((item) => (
           <a
             href={item.href}
-            class="px-3 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
           >
             {item.name}
           </a>
@@ -52,16 +50,12 @@ const navItems = [
       <!-- Desktop CTA -->
       <div class="hidden lg:flex items-center gap-3">
         <a
-          href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer"
-          class="text-xs uppercase tracking-wider font-semibold text-white/90 hover:text-white px-3 py-2"
+          href="https://hetra.orderonline.id/centralcadid"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-accent text-xs uppercase tracking-wider font-bold py-2 px-4 shadow-md hover:shadow-lg transition-all"
         >
-          Download Trial
-        </a>
-        <a
-          href="/hubungi-kami"
-          class="btn-accent text-sm"
-        >
-          Minta Penawaran
+          Trial Gratis
         </a>
       </div>
 
@@ -95,15 +89,9 @@ const navItems = [
     <div class="pt-4 flex flex-col gap-2">
       <a
         href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer"
-        class="text-center py-2.5 px-4 rounded-lg bg-white/10 text-white font-medium text-sm"
+        class="btn-accent text-center text-sm py-2.5 font-bold uppercase tracking-wider"
       >
-        Download Trial 30 Hari
-      </a>
-      <a
-        href="/hubungi-kami"
-        class="btn-accent text-center text-sm"
-      >
-        Minta Penawaran Resmi
+        Trial Gratis
       </a>
     </div>
   </div>
