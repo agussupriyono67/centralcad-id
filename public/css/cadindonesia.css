@@ -236,9 +236,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       height: 80px;
 
-      background: #fff;
+      background: #0b132b;
 
-      border-bottom: 1px solid rgba(6, 26, 52, .08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
       display: flex;
 
@@ -256,17 +256,21 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       z-index: 9999;
 
-      transition: box-shadow .25s ease, border-color .25s ease;
+      transition: background-color .25s ease, box-shadow .25s ease, border-color .25s ease;
 
     }
 
     .site-header.is-scrolled {
 
-      background: #fff;
+      background: rgba(11, 19, 43, 0.96);
 
-      border-bottom-color: rgba(6, 26, 52, .12);
+      backdrop-filter: blur(14px);
 
-      box-shadow: 0 10px 30px rgba(7, 30, 61, .10);
+      -webkit-backdrop-filter: blur(14px);
+
+      border-bottom-color: rgba(255, 255, 255, 0.15);
+
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 
     }
 
@@ -304,24 +308,40 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
     .header-actions .btn-primary { width: auto; min-width: 120px; }
 
-    .header-actions .btn-outline { width: auto; min-width: 110px; }
+    .header-actions .btn-outline {
+      width: auto;
+      min-width: 110px;
+      border: 1.5px solid rgba(255, 255, 255, 0.6) !important;
+      color: #ffffff !important;
+      background: transparent !important;
+    }
+
+    .header-actions .btn-outline:hover {
+      border-color: #ffffff !important;
+      background: rgba(255, 255, 255, 0.12) !important;
+      color: #ffffff !important;
+    }
 
     .site-nav {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 36px;
     }
 
     .site-nav a {
-      color: #334155;
-      font-size: 14px;
+      color: #ffffff !important;
+      font-size: 15px;
       font-weight: 600;
+      letter-spacing: -0.01em;
       text-decoration: none;
-      transition: color 0.2s ease;
+      padding: 6px 4px;
+      transition: color 0.2s ease, opacity 0.2s ease;
+      white-space: nowrap;
     }
 
     .site-nav a:hover {
-      color: #005BFE;
+      color: #38bdf8 !important;
+      opacity: 0.95;
     }
 
     @media (max-width: 960px) {
