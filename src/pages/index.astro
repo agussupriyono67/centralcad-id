@@ -148,6 +148,222 @@
 
   <!-- Exact cadindonesia Stylesheet -->
   <link rel="stylesheet" href="/css/cadindonesia.css" />
+
+  <!-- Scoped Navbar & Mobile Drawer Styling (Preserving Exact cadindonesia Layout) -->
+  <style is:inline>
+    /* Desktop Nav Links */
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin: 0 16px;
+    }
+    .desktop-nav-link {
+      color: #0f172a;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      padding: 6px 4px;
+      transition: color 0.2s ease;
+      white-space: nowrap;
+    }
+    .desktop-nav-link:hover {
+      color: #005BFE;
+    }
+
+    /* Burger Menu Button (44x44px Thumb-Friendly) */
+    .burger-menu-btn {
+      display: none;
+      width: 44px;
+      height: 44px;
+      padding: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      cursor: pointer;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+      z-index: 10001;
+    }
+    .burger-menu-btn:hover, .burger-menu-btn:active {
+      background: #f1f5f9;
+    }
+    .burger-bar {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #0f172a;
+      border-radius: 2px;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+      transform-origin: center;
+    }
+    /* Animated ✕ (Cross) when active */
+    .burger-menu-btn.is-active .bar-1 {
+      transform: translateY(7px) rotate(45deg);
+    }
+    .burger-menu-btn.is-active .bar-2 {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    .burger-menu-btn.is-active .bar-3 {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Mobile Dropdown Drawer (Smooth Slide Down from Top) */
+    .mobile-dropdown-drawer {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.15);
+      padding: 16px 20px 24px;
+      transform: translateY(-120%);
+      opacity: 0;
+      visibility: hidden;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, visibility 0.35s;
+      z-index: 9998;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+    }
+    .mobile-dropdown-drawer.is-open {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .mobile-menu-list {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 16px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .mobile-menu-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #1e293b;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .mobile-menu-link:hover, .mobile-menu-link:active {
+      background: #f8fafc;
+      color: #005BFE;
+    }
+    .mobile-menu-link .menu-icon {
+      color: #005BFE;
+      font-size: 14px;
+    }
+    .mobile-menu-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 16px;
+    }
+    .mobile-btn-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 13px;
+      background: #005BFE;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 91, 254, 0.25);
+    }
+    .mobile-btn-outline {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px;
+      background: #ffffff;
+      color: #005BFE;
+      border: 1.5px solid #005BFE;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    /* Backdrop Overlay */
+    .mobile-drawer-backdrop {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(2px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s;
+      z-index: 9997;
+    }
+    .mobile-drawer-backdrop.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Mobile Header (< 960px): Single Clean Row */
+    @media (max-width: 960px) {
+      .site-header {
+        height: 64px !important;
+        padding: 0 !important;
+      }
+      .page-wrap {
+        padding-top: 64px !important;
+      }
+      .header-inner {
+        width: calc(100% - 32px) !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+      }
+      .logo {
+        height: 30px !important;
+        width: auto !important;
+      }
+      .desktop-nav {
+        display: none !important;
+      }
+      .desktop-btn {
+        display: none !important;
+      }
+      .header-actions {
+        width: auto !important;
+      }
+      .burger-menu-btn {
+        display: flex !important;
+      }
+      .mobile-dropdown-drawer {
+        display: block !important;
+      }
+      .mobile-drawer-backdrop {
+        display: block !important;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -158,26 +374,80 @@
 <div class="page-wrap">
 
   <header class="site-header">
-
     <div class="container header-inner">
-
-      <a href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer" aria-label="Hubungi WhatsApp CAD Indonesia">
-
-        <img decoding="async" class="logo" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD">
-
+      <a href="/" aria-label="Beranda ZWCAD Indonesia">
+        <img decoding="async" class="logo" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD Indonesia" style="height: 36px; width: auto;" />
       </a>
 
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Menu Navigasi Utama">
+        <a href="/#innovator" class="desktop-nav-link">ZWCAD</a>
+        <a href="/zw3d" class="desktop-nav-link">ZW3D</a>
+        <a href="/harga" class="desktop-nav-link">Harga</a>
+        <a href="/tentang-kami" class="desktop-nav-link">Tentang</a>
+        <a href="/hubungi-kami" class="desktop-nav-link">Kontak</a>
+      </nav>
+
       <div class="header-actions">
-
-        <a class="btn btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
-
-        <a class="btn btn-outline" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
-
+        <a class="btn btn-primary desktop-btn" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">Coba Gratis 30 Hari</a>
+        <a class="btn btn-outline desktop-btn" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>
+        
+        <!-- Mobile Burger Menu Button (44x44px Thumb Target) -->
+        <button class="burger-menu-btn" id="burger-menu-btn" aria-label="Buka Menu" type="button" aria-expanded="false">
+          <span class="burger-bar bar-1"></span>
+          <span class="burger-bar bar-2"></span>
+          <span class="burger-bar bar-3"></span>
+        </button>
       </div>
-
     </div>
-
   </header>
+
+  <!-- Mobile Dropdown Navigation Drawer -->
+  <div class="mobile-dropdown-drawer" id="mobile-dropdown-drawer" aria-label="Menu Navigasi Mobile">
+    <ul class="mobile-menu-list">
+      <li>
+        <a href="/#innovator" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>ZWCAD 2026</span>
+        </a>
+      </li>
+      <li>
+        <a href="/zw3d" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>ZW3D CAD/CAM</span>
+        </a>
+      </li>
+      <li>
+        <a href="/harga" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Harga Lisensi</span>
+        </a>
+      </li>
+      <li>
+        <a href="/tentang-kami" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Tentang Kami</span>
+        </a>
+      </li>
+      <li>
+        <a href="/hubungi-kami" class="mobile-menu-link">
+          <span class="menu-icon">🔹</span>
+          <span>Kontak Layanan</span>
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-menu-actions">
+      <a class="mobile-btn-primary" href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer">
+        <span>🚀</span>
+        <span>Trial Gratis 30 Hari</span>
+      </a>
+      <a class="mobile-btn-outline" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya" target="_blank" rel="noopener noreferrer">
+        <span>💬</span>
+        <span>Beli Sekarang (WhatsApp)</span>
+      </a>
+    </div>
+  </div>
+  <div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop"></div>
 
 
 
@@ -1422,6 +1692,61 @@
         }
       });
     });
+  </script>
+
+  <!-- Mobile Dropdown Navigation Drawer Script -->
+  <script is:inline>
+    (function() {
+      var burger = document.getElementById('burger-menu-btn');
+      var drawer = document.getElementById('mobile-dropdown-drawer');
+      var backdrop = document.getElementById('mobile-drawer-backdrop');
+
+      function toggle() {
+        if (!drawer) return;
+        var isOpen = drawer.classList.contains('is-open');
+        if (isOpen) {
+          close();
+        } else {
+          open();
+        }
+      }
+
+      function open() {
+        if (drawer) drawer.classList.add('is-open');
+        if (backdrop) backdrop.classList.add('is-open');
+        if (burger) {
+          burger.classList.add('is-active');
+          burger.setAttribute('aria-expanded', 'true');
+        }
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        if (drawer) drawer.classList.remove('is-open');
+        if (backdrop) backdrop.classList.remove('is-open');
+        if (burger) {
+          burger.classList.remove('is-active');
+          burger.setAttribute('aria-expanded', 'false');
+        }
+        document.body.style.overflow = '';
+      }
+
+      if (burger) burger.addEventListener('click', toggle);
+      if (backdrop) backdrop.addEventListener('click', close);
+
+      if (drawer) {
+        var links = drawer.querySelectorAll('a');
+        links.forEach(function(l) {
+          l.addEventListener('click', close);
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          close();
+        }
+      });
+    })();
   </script>
 </body>
 </html>
