@@ -44,6 +44,29 @@ const siteUrl = "https://centralcad.id";
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={new URL(ogImage, siteUrl).href} />
 
+    <!-- Google Tag Manager -->
+    <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T77ZX6MD');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js): Google Ads AW-18087991581 + GA4 G-9F2SSNMBXP -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=AW-18087991581"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18087991581');
+      gtag('config', 'G-9F2SSNMBXP');
+    </script>
+
+    <!-- Robots Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="geo.region" content="ID" />
+    <meta name="geo.placename" content="Indonesia" />
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -82,6 +105,10 @@ const siteUrl = "https://centralcad.id";
     })} />
   </head>
   <body class="bg-slate-50 text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T77ZX6MD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <slot />
 
     <!-- Floating WhatsApp CTA -->
@@ -98,5 +125,35 @@ const siteUrl = "https://centralcad.id";
         <span class="text-sm hidden sm:inline">Chat WhatsApp</span>
       </a>
     </aside>
+    <!-- Automated Google Ads & GA4 WhatsApp Conversion Tracking -->
+    <script is:inline>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('click', function(e) {
+          var link = e.target.closest('a');
+          if (!link) return;
+          var href = link.getAttribute('href') || '';
+          if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
+            if (typeof gtag === 'function') {
+              gtag('event', 'conversion', {
+                send_to: 'AW-18087991581/sdN8CKya2IgdEJ2yg7FD',
+                value: 0.0,
+                currency: 'IDR',
+                transport_type: 'beacon'
+              });
+              gtag('event', 'klik_whatsapp', {
+                event_category: 'lead',
+                event_label: href
+              });
+            }
+            if (window.dataLayer) {
+              window.dataLayer.push({
+                event: 'whatsapp_click',
+                wa_url: href
+              });
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
