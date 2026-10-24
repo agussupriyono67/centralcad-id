@@ -35,6 +35,7 @@ Kernel pemodelan milik ZWSOFT memungkinkan engineer memotong dan menggabungkan g
 ### 2. Multi-CAD Direct Translator
 Membuka dan mengedit langsung data part dari berbagai software ternama tanpa plugin tambahan:
 * CATIA V4/V5/V6, Siemens NX, PTC Creo, SolidWorks, dan Autodesk Inventor.
+
 * Format netral: STEP, IGES, Parasolid (.x_t), ACIS (.sat), DWG, dan STL.
 
 ### 3. Pustaka Cetakan Standar Lengkap
@@ -42,6 +43,7 @@ Mempercepat perancangan mold base dengan katalog produsen cetakan terkemuka duni
 
 ### 4. Simulasi Pemesinan CNC Tanpa Risiko
 * **QuickMill™ Roughing:** Menghilangkan sisa material kasar dengan beban potong seragam untuk memperpanjang usia pakai insert pisau.
+
 * **Deteksi Tabrakan Pahat (Collision Check):** Memastikan pergerakan spindel dan benda kerja aman dari risiko tabrakan sebelum kode program dikirim ke mesin.
 * **Post-Processor Lengkap:** Mendukung kontroler mesin CNC Fanuc, Siemens, Heidenhain, Mitsubishi, GSK, dan lainnya.
 
@@ -52,8 +54,10 @@ Mempercepat perancangan mold base dengan katalog produsen cetakan terkemuka duni
 Pilih paket modul yang paling sesuai dengan fokus usaha Anda:
 
 * **ZW3D Standard:** Desain produk 3D CAD, sheet metal, dan reverse engineering.
+
 * **ZW3D Professional:** Kapabilitas 3D CAD penuh ditambah modul perancangan cetakan (Mold & Die).
 * **ZW3D 2X / 3X Machining:** Modul pemrograman CNC Milling 2 hingga 3 sumbu dan bubut.
+
 * **ZW3D All-in-One:** Solusi lengkap mencakup CAD, Mold Design, dan CAM hingga 5-Axis Simultaneous.
 
 ---
@@ -63,5 +67,6 @@ Pilih paket modul yang paling sesuai dengan fokus usaha Anda:
 Tim spesialis aplikasi Central CAD Indonesia siap melakukan demonstrasi teknis langsung dengan benda kerja manufaktur Anda:
 
 * **Konsultasi & Jadwal Demo:** [0819-1224-4662 (WhatsApp)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Ketahui Lebih Banyak:** [Halaman Solusi ZW3D CAD/CAM](/zw3d)
 * **Download Installer Evaluasi:** [Trial ZW3D 30 Hari](https://hetra.orderonline.id/centralcadid)

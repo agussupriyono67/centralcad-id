@@ -20,8 +20,10 @@ Membeli software teknik dari kanal yang tidak resmi atau reseller abu-abu berisi
 Ketika perusahaan Anda mengambil keputusan untuk bertransisi atau menambah unit CAD, bekerja sama langsung dengan distributor resmi memberikan jaminan menyeluruh bagi bisnis Anda:
 
 * **Legalitas Terjamin 100% (Anti Audit Risk):** Setiap unit lisensi ZWCAD yang dibeli dilengkapi Certificate of Authenticity (CoA) resmi atas nama perusahaan Anda. Ini memberikan kepastian hukum penuh dan kekebalan terhadap pemeriksaan kepatuhan lisensi perangkat lunak.
+
 * **Faktur Pajak Lengkap & Transaksi Resmi:** Kami menerbitkan Invoice resmi dan Faktur Pajak PPN sesuai ketentuan perpajakan di Indonesia. Hal ini mempermudah pelaporan keuangan perusahaan dan klaim pajak masukan (*input tax*).
 * **Dukungan Teknis Lokal Cepat & Responsif:** Tim teknis kami siap mendampingi proses instalasi, aktivasi lisensi server, hingga konsultasi teknis harian tanpa kendala zona waktu atau perbedaan bahasa.
+
 * **Pelatihan & Onboarding Tim Drafter:** Kami menyediakan sesi workshop dan training agar tim insinyur dan drafter Anda dapat beroperasi dengan produktivitas maksimal sejak hari pertama.
 
 > **📌 Standar Bisnis Profesional:** Jangan gadaikan reputasi perusahaan Anda dengan membeli lisensi tanpa kejelasan legalitas. Lisensi resmi dari PT Hetra Teknologi Indonesia adalah aset intelektual yang sah dan diakui secara global.
@@ -60,5 +62,6 @@ Kami memahami bahwa proses pengadaan di korporasi membutuhkan tahapan administra
 Siapkan perusahaan Anda dengan perangkat lunak CAD berkinerja tinggi, legal, dan bebas biaya tahunan berulang bersama Central CAD Indonesia:
 
 * **WhatsApp Tim Pengadaan:** [0819-1224-4662 (Chat Cepat Langsung)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Formulir Permintaan Penawaran:** [Minta Penawaran Resmi Perusahaan](/harga)
 * **Evaluasi Software Gratis 30 Hari:** [Download Installer ZWCAD Resmi](https://hetra.orderonline.id/centralcadid)

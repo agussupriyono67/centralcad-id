@@ -31,6 +31,7 @@ Software ZWCAD tidak akan pernah meminta verifikasi online berkala (*phone-home 
 ### 2. Mobilitas Tanpa Batas Antar-Perangkat
 Bagi para insinyur proyek dan supervisor teknik yang memiliki mobilitas tinggi:
 * Siang hari: Gunakan ZWCAD di komputer PC desktop kantor dengan mencolokkan dongle.
+
 * Sore atau malam hari: Cukup cabut USB dongle dan colokkan ke laptop kerja saat harus mempresentasikan revisi gambar di hadapan owner proyek.
 Tidak ada proses *deactivation* atau *return license* di portal web yang memakan waktu.
 
@@ -58,5 +59,6 @@ Pada lisensi digital berbasis software key, jika motherboard atau hard disk komp
 Pastikan aktivitas rancang bangun tim teknik Anda tidak pernah terhenti oleh kendala jaringan internet. Central CAD Indonesia siap menyediakan unit lisensi Hardware USB Dongle ZWCAD 2026 bergaransi resmi langsung ke alamat kantor atau site proyek Anda di seluruh Indonesia:
 
 * **WhatsApp Konsultasi Pengadaan:** [0819-1224-4662 (Chat Cepat Langsung)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Katalog & Estimasi Investasi:** [Lihat Opsi Lisensi ZWCAD](/harga)
 * **Download Installer Evaluasi 30 Hari:** [Coba ZWCAD 2026 Gratis](https://hetra.orderonline.id/centralcadid)
