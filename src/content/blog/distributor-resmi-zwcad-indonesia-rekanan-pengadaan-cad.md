@@ -3,7 +3,7 @@ title: "Distributor Resmi ZWCAD Indonesia: Rekanan Pengadaan Software CAD Legal 
 description: "Panduan pengadaan software CAD resmi melalui Central CAD (PT Hetra Teknologi Indonesia). Dapatkan lisensi permanen ZWCAD legal 100%, faktur pajak PPN, sertifikat resmi, dan dukungan teknis lokal."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/flexible-licensing.png"
+image: "/assets_zwsoft/images/Automate.png"
 tags: ['Distributor ZWCAD', 'Beli ZWCAD Resmi', 'Pengadaan CAD Perusahaan', 'Lisensi Legal']
 keywords: "distributor resmi zwcad indonesia, beli zwcad original jakarta, pt hetra teknologi indonesia, authorized reseller zwcad, pengadaan software cad perusahaan"
 ---

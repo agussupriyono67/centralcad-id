@@ -3,7 +3,7 @@ title: "Uji Performa ZWCAD 2026: Benchmark Buka File DWG 100MB+ dengan Multi-Cor
 description: "Hasil pengujian kecepatan dan stabilitas ZWCAD 2026 dalam membuka file DWG kompleks berukuran lebih dari 100MB. Arsitektur multi-core CPU yang hemat RAM dan anti-crash."
 pubDate: "2026-10-24"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/What-Makes-a-CAD-Innovator-Banner.png"
+image: "/assets_zwsoft/images/Collaborate.png"
 tags: ['Benchmark ZWCAD', 'Performa CAD', 'ZWCAD 2026', 'Teknologi DWG']
 keywords: "performa zwcad 2026, benchmark zwcad vs autocad, buka file dwg besar cepat, multi core cad engine"
 ---
