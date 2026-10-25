@@ -3,7 +3,7 @@ title: "Software CAD untuk Teknik Sipil & Infrastruktur: Kenapa ZWCAD 2026 Jadi 
 description: "Panduan software CAD untuk proyek teknik sipil, jalan tol, jembatan, dan infrastruktur di Indonesia. ZWCAD 2026 hadir dengan fitur civil drafting lengkap, lisensi permanen, dan dukungan teknis lokal terpercaya."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Civil-Engineering.jpg"
+image: "/images/zwcad-topographic-gis-survey.jpg"
 tags: ['Software CAD Teknik Sipil', 'CAD Infrastruktur', 'ZWCAD Civil', 'Kontraktor CAD Indonesia']
 keywords: "software cad teknik sipil, cad untuk infrastruktur indonesia, zwcad kontraktor sipil, cad jalan tol jembatan, harga lisensi cad sipil 2026"
 ---
@@ -19,8 +19,10 @@ Itulah mengapa tim drafter dan insinyur teknik sipil di Indonesia semakin serius
 Tidak semua proyek CAD sama. Proyek teknik sipil memiliki karakteristik khusus yang menentukan pemilihan platform:
 
 * **Volume File Gambar Masif:** Satu paket gambar DED (Detailed Engineering Design) proyek jalan tol bisa berisi ratusan lembar drawing — alignment plan, profil memanjang, melintang, detail struktur, dan as-built.
+
 * **Kolaborasi Lintas Disiplin:** Tim sipil bekerja paralel dengan tim struktur, geoteknik, mekanikal-elektrikal, dan konsultan pengawas — semua menggunakan format DWG yang sama.
 * **Standar Gambar Ketat:** Proyek pemerintah dan BUMN mewajibkan standar penomoran gambar, title block, dan format plot yang spesifik sesuai panduan Kementerian PUPR atau BUJT.
+
 * **Durasi Proyek Panjang:** Proyek infrastruktur bisa berlangsung 3–7 tahun. Lisensi software yang depend pada renewable subscription berisiko menimbulkan gangguan di tengah proyek jika kontrak tidak diperpanjang tepat waktu.
 
 > **📌 Risiko Tersembunyi Langganan Tahunan:** Jika anggaran lisensi tidak disetujui di awal tahun fiskal, seluruh tim drafter kehilangan akses software seketika — di tengah deadline gambar tender atau konstruksi. Lisensi permanen ZWCAD mengeliminasi risiko ini sepenuhnya.
@@ -81,5 +83,6 @@ Misalkan sebuah kontraktor dengan 12 workstation drafter selama ini membayar lan
 Tim teknis kami berpengalaman mendampingi kontraktor dan konsultan sipil dalam proses transisi dan pengadaan ZWCAD:
 
 * **WhatsApp Konsultasi Cepat:** [0819-1224-4662](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Uji Coba Penuh 30 Hari:** [Download ZWCAD Installer Resmi](https://hetra.orderonline.id/centralcadid)
 * **Minta Proposal & Penawaran:** [Formulir Harga Resmi](/harga)

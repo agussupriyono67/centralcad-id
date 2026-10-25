@@ -11,6 +11,7 @@ Ketakutan terbesar bagi manajer operasional dan kepala divisi drafting saat bere
 * *Apakah drafter harus mengikuti kursus pelatihan berbulan-bulan dari nol?*
 
 * *Apakah file kerja .DWG lama akan rusak atau berantakan saat dibuka di software baru?*
+
 * *Apakah kumpulan script otomatisasi LISP yang sudah dikembangkan bertahun-tahun masih bisa berjalan?*
 
 Kabar baiknya adalah: dengan **ZWCAD 2026**, proses transisi tersebut berlangsung dengan **Zero Learning Curve** alias tanpa masa adaptasi yang rumit. Tim drafter Anda dapat langsung membuka laptop, membuka gambar kerja, dan bekerja seperti biasa sejak menit pertama instalasi.
@@ -29,15 +30,19 @@ Drafter bekerja mengandalkan memori otot tangan kiri di atas keyboard. Di ZWCAD 
 * `L` untuk Line
 
 * `C` untuk Circle
+
 * `PL` untuk Polyline
 
 * `REC` untuk Rectangle
+
 * `TR` untuk Trim
 
 * `EX` untuk Extend
+
 * `M` untuk Move
 
 * `RO` untuk Rotate
+
 * `CO` / `CP` untuk Copy
 
 Bahkan jika tim Anda memiliki kustomisasi alias shortcut pada file `acad.pgp`, file tersebut dapat langsung diimpor ke dalam file alias ZWCAD dengan mudah.
@@ -50,6 +55,7 @@ Bagi kantor perencana yang mengandalkan otomatisasi penghitungan volume, penomor
 * Perintah `APPLOAD` bekerja identik.
 
 * Mendukung file script berformat `.lsp`, `.fas`, `.vlx`, dan dialog `.dcl`.
+
 * Mendukung integrasi API tingkat lanjut seperti .NET, VBA, dan ZRX (C++).
 
 ---
@@ -74,4 +80,5 @@ Buktikan sendiri kemudahan integrasi ZWCAD 2026 di lingkungan kerja perusahaan A
 * **WhatsApp Dukungan Teknis:** [0819-1224-4662 (Chat Cepat Langsung)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
 
 * **Informasi Varian & Fitur:** [Jelajahi Solusi ZWCAD 2026](/harga)
+
 * **Installer Evaluasi Gratis 30 Hari:** [Download ZWCAD 2026 Full Version](https://hetra.orderonline.id/centralcadid)

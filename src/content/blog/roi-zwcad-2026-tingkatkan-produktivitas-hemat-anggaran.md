@@ -3,7 +3,7 @@ title: "Tingkatkan Produktivitas Tim Drafter 40% & Hemat Anggaran CAD Hingga Rp 
 description: "Analisis Return on Investment (ROI) menggunakan ZWCAD 2026 dibanding AutoCAD untuk firma engineering di Indonesia. Lihat bagaimana 50 perusahaan engineering menceritakan penghematan biaya lisensi dan peningkatan produktivitas drafter yang terukur."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Built-for-Sustainable-Growth.png"
+image: "/images/zwcad-ifc-bim-3d-model.jpg"
 tags: ['ROI ZWCAD', 'Efisiensi Biaya CAD', 'Produktivitas Drafter', 'Lisensi Permanen']
 keywords: "roi zwcad 2026, efisiensi biaya lisensi cad, produktivitas drafter meningkat, penghematan anggaran software cad indonesia, investasi lisensi zwcad jangka panjang"
 ---
@@ -56,6 +56,7 @@ Mari kita lihat skenario nyata firma engineering dengan 30 drafter yang ingin me
 ### **ROI & Penghematan:**
 
 * **Penghematan langsung: Rp 1.465.200.000 — Rp 430.000.000 = Rp 1.035.200.000 (72% lebih murah)**
+
 * **Payback period: Investasi lisensi ZWCAD Rp 350 juta kembali dalam... 1,3 tahun dari savings langganan AutoCAD**
 * **Tahun 2–5: Biaya CAD mendekati nol** (hanya opsional maintenance & support)
 
@@ -120,8 +121,10 @@ Strategi ini **zero-disruption** — tidak ada gangguan produktivitas, tim punya
 
 Jika firma Anda memiliki:
 * ✅ **10+ drafter** (economies of scale jelas)
+
 * ✅ **Kontrak jangka panjang 5+ tahun** (ROI jangka panjang terbukti)
 * ✅ **Masalah budget CAD tahunan** (ZWCAD solusi paling efektif)
+
 * ✅ **File DWG native** (100% kompatibel — zero risk)
 
 ...maka ZWCAD 2026 adalah keputusan finansial yang tepat.
@@ -133,5 +136,6 @@ Jika firma Anda memiliki:
 Tim Central CAD dapat membuat **kalkulator ROI spesifik** untuk perusahaan Anda berdasarkan jumlah drafter, jenis lisensi, dan timeline project:
 
 * **WhatsApp Konsultasi Gratis:** [0819-1224-4662](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Minta Analisis ROI Detail:** [Formulir Harga & Proposal Khusus](/harga)
 * **Coba ZWCAD 30 Hari:** [Download Installer Resmi](https://hetra.orderonline.id/centralcadid)

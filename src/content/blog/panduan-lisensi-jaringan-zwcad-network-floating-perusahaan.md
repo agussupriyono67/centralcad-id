@@ -27,6 +27,7 @@ Alur penggunaannya sangat praktis:
 * **Kondisi Tim:** Perusahaan memiliki total **30 orang staf teknis**, namun rata-rata pengguna aktif yang menggambar secara bersamaan hanya sekitar **12 orang**.
 
 * **Opsi Standalone:** Wajib membeli 30 unit lisensi terpisah.
+
 * **Opsi Network Floating:** Cukup membeli **12 seat lisensi jaringan**. Software ZWCAD dapat diinstal di seluruh 30 komputer staf tanpa batasan.
 
 * **Hasil Finansial:** Perusahaan berhasil menghemat pengeluaran belanja software hingga **60%** di awal pengadaan!
@@ -40,6 +41,7 @@ Sistem lisensi jaringan ZWCAD dilengkapi kendali penuh bagi administrator IT per
 * **Peminjaman Lisensi Offline (Borrow License):** Jika ada insinyur yang harus bertugas ke lapangan tanpa koneksi internet atau VPN, lisensi dapat 'dipinjam' ke laptop selama jangka waktu tertentu (misal: 14 atau 30 hari).
 
 * **Monitoring Penggunaan Real-Time:** Memantau siapa saja pengguna yang sedang aktif, durasi pemakaian, dan workstation yang terhubung secara transparan melalui dashboard server.
+
 * **Dukungan Kantor Multi-Cabang via VPN:** Satu server di kantor pusat dapat melayani kebutuhan drafting staf di kantor cabang atau pabrik di luar kota secara aman.
 
 * **Tanpa Biaya Lisensi Server:** Software License Manager diberikan gratis tanpa kewajiban biaya langganan server tahunan.
@@ -55,4 +57,5 @@ Tim teknis Central CAD Indonesia siap membantu Anda menganalisis kebutuhan jumla
 * **Konsultasi WhatsApp:** [0819-1224-4662 (Chat Cepat)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
 
 * **Daftar Skema Lisensi:** [Halaman Harga ZWCAD 2026](/harga)
+
 * **Uji Coba Gratis 30 Hari:** [Download Installer ZWCAD 2026](https://hetra.orderonline.id/centralcadid)

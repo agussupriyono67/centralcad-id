@@ -3,7 +3,7 @@ title: "ZW3D CAM untuk Manufaktur Indonesia: Desain Produk hingga Pemrograman Me
 description: "Pelajari bagaimana ZW3D CAM 2026 menjadi solusi terintegrasi untuk manufaktur Indonesia — dari desain 3D produk, analisis fabrikasi, hingga pembuatan toolpath CNC milling dan turning tanpa software tambahan."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Engineering-Services.jpg"
+image: "/images/zw3d-cnc-manufacturing-machine.png"
 tags: ['ZW3D CAM', 'Manufaktur Indonesia', 'Pemrograman CNC', 'Software CAD/CAM Terintegrasi']
 keywords: "zw3d cam untuk manufaktur, software cad cam indonesia, desain produk 3d dan cnc, pemrograman mesin milling dan turning, harga zw3d 2026 Indonesia, alternatif fusion 360 solidworks"
 ---
@@ -105,6 +105,7 @@ Untuk tim 10 engineer + 5 programmer CNC:
 Sebuah workshop spesialis komponen bracket dan bushing otomotif di Bandung mengadopsi ZW3D 2026:
 
 * **Sebelumnya:** Design di AutoCAD, CAM programming di Mastercam, QC inspection di software terpisah. Siklus design-to-production: **15 hari**.
+
 * **Sesudah ZW3D:** Dari design approval hingga NC program siap cut: **5 hari**. DFM analysis built-in mendeteksi undercut di 3 komponen sebelum produksi — saving material waste jutaan rupiah.
 
 ---
@@ -114,6 +115,7 @@ Sebuah workshop spesialis komponen bracket dan bushing otomotif di Bandung menga
 Central CAD Indonesia sebagai authorized distributor ZW3D menyediakan:
 
 * **Workshop Training:** Sesi hands-on untuk designer, programmer, dan operator mesin
+
 * **Konsultasi CAM:** Analisis alur manufaktur Anda dan rekomendasi optimal setup ZW3D
 * **Technical Support:** Respon cepat untuk troubleshooting pemrograman CNC langsung dari engineer
 
@@ -122,5 +124,6 @@ Central CAD Indonesia sebagai authorized distributor ZW3D menyediakan:
 ## Mulai dengan ZW3D 2026 untuk Manufaktur Anda
 
 * **WhatsApp Konsultasi:** [0819-1224-4662](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
+
 * **Coba Gratis 30 Hari:** [Download ZW3D Installer Resmi](https://hetra.orderonline.id/centralcadid)
 * **Minta Demo & Penawaran:** [Formulir Harga Spesial untuk Manufaktur](/harga)

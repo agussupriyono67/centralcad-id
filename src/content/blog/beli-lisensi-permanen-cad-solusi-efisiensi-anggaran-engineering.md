@@ -23,12 +23,14 @@ Untuk melihat dampak finansial secara objektif, mari kita bandingkan perbedaan m
 * **Status Aset:** Biaya habis pakai (*pure expense*). Software tidak pernah menjadi milik perusahaan.
 
 * **Keterikatan Waktu:** Jika sewa jatuh tempo dan anggaran kas sedang ketat, software otomatis terkunci (*lock-out*), melumpuhkan produktivitas drafter seketika.
+
 * **Inflasi Biaya:** Tarif sewa tahunan cenderung terus dinaikkan secara sepihak oleh vendor dari tahun ke tahun.
 
 ### 2. Model Lisensi Permanen ZWCAD (Perpetual)
 * **Status Aset:** Aset berwujud intelektual (*capital asset*) yang tercatat di neraca keuangan perusahaan selamanya.
 
 * **Bebas Kunci:** Software tetap dapat digunakan tanpa batas waktu, tanpa risiko pemblokiran akses, bahkan tanpa koneksi internet.
+
 * **Upgrade Opsional:** Anda yang memutuskan kapan waktu yang tepat untuk melakukan upgrade versi, tanpa paksaan dan tanpa penalti denda.
 
 ---
@@ -55,6 +57,7 @@ Kekhawatiran utama para manajer saat beralih ke lisensi permanen yang lebih ekon
 * **Format Native .DWG & .DXF:** Membaca, mengedit, dan menyimpan file DWG tanpa proses konversi atau risiko kehilangan format data layer, hatch, dan dimensi.
 
 * **Antarmuka & Shortcut Familier:** Antarmuka Classic dan Ribbon dengan shortcut perintah standar (LINE, CIRCLE, PLINE, TRIM, COPY, PASTE) sehingga tim drafter dapat langsung bekerja tanpa periode adaptasi yang berbelit-belit.
+
 * **Kompatibilitas Custom Script & LISP:** Script pemrograman AutoLISP, DCL, dan .NET yang selama ini menopang otomatisasi kerja Anda dapat langsung berjalan tanpa perlu ditulis ulang.
 
 * **Akselerasi Hardware GPU:** Didukung teknologi multi-core CPU rendering yang membuat pembukaan file gambar kerja berukuran ratusan megabyte terasa lebih ringan dan stabil.
@@ -68,4 +71,5 @@ Kembalikan software CAD sebagai aset produktif perusahaan Anda, bukan liabilitas
 * **WhatsApp Konsultasi Lisensi:** [0819-1224-4662 (Respon Cepat Langsung)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
 
 * **Katalog & Estimasi Harga:** [Lihat Opsi Lisensi ZWCAD 2026](/harga)
+
 * **Download Installer Trial 30 Hari:** [Coba Gratis Full Version Sekarang](https://hetra.orderonline.id/centralcadid)

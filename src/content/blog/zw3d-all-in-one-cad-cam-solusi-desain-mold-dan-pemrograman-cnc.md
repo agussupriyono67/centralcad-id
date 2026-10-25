@@ -27,6 +27,7 @@ ZW3D mempercepat proses perancangan cetakan dari hitungan minggu menjadi beberap
 * **Analisis Geometri:** Fitur otomatis untuk memeriksa sudut kemiringan (*draft angle analysis*), ketebalan dinding (*thickness check*), dan deteksi area *undercut*.
 
 * **Pemisahan Inti & Rongga (Core & Cavity Split):** Pembuatan garis pemisah (*parting line*) dan permukaan belah (*parting surface*) secara instan bahkan pada geometri produk non-planar yang rumit.
+
 * **Pustaka Standar Industri Terintegrasi:** Dilengkapi ribuan komponen standar cetakan seperti Mold Base, Ejector Pin, Slider, Lifter, dan Cooling Channel dari standar global ternama (Hasco, DME, Misumi, Futaba, LKM).
 
 * **Desain Elektroda EDM Otomatis:** Ekstraksi bentuk elektroda spark discharge secara cerdas lengkap dengan lembar kerja parameter percikan (*spark gap chart*).
@@ -36,6 +37,7 @@ Tanpa perlu mengekspor data ke aplikasi lain, model cetakan yang telah selesai l
 * **2 & 3-Axis Milling Agresif:** Algoritma VoluMill™ untuk pemakanan kasar berkecepatan tinggi (*high-speed roughing*) yang mampu memperpanjang umur pisau frais hingga 200% dan memangkas waktu siklus mesin hingga 50%.
 
 * **Penyelesaian Permukaan Halus (Fine Finishing):** Menghasilkan kualitas permukaan cetakan berkilau tinggi yang meminimalkan proses pemolesan manual (*hand-polishing*).
+
 * **Simulasi Mesin Solid & Verifikasi G-Code:** Memeriksa seluruh pergerakan spindel dan meja mesin secara 3D untuk mencegah risiko tabrakan (*machine collision*) pahat dengan benda kerja atau klem pengikat.
 
 * **Dukungan Post-Processor Lengkap:** Kompatibel dengan controller mesin CNC populer di Indonesia seperti Fanuc, Siemens Sinumerik, Heidenhain, Mitsubishi, Haas, GSK, dan Syntec.
@@ -57,4 +59,5 @@ Tim insinyur aplikasi (*application engineer*) Central CAD Indonesia siap mengun
 * **WhatsApp Tim Manufaktur:** [0819-1224-4662 (Chat Cepat Langsung)](https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya)
 
 * **Katalog Solusi ZW3D:** [Informasi Lengkap ZW3D CAD/CAM](/harga)
+
 * **Permintaan Uji Coba Software:** [Download ZW3D Trial Full Version](https://hetra.orderonline.id/centralcadid)
