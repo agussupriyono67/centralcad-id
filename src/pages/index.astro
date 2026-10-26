@@ -530,6 +530,75 @@
       font-weight: 600;
     }
 
+        /* Stats Animated Counter & Marquee Carousel */
+    .stat-number {
+      display: inline-block;
+      font-variant-numeric: tabular-nums;
+      color: #005BFE;
+      font-weight: 800;
+    }
+    .brand-marquee {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding: 24px 0 10px;
+      margin-top: 10px;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+      mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    }
+    .brand-track {
+      display: flex;
+      align-items: center;
+      gap: 52px;
+      width: max-content;
+      animation: marquee-glide 28s linear infinite;
+      will-change: transform;
+    }
+    .brand-track:hover {
+      animation-play-state: paused;
+    }
+    .brand-logo-item {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12px;
+      min-width: 130px;
+    }
+    .brand-logo-item img {
+      max-height: 48px;
+      max-width: 140px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      filter: grayscale(15%) contrast(95%);
+      opacity: 0.85;
+      transition: opacity 0.25s ease, filter 0.25s ease, transform 0.25s ease;
+    }
+    .brand-logo-item:hover img {
+      opacity: 1;
+      filter: grayscale(0%) contrast(100%);
+      transform: scale(1.06);
+    }
+    @keyframes marquee-glide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    @media (max-width: 768px) {
+      .brand-track {
+        gap: 32px;
+        animation-duration: 20s;
+      }
+      .brand-logo-item img {
+        max-height: 38px;
+        max-width: 110px;
+      }
+    }
+
     /* Testimonial Video & Trust Section Styles */
     .testimonial-section {
       background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
@@ -1577,51 +1646,60 @@
     
 
 <section class="trust-section" id="trusted">
-
       <div class="container">
-
         <h2 class="section-title center">Dipercaya oleh ribuan tim di seluruh dunia</h2>
 
-        <div class="stats-row">
-
-          <div class="stat"><strong>1.4M+</strong><span>Pengguna di Seluruh Dunia</span></div>
-
-          <div class="stat"><strong>800+</strong><span>Mitra Ekosistem</span></div>
-
-          <div class="stat"><strong>25+</strong><span>Tahun Inovasi CAD</span></div>
-
-          <div class="stat"><strong>90+</strong><span>Negara &amp; Wilayah</span></div>
-
-          <div class="stat"><strong>15</strong><span>Bahasa</span></div>
-
+        <div class="stats-row" id="stats-counter-row">
+          <div class="stat">
+            <strong class="stat-number" data-target="1.4" data-decimals="1" data-suffix="M+">1.4M+</strong>
+            <span>Pengguna di Seluruh Dunia</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-number" data-target="800" data-decimals="0" data-suffix="+">800+</strong>
+            <span>Mitra Ekosistem</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-number" data-target="25" data-decimals="0" data-suffix="+">25+</strong>
+            <span>Tahun Inovasi CAD</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-number" data-target="90" data-decimals="0" data-suffix="+">90+</strong>
+            <span>Negara &amp; Wilayah</span>
+          </div>
+          <div class="stat">
+            <strong class="stat-number" data-target="15" data-decimals="0" data-suffix="">15</strong>
+            <span>Bahasa</span>
+          </div>
         </div>
 
-        <div class="brand-wall" aria-label="Logo merek pelanggan ZWCAD">
-
-          <img src="/assets_zwsoft/images/499aacf9215d053eb2927ffb204acee4.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/8138f6dbdff20acfffcfe5b96fcde51e.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/05fc01f3b6b2caa8d4015975d02586e5.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/677f43feb5df79b57a9d6462227339e0.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/983313a77caa916bab2fe2f43438d5c8.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/957423e3b306bb5babb1cd2150497226.png" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/22d21f108e75ebca302acdb452cce68d.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/e87b14778587f0b1420ff4892e5ffedc.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/ecf7600c151cb997e10168a000c693db.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
-
-          <img src="/assets_zwsoft/images/3e1ad50e0c7b861fb199d45440601950.jpg" alt="Logo pelanggan" loading="lazy" decoding="async">
-
+        <!-- Marquee Berjalan Bergerak Kecepatan Sedang -->
+        <div class="brand-marquee" aria-label="Logo perusahaan pelanggan ZWCAD">
+          <div class="brand-track">
+            <!-- Set 1 (10 Logo Perusahaan Global) -->
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/499aacf9215d053eb2927ffb204acee4.png" alt="Logo Equans" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/8138f6dbdff20acfffcfe5b96fcde51e.png" alt="Logo Ericsson" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/05fc01f3b6b2caa8d4015975d02586e5.png" alt="Logo Honeywell" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/677f43feb5df79b57a9d6462227339e0.png" alt="Logo Johnson Controls" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/983313a77caa916bab2fe2f43438d5c8.png" alt="Logo Hitachi" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/957423e3b306bb5babb1cd2150497226.png" alt="Logo LG" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/22d21f108e75ebca302acdb452cce68d.jpg" alt="Logo Zamil Group" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/e87b14778587f0b1420ff4892e5ffedc.jpg" alt="Logo Saint-Gobain" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/ecf7600c151cb997e10168a000c693db.jpg" alt="Logo Grupo Avintia" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item"><img src="/assets_zwsoft/images/3e1ad50e0c7b861fb199d45440601950.jpg" alt="Logo Emerson" loading="lazy" decoding="async"></div>
+            <!-- Set 2 (Duplikasi untuk Continuous Seamless Loop) -->
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/499aacf9215d053eb2927ffb204acee4.png" alt="Logo Equans" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/8138f6dbdff20acfffcfe5b96fcde51e.png" alt="Logo Ericsson" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/05fc01f3b6b2caa8d4015975d02586e5.png" alt="Logo Honeywell" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/677f43feb5df79b57a9d6462227339e0.png" alt="Logo Johnson Controls" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/983313a77caa916bab2fe2f43438d5c8.png" alt="Logo Hitachi" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/957423e3b306bb5babb1cd2150497226.png" alt="Logo LG" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/22d21f108e75ebca302acdb452cce68d.jpg" alt="Logo Zamil Group" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/e87b14778587f0b1420ff4892e5ffedc.jpg" alt="Logo Saint-Gobain" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/ecf7600c151cb997e10168a000c693db.jpg" alt="Logo Grupo Avintia" loading="lazy" decoding="async"></div>
+            <div class="brand-logo-item" aria-hidden="true"><img src="/assets_zwsoft/images/3e1ad50e0c7b861fb199d45440601950.jpg" alt="Logo Emerson" loading="lazy" decoding="async"></div>
+          </div>
         </div>
-
       </div>
-
     </section>
 
 
@@ -2276,6 +2354,78 @@
       });
     })();
   </script>
+    <!-- Stats Number Counter Animation Script -->
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function() {
+      var statsRow = document.getElementById('stats-counter-row');
+      if (!statsRow) return;
+
+      var animated = false;
+      var statNumbers = statsRow.querySelectorAll('.stat-number');
+
+      function easeOutCubic(t) {
+        return 1 - Math.pow(1 - t, 3);
+      }
+
+      function startCounting() {
+        if (animated) return;
+        animated = true;
+
+        var duration = 2200; // 2.2 detik (kecepatan sedang & nyaman dibaca)
+        var startTime = null;
+
+        var targets = [];
+        statNumbers.forEach(function(el) {
+          targets.push({
+            el: el,
+            target: parseFloat(el.getAttribute('data-target')) || 0,
+            decimals: parseInt(el.getAttribute('data-decimals') || '0', 10),
+            suffix: el.getAttribute('data-suffix') || '',
+            prefix: el.getAttribute('data-prefix') || ''
+          });
+        });
+
+        function step(timestamp) {
+          if (!startTime) startTime = timestamp;
+          var elapsed = timestamp - startTime;
+          var progress = Math.min(elapsed / duration, 1);
+          var easedProgress = easeOutCubic(progress);
+
+          targets.forEach(function(item) {
+            var current = item.target * easedProgress;
+            var formatted = item.decimals > 0 ? current.toFixed(item.decimals) : Math.round(current).toString();
+            item.el.textContent = item.prefix + formatted + item.suffix;
+          });
+
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          } else {
+            targets.forEach(function(item) {
+              var formatted = item.decimals > 0 ? item.target.toFixed(item.decimals) : Math.round(item.target).toString();
+              item.el.textContent = item.prefix + formatted + item.suffix;
+            });
+          }
+        }
+
+        requestAnimationFrame(step);
+      }
+
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              startCounting();
+              observer.disconnect();
+            }
+          });
+        }, { threshold: 0.2 });
+        observer.observe(statsRow);
+      } else {
+        startCounting();
+      }
+    });
+  </script>
+
   <!-- FAQ Accordion Toggle Script -->
   <script is:inline>
     document.addEventListener('DOMContentLoaded', function() {
