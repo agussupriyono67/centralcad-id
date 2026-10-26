@@ -183,7 +183,22 @@
                               "text": "Anda dapat mengunduh ZWCAD 2026 Full Version untuk evaluasi teknis secara gratis selama 30 hari tanpa batasan fitur. Silakan isi formulir pemesanan uji coba di halaman ini, atau hubungi tim teknis kami langsung melalui WhatsApp di 0819-1224-4662 untuk mendapatkan pendampingan instalasi dan demo fitur."
                     }
           }
-]
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://centralcad.id/#video-pertamina",
+        "name": "Hetra Teknologi x Pertamina Hulu OSES : Meningkatkan Produktivitas Desain Bersama ZWCAD",
+        "description": "Studi kasus dan testimoni resmi implementasi software ZWCAD di PT Pertamina Hulu Energi Offshore Southeast Sumatra (PHE OSES) bersama PT Hetra Teknologi Indonesia.",
+        "thumbnailUrl": [
+          "https://centralcad.id/images/video-testimoni-pertamina-zwcad.jpg"
+        ],
+        "uploadDate": "2024-05-15T08:00:00+07:00",
+        "contentUrl": "https://www.youtube.com/watch?v=MANWqiWZHQg",
+        "embedUrl": "https://www.youtube.com/embed/MANWqiWZHQg",
+        "publisher": {
+          "@id": "https://centralcad.id/#organization"
+        }
       }
     ]
   }
@@ -513,6 +528,147 @@
       color: #005BFE;
       text-decoration: underline;
       font-weight: 600;
+    }
+
+    /* Testimonial Video & Trust Section Styles */
+    .testimonial-section {
+      background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+      padding: 92px 0 96px;
+      border-top: 1px solid #e7edf5;
+    }
+    .testimonial-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 1024px;
+      margin: 44px auto 0;
+    }
+    .testimonial-card {
+      background: #ffffff;
+      border: 1px solid #e2eaf4;
+      border-radius: 14px;
+      padding: 28px 24px;
+      box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 91, 254, 0.09);
+      border-color: #b8d4fe;
+    }
+    .t-card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+    .testimonial-card h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+    .testimonial-card p {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #556987;
+      margin: 0;
+    }
+    .testimonial-quote-box {
+      max-width: 1024px;
+      margin: 36px auto 0;
+      background: #0f1f38;
+      color: #ffffff;
+      border-radius: 16px;
+      padding: 34px 38px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      box-shadow: 0 20px 40px rgba(15, 31, 56, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .quote-content {
+      flex: 1;
+    }
+    .quote-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: #60a5fa;
+      background: rgba(96, 165, 250, 0.15);
+      padding: 4px 12px;
+      border-radius: 50px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+    .quote-text {
+      font-size: 15.5px;
+      font-style: italic;
+      line-height: 1.65;
+      color: #e2e8f0;
+      margin: 0 0 12px;
+    }
+    .quote-author strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .quote-author span {
+      display: block;
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+    .quote-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .quote-action .btn-primary {
+      white-space: nowrap;
+      padding: 13px 24px;
+      font-size: 14.5px;
+      font-weight: 700;
+    }
+    .action-note {
+      font-size: 11.5px;
+      color: #94a3b8;
+      text-align: center;
+    }
+    @media (max-width: 900px) {
+      .testimonial-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-top: 28px;
+      }
+      .testimonial-quote-box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 20px;
+        gap: 22px;
+      }
+      .quote-action {
+        width: 100%;
+        align-items: stretch;
+      }
+      .quote-action .btn-primary {
+        text-align: center;
+        width: 100%;
+      }
+      .testimonial-section {
+        padding: 60px 0;
+      }
     }
   </style>
 </head>
@@ -1473,6 +1629,79 @@
     
 
 
+
+    <!-- SECTION TESTIMONI BUMN (Pertamina Hulu OSES x ZWCAD) -->
+    <section class="section testimonial-section" id="testimoni">
+      <div class="container">
+        <div class="aftersales-head center">
+          <span class="aftersales-eyebrow">BUKTI NYATA &amp; KISAH SUKSES PENGGUNA BUMN</span>
+          <h2 class="section-title">Dipercaya Industri Energi Nasional: Pertamina Hulu OSES x ZWCAD</h2>
+          <p class="section-copy" style="max-width: 880px; margin: 0 auto;">Bukan sekadar klaim performa. Saksikan bagaimana <strong>PT Pertamina Hulu Energi Offshore Southeast Sumatra (PHE OSES)</strong> mempercayakan kelancaran alur kerja rancang bangun, pemeliharaan fasilitas kilang, dan dokumentasi engineering harian mereka kepada <strong>ZWCAD</strong> bersama pendampingan resmi tim teknis <strong>PT Hetra Teknologi Indonesia</strong>.</p>
+        </div>
+
+        <div class="video-frame" data-youtube-video data-video-id="MANWqiWZHQg">
+          <button class="video-cover" type="button" aria-label="Putar video studi kasus ZWCAD di Pertamina Hulu OSES">
+            <img src="/images/video-testimoni-pertamina-zwcad.jpg" alt="Video Testimoni ZWCAD - Pertamina Hulu OSES x PT Hetra Teknologi Indonesia" loading="lazy" decoding="async">
+            <span class="play-btn" aria-hidden="true"></span>
+          </button>
+          <noscript>
+            <a href="https://www.youtube.com/watch?v=MANWqiWZHQg" target="_blank" rel="noopener noreferrer">Tonton video studi kasus Pertamina Hulu OSES di YouTube</a>
+          </noscript>
+        </div>
+
+        <div class="testimonial-cards-grid">
+          <div class="testimonial-card">
+            <div class="t-card-icon" style="background: rgba(0, 91, 254, 0.1); color: #005BFE;">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3>100% Native DWG &amp; Zero Learning Curve</h3>
+            <p>Drafter dan engineer dapat langsung bekerja tanpa adaptasi rumit. Ribuan file DWG proyek migas dibuka secara instan dengan presisi penuh tanpa pergeseran koordinat atau kendala file corrupt.</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-card-icon" style="background: rgba(16, 185, 129, 0.1); color: #10B981;">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3>Efisiensi Anggaran Nyata (CapEx Perusahaan)</h3>
+            <p>Beralih dari sewa tahunan berulang ke lisensi permanen (perpetual) yang menjadi aset tetap resmi perusahaan, menghemat anggaran software hingga ratusan juta rupiah secara berkelanjutan.</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-card-icon" style="background: rgba(245, 158, 11, 0.1); color: #F59E0B;">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3>Dukungan Teknis Lokal dari Distributor Resmi</h3>
+            <p>Layanan konsultasi, training tim drafter intensif, dan pendampingan implementasi langsung dari PT Hetra Teknologi Indonesia untuk memastikan stabilitas standar operasional tinggi.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-quote-box">
+          <div class="quote-content">
+            <div class="quote-badge">STUDI KASUS RESMI</div>
+            <p class="quote-text">"Implementasi ZWCAD membuktikan bahwa efisiensi anggaran software CAD dapat dicapai tanpa mengorbankan stabilitas kerja, akurasi gambar teknik, maupun kepatuhan legalitas perusahaan di industri berstandar ketat."</p>
+            <div class="quote-author">
+              <strong>PT Pertamina Hulu Energi Offshore Southeast Sumatra (PHE OSES)</strong>
+              <span>Kemitraan Solusi Engineering CAD bersama PT Hetra Teknologi Indonesia</span>
+            </div>
+          </div>
+          <div class="quote-action">
+            <a class="btn btn-primary" href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20saya%20tertarik%20dengan%20studi%20kasus%20ZWCAD%20di%20Pertamina%20Hulu%20OSES.%20Boleh%20konsultasi%20untuk%20kebutuhan%20tim%20kami?" target="_blank" rel="noopener noreferrer">
+              Konsultasi Kebutuhan CAD
+            </a>
+            <span class="action-note">Gratis demo teknis bersama tim engineer kami</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- SECTION AFTERSALES HIGHLIGHT -->
 
