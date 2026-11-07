@@ -4,171 +4,614 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import TrialFormSection from '../components/TrialFormSection.astro';
 
-const tiers = [
-  {
-    name: 'ZWCAD 2026 Standard',
-    desc: 'Solusi terbaik untuk drafter yang fokus pada pembuatan gambar kerja 2D, denah, potongan, dan cetak plotting.',
-    badge: 'Drafting 2D Murni',
-    highlight: false,
-    features: [
-      'Lisensi Permanen Seumur Hidup (Perpetual)',
-      '100% Native Kompatibel DWG/DXF',
-      'Antarmuka Classic & Ribbon AutoCAD Style',
-      'Fitur Cerdas: Smart Mouse & Smart Select',
-      'Smart Plotting Batch Printing',
-      'Pilihan Lisensi Standalone (Softkey / USB Dongle)',
-      'Dukungan Teknis Resmi Indonesia'
-    ],
-    ctaText: 'Minta Penawaran Standard'
-  },
-  {
-    name: 'ZWCAD 2026 Professional',
-    desc: 'Edisi terlengkap dan paling banyak digunakan di Indonesia untuk engineering, arsitektur, dan manufaktur.',
-    badge: 'Paling Populer',
-    highlight: true,
-    features: [
-      'Semua Kemampuan Versi Standard',
-      'Pemodelan 3D Solid & Surface Modeling',
-      'Dukungan Penuh AutoLISP, VBA, .NET, dan ZRX',
-      'Fitur Cerdas: Smart Voice & Similar Search',
-      'Point Cloud & IFC Underlay Import',
-      'Kemampuan Render Realistis & DGN Underlay',
-      'Pilihan Standalone atau Network Floating',
-      'Dukungan Teknis Prioritas'
-    ],
-    ctaText: 'Minta Penawaran Professional'
-  },
-  {
-    name: 'ZWCAD Network Floating',
-    desc: 'Solusi lisensi terpusat di server kantor yang bisa dipakai bergantian secara fleksibel oleh puluhan drafter.',
-    badge: 'Optimal untuk Tim & Korporasi',
-    highlight: false,
-    features: [
-      'Semua Kemampuan Versi Professional',
-      'Server License Manager Terpusat (LAN/VPN)',
-      '1 Lisensi Bisa Dipakai Bergantian Antar-Drafter',
-      'Fitur Borrow License (Bisa Dipakai Tanpa Internet)',
-      'Monitoring Pemakaian Lisensi Real-time',
-      'Efisiensi Anggaran untuk Tim Skala Menengah-Besar',
-      'Dukungan Setup & Konfigurasi Server Gratis'
-    ],
-    ctaText: 'Konsultasi Network License'
-  }
-];
+const waUrl = "https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya";
 ---
 
 <Layout
-  title="Daftar Harga & Skema Lisensi ZWCAD 2026 — Central CAD Indonesia"
-  description="Daftar pilihan paket lisensi resmi software ZWCAD 2026 dan ZW3D di Indonesia. Lisensi seumur hidup permanen tanpa beban sewa tahunan."
+  title="Daftar Harga & Skema Lisensi Resmi ZWCAD 2026 — Central CAD Indonesia"
+  description="Daftar harga resmi lisensi permanen software ZWCAD 2026 (Standard, Professional, MFG) di Indonesia. Lisensi seumur hidup tanpa beban sewa tahunan, hemat biaya hingga 70%."
 >
   <Navbar active="harga" />
 
   <main>
-    <!-- Header -->
+    <!-- Header Hero -->
     <section class="py-16 bg-slate-900 text-white text-center">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-        <span class="badge-tag bg-blue-500/20 text-blue-300 border border-blue-400/30">
-          INVESTASI CERDAS SEKALI BAYAR
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-300 border border-blue-400/30">
+          INVESTASI CERDAS SEKALI BAYAR • LISENSI PERMANEN RESMI
         </span>
-        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-          Pilihan Paket &amp; Lisensi ZWCAD 2026
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-['Plus_Jakarta_Sans']">
+          Daftar Harga Lisensi ZWCAD 2026
         </h1>
-        <p class="text-slate-300 text-base max-w-2xl mx-auto">
-          Miliki lisensi software CAD berlisensi sah hukum dengan harga resmi distributor. Dilengkapi faktur pajak, sertifikat keaslian, dan dukungan teknis lokal.
+        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          Tentukan paket lisensi CAD terbaik sesuai kebutuhan industri Anda. Didukung lisensi seumur hidup (perpetual), garansi resmi keaslian software, faktur pajak PPN 11%, dan tim dukungan teknis lokal di Indonesia.
         </p>
       </div>
     </section>
 
-    <!-- Pricing Grid -->
-    <section class="py-20 bg-slate-50">
+    <!-- SECTION PRICELIST (Identik dengan Halaman Depan Central CAD) -->
+    <section class="py-20 bg-slate-50" id="pricelist">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
-          {tiers.map((tier) => (
-            <div class={`rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 ${tier.highlight ? 'bg-slate-900 text-white ring-2 ring-blue-500 shadow-2xl scale-105 z-10' : 'bg-white text-slate-900 border border-slate-200 shadow-sm hover:shadow-md'}`}>
-              <div>
-                <span class={`inline-block text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-4 ${tier.highlight ? 'bg-amber-400 text-slate-950' : 'bg-blue-100 text-blue-800'}`}>
-                  {tier.badge}
-                </span>
-
-                <h2 class={`text-2xl font-bold tracking-tight mb-2 ${tier.highlight ? 'text-white' : 'text-slate-900'}`}>
-                  {tier.name}
-                </h2>
-
-                <p class={`text-sm mb-6 ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>
-                  {tier.desc}
-                </p>
-
-                <div class="border-t border-slate-200/20 pt-6">
-                  <h3 class={`text-xs font-bold uppercase tracking-wider mb-4 ${tier.highlight ? 'text-blue-300' : 'text-slate-500'}`}>
-                    Fitur &amp; Keuntungan:
-                  </h3>
-                  <ul class="space-y-3 text-sm">
-                    {tier.features.map((feat) => (
-                      <li class="flex items-start gap-2.5">
-                        <svg class={`w-5 h-5 flex-shrink-0 mt-0.5 ${tier.highlight ? 'text-emerald-400' : 'text-emerald-600'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span class={tier.highlight ? 'text-slate-200' : 'text-slate-700'}>{feat}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              <div class="pt-8 mt-8 border-t border-slate-200/20 space-y-2">
-                <a
-                  href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class={`w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm block transition-all shadow-md hover:shadow-lg ${tier.highlight ? 'btn-accent' : 'btn-primary'}`}
-                >
-                  {tier.ctaText}
-                </a>
-                <a
-                  href="#contact"
-                  class={`block text-center text-xs underline font-medium pt-1 ${tier.highlight ? 'text-slate-300 hover:text-white' : 'text-slate-500 hover:text-blue-600'}`}
-                >
-                  Atau ajukan formulir penawaran ↓
-                </a>
-              </div>
-            </div>
-          ))}
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            Tentukan Kebutuhan Anda!
+          </h2>
+          <p class="text-slate-600 text-base mt-2">
+            Lisensi seumur hidup, update lisensi dikenakan biaya 35% dari harga
+          </p>
         </div>
 
-        <!-- Dongle vs Softkey Info Box -->
-        <div class="mt-16 bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <div class="flex items-center gap-2 mb-2 text-blue-700 font-bold text-base">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-              </svg>
-              <span>Aktivasi Softkey (Digital License)</span>
+        <div class="pricing-grid">
+          <!-- Card 1: ZWCAD Standard -->
+          <article class="pricing-card">
+            <div class="pricing-card-header">
+              <div class="pricing-brand">
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo" />
+                <span class="pricing-edition">Standard</span>
+              </div>
+              <p class="pricing-desc">Pilihan hemat untuk membuat gambar 2D CAD</p>
             </div>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              Kode lisensi digital yang diaktifkan langsung di laptop/PC. Pengiriman kode instan, aktivasi via internet atau offline return, dan mudah dikelola tanpa risiko kehilangan fisik barang.
-            </p>
-          </div>
 
-          <div>
-            <div class="flex items-center gap-2 mb-2 text-emerald-700 font-bold text-base">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-              </svg>
-              <span>Aktivasi Hardware Dongle (USB Key)</span>
+            <div class="pricing-prices">
+              <div class="price-tier">
+                <span class="tier-label">Standalone</span>
+                <span class="tier-amount">IDR 15.300.000</span>
+              </div>
+              <div class="price-tier">
+                <span class="tier-label">Network</span>
+                <span class="tier-amount">IDR 17.030.000</span>
+              </div>
             </div>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              Kunci lisensi berbasis USB flash drive fisik. Sangat fleksibel dipindahkan ke laptop kantor, PC rumah, atau komputer lapangan tanpa perlu koneksi internet sama sekali. Cukup tancap dan jalankan ZWCAD.
-            </p>
-          </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Native DWG compatibility</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>2D drafting tools</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>LISP routines</span>
+              </li>
+            </ul>
+
+            <div class="pricing-cta-wrap">
+              <a class="pricing-btn" href={waUrl} target="_blank" rel="noopener noreferrer">
+                Beli sekarang
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: ZWCAD Professional (Paling Populer) -->
+          <article class="pricing-card pricing-card-featured">
+            <div class="pricing-badge-popular">PALING POPULER</div>
+
+            <div class="pricing-card-header">
+              <div class="pricing-brand">
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo" />
+                <span class="pricing-edition">Professional</span>
+              </div>
+              <p class="pricing-desc">Pilihan tepat untuk membuat gambar 2D dan 3D modeling</p>
+            </div>
+
+            <div class="pricing-prices">
+              <div class="price-tier">
+                <span class="tier-label">Standalone</span>
+                <span class="tier-amount">IDR 23.800.000</span>
+              </div>
+              <div class="price-tier">
+                <span class="tier-label">Network</span>
+                <span class="tier-amount">IDR 26.400.000</span>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Semua fitur standard</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>3D modeling tools</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Point Cloud</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>GIS</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Raster to Vector Conversion</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Full API capabilities</span>
+              </li>
+            </ul>
+
+            <div class="pricing-cta-wrap">
+              <a class="pricing-btn" href={waUrl} target="_blank" rel="noopener noreferrer">
+                Beli sekarang
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: ZWCAD MFG -->
+          <article class="pricing-card">
+            <div class="pricing-card-header">
+              <div class="pricing-brand">
+                <img decoding="async" src="/assets_zwsoft/icons/zwcad-logo.svg" alt="ZWCAD" class="pricing-logo" />
+                <span class="pricing-edition">MFG</span>
+              </div>
+              <p class="pricing-desc">2D/3D CAD profesional dengan toolset mekanikal</p>
+            </div>
+
+            <div class="pricing-prices">
+              <div class="price-tier">
+                <span class="tier-label">Standalone</span>
+                <span class="tier-amount">IDR 28.900.000</span>
+              </div>
+              <div class="price-tier">
+                <span class="tier-label">Network</span>
+                <span class="tier-amount">IDR 31.450.000</span>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Semua fitur Professional</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Standard part library</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>AutoCAD- Mechanical compatibility</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Automatic BOM generation</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Mechanical drawing tools</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Power Dimension</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Mechanical annotation tools</span>
+              </li>
+              <li>
+                <svg class="price-check-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="10" cy="10" r="10" fill="#E8F8F0"/>
+                  <path d="M6 10.5L8.5 13L14 7.5" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Mechanical calculation tools</span>
+              </li>
+            </ul>
+
+            <div class="pricing-cta-wrap">
+              <a class="pricing-btn" href={waUrl} target="_blank" rel="noopener noreferrer">
+                Beli sekarang
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="pricing-notes">
+          <p>• Harga belum termasuk pajak 11%</p>
+          <p>• Lisensi akan terbit 2–14 hari (Normalnya 2 hari)</p>
         </div>
 
       </div>
     </section>
 
+    <!-- TABEL PERBANDINGAN HARGA & SPESIFIKASI LISENSI -->
+    <section class="py-16 bg-white border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 mb-3">
+            TABEL KOMPARASI LENGKAP
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            Tabel Rincian Harga &amp; Matriks Fitur ZWCAD 2026
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Bandingkan paket lisensi Standalone dan Network Floating untuk memilih solusi CAD yang paling tepat guna bagi perusahaan Anda.
+          </p>
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+          <table class="w-full text-left border-collapse min-w-[720px]">
+            <thead>
+              <tr class="bg-slate-900 text-white text-sm">
+                <th class="py-4 px-5 font-bold uppercase tracking-wider w-1/3">Edisi / Spesifikasi</th>
+                <th class="py-4 px-5 font-bold uppercase tracking-wider text-center w-2/9">ZWCAD Standard</th>
+                <th class="py-4 px-5 font-bold uppercase tracking-wider text-center w-2/9 bg-blue-700 text-white">
+                  ZWCAD Professional
+                  <span class="block text-[10px] font-normal text-amber-300">Paling Populer</span>
+                </th>
+                <th class="py-4 px-5 font-bold uppercase tracking-wider text-center w-2/9">ZWCAD MFG</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-sm">
+              <tr class="bg-slate-50/80 font-semibold text-slate-900">
+                <td class="py-3.5 px-5">Harga Lisensi Standalone (1 User)</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold">IDR 15.300.000</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold bg-blue-50/40">IDR 23.800.000</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold">IDR 28.900.000</td>
+              </tr>
+              <tr class="bg-slate-50/80 font-semibold text-slate-900">
+                <td class="py-3.5 px-5">Harga Lisensi Network (Multi-User LAN)</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold">IDR 17.030.000</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold bg-blue-50/40">IDR 26.400.000</td>
+                <td class="py-3.5 px-5 text-center text-blue-700 font-extrabold">IDR 31.450.000</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Masa Berlaku Lisensi</td>
+                <td class="py-3.5 px-5 text-center text-emerald-700 font-semibold">Seumur Hidup (Perpetual)</td>
+                <td class="py-3.5 px-5 text-center text-emerald-700 font-semibold bg-blue-50/30">Seumur Hidup (Perpetual)</td>
+                <td class="py-3.5 px-5 text-center text-emerald-700 font-semibold">Seumur Hidup (Perpetual)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Kompatibilitas Native DWG/DXF</td>
+                <td class="py-3.5 px-5 text-center text-slate-900">100% Native (R14 - 2026)</td>
+                <td class="py-3.5 px-5 text-center text-slate-900 bg-blue-50/30">100% Native (R14 - 2026)</td>
+                <td class="py-3.5 px-5 text-center text-slate-900">100% Native (R14 - 2026)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Drafting 2D &amp; Anotasi Presisi</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold">✓ Lengkap</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold bg-blue-50/30">✓ Lengkap</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold">✓ Lengkap</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Pemodelan 3D Solid &amp; Surface</td>
+                <td class="py-3.5 px-5 text-center text-slate-400">—</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold bg-blue-50/30">✓ Lengkap</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold">✓ Lengkap</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Point Cloud &amp; BIM IFC Underlay</td>
+                <td class="py-3.5 px-5 text-center text-slate-400">—</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold bg-blue-50/30">✓ Lengkap</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold">✓ Lengkap</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Dukungan API &amp; Otomasi Script</td>
+                <td class="py-3.5 px-5 text-center text-slate-700">LISP Dasar (.lsp, .fas)</td>
+                <td class="py-3.5 px-5 text-center text-slate-900 font-semibold bg-blue-50/30">Full API (LISP, VBA, .NET, ZRX)</td>
+                <td class="py-3.5 px-5 text-center text-slate-900 font-semibold">Full API (LISP, VBA, .NET, ZRX)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Library Part Mekanikal &amp; Auto BOM</td>
+                <td class="py-3.5 px-5 text-center text-slate-400">—</td>
+                <td class="py-3.5 px-5 text-center text-slate-400 bg-blue-50/30">—</td>
+                <td class="py-3.5 px-5 text-center text-emerald-600 font-bold">✓ Penuh (ISO/DIN/JIS/ANSI)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-medium text-slate-700">Pengiriman Lisensi Resmi</td>
+                <td class="py-3.5 px-5 text-center text-slate-700">100% Digital Softkey (Email)</td>
+                <td class="py-3.5 px-5 text-center text-slate-700 bg-blue-50/30">100% Digital Softkey (Email)</td>
+                <td class="py-3.5 px-5 text-center text-slate-700">100% Digital Softkey (Email)</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="py-4 px-5 font-bold text-slate-900">Hubungi Konsultan</td>
+                <td class="py-4 px-5 text-center">
+                  <a href={waUrl} target="_blank" rel="noopener noreferrer" class="inline-block py-2 px-4 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-colors">
+                    Pesan Standard
+                  </a>
+                </td>
+                <td class="py-4 px-5 text-center bg-blue-50/50">
+                  <a href={waUrl} target="_blank" rel="noopener noreferrer" class="inline-block py-2 px-4 rounded-lg bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold transition-colors shadow-sm">
+                    Pesan Professional
+                  </a>
+                </td>
+                <td class="py-4 px-5 text-center">
+                  <a href={waUrl} target="_blank" rel="noopener noreferrer" class="inline-block py-2 px-4 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-colors">
+                    Pesan MFG
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Digital License Information Box (Kebijakan Zero Dongle Fisik) -->
+    <section class="py-12 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <div class="flex items-center gap-2 mb-3 text-blue-700 font-bold text-base">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+              </svg>
+              <span>Aktivasi Softkey Digital (Single User Standalone)</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Kode lisensi digital resmi (24-digit Key Number) yang diaktifkan langsung pada komputer atau laptop drafter. Lisensi dapat ditransfer atau dipindahkan ke komputer baru sewaktu-waktu secara mandiri tanpa biaya tambahan.
+            </p>
+          </div>
+
+          <div>
+            <div class="flex items-center gap-2 mb-3 text-emerald-700 font-bold text-base">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+              <span>Network Floating License (Multi-User Server Sharing)</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Dipasang terpusat pada server kantor (LAN / VPN) dan dapat dipakai bergantian oleh seluruh tim desain sesuai jumlah seat aktif. Dilengkapi fitur <em>Borrow License</em> untuk pemakaian offline di lapangan hingga 180 hari.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 rounded-xl bg-blue-50/70 border border-blue-200/60 text-xs text-slate-700 text-center">
+          <strong>Kebijakan Pengiriman Digital 100%:</strong> Central CAD menyalurkan lisensi resmi murni via email dalam bentuk kode Softkey Key Number digital. Kami menerapkan standar Zero Dongle Fisik untuk melindungi perusahaan Anda dari risiko kehilangan atau kerusakan perangkat USB di lingkungan pabrik dan proyek.
+        </div>
+      </div>
+    </section>
+
     <!-- Trial & Order Form Section -->
-    <TrialFormSection />
+    <TrialFormSection title="Ajukan Penawaran Resmi & Trial ZWCAD" subtitle="Dapatkan penawaran harga resmi (B2B Quotation) lengkap dengan Faktur Pajak PPN 11% dan installer trial 30 hari untuk perusahaan Anda." />
   </main>
 
   <Footer />
 </Layout>
+
+<style>
+  /* Styling Identik dengan Halaman Depan Central CAD */
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    align-items: stretch;
+  }
+
+  .pricing-card {
+    position: relative;
+    background: #ffffff;
+    border: 2px solid #005BFE;
+    border-radius: 8px;
+    box-shadow: 8px 8px 0px rgba(0, 91, 254, 0.15);
+    padding: 36px 30px 32px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 10px 10px 0px rgba(0, 91, 254, 0.25);
+  }
+
+  .pricing-card-featured {
+    border: 2.5px solid #005BFE;
+    box-shadow: 8px 8px 0px rgba(0, 91, 254, 0.25);
+  }
+
+  .pricing-badge-popular {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #005BFE;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 4px 14px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 91, 254, 0.3);
+  }
+
+  .pricing-card-header {
+    margin-bottom: 24px;
+  }
+
+  .pricing-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .pricing-logo {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .pricing-edition {
+    font-size: 26px;
+    font-weight: 800;
+    color: #061a34;
+    line-height: 1.1;
+  }
+
+  .pricing-desc {
+    font-size: 14px;
+    color: #5d6b7a;
+    line-height: 1.5;
+    min-height: 42px;
+    margin: 0;
+  }
+
+  .pricing-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+    background: #f3f8ff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px dashed rgba(0, 91, 254, 0.3);
+  }
+
+  .price-tier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tier-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #071e3d;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tier-amount {
+    font-size: 18px;
+    font-weight: 800;
+    color: #005BFE;
+  }
+
+  .pricing-divider {
+    height: 1px;
+    background: #e7edf5;
+    margin-bottom: 20px;
+  }
+
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+  }
+
+  .pricing-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #07111f;
+    line-height: 1.4;
+  }
+
+  .price-check-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .pricing-cta-wrap {
+    margin-top: auto;
+  }
+
+  .pricing-btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 24px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #005BFE;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 91, 254, 0.3);
+    transition: all 0.2s ease;
+  }
+
+  .pricing-btn:hover {
+    background: #1677ff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 91, 254, 0.4);
+  }
+
+  .pricing-notes {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #5d6b7a;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 980px) {
+    .pricing-grid {
+      grid-template-columns: 1fr;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+</style>
+
