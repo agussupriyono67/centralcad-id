@@ -38,7 +38,7 @@ Berikut evaluasi teknis, model kepemilikan lisensi, dan keuntungan arus kas oper
 | Parameter Evaluasi Kontraktor Fire System | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Kontraktor |
 |---|---|---|---|
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal menjadi milik perusahaan selamanya tanpa risiko lisensi mati mendadak |
-| **Pilihan Lisensi Kantor & Site Proyek** | Hardware Dongle USB & Jaringan Floating | Terikat Login Akun Email Pribadi | Sangat fleksibel digunakan oleh drafter di site office proyek gedung tanpa internet stabil |
+| **Pilihan Lisensi Kantor & Site Proyek** | Softkey Digital Offline & Jaringan Floating | Terikat Login Akun Email Pribadi | Sangat fleksibel digunakan oleh drafter di site office proyek gedung tanpa internet stabil maupun dongle fisik |
 | **Kecepatan Cetak As-Built Drawing (Smart Plot)** | Cetak Ratusan Lembar DWG ke PDF Otomatis | Cetak Konvensional Satu per Satu | Mempercepat penyerahan dokumen as-built drawing untuk pengurusan izin SLF gedung |
 | **Dukungan Simbol Standar MEP & LISP** | Kompatibilitas Penuh Tanpa Biaya Lisensi Tambahan | Terbatas pada Varian Tertentu yang Lebih Mahal | Mengakomodasi seluruh library simbol sprinkler, hydrant, dan skrip otomasi pipa |
 | **Ketahanan Arus Kas Saat Masa Retensi Proyek** | Arus Kas Aman Tanpa Beban Tagihan Tahunan | Biaya Sewa Tetap Berjalan di Masa Retensi | Menjaga margin laba proyek saat menunggu pencairan uang retensi gedung (5-10%) |

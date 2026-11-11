@@ -78,7 +78,7 @@ Hasil pengujian membuktikan bahwa Anda tidak perlu lagi terbebani membawa laptop
 Selain keunggulan performa ringan, ZWCAD 2026 memberikan fleksibilitas perizinan lisensi yang cocok untuk gaya kerja site engineer:
 
 * **Lisensi Standalone Softkey:** Nomor serial digital yang dapat diaktifkan langsung di laptop tipis Anda, bebas dipakai tanpa harus terhubung ke internet saat berada di area pedalaman.
-* **Lisensi Hardware Dongle USB Mini:** Dongle fisik berukuran ringkas yang dapat langsung dipasang di port USB laptop tanpa konfigurasi jaringan apa pun.
+* **Aktivasi Offline Softkey Digital (Zero Dongle):** Tanpa perlu membawa perangkat USB dongle fisik yang rentan tertinggal atau patah di lapangan, aktivasi Softkey dapat dilakukan secara offline melalui pertukaran berkas XML (*Manual Activation*) dan dipindahkan antar-laptop lewat fitur *Return License*.
 * **Fitur License Borrowing (Pinjam Lisensi Jaringan):** Jika kantor Anda menggunakan lisensi server (*network floating*), Anda dapat meminjam hak lisensi (*borrow license*) ke dalam laptop tipis hingga 180 hari sebelum berangkat dinas ke luar pulau.
 
 > **Tips Praktis:** Sebelum berangkat ke lokasi proyek di daerah minim sinyal, pastikan Anda telah mengekspor gambar DWG ke dalam drive SSD internal dan melakukan peminjaman lisensi jaringan (*borrow*) selagi masih tersambung di jaringan Wi-Fi kantor pusat.

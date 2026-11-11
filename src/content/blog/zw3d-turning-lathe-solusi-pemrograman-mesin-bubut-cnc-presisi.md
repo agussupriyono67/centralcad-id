@@ -76,7 +76,7 @@ ZW3D menyediakan generator post-processor bawaan yang mudah dikonfigurasi untuk 
 
 Berbeda dengan software CAM global lainnya yang mewajibkan biaya langganan sewa mahal setiap tahun, ZW3D hadir dengan sistem **lisensi permanen (*perpetual license*)**.
 
-Sekali perusahaan Anda berinvestasi membeli lisensi ZW3D, software tersebut menjadi aset resmi yang dapat digunakan selamanya untuk menunjang mesin-mesin bubut Anda berproduksi tanpa henti. Fleksibilitas aktivasi via Softkey maupun Dongle USB fisik memudahkan operasional di lingkungan bengkel yang tidak terhubung ke jaringan internet.
+Sekali perusahaan Anda berinvestasi membeli lisensi ZW3D, software tersebut menjadi aset resmi yang dapat digunakan selamanya untuk menunjang mesin-mesin bubut Anda berproduksi tanpa henti. Fleksibilitas aktivasi digital via Softkey (mendukung aktivasi offline tanpa dongle fisik) maupun Network Floating memudahkan operasional di lingkungan bengkel yang tidak terhubung ke jaringan internet.
 
 ---
 

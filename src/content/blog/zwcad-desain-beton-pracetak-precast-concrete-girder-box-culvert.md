@@ -38,7 +38,7 @@ Berikut perbandingan teknis, model lisensi, dan dampak finansial jangka panjang 
 | Parameter Evaluasi Pabrik Pracetak | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Kontraktor |
 |---|---|---|---|
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal menjadi milik perusahaan selamanya tanpa risiko lisensi terblokir |
-| **Pilihan Lisensi Pabrik & Site Proyek** | Hardware Dongle USB & Network Floating | Terikat Login Akun Email Pribadi | Sangat fleksibel digunakan di area batching plant tanpa koneksi internet stabil |
+| **Pilihan Lisensi Pabrik & Site Proyek** | Softkey Digital Offline & Network Floating | Terikat Login Akun Email Pribadi | Sangat fleksibel digunakan di area batching plant tanpa koneksi internet stabil maupun risiko dongle fisik |
 | **Kecepatan Plotting Gambar Kerja (BBS)** | Smart Plot Ratusan Lembar Otomatis | Plotting Konvensional Satu per Satu | Mempercepat penerbitan gambar kerja ke lantai produksi cetakan beton |
 | **Kompatibilitas Add-on & Skrip LISP** | Kompatibel Penuh Tanpa Biaya Lisensi Tambahan | Terbatas pada Versi Tertentu yang Jauh Lebih Mahal | Mengakomodasi seluruh skrip otomasi penulangan rebar yang sudah ada |
 | **Ketahanan Finansial Saat Jeda Proyek** | Arus Kas Aman Tanpa Beban Tagihan Tahunan | Biaya Sewa Terus Berjalan Meski Proyek Sepi | Menjaga stabilitas keuangan perusahaan saat menunggu pengumuman pemenang tender |

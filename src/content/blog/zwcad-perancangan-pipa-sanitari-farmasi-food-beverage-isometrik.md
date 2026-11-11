@@ -38,7 +38,7 @@ Berikut perbandingan fitur teknis, kepemilikan lisensi, dan dampak keuangan anta
 | Aspek Evaluasi Piping Engineering | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Kontraktor MEP & Piping |
 |---|---|---|---|
 | **Status Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) 1x Investasi | Sewa Berkala (*Annual Subscription*) | Software menjadi aset tetap legal perusahaan selamanya tanpa risiko lisensi terputus |
-| **Metode Lisensi Kerja Lapangan** | Dongle USB Fisik & Softkey Standalone | Wajib Koneksi Internet Cloud Rutin | Sangat praktis saat drafter melakukan *as-built drawing* di area cleanroom tanpa sinyal |
+| **Metode Lisensi Kerja Lapangan** | Softkey Standalone (Offline) & *Borrow License* | Wajib Koneksi Internet Cloud Rutin | Sangat praktis saat drafter melakukan *as-built drawing* di area cleanroom tanpa sinyal dan bebas dongle fisik |
 | **Performa Drafting Skematik P&ID** | Cepat, Ringan, dan Responsif | Sering Berat pada File Berisi Ribuan Blok | Drafter bekerja lebih produktif menyelesaikan revisi gambar kualifikasi fasilitas pabrik |
 | **Integrasi Simbol & Ekstraksi BOM** | Fitur Lengkap Standar DWG Profesional | Memerlukan Paket Spesifik Berbiaya Tinggi | Menghasilkan daftar belanja fitting klem dan katup sanitari secara cepat dan presisi |
 | **Biaya Perpanjangan Tahun Berikutnya** | Rp 0 (Bebas Biaya Wajib Tahunan) | Tagihan Rutin yang Selalu Naik Setiap Tahun | Menghemat ratusan juta rupiah anggaran operasional konsultan engineering |

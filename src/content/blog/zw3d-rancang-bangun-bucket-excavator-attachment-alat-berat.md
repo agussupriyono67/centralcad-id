@@ -40,7 +40,7 @@ Berikut komparasi teknis, kepemilikan aset, dan nilai ekonomis antara ZW3D dan s
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal menjadi milik perusahaan selamanya tanpa risiko lisensi kedaluwarsa |
 | **Integrasi Desain 3D & CAM CNC** | 100% Satu Platform Terintegrasi | Memerlukan Paket Terpisah yang Sangat Mahal | Menghemat biaya pengadaan dua software berbeda dan menghilangkan masalah konversi data |
 | **Pemodelan Pelat Baja Tebal (Sheet Metal)** | Sangat Cepat & Mudah Dibuka (*Unfold*) | Kompleks dan Sering Gagal pada Pelat Tebal | Mempercepat penerbitan pola potong CNC plasma dan mengurangi sisa limbah pelat baja |
-| **Pilihan Lisensi Pabrik & Bengkel** | Hardware Dongle USB & Jaringan Floating | Terikat Login Cloud Internet Pribadi | Sangat fleksibel digunakan di workstation bengkel perakitan tanpa koneksi internet stabil |
+| **Pilihan Lisensi Pabrik & Bengkel** | Softkey Digital Offline & Jaringan Floating | Terikat Login Cloud Internet Pribadi | Sangat fleksibel digunakan di workstation bengkel perakitan tanpa koneksi internet stabil maupun dongle fisik |
 | **Dukungan Post-Processor CNC Mesin Lokal** | Kustomisasi Lengkap Bebas Biaya | Biaya Kustomisasi Post-Processor Tambahan | Kompatibel langsung dengan mesin CNC plasma, milling, dan flame cutting di Indonesia |
 | **Dampak Finansial Jangka Panjang** | Bebas Biaya Tagihan Wajib Tahunan | Tagihan Terus Membengkak Setiap Tahun | Mengamankan margin keuntungan saat mengikuti tender pengadaan attachment armada tambang |
 

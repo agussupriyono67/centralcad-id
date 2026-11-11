@@ -84,7 +84,7 @@ Bagi studio desain produk, bengkel perakitan, dan divisi R&D perusahaan di Indon
 
 ZW3D hadir dengan skema **lisensi permanen (*perpetual license*)**:
 * **Kepemilikan Penuh:** Anda membeli lisensi sekali untuk penggunaan selamanya, tanpa kewajiban biaya langganan bulanan atau tahunan.
-* **Fleksibilitas Aktivasi:** Tersedia pilihan aktivasi online Softkey atau Dongle USB fisik yang dapat dipindahkan antar-laptop teknisi dengan praktis.
+* **Fleksibilitas Aktivasi Digital (Zero Dongle):** Tersedia pilihan aktivasi Softkey Standalone (online maupun offline) yang mudah dipindahkan antar-laptop teknisi via *Return License*, serta skema Network Floating untuk tim laboratorium.
 * **Dukungan Teknis Lokal:** Tim engineering PT Hetra Teknologi Indonesia siap memberikan pelatihan implementasi dan pendampingan teknis secara langsung.
 
 ---

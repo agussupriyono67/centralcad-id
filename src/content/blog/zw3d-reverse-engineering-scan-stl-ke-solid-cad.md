@@ -41,7 +41,7 @@ Tinjauan perbandingan berikut memperlihatkan efisiensi alur kerja dan penghemata
 | **Kemudahan Modifikasi Fitur Solid** | Parametrik penuh dengan pohon riwayat riil | Sulit dimodifikasi (hanya format *dumb surface*) | Modifikasi dimensi lubang atau tebal dinding selesai dalam hitungan detik |
 | **Simulasi Analisis Deviasi Dimensi** | Terintegrasi visual warna (Color Mapping) | Membutuhkan software inspeksi metrologi tambahan | Jaminan kontrol kualitas suku cadang presisi tinggi sebelum proses pemesinan |
 | **Pilihan Skema Lisensi** | Lisensi Permanen (*Perpetual*) | Dominan sistem sewa tahunan berulang mahal | Memangkas biaya kepemilikan software (*TCO*) hingga 65% dalam tempo 3 tahun |
-| **Dukungan Dongle USB Fleksibel** | Tersedia (Mudah dibawa ke workshop lapangan) | Umumnya terkunci pada satu ID mesin workstation | Praktis digunakan bergantian antara lab scanning dan ruang engineering |
+| **Fleksibilitas Pindah Workstation** | Softkey Digital (*Return License* & *Borrow*) | Umumnya terkunci pada satu ID mesin workstation | Praktis digunakan bergantian antara lab scanning dan ruang engineering tanpa perlu dongle fisik |
 
 ---
 
@@ -71,7 +71,7 @@ Bagi penyedia jasa 3D scanning, bengkel mold and die, serta divisi maintenance o
 
 Dengan mengadopsi **ZW3D 2026**:
 * **Kepemilikan Hak Milik Seumur Hidup:** Lisensi permanen resmi yang dibeli menjadi aset berharga perusahaan tanpa ancaman software non-aktif akibat habis masa sewa.
-* **Kemudahan Portabilitas Hardware Dongle:** Lisensi dapat dipasang pada flashdisk dongle fisik, memudahkan engineer membawa software ke fasilitas klien saat melakukan scanning on-site.
+* **Portabilitas Softkey Digital Tanpa Dongle:** Lisensi dapat diaktifkan di laptop scanning on-site secara offline maupun dipindahkan kembali ke PC kantor melalui fitur *Return License* tanpa risiko dongle USB hilang.
 * **Pendampingan Teknis Lokal Berpengalaman:** Didukung tim teknisi resmi Central CAD Indonesia yang siap memberikan pendampingan alur kerja scanning to CAD secara komprehensif.
 
 ---

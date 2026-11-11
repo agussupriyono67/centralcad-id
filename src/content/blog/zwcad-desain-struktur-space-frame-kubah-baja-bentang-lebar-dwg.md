@@ -38,7 +38,7 @@ Berikut komparasi teknis, kepemilikan lisensi, dan dampak keuangan antara ZWCAD 
 | Parameter Evaluasi Struktur Baja | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Kontraktor Baja |
 |---|---|---|---|
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal tetap milik perusahaan selamanya tanpa risiko lisensi kedaluwarsa |
-| **Pilihan Lisensi Site Pabrik & Proyek** | Hardware Dongle USB & Jaringan Floating | Terikat Login Cloud Internet Terus-Menerus | Sangat fleksibel dipakai di workshop fabrikasi maupun site proyek terpencil |
+| **Pilihan Lisensi Site Pabrik & Proyek** | Softkey Digital Offline & Jaringan Floating | Terikat Login Cloud Internet Terus-Menerus | Sangat fleksibel dipakai di workshop fabrikasi maupun site proyek terpencil tanpa risiko dongle rusak |
 | **Performa Rotasi Model Rangka 3D** | Sangat Ringan (*Hardware Acceleration*) | Berat dan Membutuhkan Spek GPU Sangat Mahal | Menghemat biaya upgrade perangkat komputer kerja di divisi engineering |
 | **Dukungan Skrip Otomasi LISP/BOM** | Kompatibilitas Penuh Tanpa Biaya Tambahan | Terbatas pada Varian Tertentu yang Lebih Mahal | Mempercepat penerbitan cutting list pipa dan daftar kebutuhan baut struktur |
 | **Arus Kas Operasional Perusahaan** | Bebas Biaya Tagihan Wajib Tahunan | Beban Tagihan Terus Naik Setiap Periode | Menjaga margin keuntungan saat mengerjakan tender proyek berdurasi panjang |

@@ -40,7 +40,7 @@ Berikut evaluasi teknis dan finansial antara ZWCAD 2026 dan software survey khus
 | **Impor Titik Koordinat (CSV/Excel)** | Otomatis & Cepat via Toolset Survey | Tersedia | Pengolahan data ukur selesai pada hari yang sama setelah tim pulang dari site |
 | **Pertukaran Format GIS (Esri SHP)** | Native Import & Export dengan Atribut | Memerlukan Ekstensi Khusus | Kolaborasi tanpa batas dengan dinas tata ruang (BPN / ATR) dan instansi pemda |
 | **Penanganan File DWG Kontur Raksasa** | Sangat Responsif, Akselerasi Multi-Core | Sering lambat dan berat (*heavy lag*) | Drafter pemetaan bekerja jauh lebih nyaman tanpa hambatan software crash |
-| **Pilihan Skema Lisensi Fleksibel** | Standalone Softkey, Network Floating, & USB Dongle | Hanya Lisensi Login Berbasis Akun Cloud | Lisensi USB Dongle sangat aman dan mudah dibawa berpindah-pindah lokasi basecamp |
+| **Pilihan Skema Lisensi Fleksibel** | Standalone Softkey (Offline) & Network Floating (*Borrow*) | Hanya Lisensi Login Berbasis Akun Cloud | Aktivasi offline & fitur *Borrow License* 180 hari sangat aman di lokasi basecamp tanpa risiko dongle hilang |
 
 ---
 

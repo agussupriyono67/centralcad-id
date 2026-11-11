@@ -40,7 +40,7 @@ Berikut perbandingan fitur teknis, kepemilikan aset, dan efisiensi operasional a
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal tetap milik pabrik selamanya tanpa ancaman lisensi kedaluwarsa |
 | **Integrasi Desain CAD & CAM CNC** | 100% Terpadu (*Native Associative*) | Sering Membutuhkan 2 Software Berbeda | Mengeliminasi kesalahan konversi format IGES/STEP antar-departemen |
 | **Pemodelan Hybrid Solid & Surface** | Fleksibel (*Overdrive™ Kernel*) | Kaku dan Rentan Gagal Boolean | Mempermudah manipulasi kurva organik sol dan pembentukan *parting line* |
-| **Opsi Lisensi Bengkel & Kantor** | Dongle USB Fisik & Jaringan Floating | Terikat Login Internet Akun Pribadi | Bebas dipindahkan antar-stasiun CNC milling di bengkel tanpa koneksi internet |
+| **Opsi Lisensi Bengkel & Kantor** | Softkey Digital Offline & Jaringan Floating | Terikat Login Internet Akun Pribadi | Bebas diaktifkan secara offline di stasiun CNC milling tanpa risiko dongle rusak dan mudah dipindah antar-PC |
 | **Post-Processor Mesin CNC Indonesia** | Bebas Kustomisasi untuk Semua Kontroler | Sering Dikenakan Biaya Tambahan Mahal | Kompatibel langsung dengan Fanuc, Siemens, Heidenhain, Syntec, & LNC |
 | **Dampak Finansial Jangka Panjang** | Bebas Biaya Tagihan Wajib Tahunan | Tagihan Terus Naik Setiap Tahun | Mengamankan margin laba saat tender pembuatan ratusan mold sepatu baru |
 

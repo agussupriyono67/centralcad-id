@@ -50,7 +50,7 @@ Penghematan biaya tentu tidak ada artinya jika software sering mengalami kendala
 * **Kompatibilitas Penuh Format DWG/DXF:** ZWCAD membaca dan menyimpan berkas DWG native tanpa konversi format. Tidak ada risiko kerusakan layer, font, garis linetype khusus pipa, maupun blok P&ID saat bertukar berkas dengan subkontraktor luar negeri.
 * **Performa Mulus pada File Raksasa (>150 MB):** Didukung teknologi akselerasi perangkat keras (*GPU acceleration*) dan pemrosesan multi-core, penelusuran (*pan/zoom*) pada denah pabrik petrokimia yang padat objek berjalan responsif tanpa lag.
 * **Eksekusi Script LISP & Tool Eksternal:** Tim drafting dapat langsung memuat script otomasi LISP yang biasa digunakan untuk penomoran valve, penarikan tabel isometrik, maupun penandaan koordinat grid struktur.
-* **Lisensi Hardware Dongle untuk Site Remote:** Untuk proyek kilang atau platform lepas pantai (*offshore*) dengan koneksi internet terbatas, lisensi USB Dongle ZWCAD memungkinkan drafter bekerja 100% offline tanpa batas waktu.
+* **Aktivasi Offline Softkey & Borrow License untuk Site Remote:** Untuk proyek kilang atau platform lepas pantai (*offshore*) dengan koneksi internet terbatas, aktivasi offline Softkey Digital (tanpa perlu dongle USB fisik) atau fitur *Borrow License* memungkinkan drafter bekerja 100% offline tanpa batas waktu.
 
 ---
 

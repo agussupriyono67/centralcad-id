@@ -25,7 +25,7 @@ Transisi software CAD sering kali dikhawatirkan memicu penurunan produktivitas t
 * **Kompatibilitas Penuh Skrip AutoLISP & API:** Perusahaan yang telah memiliki pustaka skrip kustom AutoLISP, DCL, VBA, atau .NET untuk otomasi gambar dapat langsung menjalankannya di ZWCAD 2026 Professional tanpa perlu menulis ulang baris kode dari awal.
 * **Mesin Grafis Multi-Core Berkecepatan Tinggi:** ZWCAD 2026 memanfaatkan teknologi akselerasi perangkat keras (*hardware acceleration*) dan pengolahan multi-threading CPU modern. Proses zoom, pan, regenerate, dan membuka file gambar berukuran ratusan megabyte berjalan jauh lebih ringan dan responsif.
 
-> **📌 Catatan Penting:** Berbeda dengan software sewa yang mewajibkan koneksi internet rutin untuk validasi lisensi, ZWCAD 2026 menyediakan opsi aktivasi offline via USB Hardware Dongle maupun Softkey fleksibel, menjamin keamanan data gambar kerja di lokasi proyek terpencil dan pabrik berstandar keamanan tinggi.
+> **📌 Catatan Penting:** Berbeda dengan software sewa yang mewajibkan koneksi internet rutin untuk validasi lisensi, ZWCAD 2026 menyediakan opsi aktivasi offline murni via Softkey Digital (tanpa perlu dongle fisik) maupun fitur *Borrow License*, menjamin keamanan data gambar kerja di lokasi proyek terpencil dan pabrik berstandar keamanan tinggi.
 
 ---
 
@@ -40,7 +40,7 @@ Berikut perbandingan komparatif komprehensif antara ZWCAD 2026 Professional dan 
 | **Dukungan Format File** | Native DWG & DXF (R14 hingga 2026) | Native DWG & DXF | Kolaborasi lintas divisi dan klien eksternal 100% aman tanpa distorsi grafis |
 | **Dukungan Skrip Otomasi** | AutoLISP, Visual LISP, VBA, .NET, ZRX API | AutoLISP, VBA, .NET, ObjectARX | Otomasi alur kerja drafting internal kantor langsung jalan tanpa biaya coding ulang |
 | **Kebutuhan RAM Komputer** | Cukup 4 GB – 8 GB RAM | Minimal 16 GB – 32 GB RAM | Mengoptimalkan komputer workstation kantor yang ada tanpa wajib belanja PC baru |
-| **Pilihan Skema Lisensi** | Standalone (Softkey/Dongle) & Network Floating | Berbasis Akun Per User (*Named User Only*) | Lisensi jaringan dapat digunakan bergantian secara efisien oleh seluruh drafter |
+| **Pilihan Skema Lisensi** | Standalone Softkey Digital (Zero Dongle) & Network Floating | Berbasis Akun Per User (*Named User Only*) | Lisensi jaringan dapat digunakan bergantian secara efisien oleh seluruh drafter |
 
 ---
 

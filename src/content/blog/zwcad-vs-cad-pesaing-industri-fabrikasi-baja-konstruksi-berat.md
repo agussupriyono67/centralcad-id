@@ -38,7 +38,7 @@ Berikut pengujian langsung aspek teknis dan finansial antara ZWCAD 2026 Professi
 | **Buka File DWG Baja >120 MB** | **Rata-rata 6–9 Detik** | Rata-rata 14–22 Detik | Sering Crash / Out of Memory |
 | **Konsumsi RAM Sistem** | Hemat (± 400–700 MB saat idle) | Boros (Bisa tembus >2 GB) | Tidak stabil / Memory Leak |
 | **Model Lisensi Bisnis** | **Lisensi Permanen (Hak Milik)** | Wajib Sewa Setiap Tahun | Gratis/Open Source tanpa jaminan legal |
-| **Opsi Lisensi Dongle USB** | **Tersedia (Bebas Internet Workshop)** | Tidak Ada (Wajib Login Cloud) | Tidak Ada |
+| **Aktivasi Offline Workshop** | **Softkey Offline & Borrow License (Zero Dongle)** | Tidak Ada (Wajib Login Cloud) | Terbatas |
 | **Dukungan LISP & Script Baja** | Kompatibel 100% tanpa modifikasi | Kompatibel | Terbatas / Error API |
 
 ---

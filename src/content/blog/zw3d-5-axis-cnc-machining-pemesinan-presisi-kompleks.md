@@ -71,7 +71,7 @@ Bagi pemilik workshop pemesinan presisi dan mold shop di Indonesia, menjaga peng
 
 Dengan memilih **ZW3D 5-Axis Machining**:
 * **Kepemilikan Sah Seumur Hidup:** Lisensi permanen resmi yang dibeli menjadi aset perusahaan tanpa biaya sewa wajib tahunan.
-* **Aktivasi Fleksibel Dongle USB:** Mudah dipindahkan antar-komputer workstation pemrograman di ruang engineering maupun laptop teknisi di dekat mesin.
+* **Aktivasi Softkey Digital Fleksibel (Zero Dongle):** Kode lisensi dikirim digital via email dan mudah dipindahkan antar-komputer workstation pemrograman di ruang engineering maupun laptop teknisi melalui fitur *Return License* mandiri.
 * **Layanan Pendampingan Teknis Lokal:** Tim ahli aplikasi CAM Central CAD siap membantu konfigurasi post-processor dan optimasi parameter pemotongan langsung di lokasi workshop Anda.
 
 ---

@@ -67,7 +67,7 @@ Bagi bengkel fabrikasi, manufaktur mesin kemasan, dan produsen komponen otomotif
 Dengan berinvestasi pada **ZWCAD 2026**:
 * **Lisensi Resmi Seumur Hidup:** Software yang Anda beli menjadi aset tetap perusahaan yang sah dan terdaftar resmi atas nama PT/CV Anda.
 * **Bebas Ancaman Kedaluwarsa:** Gambar kerja teknik mesin Anda tetap dapat dibuka dan direvisi kapan pun, tanpa khawatir software terkunci akibat tanggal langganan habis.
-* **Pilihan Lisensi Fleksibel:** Tersedia aktivasi via Softkey online maupun Hardware Dongle USB fisik yang sangat praktis dipindahkan dari ruang engineering ke laptop teknisi di lapangan.
+* **Pilihan Lisensi Digital Fleksibel (Zero Dongle):** Tersedia aktivasi via Softkey Digital (mendukung mode online/offline serta pindah perangkat lewat *Return License*) maupun Network Floating dengan fitur *Borrow License* untuk teknisi lapangan.
 
 ---
 

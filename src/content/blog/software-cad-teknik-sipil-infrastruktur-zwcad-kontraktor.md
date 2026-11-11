@@ -55,9 +55,9 @@ Tim drafter yang selama ini menggunakan custom macro dan script LISP untuk otoma
 |---|---|---|
 | **Standalone Permanen** | 1–5 workstation | Investasi sekali bayar, tidak ada biaya tahunan |
 | **Network Floating** | 10+ drafter bergantian | Hemat — 10 lisensi bisa dipakai 15-20 drafter secara bergantian |
-| **USB Dongle Hardware** | Drafter site/lapangan | Bisa dipindah antar PC, 100% offline tanpa aktivasi internet |
+| **Standalone Softkey (Offline / Borrow)** | Drafter site/lapangan | 100% digital (Zero Dongle), bisa diaktifkan offline & dipindah antar-PC via *Return License* |
 
-Untuk kontraktor besar dengan puluhan drafter di kantor pusat dan team site di lapangan, kombinasi **Network Floating + USB Dongle** adalah solusi paling hemat dan fleksibel.
+Untuk kontraktor besar dengan puluhan drafter di kantor pusat dan tim site di lapangan, kombinasi **Network Floating (dengan fitur Borrow License) + Standalone Softkey** adalah solusi paling hemat dan bebas risiko perangkat fisik hilang.
 
 ---
 

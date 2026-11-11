@@ -39,7 +39,7 @@ Berikut perbandingan teknis dan finansial antara ZWCAD 2026 dan software CAD sew
 |---|---|---|---|
 | **Skema Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sekali Investasi | Wajib Sewa Tahunan (*Annual Subscription*) | Software menjadi aset tetap legal perusahaan selamanya tanpa biaya sewa rutin |
 | **Kecepatan Membuka Xref Kilang Besar** | Sangat Cepat (*Multi-Thread Processing*) | Standar (Cenderung Berat pada File Kompleks) | Meningkatkan kelancaran kerja drafter saat menyusun gambar koordinasi master |
-| **Kebutuhan Akses Internet Operasional** | 100% Offline (Aktivasi Dongle USB & Softkey) | Wajib Login Akun Cloud Berkala | Ideal untuk lokasi proyek kilang offshore atau site pedalaman tanpa sinyal internet |
+| **Kebutuhan Akses Internet Operasional** | 100% Offline (Softkey Offline & *Borrow License*) | Wajib Login Akun Cloud Berkala | Ideal untuk lokasi proyek kilang offshore atau site pedalaman tanpa sinyal internet dan bebas perangkat dongle fisik |
 | **Dukungan LISP & Otomasi Skrip Piping** | Kompatibel Penuh (*AutoLISP, VLISP, SDS, ZRX*) | Memerlukan Versi Tertentu yang Lebih Mahal | Skrip kalkulasi berat pipa dan penomoran otomatis instrumen langsung jalan tanpa modifikasi |
 | **Biaya Tambahan Tahun Berikutnya** | Rp 0 (Bebas Biaya Perpanjangan Wajib) | Terus Naik Mengikuti Fluktuasi Kurs Dolar | Melindungi arus kas dan margin keuntungan tender proyek jangka panjang |
 | **Legalitas Audit Software Internasional** | Sertifikat Lisensi Resmi Prinsipal ZWSOFT | Terikat Kontrak Sewa Per User Akun Cloud | Lolos verifikasi kepatuhan legalitas vendor saat pra-kualifikasi tender EPC BUMN/Swasta |

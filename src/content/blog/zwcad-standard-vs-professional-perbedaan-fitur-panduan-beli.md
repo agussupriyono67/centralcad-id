@@ -42,7 +42,7 @@ Berikut perbandingan fitur teknis mendalam antara kedua edisi untuk mempermudah 
 | **Import & Ekstrak Data File IFC (BIM)** | Tidak Tersedia | Tersedia Penuh | Koordinasi model arsitektur 3D antar disiplin proyek |
 | **Sheet Set Manager Terpadu** | Tidak Tersedia | Tersedia Penuh | Manajemen ratusan lembar cetak shop drawing proyek besar |
 | **Import & Visualisasi Point Cloud** | Tidak Tersedia | Tersedia Penuh | Pemetaan kontur 3D hasil laser scan topografi & as-built |
-| **Pilihan Skema Lisensi (Dongle & Jaringan)**| Dongle USB / Softkey | Dongle USB, Softkey, Network Floating | Fleksibilitas rotasi lisensi antar workstations di kantor |
+| **Pilihan Skema Lisensi (Zero Dongle)**| Softkey Digital Standalone | Softkey Digital & Network Floating | Fleksibilitas rotasi lisensi antar workstation melalui *Return License* atau server jaringan |
 
 ---
 

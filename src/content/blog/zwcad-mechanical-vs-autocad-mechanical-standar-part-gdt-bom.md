@@ -40,7 +40,7 @@ Berikut perbandingan fitur teknis dan skema kepemilikan lisensi antara ZWCAD 202
 | **Simbol GD&T & Anotasi Pengelasan** | Terintegrasi & Otomatis Sesuai Standar | Terintegrasi & Otomatis | Memastikan komunikasi teknis ke bagian workshop/mesin CNC bebas salah tafsir |
 | **Otomasi Ballooning & BOM Dinamis** | Sinkronisasi Dua Arah (*Bidirectional Sync*) | Sinkronisasi Dua Arah | Mencegah kekeliruan pengadaan material dan spare part di departemen purchasing |
 | **Kebutuhan Spesifikasi Komputer** | Ringan (Cukup RAM 8 GB, Core i3/i5) | Berat (Minimal RAM 16 GB – 32 GB) | Menghemat anggaran pengadaan unit komputer workstation baru di kantor |
-| **Pilihan Skema Aktivasi** | Softkey Elektronik, Network Floating, & USB Dongle | Hanya Berbasis Akun Cloud (*Named User*) | Fleksibel digunakan di pabrik tanpa koneksi internet dengan perlindungan USB Dongle |
+| **Pilihan Skema Aktivasi** | Softkey Digital (Online/Offline) & Network Floating | Hanya Berbasis Akun Cloud (*Named User*) | Fleksibel digunakan di pabrik tanpa koneksi internet melalui aktivasi offline maupun fitur *Borrow License* (Zero Dongle) |
 
 ---
 

@@ -42,7 +42,7 @@ Berikut evaluasi perbandingan teknis, aspek kepatuhan legalitas, dan dampak bisn
 | **Kestabilan Gambar Skematik Kompleks** | Sangat Ringan & Responsif (*Multi-Thread*) | Berat pada Skematik dengan Ribuan Blok | Drafter bekerja lebih cepat dalam menyelesaikan revisi *as-built drawing* |
 | **Otomasi Skrip LISP & Elektrikal API** | Kompatibel Penuh (*AutoLISP, VLISP, ZRX*) | Memerlukan Paket Tertentu yang Mahal | Menjalankan skrip penomoran terminal blok dan kalkulasi beban otomatis |
 | **Beban Finansial Tahun Berikutnya** | Rp 0 (Bebas Biaya Perpanjangan Wajib) | Biaya Sewa Terus Naik Setiap Tahun | Mengamankan arus kas dan menjaga margin laba proyek transmisi |
-| **Dukungan Lisensi Fleksibel (Dongle/Network)** | Tersedia Hardware Dongle USB & Network Server | Mayoritas Terikat pada Akun Cloud User | Lisensi dapat dibagikan secara adil di kantor pusat maupun kontainer site gardu |
+| **Dukungan Lisensi Fleksibel (Softkey/Network)** | Softkey Digital (*Return/Borrow*) & Network Server | Mayoritas Terikat pada Akun Cloud User | Lisensi dapat dibagikan secara adil di kantor pusat maupun kontainer site gardu tanpa dongle fisik |
 
 ---
 

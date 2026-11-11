@@ -21,7 +21,7 @@ Investasi software teknik seharusnya memberikan ketenangan operasional, bukan ke
 
 * **Legalitas Usaha 100% Sah:** Pembelian melalui Central CAD Indonesia (PT Hetra Teknologi Indonesia) dilengkapi sertifikat aktivasi resmi, invoice, dan faktur pajak PPN. Perusahaan Anda terlindungi dari risiko audit software.
 
-* **Metode Aktivasi Fleksibel:** Tersedia aktivasi digital **Softkey** untuk kemudahan jarak jauh, serta **Hardware USB Dongle** yang sangat praktis dipindahkan antar-komputer tanpa memerlukan sambungan internet.
+* **Metode Aktivasi 100% Digital (Zero Dongle Fisik):** Tersedia aktivasi **Softkey** digital (bisa diaktifkan secara online maupun offline via *Request/Response File* serta dipindahkan antar-PC lewat *Return License*), maupun **Network Floating License** dengan fitur *Borrow License* hingga 180 hari untuk kerja lapangan tanpa internet.
 
 * **Upgrade Bebas Tanpa Paksaan:** Anda bebas menentukan kapan ingin memperbarui versi software. Tidak ada penalti ataupun pemblokiran software jika Anda memilih tetap memakai versi yang sudah ada.
 

@@ -26,7 +26,7 @@ Dalam lingkungan produksi massal komponen otomotif presisi—mulai dari komponen
 
 * **Sertifikat Lisensi Resmi Prinsipal untuk Lolos Audit Vendor:** Setiap pembelian unit ZWCAD dilengkapi dengan sertifikat lisensi legal sah bertaraf internasional atas nama resmi badan usaha (PT) Anda. Dokumen ini menjadi bukti otentik yang valid saat tim auditor prinsipal OEM melakukan inspeksi kepatuhan aset IT di pabrik Anda.
 * **Pertukaran File DWG/DXF 100% Akurat dengan Tim R&D Pabrikan:** Format native DWG pada ZWCAD memastikan gambar kerja 2D yang dikirim dari prinsipal OEM dapat dibuka dan diedit tanpa pergeseran toleransi dimensi (*geometric tolerances*), kerusakan blok simbol, atau error garis kontur.
-* **Keamanan Data Desain Komponen Rahasia (Offline Activation):** Perlindungan kerahasiaan kekayaan intelektual (*NDA*) sangat krusial di dunia otomotif. ZWCAD dapat diaktifkan secara mandiri secara offline menggunakan *Hardware Dongle USB* tanpa mewajibkan komputer drafter terhubung ke jaringan internet publik atau cloud luar negeri.
+* **Keamanan Data Desain Komponen Rahasia (Offline Activation):** Perlindungan kerahasiaan kekayaan intelektual (*NDA*) sangat krusial di dunia otomotif. ZWCAD dapat diaktifkan secara mandiri secara offline menggunakan berkas aktivasi *Softkey Digital (Request/Response XML)* tanpa mewajibkan komputer drafter terhubung ke jaringan internet publik dan tanpa perlu dongle USB fisik.
 * **Dukungan API Lengkap untuk Otomasi Skrip Pabrik:** Bagi pabrik otomotif yang memiliki program otomasi internal berbasis AutoLISP, VBA, atau skrip C++, ZWCAD mendukung migrasi skrip secara langsung tanpa perlu pengkodean ulang yang memakan waktu.
 
 > **📌 Catatan Penting:** ZWCAD tidak menerapkan sistem sewa tahunan paksa. Sekali perusahaan Anda berinvestasi membeli lisensi permanen ZWCAD, software tersebut menjadi aset sah milik perseroan selamanya tanpa tagihan berulang tahun berikutnya.
@@ -41,7 +41,7 @@ Berikut perbandingan antara ZWCAD 2026 dan software CAD sewa tahunan dalam konte
 |---|---|---|---|
 | **Status Legalitas & Bukti Kepemilikan** | Sertifikat Permanen Resmi Atas Nama PT | Berlangganan Berjangka per Akun Email | Lolos audit vendor prinsipal tanpa risiko lisensi kedaluwarsa di tengah produksi |
 | **Model Biaya Pengadaan Piranti Lunak** | Sekali Beli Menjadi Aset Tetap Pabrik | Biaya Sewa Berulang (*Opex*) Setiap Tahun | Mengurangi biaya produksi per part (*cost per part*) sehingga harga tender lebih kompetitif |
-| **Fleksibilitas Aktivasi di Lantai Pabrik** | Dongle USB Fisik & Jaringan Lokal (*LAN*) | Wajib Login Akun Cloud Berkala | Sangat aman untuk ruang drafting di area steril (*cleanroom*) yang terisolasi dari internet |
+| **Fleksibilitas Aktivasi di Lantai Pabrik** | Softkey Offline & Jaringan Lokal (*LAN*) | Wajib Login Akun Cloud Berkala | Sangat aman untuk ruang drafting di area steril (*cleanroom*) yang terisolasi dari internet tanpa risiko perangkat USB |
 | **Kompatibilitas File DWG/DXF OEM** | 100% Native DWG (R12 hingga format 2026) | Native DWG Format | Tidak ada hambatan saat menerima file desain revisi dari principal Jepang atau Korea |
 | **Beban Spesifikasi Komputer PC** | Ringan (Hemat Anggaran Workstation) | Berat (Memerlukan Spesifikasi Tinggi) | Menghemat pengeluaran investasi unit PC baru di lantai engineering dan QC |
 | **Dukungan Teknis Lokal Indonesia** | Dukungan Langsung Engineer Lokal Central CAD | Mayoritas Melalui Tiket Online Asing | Masalah kendala teknis drafting diselesaikan cepat tanpa menunggu antrean internasional |

@@ -65,7 +65,7 @@ ZWCAD 2026 mendukung penuh operasional di lingkungan jaringan terisolasi:
 
 * **Aktivasi Lisensi Offline XML:** Proses otorisasi serial number dapat dilakukan tanpa menyambungkan komputer drafter ke jaringan internet publik.
 * **Server Lisensi Internal (Network Floating):** Server lisensi berbasis FlexNet Publisher dapat diinstal di dalam data center lokal kantor pusat BUMN tanpa akses keluar (*outbound traffic*).
-* **Opsi Hardware Dongle USB:** Lisensi fisik berbentuk USB Dongle yang dapat dipindahkan secara praktis di lokasi proyek perbatasan atau remote site tanpa jaringan sama sekali.
+* **Aktivasi Offline Softkey & Borrow License (Zero Dongle):** Mendukung aktivasi offline murni (*Manual Request/Response Activation*) maupun peminjaman lisensi (*Borrow License* hingga 180 hari) tanpa membutuhkan dongle USB fisik yang berisiko hilang saat audit aset negara.
 
 > **Tips Praktis:** Untuk instansi dengan tim drafter yang tersebar di berbagai divisi atau cabang balai proyek daerah, skema **ZWCAD Network Floating License** merupakan pilihan paling efisien. Satu lisensi jaringan di server kantor pusat dapat digunakan bergantian secara cerdas oleh staf perencana, pengawas lapangan, dan konsultan pendukung.
 

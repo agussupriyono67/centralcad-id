@@ -67,7 +67,7 @@ ZWCAD 2026 mampu membaca file DWG dari versi AutoCAD 2.5 (tahun 1980-an) hingga 
 
 ### Untuk Drafter Lapangan/Site
 
-**ZWCAD USB Dongle Hardware** — Lisensi tersimpan di dongle USB fisik. Bisa dipindah bebas ke laptop berbeda saat pindah site proyek. 100% offline, tidak membutuhkan koneksi internet untuk aktivasi.
+**ZWCAD Softkey Digital (Online / Offline)** — Kode lisensi 24-digit dikirim resmi via email (kebijakan Zero Dongle Fisik). Dapat diaktifkan secara offline lewat berkas *Request/Response* dan mudah dipindahkan ke laptop lain melalui fitur *Return License* mandiri.
 
 ---
 

@@ -41,7 +41,7 @@ Berikut perbandingan teknis dan efisiensi kepemilikan lisensi antara ZWCAD 2026 
 |---|---|---|---|
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah Sekali Beli | Wajib Bayar Sewa Tahunan (*Subscription*) | Software menjadi aset tetap legal perusahaan selamanya tanpa tagihan berulang |
 | **Kelancaran Buka File Tampak Gedung Tinggi** | Sangat Cepat & Ringan (*Hardware Accelerated*) | Cenderung Berat pada File Master Penuh Garis | Drafter bekerja lebih produktif tanpa frustrasi akibat komputer mendadak hang |
-| **Kebutuhan Akses Internet di Kantor Proyek** | 100% Mandiri (Offline USB Dongle & Softkey) | Wajib Login Akun Cloud Berkala | Sangat andal digunakan di kantor direksi keet proyek lapangan yang minim sinyal |
+| **Kebutuhan Akses Internet di Kantor Proyek** | 100% Mandiri (Softkey Offline & *Borrow License*) | Wajib Login Akun Cloud Berkala | Sangat andal digunakan di kantor direksi keet proyek lapangan yang minim sinyal tanpa perlu dongle fisik |
 | **Dukungan Skrip Otomasi LISP & Potongan** | Kompatibel Penuh (*AutoLISP, Visual LISP*) | Memerlukan Paket Lisensi Tertentu yang Mahal | Skrip kalkulasi berat kusen dan pemotongan profil berjalan mulus tanpa diubah |
 | **Biaya Tambahan Tahun Berikutnya** | Rp 0 (Bebas Biaya Perpanjangan Wajib) | Biaya Sewa Terus Meningkat Tiap Tahun | Mengamankan arus kas dan melindungi margin keuntungan proyek konstruksi |
 | **Kebutuhan Spesifikasi Komputer Kantor** | Efisien (Cukup RAM 8 GB – 16 GB) | Menuntut Spesifikasi Workstation Berat | Menghemat biaya pengadaan dan pembaruan unit komputer di studio drafting |

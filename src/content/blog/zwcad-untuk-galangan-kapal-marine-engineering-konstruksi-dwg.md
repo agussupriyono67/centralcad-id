@@ -38,7 +38,7 @@ Berikut evaluasi perbandingan teknis, kepemilikan lisensi, dan dampak bisnis ant
 | Kriteria Evaluasi Marine Engineering | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Galangan Kapal |
 |---|---|---|---|
 | **Status Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) 1x Bayar | Wajib Sewa Tahunan (*Subscription*) | Software menjadi aset legal tetap perusahaan selamanya tanpa ancaman pemutusan |
-| **Pilihan Aktivasi Lisensi** | Hardware Dongle USB & Softkey Online | Wajib Login Akun Cloud Berkala | Sangat ideal untuk area drydock dan bengkel galangan tanpa koneksi internet stabil |
+| **Pilihan Aktivasi Lisensi** | Softkey Digital (Online/Offline) & Network Floating | Wajib Login Akun Cloud Berkala | Sangat ideal untuk area drydock dan bengkel galangan tanpa koneksi internet stabil maupun dongle fisik |
 | **Kecepatan Membuka Master DWG Kapal** | Sangat Cepat (*Multi-Core Acceleration*) | Rawan Menurun pada File Sangat Besar | Drafter dan naval architect bekerja lebih cepat dalam menyelesaikan revisi tender |
 | **Dukungan Skrip LISP Galangan Kapal** | Kompatibel Penuh (*LISP, VLISP, ZRX*) | Dibatasi pada Versi Tertentu yang Mahal | Menjalankan otomasi penomoran pelat gading kapal tanpa biaya tambahan |
 | **Beban Arus Kas Tahun Berikutnya** | Rp 0 (Bebas Biaya Wajib Perpanjangan) | Tagihan Terus Membengkak Setiap Tahun | Menghemat ratusan juta rupiah per proyek pembangunan kapal baru |

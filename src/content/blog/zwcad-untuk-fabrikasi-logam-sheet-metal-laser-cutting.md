@@ -83,7 +83,7 @@ Menjalankan bengkel fabrikasi membutuhkan alokasi modal besar untuk pembelian me
 
 ZWCAD hadir dengan skema **lisensi seumur hidup (*perpetual license*)**:
 * **Beli Sekali, Miliki Selamanya:** Tidak ada kewajiban iuran tahunan yang mengikat.
-* **Pilihan Dongle USB:** Lisensi fisik Dongle USB sangat ideal untuk lingkungan bengkel workshop, karena lisensi bisa dipindahkan dari komputer kantor desain ke workstation operator mesin di lantai pabrik dengan mudah.
+* **Aktivasi Offline Softkey Digital (Zero Dongle):** Sangat ideal untuk lingkungan bengkel workshop tanpa internet, karena dapat diaktifkan secara offline dan mudah dipindahkan dari komputer kantor desain ke workstation operator lewat *Return License* tanpa risiko dongle patah atau hilang.
 * **Dukungan Teknis Siaga:** Tim Central CAD siap mendampingi pengaturan format file dan asistensi teknis kapan pun dibutuhkan tim Anda.
 
 ---

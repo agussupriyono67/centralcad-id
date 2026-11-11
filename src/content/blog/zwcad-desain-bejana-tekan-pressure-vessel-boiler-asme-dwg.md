@@ -38,7 +38,7 @@ Berikut evaluasi teknis, model lisensi, dan keuntungan operasional antara ZWCAD 
 | Parameter Evaluasi Fabrikasi Bejana Tekan | ZWCAD 2026 Professional | Software CAD Sewa Tahunan | Keuntungan Strategis Pabrikasi |
 |---|---|---|---|
 | **Model Kepemilikan Lisensi** | Lisensi Permanen (*Perpetual*) Sah | Sewa Berjangka (*SaaS Subscription*) | Aset legal menjadi milik perusahaan selamanya tanpa risiko lisensi kedaluwarsa |
-| **Pilihan Lisensi Workshop & Site Fabrikasi** | Dongle USB Fisik & Jaringan Floating | Terikat Koneksi Cloud Login Pribadi | Dapat digunakan di workshop fabrikasi yang tidak memiliki koneksi internet stabil |
+| **Pilihan Lisensi Workshop & Site Fabrikasi** | Softkey Digital Offline & Jaringan Floating | Terikat Koneksi Cloud Login Pribadi | Dapat digunakan secara offline di workshop fabrikasi tanpa ketergantungan internet maupun dongle fisik |
 | **Standar Format Simbol Pengelasan & GD&T** | Lengkap Sesuai Standar ASME / AWS / ISO | Memerlukan Paket Tambahan yang Mahal | Menjamin simbol pengelasan terbaca jelas oleh juru las bersertifikat di lapangan |
 | **Dukungan Skrip Otomasi Teknis (LISP/API)** | Kompatibilitas Penuh Tanpa Biaya Lisensi Tambahan | Terbatas pada Versi Tertentu yang Jauh Lebih Mahal | Mempercepat pembuatan tabel nozel, rincian las, dan perhitungan volume tangki |
 | **Stabilitas Finansial Saat Jeda Proyek Fabrikasi** | Bebas Biaya Tagihan Wajib Tahunan | Tagihan Terus Berjalan Meski Bengkel Sedang Sepi | Menjaga stabilitas arus kas saat menunggu kontrak tender pengadaan tangki baru |
