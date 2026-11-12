@@ -69,7 +69,7 @@ Alat berat adalah mechanism dengan hydraulic actuator (silinder) yang gerak komp
 **Hasil setelah 6 bulan:**
 
 | Metrik | Solidworks (Before) | ZW3D (After) | Improvement |
-|:--|--:|--:|--:|
+|---|---|---|---|
 | Design cycle / component | 8 hari | 5 hari | 37% faster |
 | Assembly iteration | 15 revisions | 8 revisions | Fewer mistakes |
 | CNC export time | 4 jam manual programming | 1 jam (NC auto-generate) | 75% time save |
@@ -83,7 +83,7 @@ Alat berat adalah mechanism dengan hydraulic actuator (silinder) yang gerak komp
 ## Daftar Fitur Prioritas untuk Design Alat Berat
 
 | Fitur | ZW3D Standard | ZW3D Professional | Catatan |
-|:--|::|::|:--|
+|---|---|---|---|
 | Multi-body assembly (500+ parts) | Ya | Ya | Standard sudah sufficient |
 | Sheet metal unfolding + NC export | Ya | Ya | Penting untuk frame |
 | Weldment tools | Ya | Ya | Design boom structure |
@@ -149,7 +149,7 @@ Untuk tahap growth sekarang, **ZW3D Professional sufficient dan lebih cost-effec
 ## Kesimpulan: ROI Jelas, Masa Depan Terjamin
 
 | Faktor | Score |
-|:--|:--|
+|---|---|
 | Design capability untuk alat berat | 5/5 |
 | Cost efficiency vs Solidworks | 5/5 |
 | Learning curve untuk Solidworks user | 4/5 — mudah |

@@ -37,7 +37,7 @@ Meskipun Anda hanya butuh 2D, ZWCAD Standard sudah dilengkapi:
 **Perbandingan Total Cost of Ownership (TCO) 10 Tahun:**
 
 | Item | AutoCAD Subscription | ZWCAD Perpetual |
-|:--|--:|--:|
+|---|---|---|
 | Lisensi Tahun 1 | Rp 15.000.000 | Rp 15.300.000 |
 | Biaya Langganan Tahun 2–10 (@ Rp 13.5jt/th) | Rp 121.500.000 | Rp 0 (seumur hidup) |
 | **Total 10 Tahun** | **Rp 136.500.000** | **Rp 15.300.000** |

@@ -15,7 +15,7 @@ keywords: "ZWCAD vs LibreCAD perbandingan fitur 2D drafting, kompatibilitas DWG,
 ## Tabel Perbandingan Fitur Lengkap: ZWCAD vs LibreCAD
 
 | Fitur | ZWCAD Standard | LibreCAD (0.3.x) | Catatan |
-|:--|::|::|:--|
+|---|---|---|---|
 | **Kompatibilitas DWG** | R14–2024 native | R12–2004 (terbatas) | ZWCAD membuka DWG modern tanpa konversi |
 | **Autocomplete Command** | Lengkap | Partial | LibreCAD tidak punya shortcut lengkap |
 | **Dimensioning Otomatis** | Full parametric | Dasar | ZWCAD auto-update saat object resize |
@@ -88,7 +88,7 @@ Produktivitas naik, file integrity terjamin, support responsif. **ROI dalam 1 ta
 **Migrasi ke ZWCAD (1 minggu):**
 
 | Metrik | Sebelum (LibreCAD) | Sesudah (ZWCAD) | Improvement |
-|:--|--:|--:|--:|
+|---|---|---|---|
 | File corrupt/minggu | 3–4 | 0 | 100% resolved |
 | Client complaint/bulan | 8–12 | 0–1 | 90% reduction |
 | Rework time/bulan | 40 jam | 2 jam | **95% saving** |
@@ -105,7 +105,7 @@ Banyak yang berpikir gratis = lebih hemat. **Tidak selamanya benar:**
 **Total Cost of Ownership (TCO) Realistik 5 Tahun:**
 
 | Item | LibreCAD | ZWCAD |
-|:--|--:|--:|
+|---|---|---|
 | Lisensi software | Rp 0 | Rp 15.300.000 |
 | Training (3 hari) | Rp 0 (self-learn) | Rp 3.000.000 (PT Hetra) |
 | Support/troubleshooting (estimate 3 jam/bulan × Rp 150.000) | Rp 27.000.000 | Rp 500.000 (included) |

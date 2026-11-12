@@ -29,7 +29,7 @@ keywords: "ZWCAD harga lisensi network floating, lisensi multi-user tim hemat, f
 ## Perbandingan Harga: Standalone vs Network Floating
 
 | Skenario | Opsi | Jumlah | Harga/Unit | Total Harga | TCO 5 Tahun |
-|:--|:--|--:|--:|--:|--:|
+|---|---|---|---|---|---|
 | **Tim 8 Drafter Shift Campur** | Standalone (8 lisensi) | 8 | Rp 15.300.000 | Rp 122.400.000 | Rp 122.400.000 |
 | — | Network Floating (5 lisensi) | 5 | Rp 17.030.000 | Rp 85.150.000 | **Rp 85.150.000** |
 | **Penghematan** | — | — | — | **Rp 37.250.000 (30% lebih murah)** | **Rp 37.250.000** |
@@ -55,7 +55,7 @@ keywords: "ZWCAD harga lisensi network floating, lisensi multi-user tim hemat, f
 ## Keuntungan Network Floating untuk Perusahaan
 
 | Aspek | Standalone | Network Floating |
-|:--|:--|:--|
+|---|---|---|
 | **Biaya Total Owner (TCO)** | Rp 122.400.000 (8 lisensi × 5 tahun) | Rp 85.150.000 (5 lisensi × 5 tahun) |
 | **Fleksibilitas User** | Tied to 1 workstation | Dapat pakai workstation mana saja di network |
 | **Admin Overhead** | Aktivasi per mesin | Centralized server management |
