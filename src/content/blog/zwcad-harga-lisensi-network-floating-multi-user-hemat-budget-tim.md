@@ -8,8 +8,6 @@ tags: ['ZWCAD', 'Lisensi Network', 'Harga', 'Team License', 'Budget Hemat']
 keywords: "ZWCAD harga lisensi network floating, lisensi multi-user tim hemat, floating license management"
 ---
 
-# ZWCAD Harga Lisensi Network Floating Multi-User: Hemat Budget Tim Besar
-
 **Masalah:** Kantor Anda memiliki 8 CAD drafter, tapi tidak semua bekerja di shift yang sama. Membeli 8 lisensi standalone ZWCAD penuh berarti pengeluaran Rp 122.400.000 (8 × Rp 15.300.000). Sebagian besar hari, beberapa lisensi "mengganggur" karena user lagi meeting, training, atau libur.
 
 **Solusi:** ZWCAD Network Floating License memungkinkan Anda membeli pool lisensi bersama (misalnya 5 lisensi) yang dapat di-"borrow" oleh workstation mana saja dalam jaringan internal saat dibutuhkan, kemudian dikembalikan otomatis saat aplikasi ditutup. Hemat hingga 40% biaya lisensi dengan fleksibilitas penuh.

@@ -8,8 +8,6 @@ tags: ['ZW3D', 'Alat Berat', 'Ekskavator', 'Mechanical Design', 'Assembly']
 keywords: "ZW3D alat berat ekskavator dozer bucket, design assembly presisi, CAD manufaktur mesin"
 ---
 
-# ZW3D untuk Industri Alat Berat: Desain Ekskavator, Dozer, Bucket Assembly
-
 **Masalah:** Industri alat berat Indonesia (excavator, bulldozer, bucket, crane) sering menggunakan software CAD premium seperti Solidworks atau Catia yang mahal dan kompleks. Biaya lisensi per workstation Rp 25.000.000+ per tahun membuat budget design terbatas. Arus innovasi pun melambat karena tim fokus optimization cost, bukan improvement produk.
 
 **Solusi:** ZW3D adalah CAD 3D professional yang dirancang untuk rapid assembly design, presisi toleransi, dan generative design — dengan harga lisensi 50–60% lebih murah dari Solidworks. Untuk industri alat berat Indonesia, ZW3D adalah sweet spot antara capability vs affordability.
