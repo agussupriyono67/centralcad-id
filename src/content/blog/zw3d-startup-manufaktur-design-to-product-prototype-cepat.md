@@ -43,7 +43,7 @@ ZW3D menggabungkan feature-based modeling (seperti Solidworks) dengan antarmuka 
 **ZW3D untuk Startup Manufaktur:**
 
 | Edisi | Fitur Utama | Harga Perpetual |
-|:--|:--|--:|
+|---|---|---|
 | **Standard** | Parametric modeling, assembly, 2D drafting | Rp 12.000.000 |
 | **Premium** (Populer) | + Sheet metal, weldment, simulation | Rp 18.500.000 |
 | **Professional** | + Generative design, FEA, mold design | Rp 24.800.000 |
