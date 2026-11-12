@@ -30,7 +30,7 @@ ZWCAD 2026 dirancang khusus untuk menangani alur kerja perancangan infrastruktur
 
 * **Performa Responsif Membuka Masterplan Kompleks PLTS Utilitas:** File gambar tata letak PLTS utilitas skala 10-50 MW sering menggabungkan denah array strings, struktur racking 3D, tata letak inverter cabin, gardu trafo dalam satu file DWG berkapasitas besar. Mesin grafis ZWCAD 2026 dengan *multi-core acceleration* menjamin panning dan zoom tetap responsif tanpa lag, mengakselerasi proses koordinasi lapangan dan penyesuaian desain.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja PLTS dapat langsung diserahkan kepada konsultan independen (independent engineer), PLN untuk persetujuan koneksi grid (connection approval), dan tim audit legal pemberi finansial proyek tanpa ada elemen gambar yang hilang atau rusak.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja PLTS dapat langsung diserahkan kepada konsultan independen (independent engineer), PLN untuk persetujuan koneksi grid (connection approval), dan tim audit legal pemberi finansial proyek tanpa ada elemen gambar yang hilang atau rusak.
 
 ---
 
@@ -67,7 +67,7 @@ Berikut simulasi kalkulasi untuk **5 workstation (3 Drafter Desain Struktur + 2 
 * Dana anggaran proyek yang berhasil dihemat: Lebih dari **Rp 250.000.000 (Dua Ratus Lima Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk mengerjakan puluhan proyek PLTS berikutnya, maintenance drawing saat operasi 25 tahun lifetime PLTS.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak 250 juta rupiah ini dapat dialokasikan langsung untuk pengadaan alat survey topografi (drone + GPS), analisis geoteknik pondasi, atau sertifikasi kompetensi team lead engineering perusahaan.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak 250 juta rupiah ini dapat dialokasikan langsung untuk pengadaan alat survey topografi (drone + GPS), analisis geoteknik pondasi, atau sertifikasi kompetensi team lead engineering perusahaan.
 
 ---
 

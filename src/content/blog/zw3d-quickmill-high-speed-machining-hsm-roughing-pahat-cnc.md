@@ -25,7 +25,7 @@ ZW3D QuickMill™ mengubah paradigma pemotongan logam konvensional menjadi prose
 * **Rest Roughing Cerdas Tanpa Membuang Waktu (Air Cutting Elimination):** ZW3D mengenali secara otomatis sisa stok material yang belum terpotong dari proses pemakanan sebelumnya. Ketika operator menggunakan pahat berdiameter lebih kecil, mesin hanya menyayat area sisa tersebut tanpa membuang waktu memotong ruang kosong.
 * **Dukungan Kedalaman Sayat Penuh (Full Flute Depth Cutting):** Memanfaatkan seluruh panjang mata sayat end mill dengan lebar sayat (*stepover*) tipis, sehingga keausan pahat tersebar merata di sepanjang batang pisau, bukan hanya terpusat pada ujung bawah pahat.
 
-> **📌 Catatan Penting:** Modul ZW3D CAM terintegrasi langsung dalam satu lingkungan kerja (*all-in-one CAD/CAM*). Setiap revisi model 3D dari tim perancang produk dapat langsung diperbarui ke alur pahat CAM (*associative toolpath*) tanpa perlu ekspor-impor file IGES atau STEP yang berisiko merusak permukaan bidang (*surface errors*).
+> **Catatan Penting:** Modul ZW3D CAM terintegrasi langsung dalam satu lingkungan kerja (*all-in-one CAD/CAM*). Setiap revisi model 3D dari tim perancang produk dapat langsung diperbarui ke alur pahat CAM (*associative toolpath*) tanpa perlu ekspor-impor file IGES atau STEP yang berisiko merusak permukaan bidang (*surface errors*).
 
 ---
 
@@ -62,7 +62,7 @@ Mari kita hitung dampak efisiensi penggunaan teknologi ZW3D QuickMill™ untuk b
 * Pengeluaran belanja pahat baru: Rp 10.500.000 per bulan (Rp 126.000.000 per tahun).
 * **Penghematan Kas Bersih Bengkel:** **Rp 126.000.000 per tahun**, angka yang lebih dari cukup untuk melunasi kepemilikan lisensi ZW3D CAM resmi secara permanen.
 
-> **💼 Keputusan Investasi:** Software CAM yang handal bukan sekadar pembuat kode G-code, melainkan instrumen efisiensi yang memangkas biaya pemesinan dan mengamankan profitabilitas kontrak kerja bengkel Anda.
+> **Keputusan Investasi:** Software CAM yang handal bukan sekadar pembuat kode G-code, melainkan instrumen efisiensi yang memangkas biaya pemesinan dan mengamankan profitabilitas kontrak kerja bengkel Anda.
 
 ---
 

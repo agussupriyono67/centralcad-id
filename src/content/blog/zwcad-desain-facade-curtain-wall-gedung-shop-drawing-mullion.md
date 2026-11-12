@@ -29,7 +29,7 @@ Penyusunan gambar detail fasad menuntut ketelitian milimeter pada sambungan eksp
 * **Manajemen Xref Cerdas untuk Koordinasi Struktur Sipil:** ZWCAD mempermudah penautan gambar as-built struktur kolom dan balok beton dari kontraktor utama sebagai latar belakang Xref, memastikan posisi braket angkur fasad terpasang tepat tanpa bertabrakan dengan tulangan beton gedung.
 * **Akurasi Ekstraksi Data Dimensi Kaca (Data Extraction):** Informasi luas panel kaca, keliling profil alumunium, dan jumlah baut konektor dapat diekstrak langsung dari gambar kerja menjadi tabel Bill of Quantities (BOQ) otomatis, mencegah kekeliruan pemesanan material kaca ke pabrik pemasok.
 
-> **📌 Catatan Penting:** Format file ZWCAD adalah 100% native DWG standar industri. Seluruh gambar fasad yang Anda buat dapat langsung dibuka, dicek, dan disetujui oleh konsultan manajemen konstruksi (MK) maupun arsitek perencana utama tanpa kendala konversi atau layer berantakan.
+> **Catatan Penting:** Format file ZWCAD adalah 100% native DWG standar industri. Seluruh gambar fasad yang Anda buat dapat langsung dibuka, dicek, dan disetujui oleh konsultan manajemen konstruksi (MK) maupun arsitek perencana utama tanpa kendala konversi atau layer berantakan.
 
 ---
 
@@ -66,7 +66,7 @@ Mari kita tinjau simulasi perbandingan biaya lisensi selama kurun waktu 4 tahun 
 * Total anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 520.000.000 (520 Juta Rupiah)**.
 * Software ZWCAD tetap aktif selamanya untuk mengerjakan proyek-proyek fasad gedung tinggi berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana lebih dari setengah miliar rupiah dapat dialihkan perusahaan untuk modal pengadaan bahan baku profil alumunium ekstrusi, pengadaan mesin potong *double head cutting saw*, atau bonus insentif bagi tim engineer lapangan.
+> **Keputusan Manajemen:** Efisiensi dana lebih dari setengah miliar rupiah dapat dialihkan perusahaan untuk modal pengadaan bahan baku profil alumunium ekstrusi, pengadaan mesin potong *double head cutting saw*, atau bonus insentif bagi tim engineer lapangan.
 
 ---
 

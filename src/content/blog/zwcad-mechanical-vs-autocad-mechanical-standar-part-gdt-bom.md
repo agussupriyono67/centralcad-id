@@ -25,7 +25,7 @@ ZWCAD 2026 Mechanical dirancang khusus untuk memotong waktu drafting manual komp
 * **Smart Ballooning & Associative Bill of Materials (BOM):** Penomoran part (*balloon*) pada gambar rakitan (*assembly*) dapat digenerate otomatis hanya dengan sekali klik. Data atribut part secara instan terhubung ke tabel Bill of Materials (BOM), sehingga setiap penambahan atau pengurangan komponen pada gambar langsung memperbarui daftar kuantitas part tanpa risiko salah catat.
 * **Power Dimensioning untuk Poros dan Lubang:** Fitur dimensi mekanikal pintar yang secara otomatis mendeteksi geometri komponen silindris, poros bertingkat, dan lubang berulir, mempercepat pemberian ukuran toleransi tanpa perlu bolak-balik mengubah gaya dimensi.
 
-> **📌 Catatan Penting:** Format file ZWCAD Mechanical adalah native DWG dan DXF. Drafter Anda dapat langsung membuka, mengedit, dan menyimpan file gambar dari AutoCAD Mechanical tanpa risiko layer rusak, teks bergeser, atau simbol mekanikal berubah menjadi blok mati (*proxy objects*).
+> **Catatan Penting:** Format file ZWCAD Mechanical adalah native DWG dan DXF. Drafter Anda dapat langsung membuka, mengedit, dan menyimpan file gambar dari AutoCAD Mechanical tanpa risiko layer rusak, teks bergeser, atau simbol mekanikal berubah menjadi blok mati (*proxy objects*).
 
 ---
 
@@ -60,7 +60,7 @@ Mengapa harus terus membayar biaya sewa tahunan untuk fungsi software yang sama 
 * Total efisiensi anggaran perusahaan mencapai lebih dari **Rp 600.000.000 (600 Juta Rupiah)**.
 * Lisensi tetap aktif digunakan selamanya untuk operasional pabrik dan workshop.
 
-> **💼 Keputusan Manajemen:** Dana ratusan juta rupiah yang berhasil dihemat dari pengalihan lisensi CAD mekanikal dapat Anda investasikan kembali untuk pengadaan mesin perkakas baru, penambahan material baku, atau bonus produktivitas tim teknis.
+> **Keputusan Manajemen:** Dana ratusan juta rupiah yang berhasil dihemat dari pengalihan lisensi CAD mekanikal dapat Anda investasikan kembali untuk pengadaan mesin perkakas baru, penambahan material baku, atau bonus produktivitas tim teknis.
 
 ---
 

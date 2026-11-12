@@ -23,7 +23,7 @@ Secara garis besar, ZWCAD dirancang dengan pemisahan kapabilitas yang sangat jel
 * **ZWCAD Standard:** Dikhususkan bagi pengguna yang berfokus penuh pada penyusunan gambar kerja 2D (*drafting & detailing*), modifikasi denah arsitektur dasar, dan inspeksi gambar kerja (viewing & plotting).
 * **ZWCAD Professional:** Paket lengkap untuk profesional teknik yang membutuhkan permodelan 3D (*solids, surfaces, meshes*), otomasi pemrograman tingkat lanjut (LISP, VBA, ZRX/ADS), integrasi file IFC BIM, serta manajemen set lembar kerja (*Sheet Set Manager*).
 
-> **📌 Catatan Penting:** Kedua varian menggunakan format file DWG/DXF native yang sama persis tanpa perlu konversi, sehingga drafter pengguna versi Standard dan Professional dapat saling bertukar file secara instan tanpa kendala kompatibilitas.
+> **Catatan Penting:** Kedua varian menggunakan format file DWG/DXF native yang sama persis tanpa perlu konversi, sehingga drafter pengguna versi Standard dan Professional dapat saling bertukar file secara instan tanpa kendala kompatibilitas.
 
 ---
 
@@ -55,7 +55,7 @@ ZWCAD Standard merupakan pilihan paling rasional dan hemat biaya jika profil pek
 * **Tim Lapangan & Pengawas Proyek:** Teknisi lapangan yang memerlukan workstation CAD untuk sekadar membuka file kiriman pusat, melakukan koreksi revisi teks minor, dan mencetak dokumen gambar kerja di site office.
 * **Tidak Membutuhkan Plugin Pihak Ketiga:** Alur kerja tim Anda mandiri menggunakan perintah CAD bawaan dan tidak bergantung pada aplikasi eksternal berbasis C++ (ZRX) atau macro VBA rumit.
 
-> **💡 Rekomendasi Alokasi:** Untuk konsultan arsitektur atau kontraktor interior, mengalokasikan sekitar 40%–60% workstation untuk versi Standard dapat memangkas anggaran pengadaan software secara signifikan tanpa mengorbankan output kerja.
+> **Rekomendasi Alokasi:** Untuk konsultan arsitektur atau kontraktor interior, mengalokasikan sekitar 40%–60% workstation untuk versi Standard dapat memangkas anggaran pengadaan software secara signifikan tanpa mengorbankan output kerja.
 
 ---
 

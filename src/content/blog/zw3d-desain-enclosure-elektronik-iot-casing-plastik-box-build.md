@@ -27,7 +27,7 @@ ZW3D dirancang khusus untuk mempercepat siklus peluncuran produk elektronik ke p
 * **Pemodelan Casing Plastik Ergonomis (Hybrid Solid-Surface Modeling):** Berkat teknologi *Overdrive kernel*, ZW3D memungkinkan perancang memadukan permukaan kurva bebas (*Class-A surface*) untuk estetika casing konsumen dengan fitur parametrik mekanis, seperti pengait lentur (*snap-fit*), bos sekrup (*screw boss*), dan kisi ventilasi (*cooling louvers*).
 * **Fleksibilitas Desain Box Build Sheet Metal & Rackmount Enclosure:** Untuk casing industri berbahan pelat logam (seperti inverter surya atau switchboard server), ZW3D menyediakan modul *sheet metal* lengkap dengan kalkulasi tekukan (*K-Factor*), *flange*, *miter*, dan fungsi *unfold/flatten* otomatis ke format DXF laser cutting.
 
-> **📌 Catatan Penting:** Setelah desain casing plastik disetujui, modul terintegrasi ZW3D Mold memungkinkan pembuatan rongga cetakan (*core & cavity split*) dan jalur pendingin secara otomatis tanpa perlu mengekspor file ke software lain.
+> **Catatan Penting:** Setelah desain casing plastik disetujui, modul terintegrasi ZW3D Mold memungkinkan pembuatan rongga cetakan (*core & cavity split*) dan jalur pendingin secara otomatis tanpa perlu mengekspor file ke software lain.
 
 ---
 
@@ -65,7 +65,7 @@ Mari kita simulasikan komparasi biaya lisensi software desain 3D untuk **10 kurs
 * Total dana modal perusahaan yang diselamatkan: Lebih dari **Rp 1.200.000.000 (1,2 Miliar Rupiah)**.
 * Lisensi menjadi aset tetap neraca keuangan perusahaan selamanya.
 
-> **💼 Keputusan Manajemen:** Penghematan miliaran rupiah dari pengalihan lisensi ZW3D dapat dialihkan untuk pengadaan mesin *3D printing rapid prototyping* berpresisi tinggi, pembuatan *die mold* purwarupa, atau sertifikasi laboratorium uji EMC.
+> **Keputusan Manajemen:** Penghematan miliaran rupiah dari pengalihan lisensi ZW3D dapat dialihkan untuk pengadaan mesin *3D printing rapid prototyping* berpresisi tinggi, pembuatan *die mold* purwarupa, atau sertifikasi laboratorium uji EMC.
 
 ---
 

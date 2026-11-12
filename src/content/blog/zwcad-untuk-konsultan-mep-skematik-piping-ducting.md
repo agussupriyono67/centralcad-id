@@ -27,7 +27,7 @@ Pekerjaan drafting MEP memiliki karakteristik teknis kompleks yang memerlukan ke
 * **Penyusunan Single Line Diagram & Skematik P&ID:** Menggambar diagram perpipaan dan instrumen (P&ID) menuntut garis multiline dan teks anotasi yang bersih. Fitur **Multiline & Smart Dimensioning** ZWCAD mempercepat perancangan skematik hingga dua kali lipat.
 * **Integrasi Format IFC untuk Deteksi Benturan 3D:** Versi ZWCAD 2026 Professional mampu mengimpor model 3D IFC dari software perencana BIM, memungkinkan engineer MEP memeriksa ruang bebas di atas plafon dan menghindari tabrakan ducting dengan balok struktur.
 
-> **📌 Catatan Penting:** Format file DWG pada ZWCAD 2026 adalah 100% native. Anda dapat menerima file kiriman dari perencana arsitektur dan mengirimkan kembali hasil gambar kerja MEP tanpa risiko kerusakan layer, skala garis (*linetype scale*), atau teks font yang hilang.
+> **Catatan Penting:** Format file DWG pada ZWCAD 2026 adalah 100% native. Anda dapat menerima file kiriman dari perencana arsitektur dan mengirimkan kembali hasil gambar kerja MEP tanpa risiko kerusakan layer, skala garis (*linetype scale*), atau teks font yang hilang.
 
 ---
 
@@ -58,7 +58,7 @@ Mengelola penomoran ratusan lembar gambar—mulai dari Denah Tata Udara Lt. 1-20
 ### 3. Smart Select untuk Audit Jalur Instalasi
 Ingin mengetahui total panjang pipa galvanis diameter 4 inci atau menghitung jumlah exhaust fan di seluruh lantai? Gunakan **Smart Select** untuk memfilter entitas berdasarkan tipe layer dan blok secara instan.
 
-> **💡 Tips Rekayasa:** Manfaatkan fitur **Layer Walk** pada ZWCAD untuk mengisolasi jalur pipa air kotor, pipa air bersih, atau saluran ventilasi satu per satu saat memeriksa potensi tumpang tindih jalur instalasi di ruang utilitas sempit.
+> **Tips Rekayasa:** Manfaatkan fitur **Layer Walk** pada ZWCAD untuk mengisolasi jalur pipa air kotor, pipa air bersih, atau saluran ventilasi satu per satu saat memeriksa potensi tumpang tindih jalur instalasi di ruang utilitas sempit.
 
 ---
 

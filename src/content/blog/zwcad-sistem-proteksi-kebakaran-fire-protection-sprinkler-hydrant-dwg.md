@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang khusus untuk memenuhi kebutuhan drafting teknis MEP berkece
 * **Pembuatan Gambar Isometrik Perpipaan & Perhitungan Daftar Fitting:** Pengawas lapangan membutuhkan gambar isometrik perpipaan untuk memandu tukang pipa dalam fabrikasi sambungan las dan *threading*. ZWCAD menyediakan mode *Isometric Drafting (Isocircles/Isoplanes)* yang intuitif, serta fitur ekstraksi data untuk menghitung total panjang pipa, jumlah siku (*elbows*), *tee*, dan katup secara otomatis ke format tabel BOM.
 * **Akselerasi Pengolahan Denah Master Arsitektur Raksasa:** File gambar denah arsitektur gedung pencakar langit dengan puluhan lantai dan ratusan layer sering kali menyebabkan software CAD konvensional menjadi lambat. Berkat optimasi *multi-core engine* ZWCAD 2026, proses *external reference (Xref)* denah arsitektur dan struktur berlangsung instan tanpa jeda *freezing*.
 
-> **📌 Catatan Penting:** ZWCAD 2026 memiliki kompatibilitas 100% native DWG. Seluruh gambar instalasi pemadam kebakaran dapat langsung dikoordinasikan dengan konsultan arsitektur, struktur, dan mekanikal lainnya tanpa risiko rusaknya layer, garis sumbu pipa, atau teks spesifikasi teknis.
+> **Catatan Penting:** ZWCAD 2026 memiliki kompatibilitas 100% native DWG. Seluruh gambar instalasi pemadam kebakaran dapat langsung dikoordinasikan dengan konsultan arsitektur, struktur, dan mekanikal lainnya tanpa risiko rusaknya layer, garis sumbu pipa, atau teks spesifikasi teknis.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi biaya pengadaan lisensi untuk **6 unit komputer draft
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 380.000.000 (Tiga Ratus Delapan Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek gedung dan fasilitas industri berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana piranti lunak ratusan juta rupiah dapat dialokasikan langsung untuk pengadaan alat uji tekanan hidrostatik pipa (*hydrostatic test pump*), pengukur laju aliran air (*flow meter testing unit*), atau sertifikasi kompetensi ahli K3 kebakaran untuk tim engineer.
+> **Keputusan Manajemen:** Efisiensi dana piranti lunak ratusan juta rupiah dapat dialokasikan langsung untuk pengadaan alat uji tekanan hidrostatik pipa (*hydrostatic test pump*), pengukur laju aliran air (*flow meter testing unit*), atau sertifikasi kompetensi ahli K3 kebakaran untuk tim engineer.
 
 ---
 

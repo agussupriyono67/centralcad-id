@@ -27,7 +27,7 @@ Berdasarkan pengalaman tim audit Central CAD Indonesia, investigasi ketidakpatuh
 * **Lisensi Berlangganan yang Kedaluwarsa:** Perusahaan lupa memperpanjang sewa tahunan namun staf engineering tetap membuka dan menggunakan software tersebut untuk mengejar tenggat proyek tender.
 * **Peralihan Vendor & Proyek Tender BUMN:** Mengikuti proses tender proyek strategis nasional kini mewajibkan lampiran sertifikat keaslian software (*Certificate of Authenticity*) resmi untuk seluruh workstation perancang.
 
-> **📌 Catatan Penting:** Menurut Undang-Undang Hak Cipta No. 28 Tahun 2014 di Indonesia, penggunaan software ilegal untuk kepentingan komersial dapat dikenakan sanksi ganti rugi perdata bernilai miliaran rupiah serta tuntutan pidana bagi penanggung jawab operasional perusahaan.
+> **Catatan Penting:** Menurut Undang-Undang Hak Cipta No. 28 Tahun 2014 di Indonesia, penggunaan software ilegal untuk kepentingan komersial dapat dikenakan sanksi ganti rugi perdata bernilai miliaran rupiah serta tuntutan pidana bagi penanggung jawab operasional perusahaan.
 
 ---
 
@@ -61,7 +61,7 @@ Untuk kantor dengan 30 drafter yang bekerja shift atau bergantian ke lapangan, A
 ### 4. Dapatkan Sertifikat Keaslian Resmi (Certificate of Authenticity)
 Seluruh pembelian lisensi ZWCAD melalui Central CAD Indonesia (PT Hetra Teknologi Indonesia) dilengkapi sertifikat lisensi resmi berkekuatan hukum penuh yang dapat dilampirkan dalam audit internal maupun persyaratan tender proyek.
 
-> **💡 Rekomendasi Legalitas:** Tim Central CAD menyediakan layanan *CAD Software Health Check* rahasia untuk membantu Anda menghitung kebutuhan lisensi legal tanpa kekhawatiran kebocoran data perusahaan.
+> **Rekomendasi Legalitas:** Tim Central CAD menyediakan layanan *CAD Software Health Check* rahasia untuk membantu Anda menghitung kebutuhan lisensi legal tanpa kekhawatiran kebocoran data perusahaan.
 
 ---
 

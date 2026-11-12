@@ -27,7 +27,7 @@ Memotong komponen aluminium menuntut kehalusan permukaan (*surface finish*) tanp
 * **Finishing Dinding Tipis Tanpa Distorsi Geometri:** Komponen seperti casing elektronik dan komponen struktural sering memiliki dinding tipis yang rentan melengkung akibat tekanan potong. Algoritma *Z-level finishing* dan *drive curve contouring* pada ZW3D menghasilkan deviasi minimal dengan toleransi hingga hitungan mikron.
 * **Verifikasi Solid Simulasi Permesinan & Pencegahan Tabrakan Spindel:** Sebelum kode G-code ditransfer ke kontroler mesin (Fanuc, Siemens, Heidenhain, Mitsubishi), ZW3D melakukan simulasi pemakanan material secara solid 3D. Seluruh potensi benturan antara kepala spindel, blok pencekam (*clamping fixture*), dan badan pahat terdeteksi sejak awal di komputer CAM.
 
-> **📌 Catatan Penting:** ZW3D mengadopsi konsep *All-in-One CAD/CAM*. Anda dapat langsung memodelkan komponen 3D, merevisi chamfer atau lubang baut, dan jalur pahat CAM akan otomatis diperbarui (*toolpath auto-update*) tanpa perlu ekspor-impor file netral seperti STEP atau IGES.
+> **Catatan Penting:** ZW3D mengadopsi konsep *All-in-One CAD/CAM*. Anda dapat langsung memodelkan komponen 3D, merevisi chamfer atau lubang baut, dan jalur pahat CAM akan otomatis diperbarui (*toolpath auto-update*) tanpa perlu ekspor-impor file netral seperti STEP atau IGES.
 
 ---
 
@@ -64,7 +64,7 @@ Mari kita bandingkan simulasi pembiayaan untuk **5 stasiun kerja CAM programmer 
 * Dana operasional yang berhasil dihemat perusahaan: Lebih dari **Rp 380.000.000 (Tiga Ratus Delapan Puluh Juta Rupiah)**.
 * Nilai tambah modal: Aset lisensi permanen dapat didepresiasikan secara legal dalam laporan keuangan perusahaan.
 
-> **💼 Keputusan Manajemen:** Dana penghematan lebih dari Rp 380 juta dapat dialihkan untuk membeli satu set lengkap *toolholder high-precision*, alat ukur *preset height gauge*, atau penambahan stok material billet aluminium industri.
+> **Keputusan Manajemen:** Dana penghematan lebih dari Rp 380 juta dapat dialihkan untuk membeli satu set lengkap *toolholder high-precision*, alat ukur *preset height gauge*, atau penambahan stok material billet aluminium industri.
 
 ---
 

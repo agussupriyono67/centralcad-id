@@ -27,7 +27,7 @@ Modul ZW3D Progressive Die dirancang khusus untuk memandu para perancang cetakan
 * **Generator Otomatis Punch, Die Plate, & Stripper:** Membuat komponen pisau pelubang (*punch*), pelat cetakan bawah (*die inserts*), pelat penekan (*stripper plate*), dan dudukan bantalan peluru pemandu (*die set pillars*) secara parametrik hanya dalam beberapa langkah.
 * **Kompensasi Springback & Overbending Terpadu:** Memberikan simulasi penyesuaian sudut tekuk secara otomatis guna mengimbangi elastisitas material logam saat tekanan mesin punch dilepas.
 
-> **📌 Catatan Penting:** Modul ZW3D Progressive Die dilengkapi pustaka komponen standar internasional terlengkap di dunia—mencakup katalog standar Misumi, Dayton, Fibro, DME, dan Hasco—yang siap diunduh dan dipasang langsung ke perakitan die set Anda.
+> **Catatan Penting:** Modul ZW3D Progressive Die dilengkapi pustaka komponen standar internasional terlengkap di dunia—mencakup katalog standar Misumi, Dayton, Fibro, DME, dan Hasco—yang siap diunduh dan dipasang langsung ke perakitan die set Anda.
 
 ---
 
@@ -61,7 +61,7 @@ Pilih garis kontur pemotongan untuk meng-generate punch pisau pemotong atas dan 
 ### 4. Perakitan Struktur Die Set Standar
 Muat struktur rangka cetakan (*die shoe* atas dan bawah), tiang pemandu (*guide post*), pegas urethane/spiral (*springs*), dan baut pengikat (*fasteners*) langsung dari pustaka standar industri.
 
-> **💡 Tips Rekayasa:** Manfaatkan fitur **Dynamic Motion Simulation** pada ZW3D untuk mensimulasikan pergerakan naik-turun mesin press secara nyata guna memvalidasi pelepasan benda kerja (*part ejection*) tanpa tersangkut di dalam rongga dies.
+> **Tips Rekayasa:** Manfaatkan fitur **Dynamic Motion Simulation** pada ZW3D untuk mensimulasikan pergerakan naik-turun mesin press secara nyata guna memvalidasi pelepasan benda kerja (*part ejection*) tanpa tersangkut di dalam rongga dies.
 
 ---
 

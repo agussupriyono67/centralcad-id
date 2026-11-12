@@ -27,7 +27,7 @@ ZW3D menggabungkan kernel pemodelan hybrid *Overdrive™* dan modul pemrograman 
 * **Strategi Roughing VoluMill™ & Perlindungan Umur Pahat CNC:** Menyerut blok baja H13 yang keras memerlukan pemakanan material yang efisien tanpa mematahkan pahat end mill mahal. Integrasi modul *VoluMill™ high-speed roughing* pada ZW3D menghasilkan jalur pahat dengan sudut kontak konstan (*constant tool engagement*), memangkas waktu roughing hingga 60% dan melipatgandakan umur insert karbida.
 * **Finishing Multi-Aksis Permukaan Halus & Penghilangan Sisa Material Rest Machining:** Rongga die tempa memiliki lekukan fillet sempit dan dinding tegak. Modul CAM ZW3D menghadirkan operasi *pencil tracing*, *corner rest finishing*, dan *smooth spiral toolpaths* yang menghasilkan kualitas permukaan mikro halus langsung dari mesin CNC, mengurangi proses poles manual hingga titik minimal.
 
-> **📌 Catatan Penting:** Engine all-in-one ZW3D menjamin keterikatan data 100% asosiatif antara master model 3D komponen tempa, susunan blok die atas/bawah (*upper & lower die blocks*), dan program jalur pahat CNC. Setiap kali ada perubahan dimensi susut logam (*shrinkage scale allowance*), program CNC akan diperbarui secara otomatis tanpa risiko salah potong di lantai bengkel.
+> **Catatan Penting:** Engine all-in-one ZW3D menjamin keterikatan data 100% asosiatif antara master model 3D komponen tempa, susunan blok die atas/bawah (*upper & lower die blocks*), dan program jalur pahat CNC. Setiap kali ada perubahan dimensi susut logam (*shrinkage scale allowance*), program CNC akan diperbarui secara otomatis tanpa risiko salah potong di lantai bengkel.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi investasi untuk **6 workstation komputer (3 CAD Die D
 * Dana operasional pabrik yang berhasil dihemat: Lebih dari **Rp 550.000.000 (Setengah Miliar Rupiah)**.
 * Nilai tambah bisnis: Lisensi tetap aktif digunakan selamanya untuk memproduksi ratusan set cetakan tempa komponen otomotif dan alat berat lainnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana lebih dari setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan pemegang pahat hidrolik (*hydraulic toolholders*), penambahan stok insert karbida berkualitas tinggi, atau perawatan berkala mesin pres penempaan di pabrik.
+> **Keputusan Manajemen:** Efisiensi dana lebih dari setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan pemegang pahat hidrolik (*hydraulic toolholders*), penambahan stok insert karbida berkualitas tinggi, atau perawatan berkala mesin pres penempaan di pabrik.
 
 ---
 

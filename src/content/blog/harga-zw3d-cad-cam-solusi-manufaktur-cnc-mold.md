@@ -23,7 +23,7 @@ Dengan ZW3D, seluruh siklus rekayasa manufaktur berjalan di dalam satu lingkunga
 2. **Perancangan Cetakan (Mold & Die):** Otomasi pembagian rongga cetakan (*core & cavity*), pemisahan parting line, dan pustaka mold base standar.
 3. **Pemrograman Pahat CNC (CAM):** Simulasi lintasan pahat untuk mesin Milling 2 hingga 5 sumbu (simultan), mesin bubut (*turning*), dan deteksi tabrakan.
 
-> **💡 Keuntungan Sinkronisasi:** Jika terjadi perubahan dimensi pada model produk di tahap akhir, lintasan pahat CAM akan otomatis diperbarui tanpa perlu mengulang pemrograman mesin dari nol.
+> **Keuntungan Sinkronisasi:** Jika terjadi perubahan dimensi pada model produk di tahap akhir, lintasan pahat CAM akan otomatis diperbarui tanpa perlu mengulang pemrograman mesin dari nol.
 
 ---
 

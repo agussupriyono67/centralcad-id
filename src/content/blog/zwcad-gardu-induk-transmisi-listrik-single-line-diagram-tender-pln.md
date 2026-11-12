@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang untuk mempermudah insinyur elektrikal dalam menyusun gambar
 * **Stabilitas Tinggi Menangani Master Layout Switchyard Berukuran Besar:** Gambar master tata letak switchyard gardu induk menggabungkan denah sipil pondasi trafo, struktur rangka gantry baja, dan jarak aman busbar bertegangan (*electrical clearances*). Mesin *multi-core* ZWCAD 2026 memastikan file master DWG skala luas dibuka secara instan tanpa lag.
 * **Ekstraksi Data Otomatis untuk Bill of Materials (BOM) Kabel & Komponen:** Fitur *Data Extraction* pada ZWCAD memungkinkan perancang menarik seluruh atribut blok peralatan switchyard, spesifikasi relai proteksi, panjang konduktor kabel, dan terminal sambungan secara otomatis ke format tabel tabel Excel untuk mempercepat penyusunan dokumen tender (*RAB*).
 
-> **📌 Catatan Penting:** Format native DWG pada ZWCAD 2026 memastikan seluruh gambar kerja SLD dan skematik elektrikal kompatibel 100% saat diserahkan ke pihak PLN, konsultan pengawas, maupun auditor teknis tanpa pergeseran teks anotasi atau distorsi jenis garis.
+> **Catatan Penting:** Format native DWG pada ZWCAD 2026 memastikan seluruh gambar kerja SLD dan skematik elektrikal kompatibel 100% saat diserahkan ke pihak PLN, konsultan pengawas, maupun auditor teknis tanpa pergeseran teks anotasi atau distorsi jenis garis.
 
 ---
 
@@ -64,7 +64,7 @@ Mari kita tinjau simulasi pengeluaran lisensi piranti lunak untuk **10 kursi ins
 * Total anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 650.000.000 (650 Juta Rupiah)**.
 * Lisensi tetap menjadi milik sah badan usaha Anda selamanya dan dapat dialihkan ke proyek gardu induk berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan untuk sertifikasi keselamatan kerja personel (K3 Listrik), pengadaan alat uji injeksi sekunder (*secondary injection test set*), atau instrumen kalibrasi relai.
+> **Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan untuk sertifikasi keselamatan kerja personel (K3 Listrik), pengadaan alat uji injeksi sekunder (*secondary injection test set*), atau instrumen kalibrasi relai.
 
 ---
 

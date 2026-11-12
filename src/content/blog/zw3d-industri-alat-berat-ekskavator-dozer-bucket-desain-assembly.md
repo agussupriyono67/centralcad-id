@@ -3,7 +3,7 @@ title: "ZW3D untuk Industri Alat Berat: Desain Ekskavator, Dozer, Bucket Assembl
 description: "ZW3D untuk design alat berat: ekskavator, bulldozer, bucket. Assembly presisi, hydraulic simulation, export ke manufaktur."
 pubDate: "2026-11-12"
 author: "Tim Teknis CentralCAD"
-image: "https://images.unsplash.com/photo-1581092162562-40038f56c946?ixlib=rb-4.0.3&w=1200&h=630&fit=crop&q=85"
+image: "/images/heavy_equipment_excavator_bucket_attachment.jpg"
 tags: ['ZW3D', 'Alat Berat', 'Ekskavator', 'Mechanical Design', 'Assembly']
 keywords: "ZW3D alat berat ekskavator dozer bucket, design assembly presisi, CAD manufaktur mesin"
 ---
@@ -24,7 +24,7 @@ ZW3D menangani assembly kompleks 2.000+ parts tanpa lag atau kualitas design yan
 - **Interference check** — Deteksi collision antara parts (piston stroke vs frame) otomatis
 
 <figure style="margin: 25px 0; text-align: center;">
-  <img src="https://images.unsplash.com/photo-1581092144562-5a6e0d37f15f?ixlib=rb-4.0.3&w=800&h=450&fit=crop&q=85" alt="ZW3D assembly workspace menampilkan excavator bucket dengan constraint dan collision detection" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
+  <img src="/images/mining_quarry_heavy_equipment_excavator.jpg" alt="ZW3D assembly workspace menampilkan excavator bucket dengan constraint dan collision detection" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
   <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px; font-style: italic;">Excavator bucket assembly di ZW3D dengan 200+ parts, collision detection real-time</figcaption>
 </figure>
 
@@ -84,13 +84,13 @@ Alat berat adalah mechanism dengan hydraulic actuator (silinder) yang gerak komp
 
 | Fitur | ZW3D Standard | ZW3D Professional | Catatan |
 |:--|::|::|:--|
-| Multi-body assembly (500+ parts) | ✅ | ✅ | Standard sudah sufficient |
-| Sheet metal unfolding + NC export | ✅ | ✅ | Penting untuk frame |
-| Weldment tools | ✅ | ✅ | Design boom structure |
-| Motion simulation (kinematics) | ⚠️ Dasar | ✅ Full | Professional recommended |
-| FEA stress analysis | ❌ | ✅ | Validate bucket tooth strength |
-| Generative design (topology optimization) | ❌ | ✅ Plus | Minimize boom weight 30% |
-| CAM post-processor (CNC export) | ❌ | ✅ Plus | Direct NC code generation |
+| Multi-body assembly (500+ parts) | Ya | Ya | Standard sudah sufficient |
+| Sheet metal unfolding + NC export | Ya | Ya | Penting untuk frame |
+| Weldment tools | Ya | Ya | Design boom structure |
+| Motion simulation (kinematics) | Dasar | Full | Professional recommended |
+| FEA stress analysis | Tidak | Ya | Validate bucket tooth strength |
+| Generative design (topology optimization) | Tidak | Plus | Minimize boom weight 30% |
+| CAM post-processor (CNC export) | Tidak | Plus | Direct NC code generation |
 
 **Rekomendasi:** Dimulai dengan **Professional**, optionally add **Manufacturing Extension** untuk full CAM workflow.
 
@@ -150,11 +150,11 @@ Untuk tahap growth sekarang, **ZW3D Professional sufficient dan lebih cost-effec
 
 | Faktor | Score |
 |:--|:--|
-| Design capability untuk alat berat | ⭐⭐⭐⭐⭐ (5/5) |
-| Cost efficiency vs Solidworks | ⭐⭐⭐⭐⭐ (5/5) |
-| Learning curve untuk Solidworks user | ⭐⭐⭐⭐ (4/5 — mudah) |
-| Local support & training | ⭐⭐⭐⭐⭐ (5/5 — PT Hetra expert) |
-| **Recommended** | **✅ Sangat Cocok untuk Alat Berat** |
+| Design capability untuk alat berat | 5/5 |
+| Cost efficiency vs Solidworks | 5/5 |
+| Learning curve untuk Solidworks user | 4/5 — mudah |
+| Local support & training | 5/5 — PT Hetra expert |
+| **Recommended** | **Sangat Cocok untuk Alat Berat** |
 
 ---
 

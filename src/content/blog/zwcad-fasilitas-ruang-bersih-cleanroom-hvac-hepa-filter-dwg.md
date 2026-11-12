@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang untuk menangani alur kerja perancangan fasilitas industri h
 * **Otomasi Isometrik Jalur Ducting HVAC & Air Handling Unit (AHU):** Sistem tata udara ruang bersih melibatkan saluran udara pasok (*supply duct*), udara balik (*return air duct*), dan pembuangan (*exhaust air*), lengkap dengan damper pengatur volume (*VAV damper*) dan katup tahan api (*fire damper*). ZWCAD memudahkan penggambaran skematik isometrik jalur perpipaan dan saluran udara dengan anotasi dimensi serta kalkulasi kecepatan aliran udara.
 * **Performa Ringan Membuka Masterplan Fasilitas Farmasi Masif:** File gambar tata letak arsitektur pabrik farmasi terintegrasi sering kali menggabungkan denah produksi, koridor steril, gudang bahan baku, dan ruang mekanikal AHU dalam satu file DWG berkapasitas besar. Mesin grafis ZWCAD 2026 yang diperkuat *multi-core acceleration* menjamin navigasi pan dan zoom tetap responsif tanpa kendala lag.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa proses konversi. Dokumen gambar kerja cleanroom dapat langsung diserahkan kepada auditor BPOM, konsultan kualifikasi validasi (DQ/IQ/OQ/PQ), dan prinsipal pabrik tanpa ada objek atau simbol sanitasi yang hilang.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa proses konversi. Dokumen gambar kerja cleanroom dapat langsung diserahkan kepada auditor BPOM, konsultan kualifikasi validasi (DQ/IQ/OQ/PQ), dan prinsipal pabrik tanpa ada objek atau simbol sanitasi yang hilang.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi kalkulasi komparasi pengeluaran untuk **6 workstation komputer 
 * Dana anggaran perusahaan yang berhasil dihemat: Lebih dari **Rp 380.000.000 (Tiga Ratus Delapan Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek cleanroom farmasi dan rumah sakit berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak hampir empat ratus juta rupiah ini dapat dialokasikan langsung untuk pengadaan instrumen pengujian aliran udara (*anemometer & balometer*), alat uji kebocoran filter HEPA (*PAO aerosol generator*), atau sertifikasi kompetensi personil HVAC.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak hampir empat ratus juta rupiah ini dapat dialokasikan langsung untuk pengadaan instrumen pengujian aliran udara (*anemometer & balometer*), alat uji kebocoran filter HEPA (*PAO aerosol generator*), atau sertifikasi kompetensi personil HVAC.
 
 ---
 

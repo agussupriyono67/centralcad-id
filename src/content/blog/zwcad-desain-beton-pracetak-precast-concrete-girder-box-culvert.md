@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang untuk menangani beban kerja rekayasa sipil berkapasitas bes
 * **Performa Ringan Membuka File DWG Skala Raksasa:** Proyek infrastruktur elevated viaduct melibatkan gambar denah situasi bentang jembatan dengan ukuran file DWG yang sangat besar. Mengandalkan teknologi akselerasi *multi-core CPU* dan optimasi RAM, ZWCAD 2026 membuka, melakukan *zoom/pan*, dan mencetak ratusan lembar *layout* secara instan tanpa hambatan lag.
 * **Otomasi Pembuatan Daftar Kebutuhan Besi via Skrip LISP Sipil:** Menghitung total tonase baja tulangan secara manual sangat memakan waktu dan rawan kekeliruan estimasi biaya. ZWCAD 2026 mendukung penuh ribuan skrip AutoLISP dan add-on aplikasi rebar sipil untuk mengekstrak volume beton dan rekapitulasi berat besi langsung ke format Excel.
 
-> **📌 Catatan Penting:** ZWCAD 2026 kompatibel 100% native DWG dengan standar industri global. Tim drafter di pabrik pracetak dapat langsung bertukar gambar kerja dengan konsultan perencana dan pengawas lapangan tanpa perlu khawatir terjadi korupsi file atau distorsi layer.
+> **Catatan Penting:** ZWCAD 2026 kompatibel 100% native DWG dengan standar industri global. Tim drafter di pabrik pracetak dapat langsung bertukar gambar kerja dengan konsultan perencana dan pengawas lapangan tanpa perlu khawatir terjadi korupsi file atau distorsi layer.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi biaya pengadaan lisensi untuk **8 unit komputer draft
 * Dana anggaran perusahaan yang berhasil dihemat: Lebih dari **Rp 500.000.000 (Setengah Miliar Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek jalan tol dan jembatan masa depan.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran piranti lunak sebesar setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan cetakan baja hidrolik (*steel mold shuttering*), kalibrasi dongkrak stressing prategang, atau pengujian mutu beton di laboratorium terakreditasi.
+> **Keputusan Manajemen:** Efisiensi anggaran piranti lunak sebesar setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan cetakan baja hidrolik (*steel mold shuttering*), kalibrasi dongkrak stressing prategang, atau pengujian mutu beton di laboratorium terakreditasi.
 
 ---
 

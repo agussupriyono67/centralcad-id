@@ -27,7 +27,7 @@ Modul ZW3D 5-Axis dirancang untuk memangkas siklus produksi komponen berpresisi 
 * **Pencegahan Tabrakan Dinamis (Real-Time Collision Avoidance):** Sistem memantau seluruh geometri pahat, dudukan arbor (*tool holder*), spindle, meja putar (*trunnion*), dan klem pencekam secara 3D. Jika terdeteksi potensi interferensi, sudut kemiringan pahat otomatis disesuaikan secara mulus.
 * **Kualitas Permukaan Super Halus (High-Gloss Surface Finish):** Distribusi titik lintasan pahat yang rapat meminimalkan jejak pemakanan (*scallop height*), menekan waktu pemolesan manual (*hand polishing*) hingga lebih dari 60%.
 
-> **📌 Catatan Penting:** Penggunaan pahat yang lebih pendek pada pemesinan 5-Axis ZW3D mengurangi defleksi dan getaran (*chatter*) secara drastis, sehingga usia pakai pisau frais (*end mill*) karbida dapat meningkat hingga 200%.
+> **Catatan Penting:** Penggunaan pahat yang lebih pendek pada pemesinan 5-Axis ZW3D mengurangi defleksi dan getaran (*chatter*) secara drastis, sehingga usia pakai pisau frais (*end mill*) karbida dapat meningkat hingga 200%.
 
 ---
 
@@ -61,7 +61,7 @@ Untuk dinding bilah impeller yang ramping, gunakan strategi **Swarf Cutting** di
 ### 4. Verifikasi Solid & Ekspor G-Code
 Jalankan verifikasi kinematika 3D lengkap untuk memastikan sumbu rotasi (A/B dan C) tidak melampaui batas batas mekanik (*travel limit*) mesin sebelum mengekspor G-code akhir.
 
-> **💡 Tips Manufaktur:** Aktifkan opsi **Lead/Lag Angle & Tilt Angle** di ZW3D untuk menjaga titik kontak ujung pahat ball-nose tetap berada di area pemotongan efektif, menghindari titik nol kecepatan potong di ujung center pahat.
+> **Tips Manufaktur:** Aktifkan opsi **Lead/Lag Angle & Tilt Angle** di ZW3D untuk menjaga titik kontak ujung pahat ball-nose tetap berada di area pemotongan efektif, menghindari titik nol kecepatan potong di ujung center pahat.
 
 ---
 

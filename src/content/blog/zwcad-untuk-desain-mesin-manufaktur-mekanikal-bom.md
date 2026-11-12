@@ -25,7 +25,7 @@ Penyusunan gambar teknik mesin menuntut fungsionalitas khusus yang melampaui kem
 * **File Assembly DWG Berisi Ribuan Komponen:** Gambar perakitan mesin pabrik sering kali memuat ribuan entitas baut, poros, dan roda gigi yang memicu *lag* parah saat navigasi. Dengan arsitektur komputasi multi-core, ZWCAD 2026 menjamin pergerakan zoom dan pan tetap mulus di angka 60 FPS.
 * **Kolaborasi File Lintas Pihak (DWG/DXF Native):** Gambar mesin harus dibagikan ke vendor pemotongan laser, workshop bubut, dan tim perakitan tanpa distorsi dimensi. ZWCAD membaca dan menulis file DWG/DXF native tanpa konversi yang merusak format.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung pembacaan dan pemuatan file format STEP, IGES, dan ACIS SAT secara langsung. Drafter mekanikal dapat mengimpor model 3D komponen standar (seperti motor listrik atau gearbox) dari vendor luar lalu memproyeksikannya menjadi gambar tampak 2D secara instan.
+> **Catatan Penting:** ZWCAD 2026 mendukung pembacaan dan pemuatan file format STEP, IGES, dan ACIS SAT secara langsung. Drafter mekanikal dapat mengimpor model 3D komponen standar (seperti motor listrik atau gearbox) dari vendor luar lalu memproyeksikannya menjadi gambar tampak 2D secara instan.
 
 ---
 
@@ -56,7 +56,7 @@ Memasukkan nilai toleransi suaian (seperti H7/g6, H7/p6, atau H7/k6) kini dilaku
 ### 3. File Compare Geometri Mesin
 Saat menerima pembaruan desain modifikasi mesin dari klien, fitur **File Compare** membedakan bagian yang diubah dengan sorotan warna kontras (merah untuk bagian lama, hijau untuk revisi baru). Hal ini mengeliminasi risiko kesalahan pemesinan pada benda kerja asli.
 
-> **💡 Tips Rekayasa:** Manfaatkan fitur **Tool Palettes** di ZWCAD 2026 untuk mengelompokkan komponen standar pabrik Anda (seperti profil aluminium ekstrusi, silinder pneumatik, dan bantalan roda). Cukup tarik dan letakkan (*drag-and-drop*) ke area gambar kerja.
+> **Tips Rekayasa:** Manfaatkan fitur **Tool Palettes** di ZWCAD 2026 untuk mengelompokkan komponen standar pabrik Anda (seperti profil aluminium ekstrusi, silinder pneumatik, dan bantalan roda). Cukup tarik dan letakkan (*drag-and-drop*) ke area gambar kerja.
 
 ---
 

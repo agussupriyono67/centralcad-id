@@ -25,7 +25,7 @@ ZW3D 2026 dirancang untuk menangani perakitan kompleks berisi ribuan suku cadang
 * **Deteksi Interferensi & Celah Real-Time (Interference & Clearance Check):** Mendeteksi benturan fisik antar komponen dalam hitungan detik. ZW3D secara otomatis menyoroti volume tabrakan dengan warna merah kontras dan menyajikan laporan koordinat benturan, mencegah salah rakit sebelum komponen dipotong di mesin CNC.
 * **Simulasi Gerak Kinematika Dinamis (Motion Simulation):** Menyimulasikan pergerakan dinamis mekanisme mekanik di layar komputer. Anda dapat menganalisis kecepatan sudut, percepatan, serta mendeteksi potensi tabrakan pada setiap sudut putaran mekanisme selama siklus operasi mesin berjalan.
 
-> **📌 Catatan Penting:** ZW3D 2026 didukung oleh mesin kernel geometri hybrid **Overdrive™** yang mengoptimalkan konsumsi memori grafis saat memuat perakitan raksasa (*large assembly*) hingga lebih dari 10.000 komponen secara responsif tanpa penurunan performa komputer.
+> **Catatan Penting:** ZW3D 2026 didukung oleh mesin kernel geometri hybrid **Overdrive™** yang mengoptimalkan konsumsi memori grafis saat memuat perakitan raksasa (*large assembly*) hingga lebih dari 10.000 komponen secara responsif tanpa penurunan performa komputer.
 
 ---
 
@@ -56,7 +56,7 @@ Pada lembar gambar kerja 2D drafting, ZW3D otomatis memberikan balon nomor (*aut
 ### 3. Ekspor Data Netral Lintas Platform
 Model perakitan dapat diekspor ke berbagai format standar internasional seperti STEP, IGES, Parasolid, maupun 3D PDF interaktif yang dapat diputar secara 360 derajat oleh klien tanpa perlu menginstal software CAD.
 
-> **💡 Tips Desain Mesin:** Manfaatkan fitur **Sub-Assembly Packaging** di ZW3D untuk mengelompokkan komponen modul mesin modular (seperti modul motor penggerak, modul gearbox, atau unit sensor), sehingga beberapa engineer dapat bekerja bersamaan pada proyek yang sama.
+> **Tips Desain Mesin:** Manfaatkan fitur **Sub-Assembly Packaging** di ZW3D untuk mengelompokkan komponen modul mesin modular (seperti modul motor penggerak, modul gearbox, atau unit sensor), sehingga beberapa engineer dapat bekerja bersamaan pada proyek yang sama.
 
 ---
 

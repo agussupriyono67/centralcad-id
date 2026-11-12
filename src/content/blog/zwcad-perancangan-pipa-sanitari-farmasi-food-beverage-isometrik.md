@@ -27,7 +27,7 @@ Penyusunan gambar kerja instalasi proses higienis membutuhkan software CAD yang 
 * **Otomasi Daftar Kebutuhan Fitting Sanitari via Ekstraksi Data:** Instalasi pipa cGMP menggunakan ribuan komponen bernilai tinggi, seperti ferrule klem, paking PTFE/EPDM, tee sanitari, dan siku radius panjang. ZWCAD memiliki fitur *Data Extraction* otomatis yang mampu menarik seluruh daftar material (*Bill of Materials/BOM*) langsung dari gambar DWG ke lembar kerja Excel tanpa risiko kekeliruan perhitungan manual.
 * **Kemudahan Koordinasi Antar-Disiplin Tanpa Konversi File:** Desain perpipaan proses harus terkoordinasi secara rapi dengan struktur bangunan pabrik dan saluran tata udara HVAC. Format native DWG pada ZWCAD menjamin pertukaran file referensi eksternal (*Xref*) dengan konsultan sipil dan arsitektur berjalan mulus tanpa masalah korupsi data layer.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung penuh integrasi aplikasi pihak ketiga (*third-party piping add-ons*) melalui ZRX C++ API dan LISP. Anda dapat memasang pustaka simbol pipa sanitari kustom perusahaan untuk mempercepat standardisasi gambar di seluruh cabang proyek.
+> **Catatan Penting:** ZWCAD 2026 mendukung penuh integrasi aplikasi pihak ketiga (*third-party piping add-ons*) melalui ZRX C++ API dan LISP. Anda dapat memasang pustaka simbol pipa sanitari kustom perusahaan untuk mempercepat standardisasi gambar di seluruh cabang proyek.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi biaya lisensi untuk **6 stasiun kerja drafter perpipa
 * Dana operasional yang berhasil diselamatkan: Lebih dari **Rp 380.000.000 (Tiga Ratus Delapan Puluh Juta Rupiah)**.
 * Hak aset legal: Lisensi permanen tercatat sebagai aset bernilai di neraca perusahaan dan dapat dialihkan antar-komputer drafter secara fleksibel.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan untuk pengadaan mesin *orbital welding* terkontrol mikroprosesor, alat uji endoskopi serat optik (*borescope*), atau pelatihan sertifikasi inspektur pipa higienis.
+> **Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan untuk pengadaan mesin *orbital welding* terkontrol mikroprosesor, alat uji endoskopi serat optik (*borescope*), atau pelatihan sertifikasi inspektur pipa higienis.
 
 ---
 

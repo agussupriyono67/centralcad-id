@@ -25,7 +25,7 @@ ZWCAD 2026 dirancang sangat ringan namun bertenaga untuk menangani file gambar p
 * **Penyisipan Citra Satelit & Foto Udara Ortofoto Tergeoreferensi:** Mampu menempelkan file citra raster berukuran raksasa (*GeoTIFF, ECW, MrSID, JPG/JGW*) tepat pada posisi sistem koordinat proyek nasional (WGS84, UTM Zona Indonesia, maupun sistem koordinat lokal tambang).
 * **Pembuatan Garis Kontur Halus & Analisis Elevasi Lahan:** Menginterpolasi kumpulan titik elevasi tanah menjadi garis kontur topografi (*contour lines*) lengkap dengan label ketinggian otomatis, memudahkan estimasi volume pekerjaan perataan tanah (*cut and fill*).
 
-> **📌 Catatan Penting:** Berkat mesin grafis ZWCAD yang telah dioptimalkan dengan akselerasi multi-core CPU, proses pan, zoom, dan regenerasi file DWG pemetaan berukuran ratusan megabyte yang berisi jutaan entitas garis kontur berjalan sangat ringan tanpa gejala macet (*freezing/lagging*).
+> **Catatan Penting:** Berkat mesin grafis ZWCAD yang telah dioptimalkan dengan akselerasi multi-core CPU, proses pan, zoom, dan regenerasi file DWG pemetaan berukuran ratusan megabyte yang berisi jutaan entitas garis kontur berjalan sangat ringan tanpa gejala macet (*freezing/lagging*).
 
 ---
 
@@ -62,7 +62,7 @@ Mari kita bandingkan simulasi pengeluaran software drafting pemetaan untuk tim b
 * Lisensi sah menjadi aset inventaris tetap perusahaan selamanya.
 * **Penghematan Finansial Riil:** **Lebih dari Rp 650.000.000 (650 Juta Rupiah)** yang dapat dialihkan untuk menambah unit alat ukur GNSS Geodetik RTK baru, drone lidar pemetaan, atau kendaraan operasional lapangan.
 
-> **💼 Keputusan Manajemen:** Hindari pemborosan dana proyek untuk software mahal yang fungsinya melebihi kebutuhan riil operasional kantor Anda. ZWCAD 2026 menyediakan semua fungsi esensial pemetaan DWG dengan tingkat efisiensi anggaran paling rasional di Indonesia.
+> **Keputusan Manajemen:** Hindari pemborosan dana proyek untuk software mahal yang fungsinya melebihi kebutuhan riil operasional kantor Anda. ZWCAD 2026 menyediakan semua fungsi esensial pemetaan DWG dengan tingkat efisiensi anggaran paling rasional di Indonesia.
 
 ---
 

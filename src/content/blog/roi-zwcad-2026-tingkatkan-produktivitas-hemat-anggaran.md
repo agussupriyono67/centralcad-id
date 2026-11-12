@@ -23,7 +23,7 @@ Banyak decision maker hanya melihat harga lisensi tahun pertama:
 
 Namun, pendekatan yang **tepat** adalah melihat **Total Cost of Ownership (TCO) selama siklus hidup software** — biasanya 5–10 tahun. Dan di sinilah ZWCAD 2026 menunjukkan keunggulan dramatis.
 
-> **📌 Prinsip Finansial:** Biaya tahunan yang terus membengkak akan selalu mengalahkan investasi lump-sum yang tidak ada biaya berlanjutan. Jangan hanya bandingkan Year 1 — bandingkan cumulative cost Year 1–5.
+> **Prinsip Finansial:** Biaya tahunan yang terus membengkak akan selalu mengalahkan investasi lump-sum yang tidak ada biaya berlanjutan. Jangan hanya bandingkan Year 1 — bandingkan cumulative cost Year 1–5.
 
 ---
 
@@ -120,12 +120,12 @@ Strategi ini **zero-disruption** — tidak ada gangguan produktivitas, tim punya
 ## Rekomendasi untuk Keputusan Anda
 
 Jika firma Anda memiliki:
-* ✅ **10+ drafter** (economies of scale jelas)
+* **10+ drafter** (economies of scale jelas)
 
-* ✅ **Kontrak jangka panjang 5+ tahun** (ROI jangka panjang terbukti)
-* ✅ **Masalah budget CAD tahunan** (ZWCAD solusi paling efektif)
+* **Kontrak jangka panjang 5+ tahun** (ROI jangka panjang terbukti)
+* **Masalah budget CAD tahunan** (ZWCAD solusi paling efektif)
 
-* ✅ **File DWG native** (100% kompatibel — zero risk)
+* **File DWG native** (100% kompatibel — zero risk)
 
 ...maka ZWCAD 2026 adalah keputusan finansial yang tepat.
 

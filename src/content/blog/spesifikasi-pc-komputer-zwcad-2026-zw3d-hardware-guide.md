@@ -25,7 +25,7 @@ Memilih spesifikasi komputer yang tepat membantu Anda mengalokasikan anggaran se
 * **Kartu Grafis (GPU) – Akselerasi Hardware DirectX & OpenGL:** ZWCAD 2026 mendukung akselerasi grafis perangkat keras secara native. Kartu grafis terintegrasi (seperti Intel Iris Xe atau AMD Radeon Graphics) sudah mampu menjalankan navigasi pan dan zoom 60 FPS pada monitor Full HD. Untuk modul CAM 5-Axis ZW3D, kartu grafis diskrit (NVIDIA GeForce RTX atau RTX A-series) memberikan kestabilan simulasi pemotongan solid yang mulus.
 * **Penyimpanan (Solid State Drive - NVMe M.2):** Mengganti hard disk mekanikal (HDD) konvensional dengan SSD NVMe memangkas waktu booting software ZWCAD menjadi hanya 2 hingga 3 detik dan mempercepat pembacaan file assembly raksasa.
 
-> **📌 Catatan Penting:** ZWCAD 2026 dilengkapi mesin render grafis multi-core otomatis yang mampu mendeteksi jumlah thread prosesor laptop Anda. Navigasi gambar kerja dwg berukuran ratusan megabyte tetap halus tanpa gejala layar berkedip (*flicker*) atau patah-patah (*stuttering*).
+> **Catatan Penting:** ZWCAD 2026 dilengkapi mesin render grafis multi-core otomatis yang mampu mendeteksi jumlah thread prosesor laptop Anda. Navigasi gambar kerja dwg berukuran ratusan megabyte tetap halus tanpa gejala layar berkedip (*flicker*) atau patah-patah (*stuttering*).
 
 ---
 
@@ -54,7 +54,7 @@ Selisih biaya antara merakit PC standar untuk ZWCAD (sekitar Rp 7–9 jutaan) di
 ### 3. Tanpa Beban Biaya Sewa Software Berulang
 Dikombinasikan dengan sistem lisensi permanen (*perpetual license*) resmi ZWCAD, perusahaan Anda terbebas dari siklus tagihan tahunan yang menguras likuiditas keuangan.
 
-> **💡 Tips IT:** Pada menu `OPTIONS > Display > Performance` di ZWCAD 2026, pastikan opsi **Hardware Acceleration** aktif untuk memaksimalkan potensi penuh kartu grafis workstation Anda saat menangani layar resolusi 2K atau 4K.
+> **Tips IT:** Pada menu `OPTIONS > Display > Performance` di ZWCAD 2026, pastikan opsi **Hardware Acceleration** aktif untuk memaksimalkan potensi penuh kartu grafis workstation Anda saat menangani layar resolusi 2K atau 4K.
 
 ---
 

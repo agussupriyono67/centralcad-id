@@ -63,7 +63,7 @@ ZWCAD dibekali rangkaian fitur cerdas untuk mempercepat tugas repetitif:
 
 Dengan lisensi permanen (Perpetual), software menjadi milik perusahaan Anda sepenuhnya. Tidak ada risiko software terkunci di tengah deadline proyek hanya karena sistem sewa tahunan terlambat diperpanjang.
 
-> **📌 Ringkasan Keputusan:** Anda mendapatkan antarmuka yang sama, format DWG yang sama, kecepatan lebih tinggi, dan penghematan biaya operasional jangka panjang yang signifikan.
+> **Ringkasan Keputusan:** Anda mendapatkan antarmuka yang sama, format DWG yang sama, kecepatan lebih tinggi, dan penghematan biaya operasional jangka panjang yang signifikan.
 
 ---
 

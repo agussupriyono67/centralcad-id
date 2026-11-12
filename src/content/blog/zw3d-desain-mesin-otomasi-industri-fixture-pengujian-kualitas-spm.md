@@ -27,7 +27,7 @@ Merancang unit otomasi yang melibatkan banyak komponen bergerak menuntut softwar
 * **Simulasi Gerak Kinematika & Validasi Jangkauan Stroke Pneumatik:** Perancang dapat mendefinisikan sambungan mekanis (*mechanical joints*) seperti luncuran silinder linier, engsel putar, dan gerakan jepit gripper. Fitur animasi kinematika pada ZW3D memastikan langkah kayuh (*stroke length*) aktuator pneumatik menjangkau benda uji secara akurat dan tidak menabrak sensor pendeteksi posisi.
 * **Penerbitan Gambar Kerja 2D (Drafting) & Daftar Part BOM Otomatis:** Bengkel perakitan dan teknisi lapangan membutuhkan gambar kerja 2D detail dengan toleransi geometri (*GD&T*) yang lengkap. ZW3D mengotomatisasi pembuatan proyeksi gambar ortogonal, pandangan potong (*section views*), dan penomoran balon part (*balloon numbering*) yang terhubung langsung dengan tabel *Bill of Materials* (BOM).
 
-> **📌 Catatan Penting:** ZW3D dilengkapi penterjemah multi-CAD (*Multi-CAD Translators*) bawaan yang mampu membaca file native dari SolidWorks, CATIA, Inventor, NX, serta format STEP dan IGES secara langsung tanpa perlu membeli modul konversi terpisah.
+> **Catatan Penting:** ZW3D dilengkapi penterjemah multi-CAD (*Multi-CAD Translators*) bawaan yang mampu membaca file native dari SolidWorks, CATIA, Inventor, NX, serta format STEP dan IGES secara langsung tanpa perlu membeli modul konversi terpisah.
 
 ---
 
@@ -64,7 +64,7 @@ Simulasi komparasi pengeluaran lisensi untuk **5 unit komputer engineer mechanic
 * Dana operasional yang berhasil diselamatkan: Lebih dari **Rp 420.000.000 (Empat Ratus Dua Puluh Juta Rupiah)**.
 * Nilai tambah: Hak lisensi permanen dapat dipindahkan antar-komputer perancang secara fleksibel melalui manajemen lisensi resmi.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dimanfaatkan untuk membeli perangkat sensor optik presisi, modul PLC pengontrol otomasi, atau melengkapi perkakas kalibrasi pengujian di laboratorium QC.
+> **Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dimanfaatkan untuk membeli perangkat sensor optik presisi, modul PLC pengontrol otomasi, atau melengkapi perkakas kalibrasi pengujian di laboratorium QC.
 
 ---
 

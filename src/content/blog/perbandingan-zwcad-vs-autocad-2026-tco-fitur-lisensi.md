@@ -25,7 +25,7 @@ Transisi software CAD sering kali dikhawatirkan memicu penurunan produktivitas t
 * **Kompatibilitas Penuh Skrip AutoLISP & API:** Perusahaan yang telah memiliki pustaka skrip kustom AutoLISP, DCL, VBA, atau .NET untuk otomasi gambar dapat langsung menjalankannya di ZWCAD 2026 Professional tanpa perlu menulis ulang baris kode dari awal.
 * **Mesin Grafis Multi-Core Berkecepatan Tinggi:** ZWCAD 2026 memanfaatkan teknologi akselerasi perangkat keras (*hardware acceleration*) dan pengolahan multi-threading CPU modern. Proses zoom, pan, regenerate, dan membuka file gambar berukuran ratusan megabyte berjalan jauh lebih ringan dan responsif.
 
-> **📌 Catatan Penting:** Berbeda dengan software sewa yang mewajibkan koneksi internet rutin untuk validasi lisensi, ZWCAD 2026 menyediakan opsi aktivasi offline murni via Softkey Digital (tanpa perlu dongle fisik) maupun fitur *Borrow License*, menjamin keamanan data gambar kerja di lokasi proyek terpencil dan pabrik berstandar keamanan tinggi.
+> **Catatan Penting:** Berbeda dengan software sewa yang mewajibkan koneksi internet rutin untuk validasi lisensi, ZWCAD 2026 menyediakan opsi aktivasi offline murni via Softkey Digital (tanpa perlu dongle fisik) maupun fitur *Borrow License*, menjamin keamanan data gambar kerja di lokasi proyek terpencil dan pabrik berstandar keamanan tinggi.
 
 ---
 
@@ -63,7 +63,7 @@ Untuk memahami besarnya penghematan anggaran yang dapat dicapai, mari kita telus
 * **Total Pengeluaran 5 Tahun:** Kurang dari sepertiga dari total biaya sewa software kompetitor.
 * **Hasil Finansial Nyata:** Perusahaan berhasil menghemat lebih dari **Rp 1.100.000.000 (1,1 Miliar Rupiah)** yang dapat dialihkan untuk rekrutmen insinyur ahli, ekspansi workshop, atau pengadaan alat berat proyek.
 
-> **💼 Keputusan Investasi:** Mengapa harus terus membakar anggaran operasional tahunan untuk software yang tidak pernah menjadi milik Anda? Lisensi permanen ZWCAD 2026 memberikan kepastian finansial jangka panjang dan perlindungan legalitas menyeluruh bagi bisnis Anda.
+> **Keputusan Investasi:** Mengapa harus terus membakar anggaran operasional tahunan untuk software yang tidak pernah menjadi milik Anda? Lisensi permanen ZWCAD 2026 memberikan kepastian finansial jangka panjang dan perlindungan legalitas menyeluruh bagi bisnis Anda.
 
 ---
 

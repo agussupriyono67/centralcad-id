@@ -25,7 +25,7 @@ Tidak semua proyek CAD sama. Proyek teknik sipil memiliki karakteristik khusus y
 
 * **Durasi Proyek Panjang:** Proyek infrastruktur bisa berlangsung 3–7 tahun. Lisensi software yang depend pada renewable subscription berisiko menimbulkan gangguan di tengah proyek jika kontrak tidak diperpanjang tepat waktu.
 
-> **📌 Risiko Tersembunyi Langganan Tahunan:** Jika anggaran lisensi tidak disetujui di awal tahun fiskal, seluruh tim drafter kehilangan akses software seketika — di tengah deadline gambar tender atau konstruksi. Lisensi permanen ZWCAD mengeliminasi risiko ini sepenuhnya.
+> **Risiko Tersembunyi Langganan Tahunan:** Jika anggaran lisensi tidak disetujui di awal tahun fiskal, seluruh tim drafter kehilangan akses software seketika — di tengah deadline gambar tender atau konstruksi. Lisensi permanen ZWCAD mengeliminasi risiko ini sepenuhnya.
 
 ---
 
@@ -74,7 +74,7 @@ Misalkan sebuah kontraktor dengan 12 workstation drafter selama ini membayar lan
 - Tahun 2 sampai 5: **biaya = Rp 0** (tidak ada renewal)
 - **Penghematan jangka panjang: hingga 60–70%**
 
-> **💡 Tip Pengadaan:** Untuk proyek multi-tahun, kalkulasikan Total Cost of Ownership (TCO) 5 tahun, bukan hanya harga lisensi tahun pertama. Lisensi permanen ZWCAD selalu unggul secara finansial dalam jangka panjang.
+> **Tip Pengadaan:** Untuk proyek multi-tahun, kalkulasikan Total Cost of Ownership (TCO) 5 tahun, bukan hanya harga lisensi tahun pertama. Lisensi permanen ZWCAD selalu unggul secara finansial dalam jangka panjang.
 
 ---
 

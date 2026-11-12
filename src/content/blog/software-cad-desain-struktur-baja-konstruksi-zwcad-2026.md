@@ -27,7 +27,7 @@ Penyusunan gambar struktur baja memiliki karakteristik teknis unik yang membutuh
 * **Kebutuhan Standardisasi Profil Baja:** Drafter membutuhkan akses cepat ke profil baja standar SNI, JIS, dan AISC. ZWCAD mendukung integrasi pustaka blok profil baja (*dynamic blocks & tool palettes*) untuk mempercepat pembuatan denah struktur.
 * **Koordinasi Lintas Disiplin:** File arsitektur dan MEP sering kali harus disematkan sebagai referensi eksternal (*Xref*). ZWCAD mengelola Xref dengan sangat ringan tanpa menurunkan kecepatan navigasi layar.
 
-> **📌 Catatan Penting:** ZWCAD 2026 Professional mendukung pembacaan dan penyematan model 3D berformat IFC. Hal ini memungkinkan engineer struktur mengecek potensi benturan (*clash detection*) antara rangka baja dengan jalur pipa atau saluran ventilasi sebelum fabrikasi dimulai.
+> **Catatan Penting:** ZWCAD 2026 Professional mendukung pembacaan dan penyematan model 3D berformat IFC. Hal ini memungkinkan engineer struktur mengecek potensi benturan (*clash detection*) antara rangka baja dengan jalur pipa atau saluran ventilasi sebelum fabrikasi dimulai.
 
 ---
 
@@ -58,7 +58,7 @@ Mengatur hierarki ratusan lembar shop drawing proyek—dari Denah Rencana Pondas
 ### 3. File Compare Akurat
 Saat menerima revisi denah arsitektur dari pihak perencana, fitur **File Compare** langsung menyoroti perbedaan koordinat kolom atau elevasi balok dengan warna kontras (merah dan hijau) secara otomatis, mencegah kesalahan fabrikasi di workshop.
 
-> **💡 Tips Konstruksi:** Manfaatkan fitur **Data Extraction** ZWCAD untuk menghitung volume baut dan total panjang profil baja langsung dari gambar kerja menjadi format tabel Excel secara instan.
+> **Tips Konstruksi:** Manfaatkan fitur **Data Extraction** ZWCAD untuk menghitung volume baut dan total panjang profil baja langsung dari gambar kerja menjadi format tabel Excel secara instan.
 
 ---
 

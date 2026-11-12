@@ -46,7 +46,7 @@ Sistem lisensi jaringan ZWCAD dilengkapi kendali penuh bagi administrator IT per
 
 * **Tanpa Biaya Lisensi Server:** Software License Manager diberikan gratis tanpa kewajiban biaya langganan server tahunan.
 
-> **📌 Kepatuhan Hukum:** Skema ini 100% legal dan diakui secara resmi oleh prinsipal ZWSOFT dan hukum Republik Indonesia. Perusahaan Anda bebas dari rasa cemas terhadap razia software bajakan.
+> **Kepatuhan Hukum:** Skema ini 100% legal dan diakui secara resmi oleh prinsipal ZWSOFT dan hukum Republik Indonesia. Perusahaan Anda bebas dari rasa cemas terhadap razia software bajakan.
 
 ---
 

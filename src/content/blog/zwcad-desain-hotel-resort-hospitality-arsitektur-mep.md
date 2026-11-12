@@ -30,7 +30,7 @@ ZWCAD 2026 dirancang khusus untuk menangani alur kerja perancangan bangunan hote
 
 * **Compliance Gambar Kerja Fire Safety & Jalur Evakuasi Darurat:** Regulasi keselamatan kebakaran hotel di Indonesia (Permen PUPR tentang Bangunan Gedung, standar SNI 03-1746 tentang Tata Cara Perencanaan dan Pemasangan Sarana Jalan Ke Luar untuk Penyelamatan) menuntut dokumentasi denah jalur evakuasi, pintu darurat fire-rated, titik hydrant, sprinkler head, alarm kebakaran, dan assembly point. ZWCAD memudahkan pembuatan gambar kerja fire safety plan dengan pustaka simbol lengkap sesuai standar Dinas Pemadam Kebakaran dan audit legalitas IMB.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja hotel dapat langsung diserahkan kepada kontraktor pelaksana, konsultan pengawas, tim auditor IMB Dinas PUPR, dan operator hotel internasional (Marriott, Accor, Hilton, IHG) tanpa ada elemen gambar yang hilang atau corrupt.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja hotel dapat langsung diserahkan kepada kontraktor pelaksana, konsultan pengawas, tim auditor IMB Dinas PUPR, dan operator hotel internasional (Marriott, Accor, Hilton, IHG) tanpa ada elemen gambar yang hilang atau corrupt.
 
 ---
 
@@ -67,7 +67,7 @@ Berikut simulasi kalkulasi untuk **6 workstation (4 Arsitek Drafter + 2 Interior
 * Dana fee konsultan yang berhasil dihemat: Lebih dari **Rp 400.000.000 (Empat Ratus Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk mengerjakan puluhan proyek hotel, resort, serviced apartment, dan villa boutique berikutnya tanpa ada biaya operasional berulang.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak empat ratus juta rupiah ini dapat dialokasikan langsung untuk investasi software rendering visualization 3D (Lumion, Twinmotion), sertifikasi arsitek IAI, atau ekspansi team design untuk menangani lebih banyak proyek hospitality.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak empat ratus juta rupiah ini dapat dialokasikan langsung untuk investasi software rendering visualization 3D (Lumion, Twinmotion), sertifikasi arsitek IAI, atau ekspansi team design untuk menangani lebih banyak proyek hospitality.
 
 ---
 

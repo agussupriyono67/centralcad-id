@@ -28,7 +28,7 @@ Di ZW3D, pemodelan dilakukan secara **Hybrid Modeling**:
 * **Keleluasaan Bentuk Ergonomis:** Membuat bodi perangkat elektronik, pegangan perkakas tangan, atau komponen bodi otomotif dengan kurva estetik kelas A (*Class-A curvature continuity*) terasa sangat intuitif.
 * **Fleksibilitas Riwayat Desain (Direct Edit):** Anda dapat memodifikasi model 3D impor (STEP, IGES, Parasolid) dari klien secara langsung tanpa bergantung pada histori pohon fitur (*feature tree*), mempercepat proses iterasi konsep purwarupa.
 
-> **📌 Catatan Penting:** Kemampuan hybrid modeling ZW3D memangkas waktu modifikasi desain hingga 50% dibanding alur kerja CAD konvensional yang kaku.
+> **Catatan Penting:** Kemampuan hybrid modeling ZW3D memangkas waktu modifikasi desain hingga 50% dibanding alur kerja CAD konvensional yang kaku.
 
 ---
 
@@ -62,7 +62,7 @@ Saat mengekspor ke format STL atau 3MF, tentukan nilai toleransi deviasi permuka
 ### 4. Kirim ke Mesin Cetak 3D
 File STL berkualitas tinggi yang dihasilkan ZW3D langsung dapat dimuat ke software *slicing* industri apa pun dengan jaminan 100% *error-free*.
 
-> **💡 Tips Manufaktur Aditif:** Jika purwarupa Anda memerlukan perakitan antar-komponen (*press-fit* atau snap-fit), manfaatkan fitur **Offset Face** ZW3D untuk memberikan celah toleransi dimensi sebesar 0.15–0.25 mm sebelum pencetakan.
+> **Tips Manufaktur Aditif:** Jika purwarupa Anda memerlukan perakitan antar-komponen (*press-fit* atau snap-fit), manfaatkan fitur **Offset Face** ZW3D untuk memberikan celah toleransi dimensi sebesar 0.15–0.25 mm sebelum pencetakan.
 
 ---
 

@@ -25,7 +25,7 @@ Seorang kepala divisi arsitektur di firma besar biasanya mempertimbangkan bebera
 
 * **Dukungan Teknis Lokal:** Ketika ada masalah teknis mendesak di tengah deadline tender, tim IT tidak bisa menunggu jawaban support dari luar negeri.
 
-> **📌 Catatan Penting:** ZWCAD 2026 menggunakan format file `.DWG` sebagai format native — bukan konversi. Artinya, file Anda dapat dibuka langsung di AutoCAD dan sebaliknya, tanpa risiko kehilangan entitas gambar apapun.
+> **Catatan Penting:** ZWCAD 2026 menggunakan format file `.DWG` sebagai format native — bukan konversi. Artinya, file Anda dapat dibuka langsung di AutoCAD dan sebaliknya, tanpa risiko kehilangan entitas gambar apapun.
 
 ---
 
@@ -60,11 +60,11 @@ Tidak seperti AutoCAD yang hanya tersedia dalam skema langganan, ZWCAD 2026 hadi
 | Format File Native | `.DWG` (100%) | `.DWG` (100%) |
 | Skema Lisensi | Permanen (Perpetual) | Langganan Tahunan |
 | Estimasi Biaya 5 Tahun | **Lebih hemat hingga 65%** | Terus bertambah tiap tahun |
-| LISP & Script Support | ✅ Penuh | ❌ Terbatas |
-| Network Floating License | ✅ Tersedia | ❌ Tidak tersedia di LT |
-| Dukungan Teknis Lokal | ✅ Indonesia (PT Hetra) | ❌ Global support saja |
-| Plot/Layout & Sheet Set | ✅ Lengkap | ✅ Lengkap |
-| 3D Modeling Dasar | ✅ Tersedia | ❌ Tidak tersedia di LT |
+| LISP & Script Support | Penuh | Terbatas |
+| Network Floating License | Tersedia | Tidak tersedia di LT |
+| Dukungan Teknis Lokal | Indonesia (PT Hetra) | Global support saja |
+| Plot/Layout & Sheet Set | Lengkap | Lengkap |
+| 3D Modeling Dasar | Tersedia | Tidak tersedia di LT |
 
 ---
 
@@ -74,7 +74,7 @@ ZWCAD telah diadopsi oleh **lebih dari 2 juta pengguna di 80+ negara**, termasuk
 
 Di Indonesia, PT Hetra Teknologi Indonesia sebagai distributor resmi telah mendampingi puluhan firma perencana bangunan dalam transisi lisensi yang mulus dari AutoCAD ke ZWCAD — tanpa gangguan proyek aktif.
 
-> **💡 Strategi Transisi:** Banyak firma arsitektur memulai dengan membeli lisensi ZWCAD untuk workstation baru atau drafter baru, sambil file DWG yang sudah ada tetap berjalan normal. Secara bertahap, seluruh tim beralih tanpa gejolak produktivitas.
+> **Strategi Transisi:** Banyak firma arsitektur memulai dengan membeli lisensi ZWCAD untuk workstation baru atau drafter baru, sambil file DWG yang sudah ada tetap berjalan normal. Secara bertahap, seluruh tim beralih tanpa gejolak produktivitas.
 
 ---
 

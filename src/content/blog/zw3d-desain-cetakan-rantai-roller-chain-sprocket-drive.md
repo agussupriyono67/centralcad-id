@@ -30,7 +30,7 @@ ZW3D 2026 dirancang khusus untuk menangani alur kerja desain cetakan stamping da
 
 * **Integrasi CAD-CAM Seamless Tanpa Import/Export:** Alur kerja tradisional memisahkan software CAD untuk desain dan software CAM terpisah untuk pemrograman CNC, mengakibatkan data loss dan iterasi bolak-balik yang membuang waktu. ZW3D menggabungkan CAD + CAM dalam satu kernel unified, sehingga setiap perubahan desain link plate atau profil sprocket langsung ter-update otomatis di toolpath CNC tanpa re-import file.
 
-> **📌 Catatan Penting:** ZW3D mendukung export toolpath ke format G-Code universal dan post-processor khusus untuk mesin CNC milling Fanuc, Siemens, Mitsubishi, Heidenhain, Haas, dan Mazak yang umum digunakan oleh industri tool & die Indonesia.
+> **Catatan Penting:** ZW3D mendukung export toolpath ke format G-Code universal dan post-processor khusus untuk mesin CNC milling Fanuc, Siemens, Mitsubishi, Heidenhain, Haas, dan Mazak yang umum digunakan oleh industri tool & die Indonesia.
 
 ---
 
@@ -67,7 +67,7 @@ Berikut simulasi kalkulasi untuk **4 workstation (2 Die Designer + 2 CNC Program
 * Dana modal kerja perusahaan yang berhasil dihemat: Lebih dari **Rp 350.000.000 (Tiga Ratus Lima Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk desain ratusan set cetakan rantai, sprocket, dan komponen transmisi berikutnya tanpa ada biaya operasional berulang.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak tiga ratus lima puluh juta rupiah ini dapat dialokasikan langsung untuk investasi mesin wire-cut EDM presisi tinggi, tooling fixture pemesinan CNC 4-axis, atau rekrutmen CNC programmer berpengalaman.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak tiga ratus lima puluh juta rupiah ini dapat dialokasikan langsung untuk investasi mesin wire-cut EDM presisi tinggi, tooling fixture pemesinan CNC 4-axis, atau rekrutmen CNC programmer berpengalaman.
 
 ---
 

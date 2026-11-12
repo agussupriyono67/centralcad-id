@@ -29,7 +29,7 @@ Merancang jalur silinder pneumatik dan pelat ejektor membutuhkan koordinasi ruan
 * **Otomasi Pemisahan Parting Line & Core-Cavity:** Algoritma *Overdrive™ hybrid modeling* pada ZW3D mampu membaca permukaan non-solid (*healed surfaces*) dan membagi pelat inti (*core*) serta rongga (*cavity*) dalam hitungan menit, bahkan pada produk dengan ketebalan dinding yang bervariasi.
 * **Integrasi Langsung CAD ke CAM (Zero File Translation Loss):** Setelah geometri mold dan mekanisme ejektor pneumatik selesai dimodelkan, operator mesin dapat langsung membuat strategi *toolpath* CNC Milling tanpa perlu mengekspor file ke format netral (STEP/IGES) yang rawan merusak kurva permukaan.
 
-> **📌 Catatan Penting:** Desain cetakan dengan sistem pneumatik pada ZW3D dapat disimulasikan gerakannya (*kinematic simulation*) untuk memverifikasi langkah maju-mundur batang silinder ejektor, sehingga mencegah kegagalan fatal saat uji coba cetak pertama (*mold trial* T0).
+> **Catatan Penting:** Desain cetakan dengan sistem pneumatik pada ZW3D dapat disimulasikan gerakannya (*kinematic simulation*) untuk memverifikasi langkah maju-mundur batang silinder ejektor, sehingga mencegah kegagalan fatal saat uji coba cetak pertama (*mold trial* T0).
 
 ---
 
@@ -67,7 +67,7 @@ Mari kita bandingkan simulasi investasi pengadaan software mold design untuk **3
 * Workshop Anda menghemat kas riil lebih dari **Rp 380.000.000 (380 Juta Rupiah)**.
 * Lisensi ZW3D tetap menjadi aset permanen workshop untuk mencetak ribuan proyek mold di masa depan.
 
-> **💼 Keputusan Manajemen:** Dana ratusan juta rupiah yang dihemat dapat Anda belanjakan untuk membeli mata pisau *carbide endmill* berkualitas tinggi, material balok baja perkakas (P20 / NAK80 / SKD61), atau penambahan mesin *surface grinding* baru.
+> **Keputusan Manajemen:** Dana ratusan juta rupiah yang dihemat dapat Anda belanjakan untuk membeli mata pisau *carbide endmill* berkualitas tinggi, material balok baja perkakas (P20 / NAK80 / SKD61), atau penambahan mesin *surface grinding* baru.
 
 ---
 
