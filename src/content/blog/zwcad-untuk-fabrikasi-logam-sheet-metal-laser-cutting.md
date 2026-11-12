@@ -28,7 +28,7 @@ Jika file gambar kerja memiliki cacat geometri, software CAM pemotong laser akan
 * **Garis Ganda Membakar Plat:** Garis bertumpuk yang tidak disadari drafter akan dipotong dua kali oleh nozzle laser, menyebabkan deformasi panas (*heat warping*) pada plat tipis dan merusak estetika produk.
 * **Nesting Tidak Optimal:** Geometri yang rusak membuat algoritma *auto-nesting* gagal menyusun komponen secara rapat, mengakibatkan persentase limbah plat (*scrap rate*) meningkat tajam.
 
-> **📌 Catatan Penting:** Mengoreksi geometri secara manual di software kontrol laser adalah pemborosan waktu. Standardisasi pembersihan file langsung di lingkungan CAD sebelum dikirim ke mesin adalah kunci efisiensi pabrik modern.
+> **Catatan Penting:** Mengoreksi geometri secara manual di software kontrol laser adalah pemborosan waktu. Standardisasi pembersihan file langsung di lingkungan CAD sebelum dikirim ke mesin adalah kunci efisiensi pabrik modern.
 
 ---
 
@@ -62,7 +62,7 @@ Cukup ketik perintah `OVERKILL` di baris perintah ZWCAD, pilih seluruh komponen,
 ### 3. Pastikan Semua Kontur Menjadi Polyline Tertutup
 Gunakan perintah `BPOLY` (Boundary Creation) atau `PEDIT -> Join` untuk memastikan setiap siluet luar komponen tersambung tanpa ada celah terbuka yang terlewat oleh mata manusia.
 
-> **💡 Tips Fabrikasi:** Hindari penggunaan garis berjenis Spline jika controller laser Anda bertipe lama. ZWCAD menyediakan tool konversi Spline menjadi Polyline halus (*arc approximation*) yang ramah dibaca oleh semua mesin CNC.
+> **Tips Fabrikasi:** Hindari penggunaan garis berjenis Spline jika controller laser Anda bertipe lama. ZWCAD menyediakan tool konversi Spline menjadi Polyline halus (*arc approximation*) yang ramah dibaca oleh semua mesin CNC.
 
 ---
 

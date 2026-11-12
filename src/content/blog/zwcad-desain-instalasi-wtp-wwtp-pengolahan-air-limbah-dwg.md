@@ -27,7 +27,7 @@ ZWCAD 2026 menggabungkan kecepatan engine grafis generasi terbaru, fleksibilitas
 * **Otomasi Bill of Materials (BOM) & Ekstraksi Valve Schedule:** Melalui fitur *Data Extraction* ZWCAD, drafter dapat mengekstrak rekapitulasi kebutuhan panjang pipa, jumlah sambungan flensa, jenis fitting, dan spesifikasi valve langsung menjadi tabel DWG atau spreadsheet Excel secara otomatis.
 * **Performa Ringan Membuka Masterplan Pengolahan Air Skala Besar:** Gambar tata letak umum (*General Arrangement / GA*) fasilitas WTP komunal sering kali menggabungkan peta topografi, kontur tanah, denah struktur sipil, dan jaringan perpipaan dalam satu file DWG berkapasitas puluhan megabyte. Teknologi *multi-core hardware acceleration* ZWCAD 2026 memastikan proses navigasi pan, zoom, dan regenerasi layar berjalan mulus seketika.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mengadopsi format DWG 100% native tanpa proses konversi yang merusak data. Seluruh gambar kerja instalasi air dapat langsung dibuka, diedit, dan diserahkan kepada pihak auditor lingkungan hidup, konsultan pengawas, maupun dinas PU tanpa ada layer yang rusak.
+> **Catatan Penting:** ZWCAD 2026 mengadopsi format DWG 100% native tanpa proses konversi yang merusak data. Seluruh gambar kerja instalasi air dapat langsung dibuka, diedit, dan diserahkan kepada pihak auditor lingkungan hidup, konsultan pengawas, maupun dinas PU tanpa ada layer yang rusak.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi investasi untuk **6 workstation drafter & engineer me
 * Dana anggaran perusahaan yang berhasil dihemat: Lebih dari **Rp 380.000.000 (Tiga Ratus Delapan Puluh Juta Rupiah)**.
 * Nilai aset bisnis: Software tetap menjadi milik perusahaan dan dapat digunakan tanpa batas waktu untuk mengerjakan puluhan proyek WTP/WWTP berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah ini dapat dialokasikan langsung untuk pengadaan alat uji laboratorium kualitas air portabel, kalibrasi *dissolved oxygen meter*, atau pelatihan kompetensi sertifikasi Penanggung Jawab Pengendalian Pencemaran Air (PPPA).
+> **Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah ini dapat dialokasikan langsung untuk pengadaan alat uji laboratorium kualitas air portabel, kalibrasi *dissolved oxygen meter*, atau pelatihan kompetensi sertifikasi Penanggung Jawab Pengendalian Pencemaran Air (PPPA).
 
 ---
 

@@ -30,7 +30,7 @@ ZW3D 2026 dirancang khusus untuk menangani alur kerja desain cetakan medis denga
 
 * **Dokumentasi Traceability & Design History File (DHF):** Regulasi FDA 21 CFR Part 820 dan ISO 13485 menuntut dokumentasi lengkap design history file yang mencakup design input, design output, verification, dan validation records. ZW3D memudahkan export drawing 2D dengan dimensioning lengkap, toleransi GD&T (Geometric Dimensioning and Tolerancing), material specification, dan surface finish callout yang dapat menjadi bagian dari device master record (DMR) untuk audit regulatory body BPOM atau notified body ISO.
 
-> **📌 Catatan Penting:** ZW3D mendukung export format STEP AP203/AP214 dan IGES 5.3 yang menjadi standar data exchange untuk koordinasi dengan supplier mold base, hot runner system, dan quality control inspection menggunakan CMM (Coordinate Measuring Machine) di laboratorium quality assurance.
+> **Catatan Penting:** ZW3D mendukung export format STEP AP203/AP214 dan IGES 5.3 yang menjadi standar data exchange untuk koordinasi dengan supplier mold base, hot runner system, dan quality control inspection menggunakan CMM (Coordinate Measuring Machine) di laboratorium quality assurance.
 
 ---
 
@@ -67,7 +67,7 @@ Berikut simulasi kalkulasi untuk **3 workstation (2 Mold Designer + 1 CNC Progra
 * Dana modal kerja perusahaan yang berhasil dihemat: Lebih dari **Rp 250.000.000 (Dua Ratus Lima Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk desain puluhan set cetakan syringe, vial, diagnostic cartridge, dan surgical instrument berikutnya tanpa ada biaya operasional berulang.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak dua ratus lima puluh juta rupiah ini dapat dialokasikan langsung untuk investasi mesin CNC 5-axis presisi tinggi (Mikron, Makino), alat ukur CMM touch probe, atau sertifikasi ISO 13485 quality management system perusahaan.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak dua ratus lima puluh juta rupiah ini dapat dialokasikan langsung untuk investasi mesin CNC 5-axis presisi tinggi (Mikron, Makino), alat ukur CMM touch probe, atau sertifikasi ISO 13485 quality management system perusahaan.
 
 ---
 

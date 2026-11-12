@@ -27,7 +27,7 @@ Ketika perusahaan Anda mengambil keputusan untuk bertransisi atau menambah unit 
 
 * **Pelatihan & Onboarding Tim Drafter:** Kami menyediakan sesi workshop dan training agar tim insinyur dan drafter Anda dapat beroperasi dengan produktivitas maksimal sejak hari pertama.
 
-> **📌 Standar Bisnis Profesional:** Jangan gadaikan reputasi perusahaan Anda dengan membeli lisensi tanpa kejelasan legalitas. Lisensi resmi dari PT Hetra Teknologi Indonesia adalah aset intelektual yang sah dan diakui secara global.
+> **Standar Bisnis Profesional:** Jangan gadaikan reputasi perusahaan Anda dengan membeli lisensi tanpa kejelasan legalitas. Lisensi resmi dari PT Hetra Teknologi Indonesia adalah aset intelektual yang sah dan diakui secara global.
 
 ---
 

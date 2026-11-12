@@ -30,7 +30,7 @@ ZWCAD 2026 dirancang untuk menangani alur kerja perancangan fasilitas rantai din
 
 * **Performa Responsif Membuka Masterplan Warehouse Complex:** File gambar tata letak warehouse refrigerasi berskala besar (kapasitas 5000-10000 pallet) sering kali menggabungkan denah arsitektur, struktur baja, layout pallet racking, sistem mekanikal refrigerasi, dan instalasi listrik dalam satu file DWG berkapasitas besar. Mesin grafis ZWCAD 2026 yang diperkuat *multi-core acceleration* menjamin navigasi pan dan zoom tetap responsif tanpa kendala lag, mengakselerasi koordinasi lapangan dengan kontraktor sipil dan tim commissioning refrigerasi.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja cold storage dapat langsung diserahkan kepada kontraktor pelaksana, supplier panel insulasi, konsultan refrigerasi, dan auditor HACCP tanpa ada objek atau detail teknis yang hilang atau corrupt.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. Gambar kerja cold storage dapat langsung diserahkan kepada kontraktor pelaksana, supplier panel insulasi, konsultan refrigerasi, dan auditor HACCP tanpa ada objek atau detail teknis yang hilang atau corrupt.
 
 ---
 
@@ -67,7 +67,7 @@ Berikut simulasi kalkulasi komparasi pengeluaran untuk **5 workstation komputer 
 * Dana anggaran perusahaan yang berhasil dihemat: Lebih dari **Rp 320.000.000 (Tiga Ratus Dua Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek cold storage, chiller plant, dan warehouse refrigerasi berikutnya tanpa biaya operasional berulang.
 
-> **💼 Keputusan Manajemen:** Efisiensi biaya piranti lunak tiga ratus dua puluh juta rupiah ini dapat dialokasikan langsung untuk investasi alat ukur thermal imaging camera (FLIR), peralatan commissioning refrigeration gauges, atau sertifikasi kompetensi engineer refrigerasi ASHRAE.
+> **Keputusan Manajemen:** Efisiensi biaya piranti lunak tiga ratus dua puluh juta rupiah ini dapat dialokasikan langsung untuk investasi alat ukur thermal imaging camera (FLIR), peralatan commissioning refrigeration gauges, atau sertifikasi kompetensi engineer refrigerasi ASHRAE.
 
 ---
 

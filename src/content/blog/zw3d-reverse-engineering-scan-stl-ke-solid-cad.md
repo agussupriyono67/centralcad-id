@@ -27,7 +27,7 @@ Modul Reverse Engineering terintegrasi di ZW3D 2026 dirancang untuk mempercepat 
 * **Teknologi Hybrid Modeling Overdrive™:** Memungkinkan penggabungan instan antara permukaan surface bebas (*non-planar curves*) dengan bentuk geometri solid standar (silinder, lubang baut, chamfer, fillet) dalam satu lingkungan kerja tanpa konversi yang merusak.
 * **Analisis Deviasi Real-Time (Color Map Deviation):** Membandingkan keakuratan model CAD solid yang baru dibuat terhadap data pindaian STL asli melalui peta spektrum warna kontras. Teknisi dapat memastikan toleransi rekayasa berada dalam batas aman sebelum benda diproduksi.
 
-> **📌 Catatan Penting:** ZW3D All-in-One menghilangkan alur kerja transfer file yang rentan rusak. Setelah model solid selesai direkonstruksi dari data 3D scan, Anda dapat langsung beralih ke modul **ZW3D CAM** untuk membuat program lintasan pahat CNC milling atau turning di jendela yang sama.
+> **Catatan Penting:** ZW3D All-in-One menghilangkan alur kerja transfer file yang rentan rusak. Setelah model solid selesai direkonstruksi dari data 3D scan, Anda dapat langsung beralih ke modul **ZW3D CAM** untuk membuat program lintasan pahat CNC milling atau turning di jendela yang sama.
 
 ---
 
@@ -61,7 +61,7 @@ Tarik garis sketsa penampang langsung dari kurva kontur mesh, lalu lakukan opera
 ### 4. Validasi Akurasi Geometri & Ekspor Gambar Kerja
 Jalankan evaluasi deviasi untuk memastikan model CAD tidak menyimpang melebihi toleransi desain. Cetak gambar kerja 2D DWG lengkap dengan toleransi geometrik (GD&T) untuk kebutuhan lantai produksi.
 
-> **💡 Tips Manufaktur:** Manfaatkan fitur **Curve on Mesh** pada ZW3D untuk melacak garis rusuk terluar bilah sudu turbin atau alur ulir langsung pada permukaan facet mesh scanner dengan presisi sub-milimeter.
+> **Tips Manufaktur:** Manfaatkan fitur **Curve on Mesh** pada ZW3D untuk melacak garis rusuk terluar bilah sudu turbin atau alur ulir langsung pada permukaan facet mesh scanner dengan presisi sub-milimeter.
 
 ---
 

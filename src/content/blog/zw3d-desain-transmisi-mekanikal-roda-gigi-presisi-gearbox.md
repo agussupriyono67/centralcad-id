@@ -27,7 +27,7 @@ Merancang sistem transmisi mekanikal kompleks memerlukan piranti lunak CAD 3D ya
 * **Perancangan Casing Transmisi Rumit via Hybrid Modeling:** Rumah gearbox (*transmission housing*) memiliki geometri tuangan (*casting*) atau cetakan aluminium yang rumit, lengkap dengan saluran pelumasan oli (*oil galleries*), dudukan bantalan poros (*bearing bores*), dan sirip pendingin. Kernel *Overdrive* pada ZW3D mempermudah perancangan rongga internal yang mulus dengan kombinasi pemodelan solid dan permukaan (*surface*).
 * **Integrasi Pemrograman CAM CNC Pemotongan Gigi & Housing:** Selain fungsi CAD 3D, ZW3D memiliki modul CAM terintegrasi untuk pemesinan dudukan poros presisi di mesin CNC *horizontal milling*, pembuatan alur pasak poros transmisi, hingga pembuatan program G-code untuk proses *gear roughing* dan *pocketing*.
 
-> **📌 Catatan Penting:** ZW3D mendukung integrasi pustaka komponen standar industri (seperti bearing SKF/NSK, snap ring, spi pasak, dan oil seal) secara bawaan. Anda dapat langsung memasang bearing standar ke poros transmisi tanpa harus memodelkan ulang dari awal.
+> **Catatan Penting:** ZW3D mendukung integrasi pustaka komponen standar industri (seperti bearing SKF/NSK, snap ring, spi pasak, dan oil seal) secara bawaan. Anda dapat langsung memasang bearing standar ke poros transmisi tanpa harus memodelkan ulang dari awal.
 
 ---
 
@@ -64,7 +64,7 @@ Mari kita hitung simulasi perbandingan pengeluaran lisensi untuk **6 stasiun ker
 * Dana operasional yang berhasil diselamatkan: Lebih dari **Rp 480.000.000 (Empat Ratus Delapan Puluh Juta Rupiah)**.
 * Fleksibilitas aset: Lisensi permanen terdaftar sah atas nama perusahaan dan dapat dialihkan antar-komputer perancang secara fleksibel.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan langsung untuk pengadaan alat uji kekerasan logam (*hardness tester*), pelapisan tahan aus roda gigi (*nitriding/carburizing heat treatment*), atau kalibrasi alat ukur profil roda gigi di laboratorium metrologi.
+> **Keputusan Manajemen:** Efisiensi anggaran ratusan juta rupiah dari pengalihan lisensi CAD dapat dialokasikan langsung untuk pengadaan alat uji kekerasan logam (*hardness tester*), pelapisan tahan aus roda gigi (*nitriding/carburizing heat treatment*), atau kalibrasi alat ukur profil roda gigi di laboratorium metrologi.
 
 ---
 

@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang untuk menangani beban file gambar kerja konstruksi berkapas
 * **Otomasi Pembuatan Tabel Bar Bending Schedule (BBS) Besi Tulangan:** Menghitung total tonase besi tulangan ulir dan sengkang secara manual memakan waktu berhari-hari. Melalui integrasi skrip AutoLISP sipil pada ZWCAD 2026, drafter dapat menghasilkan tabel rekapitulasi kebutuhan besi (*Bar Bending Schedule*) lengkap dengan bentuk tekukan dan panjang potongan secara otomatis ke format tabel DWG atau Excel.
 * **Kinerja Grafis Ringan Membuka Denah Masterplan Pondasi Ribuan Titik:** File gambar penataan tiang bor (*piling layout plan*) pada proyek kawasan industri atau bandara sering memuat ribuan koordinat titik tiang dalam file DWG berukuran raksasa. Didukung mesin grafis mutakhir ZWCAD berakselerasi CPU multi-core, proses zoom-in, pan, dan snapping titik koordinat berjalan sangat responsif tanpa jeda lag.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa distorsi objek. Seluruh dokumen gambar kerja penulangan pondasi dapat langsung dibagikan dan disetujui oleh manajemen konstruksi (MK), konsultan perencana struktur, dan *soil engineer* tanpa risiko hilangnya layer atau perubahan dimensi gambar.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa distorsi objek. Seluruh dokumen gambar kerja penulangan pondasi dapat langsung dibagikan dan disetujui oleh manajemen konstruksi (MK), konsultan perencana struktur, dan *soil engineer* tanpa risiko hilangnya layer atau perubahan dimensi gambar.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi investasi pengadaan software untuk **7 unit workstati
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 440.000.000 (Empat Ratus Empat Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek pondasi jembatan dan gedung berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana hampir setengah miliar rupiah dapat dialokasikan langsung untuk biaya kalibrasi instrumen *inclinometer*, sewa alat uji beban dinamis (*Pile Driving Analyzer / PDA*), atau perawatan hidrolik mesin bor tiang di lapangan.
+> **Keputusan Manajemen:** Efisiensi dana hampir setengah miliar rupiah dapat dialokasikan langsung untuk biaya kalibrasi instrumen *inclinometer*, sewa alat uji beban dinamis (*Pile Driving Analyzer / PDA*), atau perawatan hidrolik mesin bor tiang di lapangan.
 
 ---
 

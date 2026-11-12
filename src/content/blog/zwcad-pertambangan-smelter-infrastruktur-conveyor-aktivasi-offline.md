@@ -27,7 +27,7 @@ ZWCAD 2026 dirancang dengan ketahanan tinggi untuk memenuhi tuntutan pekerjaan t
 * **Drafting Struktur Konveyor & Rangka Baja Presisi Tinggi:** ZWCAD menyediakan perangkat pemodelan 2D dan drafting detail sambungan baut/las (*steel connection detailing*) yang akurat untuk konstruksi menara transfer (*transfer tower*), tumpuan gantry konveyor, dan hopper penampung bijih mentah.
 * **Kompatibilitas Format Native DWG Antar-Kontraktor Internasional:** Proyek smelter umumnya melibatkan konsorsium kontraktor multinasional dari Tiongkok, Eropa, maupun Australia. Format native DWG ZWCAD menjamin pertukaran file gambar kerja lintas disiplin berjalan mulus tanpa kerusakan format teks, skala dimensi, maupun sistem layer koordinat global.
 
-> **📌 Catatan Penting Pengadaan:** PT Hetra Teknologi Indonesia (Central CAD) mendistribusikan lisensi ZWCAD resmi 100% secara digital via email dalam bentuk **Softkey (24-digit Key Number)** dan **Network Floating License**—tanpa menggunakan sistem dongle USB fisik. Lisensi dapat dipindahkan antar-laptop kapan pun secara mandiri melalui fitur *Return License* tanpa biaya tambahan.
+> **Catatan Penting Pengadaan:** PT Hetra Teknologi Indonesia (Central CAD) mendistribusikan lisensi ZWCAD resmi 100% secara digital via email dalam bentuk **Softkey (24-digit Key Number)** dan **Network Floating License**—tanpa menggunakan sistem dongle USB fisik. Lisensi dapat dipindahkan antar-laptop kapan pun secara mandiri melalui fitur *Return License* tanpa biaya tambahan.
 
 ---
 
@@ -64,7 +64,7 @@ Mari kita hitung simulasi anggaran piranti lunak untuk **10 kursi drafter & site
 * Anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 650.000.000 (650 Juta Rupiah)**.
 * Nilai tambah: Lisensi digital ZWCAD tetap menjadi aset legal perusahaan dan mudah dialihkan ke site proyek berikutnya tanpa risiko kehilangan perangkat dongle fisik.
 
-> **💼 Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD dapat dimanfaatkan untuk pengadaan perangkat survei *total station*, armada kendaraan operasional site 4x4, atau program pelatihan keselamatan kerja pertambangan (*K3 Pertambangan*).
+> **Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD dapat dimanfaatkan untuk pengadaan perangkat survei *total station*, armada kendaraan operasional site 4x4, atau program pelatihan keselamatan kerja pertambangan (*K3 Pertambangan*).
 
 ---
 

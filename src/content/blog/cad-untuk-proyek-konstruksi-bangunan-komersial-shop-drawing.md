@@ -55,7 +55,7 @@ ZWCAD 2026 mampu membaca file DWG dari versi AutoCAD 2.5 (tahun 1980-an) hingga 
 
 ## Solusi Lisensi ZWCAD untuk Perusahaan Konstruksi
 
-> **📌 Pilih Lisensi yang Tepat Sesuai Skala Tim Anda:**
+> **Pilih Lisensi yang Tepat Sesuai Skala Tim Anda:**
 
 ### Untuk Tim Kecil (2–5 Drafter)
 

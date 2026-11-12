@@ -27,7 +27,7 @@ Desain teknik perkapalan memiliki karakteristik unik yang membutuhkan software C
 * **Drafting Sistem Perpipaan Kamar Mesin (Engine Room Piping):** Ruang kamar mesin kapal memiliki kerapatan instalasi pipa bahan bakar, ballast, pendingin air laut, dan pemadam kebakaran yang sangat padat. Fitur *Isoplane Snapping* dan pengelolaan layer terstruktur pada ZWCAD mempermudah penyusunan skematik isometrik pipa serta spool fabrikasi.
 * **Kompatibilitas Standar Biro Klasifikasi (BKI, IACS, ClassNK, BV):** Dokumen gambar kerja yang diajukan ke badan klasifikasi wajib memenuhi format DWG/DXF standar industri tanpa distorsi layer, tipe garis, atau teks anotasi. File output ZWCAD 100% terbaca sempurna di seluruh sistem perangkat lunak verifikasi klasifikasi.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung integrasi penuh AutoLISP, VBA, dan ZRX API. Anda dapat langsung menjalankan skrip perhitungan berat konstruksi baja (*steel weight calculation*) dan tabel hidrostatik kapal warisan tanpa perlu menulis ulang kode.
+> **Catatan Penting:** ZWCAD 2026 mendukung integrasi penuh AutoLISP, VBA, dan ZRX API. Anda dapat langsung menjalankan skrip perhitungan berat konstruksi baja (*steel weight calculation*) dan tabel hidrostatik kapal warisan tanpa perlu menulis ulang kode.
 
 ---
 
@@ -64,7 +64,7 @@ Mari kita hitung simulasi perbandingan biaya lisensi untuk **10 kursi drafter na
 * Dana anggaran yang berhasil dihemat perusahaan: Lebih dari **Rp 650.000.000 (650 Juta Rupiah)**.
 * Nilai tambah: Hak kepemilikan lisensi permanen dapat dialihkan antar-komputer drafter secara fleksibel melalui *License Manager*.
 
-> **💼 Keputusan Manajemen:** Anggaran ratusan juta rupiah yang dihemat dari pengalihan lisensi CAD dapat dialokasikan untuk sertifikasi pengelasan *WPS/PQR*, modernisasi mesin *plasma cutting CNC*, atau kalibrasi peralatan galangan.
+> **Keputusan Manajemen:** Anggaran ratusan juta rupiah yang dihemat dari pengalihan lisensi CAD dapat dialokasikan untuk sertifikasi pengelasan *WPS/PQR*, modernisasi mesin *plasma cutting CNC*, atau kalibrasi peralatan galangan.
 
 ---
 

@@ -25,7 +25,7 @@ ZWCAD Architecture 2026 dibekali dengan berbagai pustaka objek arsitektur cerdas
 * **Generator Potongan & Tampak Otomatis (1-Click Section & Elevation):** Cukup tarik garis potongan pada denah 2D, maka ZWCAD Architecture akan secara otomatis membuat gambar penampang potongan bangunan lengkap dengan elevasi lantai, struktur balok, dan kusen jendela secara akurat.
 * **Generator Atap & Tangga Kompleks:** Mendesain berbagai konfigurasi atap rumah—seperti atap pelana, limasan, maupun atap kombinasi miring—serta tangga beton atau baja berputar hanya dengan menentukan parameter tinggi bordes dan anak tangga.
 
-> **📌 Catatan Penting:** ZWCAD Architecture 2026 mendukung penuh format **IFC (Industry Foundation Classes)** standar internasional. Biro arsitek Anda dapat dengan mudah mengimpor model arsitektur 3D dari software BIM rekanan konsultan struktur/MEP, melakukan verifikasi spasial, dan mengekspor kembali data tanpa kehilangan atribut penting.
+> **Catatan Penting:** ZWCAD Architecture 2026 mendukung penuh format **IFC (Industry Foundation Classes)** standar internasional. Biro arsitek Anda dapat dengan mudah mengimpor model arsitektur 3D dari software BIM rekanan konsultan struktur/MEP, melakukan verifikasi spasial, dan mengekspor kembali data tanpa kehilangan atribut penting.
 
 ---
 
@@ -56,7 +56,7 @@ Menghitung jumlah pintu tipe P1, P2, jendela J1, dan ventilasi secara manual ser
 ### 3. Smart Dimensioning Khusus Arsitektur
 Menyediakan fitur dimensi multi-tingkat dalam satu tarikan garis: dimensi total bangunan, as-ke-as kolom struktur, hingga dimensi bukaan kusen pintu dan jendela secara berurutan.
 
-> **💡 Tips Arsitektur:** Gunakan pustaka **3D Furniture & Landscape Block** bawaan ZWCAD Architecture untuk menyajikan visualisasi 3D isometrik konsep ruangan kepada klien presentasi secara cepat tanpa perlu rendering terpisah.
+> **Tips Arsitektur:** Gunakan pustaka **3D Furniture & Landscape Block** bawaan ZWCAD Architecture untuk menyajikan visualisasi 3D isometrik konsep ruangan kepada klien presentasi secara cepat tanpa perlu rendering terpisah.
 
 ---
 

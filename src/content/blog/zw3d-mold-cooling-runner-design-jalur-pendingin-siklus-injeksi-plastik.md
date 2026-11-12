@@ -25,7 +25,7 @@ ZW3D Mold menyederhanakan proses perancangan sistem termal cetakan plastik yang 
 * **Generator Runner & Gate Otomatis Multi-Kavitas:** Merancang saluran alir lelehan plastik (*runner*) dalam bentuk penampang bulat (*circular*), trapesium, maupun setengah lingkaran dengan transisi aliran yang halus. Modul ini mendukung beragam tipe gerbang injeksi (*gate types*), seperti *side edge gate, sub-marine gate, banana gate*, hingga *pin-point gate* dengan perhitungan volume material akurat.
 * **Deteksi Titik Panas Kritis (Hot Spot Elimination):** Membantu perancang menganalisis keseragaman jarak antara dinding produk plastik dan saluran pendingin. Area yang mengalami penumpukan panas lokal dapat segera diatasi dengan menambahkan saluran konformal (*conformal cooling*) atau sisipan tembaga berilium (*beryllium copper inserts*) sebelum blok baja mold dikirim ke mesin CNC.
 
-> **📌 Catatan Penting:** ZW3D menggunakan mesin pemodelan hibrida *Overdrive™ Kernel* yang menggabungkan kemampuan solid dan surface modeling. Jika model produk 3D kiriman klien memiliki permukaan yang robek atau celah bidang (*gap errors*), ZW3D dapat langsung menyembuhkan geometri tersebut tanpa menghambat pembuatan jalur mold base.
+> **Catatan Penting:** ZW3D menggunakan mesin pemodelan hibrida *Overdrive™ Kernel* yang menggabungkan kemampuan solid dan surface modeling. Jika model produk 3D kiriman klien memiliki permukaan yang robek atau celah bidang (*gap errors*), ZW3D dapat langsung menyembuhkan geometri tersebut tanpa menghambat pembuatan jalur mold base.
 
 ---
 
@@ -61,7 +61,7 @@ Mari kita hitung dampak finansial pemendekan siklus waktu mesin injeksi plastik 
 * Total output baru untuk 5 mesin: **15.000 pcs per hari (tambahan 3.000 pcs produk per hari)**.
 * Dengan efisiensi siklus 20%, pabrik mampu melayani lonjakan pesanan klien besar tanpa perlu mengeluarkan modal miliaran rupiah untuk membeli mesin injeksi tambahan.
 
-> **💼 Keputusan Manajemen:** Keunggulan bisnis industri mold bukan hanya diukur dari bagusnya cetakan saat uji coba (*trial T1*), melainkan seberapa cepat cetakan tersebut mampu menghasilkan produk bebas cacat di lini produksi massal klien.
+> **Keputusan Manajemen:** Keunggulan bisnis industri mold bukan hanya diukur dari bagusnya cetakan saat uji coba (*trial T1*), melainkan seberapa cepat cetakan tersebut mampu menghasilkan produk bebas cacat di lini produksi massal klien.
 
 ---
 

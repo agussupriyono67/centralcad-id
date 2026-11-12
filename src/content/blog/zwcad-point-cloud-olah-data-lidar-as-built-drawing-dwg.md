@@ -25,7 +25,7 @@ ZWCAD 2026 dibekali arsitektur pemrosesan data point cloud cerdas yang memudahka
 * **Point Snapping Presisi Tinggi:** Menyediakan kemampuan *object snap* langsung ke titik point cloud terdekat, titik tengah lingkaran pipa (*center point of cylinder*), atau bidang datar (*planar surface*). Menjiplak kontur fisik dinding eksisting menjadi garis vektor DWG dapat dilakukan dengan presisi milimeter.
 * **Kendali Tampilan Densitas Spasial (LOD):** Fitur pengatur *Level of Detail (LOD)* memungkinkan Anda mengatur kerapatan titik yang dirender di layar. Komputer tetap bekerja sangat responsif saat melakukan zoom dan rotasi sudut pandang, tanpa membebani performa kartu grafis workstation Anda.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mengadopsi teknologi *Adaptive Data Caching*, memungkinkan pembacaan data point cloud berkapasitas hingga puluhan gigabyte dengan konsumsi memori RAM komputer yang tetap stabil dan rendah.
+> **Catatan Penting:** ZWCAD 2026 mengadopsi teknologi *Adaptive Data Caching*, memungkinkan pembacaan data point cloud berkapasitas hingga puluhan gigabyte dengan konsumsi memori RAM komputer yang tetap stabil dan rendah.
 
 ---
 
@@ -56,7 +56,7 @@ Dengan memotong irisan pipa di ruang utilitas pabrik, drafter dapat langsung men
 ### 3. Deteksi Deformasi & Ketidakrataan Struktur
 Membandingkan model desain DWG rencana dengan data point cloud pemindaian fisik di lapangan. Anda dapat langsung mengidentifikasi apakah kolom struktur mengalami kemiringan atau apakah balok beton mengalami lendutan di luar batas toleransi.
 
-> **💡 Tips Survey & Pemetaan:** Gunakan perintah **POINTCLOUDCLIP** untuk membatasi visualisasi hanya pada area yang sedang digambar, sehingga layar kerja drafter tetap bersih dan fokus pada komponen yang sedang dianalisis.
+> **Tips Survey & Pemetaan:** Gunakan perintah **POINTCLOUDCLIP** untuk membatasi visualisasi hanya pada area yang sedang digambar, sehingga layar kerja drafter tetap bersih dan fokus pada komponen yang sedang dianalisis.
 
 ---
 

@@ -27,7 +27,7 @@ ZW3D menggabungkan kernel pemodelan *hybrid solid-surface* Overdrive™ dan engi
 * **Integrasi Standar Mold Base Global (DME, HASCO, MISUMI, LKM):** ZW3D menyertakan pustaka basis cetakan standar industri terkemuka. Pengguna dapat langsung memasukkan komponen standar seperti pin ejektor, cincin pemusat (*locating ring*), bushing sprue, serta manifold saluran pendingin (*cooling circuit*) hanya dengan beberapa klik mouse.
 * **Strategi High-Speed Milling (HSM) & Smooth Toolpath CNC:** Rongga cetakan baja perkakas (seperti NAK80, P20, atau SKD61) membutuhkan penyelesaian permukaan mikro halus (*high mirror finish*) agar produk plastik terbebas dari goresan. Modul CAM ZW3D menyediakan lintasan pahat *smooth cornering* dan *adaptive feed rate control* yang memperpanjang keawetan pahat karbida dan memangkas waktu poles manual hingga 50%.
 
-> **📌 Catatan Penting:** Arsitektur terpadu ZW3D memastikan data desain 3D terhubung secara asosiatif penuh (*fully associative*) dengan kode G-Code mesin CNC. Apabila pihak prinsipal peralatan rumah tangga meminta revisi ketebalan dinding atau posisi engsel bodi produk, seluruh jalur pahat milling CNC diperbarui seketika tanpa perlu memprogram ulang dari awal.
+> **Catatan Penting:** Arsitektur terpadu ZW3D memastikan data desain 3D terhubung secara asosiatif penuh (*fully associative*) dengan kode G-Code mesin CNC. Apabila pihak prinsipal peralatan rumah tangga meminta revisi ketebalan dinding atau posisi engsel bodi produk, seluruh jalur pahat milling CNC diperbarui seketika tanpa perlu memprogram ulang dari awal.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi kalkulasi pengeluaran untuk **5 workstation (3 CAD Mold Designe
 * Dana operasional pabrik yang berhasil dihemat: Lebih dari **Rp 460.000.000 (Empat Ratus Enam Puluh Juta Rupiah)**.
 * Manfaat jangka panjang: Lisensi tetap aktif digunakan selamanya untuk memproduksi puluhan set cetakan peralatan rumah tangga lainnya.
 
-> **💼 Keputusan Manajemen:** Dana efisiensi piranti lunak hampir setengah miliar rupiah ini dapat dialokasikan langsung untuk membeli perangkat *tool setter* optik, menambah stok mata pahat *carbide end mill*, atau meremajakan mesin EDM die sinking di lantai workshop.
+> **Keputusan Manajemen:** Dana efisiensi piranti lunak hampir setengah miliar rupiah ini dapat dialokasikan langsung untuk membeli perangkat *tool setter* optik, menambah stok mata pahat *carbide end mill*, atau meremajakan mesin EDM die sinking di lantai workshop.
 
 ---
 

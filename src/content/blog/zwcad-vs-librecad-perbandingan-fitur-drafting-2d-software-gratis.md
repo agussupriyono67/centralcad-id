@@ -19,20 +19,20 @@ keywords: "ZWCAD vs LibreCAD perbandingan fitur 2D drafting, kompatibilitas DWG,
 | Fitur | ZWCAD Standard | LibreCAD (0.3.x) | Catatan |
 |:--|::|::|:--|
 | **Kompatibilitas DWG** | R14–2024 native | R12–2004 (terbatas) | ZWCAD membuka DWG modern tanpa konversi |
-| **Autocomplete Command** | ✅ Lengkap | ⚠️ Partial | LibreCAD tidak punya shortcut lengkap |
-| **Dimensioning Otomatis** | ✅ Full parametric | ✅ Dasar | ZWCAD auto-update saat object resize |
-| **Constraint Solver** | ✅ Ya (horizontal, vertical, perpendicular) | ❌ Tidak | LibreCAD hanya manual positioning |
-| **Hatch Fill & Pattern** | ✅ 50+ pattern built-in | ⚠️ Terbatas 10 pattern | LibreCAD sering corrupt saat buka dwg kompleks |
-| **3D Viewport Preview** | ✅ Orthographic + isometric | ❌ Tidak ada | ZWCAD bisa export isometric 2D |
-| **Layer Management** | ✅ 32.767 layer support | ✅ Unlimited | Tapi LibreCAD sering corrupt layer props |
-| **PDF & Image Export** | ✅ High quality (raster & vector) | ⚠️ Raster only | ZWCAD preserve layering pada export |
-| **Database Link (OLE)** | ✅ Excel, Outlook embedding | ❌ Tidak | Professional data-driven drafting |
-| **Lisp Scripting** | ✅ AutoLISP + DCL dialogs | ❌ Tidak ada | LibreCAD tidak punya automation API |
-| **Plugin/API** | ✅ .NET, VBA, Python bindings | ❌ Tidak ada | ExtensibilIty untuk custom tools |
-| **Multi-Language UI** | ✅ 12+ bahasa (termasuk Indonesia) | ⚠️ Community translation | ZWCAD UI sempurna dalam Bahasa Indonesia |
-| **Professional Support** | ✅ Vendor support + local partner PT Hetra | ❌ Forum community saja | LibreCAD tergantung volunteer developers |
-| **Update Frequency** | ✅ Quarterly major + monthly patches | ⚠️ Irregular (volunteer-driven) | LibreCAD sering dormant 6+ bulan |
-| **Commercial License** | ✅ Perpetual + Network Floating options | ❌ Open Source (GPL) | Lisensi commercial ZWCAD clear untuk bisnis |
+| **Autocomplete Command** | Lengkap | Partial | LibreCAD tidak punya shortcut lengkap |
+| **Dimensioning Otomatis** | Full parametric | Dasar | ZWCAD auto-update saat object resize |
+| **Constraint Solver** | Ya (horizontal, vertical, perpendicular) | Tidak | LibreCAD hanya manual positioning |
+| **Hatch Fill & Pattern** | 50+ pattern built-in | Terbatas 10 pattern | LibreCAD sering corrupt saat buka dwg kompleks |
+| **3D Viewport Preview** | Orthographic + isometric | Tidak ada | ZWCAD bisa export isometric 2D |
+| **Layer Management** | 32.767 layer support | Unlimited | Tapi LibreCAD sering corrupt layer props |
+| **PDF & Image Export** | High quality (raster & vector) | Raster only | ZWCAD preserve layering pada export |
+| **Database Link (OLE)** | Excel, Outlook embedding | Tidak | Professional data-driven drafting |
+| **Lisp Scripting** | AutoLISP + DCL dialogs | Tidak ada | LibreCAD tidak punya automation API |
+| **Plugin/API** | .NET, VBA, Python bindings | Tidak ada | ExtensibilIty untuk custom tools |
+| **Multi-Language UI** | 12+ bahasa (termasuk Indonesia) | Community translation | ZWCAD UI sempurna dalam Bahasa Indonesia |
+| **Professional Support** | Vendor support + local partner PT Hetra | Forum community saja | LibreCAD tergantung volunteer developers |
+| **Update Frequency** | Quarterly major + monthly patches | Irregular (volunteer-driven) | LibreCAD sering dormant 6+ bulan |
+| **Commercial License** | Perpetual + Network Floating options | Open Source (GPL) | Lisensi commercial ZWCAD clear untuk bisnis |
 
 ---
 

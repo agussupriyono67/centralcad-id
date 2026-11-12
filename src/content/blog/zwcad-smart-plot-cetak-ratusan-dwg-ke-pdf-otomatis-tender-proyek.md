@@ -27,7 +27,7 @@ Fitur Smart Plot diciptakan khusus untuk menghilangkan penderitaan drafter saat 
 * **Pilihan Format Output Fleksibel (Single vs Multi-Page PDF):** Anda dapat memilih mengekspor ratusan lembar gambar menjadi satu file PDF tebal (*Combine Multi-Page PDF*) yang siap dijilid untuk dokumen tender, atau memisahkannya menjadi file PDF individu per nomor lembar kerja secara instan.
 * **Pengaturan Skema Penamaan File Dinamis (Dynamic File Naming):** Nama file PDF hasil cetakan dapat dirumuskan otomatis mengambil teks dari atribut nomor gambar, judul denah, atau revisi proyek, sehingga pengarsipan dokumen digital proyek tertata rapi tanpa perlu ganti nama (*rename*) manual.
 
-> **📌 Catatan Penting:** Smart Plot ZWCAD 2026 bekerja langsung di dalam tab Model Space maupun Layout Space tanpa memerlukan software plugin tambahan berbayar pihak ketiga. Fitur ini telah terintegrasi penuh pada edisi ZWCAD Standard maupun Professional.
+> **Catatan Penting:** Smart Plot ZWCAD 2026 bekerja langsung di dalam tab Model Space maupun Layout Space tanpa memerlukan software plugin tambahan berbayar pihak ketiga. Fitur ini telah terintegrasi penuh pada edisi ZWCAD Standard maupun Professional.
 
 ---
 
@@ -62,7 +62,7 @@ Di industri konsultan dan kontraktor konstruksi, waktu adalah uang. Mari kita hi
 * Dibandingkan software CAD sewa yang menghabiskan rata-rata Rp 30.000.000/user/tahun, perusahaan Anda menghemat **Rp 150.000.000 setiap tahun** untuk 5 workstation.
 * Dalam 5 tahun ke depan, total likuiditas perusahaan yang terselamatkan mencapai lebih dari **Rp 600.000.000**.
 
-> **💼 Keputusan Manajemen:** Menghilangkan beban sewa software CAD tahunan dan memangkas waktu lembur drafter memberikan keunggulan kompetitif yang signifikan saat mengajukan penawaran harga tender konstruksi.
+> **Keputusan Manajemen:** Menghilangkan beban sewa software CAD tahunan dan memangkas waktu lembur drafter memberikan keunggulan kompetitif yang signifikan saat mengajukan penawaran harga tender konstruksi.
 
 ---
 

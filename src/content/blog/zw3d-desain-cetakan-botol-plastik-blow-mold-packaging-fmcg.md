@@ -27,7 +27,7 @@ ZW3D mempercepat proses perancangan produk kemasan dari sketsa konsep hingga cet
 * **Pemisahan Blok Cetakan Blow Mold Instan (Automatic Parting Line Split):** ZW3D mendeteksi sudut kemiringan cetakan (*draft angle check*) dan membagi blok cetakan menjadi dua belahan (*cavity & core blocks*) secara otomatis, lengkap dengan geometri *pinch-off insert* pada dasar botol untuk memotong parison plastik secara presisi.
 * **Integrasi Pemesinan CNC High-Speed Milling (CAM Terpadu):** Setelah model cetakan selesai dirancang, modul ZW3D CAM memungkinkan pembuatan jalur pahat (*toolpath*) pemesinan kasar (*QuickMill roughing*) dan penyelesaian permukaan halus (*fine finishing*) langsung pada modul yang sama tanpa risiko galat ekspor file IGES/STEP.
 
-> **📌 Catatan Penting:** Jalur pendingin air (*conformal cooling*) pada cetakan tiup aluminium dapat dibuat dengan cepat menggunakan fitur otomatis ZW3D Mold, mempercepat pendinginan botol di mesin blow molding dan meningkatkan kapasitas output produksi pabrik hingga 25%.
+> **Catatan Penting:** Jalur pendingin air (*conformal cooling*) pada cetakan tiup aluminium dapat dibuat dengan cepat menggunakan fitur otomatis ZW3D Mold, mempercepat pendinginan botol di mesin blow molding dan meningkatkan kapasitas output produksi pabrik hingga 25%.
 
 ---
 
@@ -65,7 +65,7 @@ Mari kita bandingkan simulasi pengeluaran piranti lunak untuk **10 kursi desaine
 * Anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 1.300.000.000 (1,3 Miliar Rupiah)**.
 * Lisensi tetap menjadi milik sah perusahaan dan dapat digunakan tanpa batas waktu.
 
-> **💼 Keputusan Manajemen:** Efisiensi lebih dari satu miliar rupiah dari pengalihan lisensi ZW3D dapat dialokasikan untuk pembelian mata pahat karbida berkualitas tinggi, pengadaan mesin *EDM die-sinking*, atau penambahan mesin milling CNC berkecepatan tinggi.
+> **Keputusan Manajemen:** Efisiensi lebih dari satu miliar rupiah dari pengalihan lisensi ZW3D dapat dialokasikan untuk pembelian mata pahat karbida berkualitas tinggi, pengadaan mesin *EDM die-sinking*, atau penambahan mesin milling CNC berkecepatan tinggi.
 
 ---
 

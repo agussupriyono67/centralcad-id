@@ -25,7 +25,7 @@ Investasi software teknik seharusnya memberikan ketenangan operasional, bukan ke
 
 * **Upgrade Bebas Tanpa Paksaan:** Anda bebas menentukan kapan ingin memperbarui versi software. Tidak ada penalti ataupun pemblokiran software jika Anda memilih tetap memakai versi yang sudah ada.
 
-> **💡 Catatan Investasi:** Penghematan anggaran CAD dari tahun ke tahun dapat dialokasikan untuk pembaruan workstation PC tim atau ekspansi fasilitas produksi perusahaan Anda.
+> **Catatan Investasi:** Penghematan anggaran CAD dari tahun ke tahun dapat dialokasikan untuk pembaruan workstation PC tim atau ekspansi fasilitas produksi perusahaan Anda.
 
 ---
 

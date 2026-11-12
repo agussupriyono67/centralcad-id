@@ -25,7 +25,7 @@ Penyusunan gambar teknik kelistrikan dan panel listrik memiliki tantangan teknis
 * **Ekstraksi Daftar Komponen Panel (BOM):** Menghitung jumlah relay, busbar tembaga, terminal strip, dan enclosure panel secara manual kerap memicu selisih stok saat pengadaan. Melalui fitur **Data Extraction**, ZWCAD otomatis merangkum seluruh atribut blok komponen menjadi tabel Bill of Materials (BOM) terstruktur dan dapat diekspor langsung ke Microsoft Excel.
 * **Kolaborasi Format DWG Native Tanpa Distorsi:** Gambar skematik elektrikal harus didistribusikan ke drafter sipil, kontraktor arsitektur, dan teknisi lapangan. ZWCAD membaca serta menyimpan file DWG/DXF secara native tanpa risiko font rusak atau simbol layer yang hilang.
 
-> **📌 Catatan Penting:** ZWCAD 2026 Professional mendukung eksekusi skrip otomasi LISP dan VBA untuk melakukan penomoran otomatis jalur kawat (*auto wire numbering*) dan penandaan terminal blok, memangkas waktu pengerjaan skematik berulang hingga lebih dari 60%.
+> **Catatan Penting:** ZWCAD 2026 Professional mendukung eksekusi skrip otomasi LISP dan VBA untuk melakukan penomoran otomatis jalur kawat (*auto wire numbering*) dan penandaan terminal blok, memangkas waktu pengerjaan skematik berulang hingga lebih dari 60%.
 
 ---
 
@@ -56,7 +56,7 @@ Saat klien industri atau konsultan engineering mengirimkan perubahan sirkuit pen
 ### 3. Sheet Set Manager Buku Gambar Proyek
 Mengorganisasi puluhan lembar gambar—mulai dari Halaman Cover, Daftar Isi, Single Line Diagram, Diagram Skematik Kontrol, hingga Layout Pintu Panel 2D—menjadi terstruktur rapi dan siap cetak massal via **Smart Plot**.
 
-> **💡 Tips Rekayasa:** Kelompokkan simbol-simbol panel maker langganan Anda (seperti modul Schneider, ABB, Chint, atau Omron) ke dalam panel **DesignCenter** ZWCAD agar seluruh tim drafter memiliki standar gambar seragam.
+> **Tips Rekayasa:** Kelompokkan simbol-simbol panel maker langganan Anda (seperti modul Schneider, ABB, Chint, atau Omron) ke dalam panel **DesignCenter** ZWCAD agar seluruh tim drafter memiliki standar gambar seragam.
 
 ---
 

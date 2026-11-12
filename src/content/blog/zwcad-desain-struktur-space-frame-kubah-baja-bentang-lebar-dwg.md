@@ -27,7 +27,7 @@ Perancangan geometri rangka ruang memerlukan software CAD yang cepat, akurat dal
 * **Pengolahan Master File Raksasa Tanpa Gejala Lag:** Model atap bentang lebar dengan puluhan ribu elemen batang pipa menghasilkan ukuran file DWG yang sangat masif. Didukung mesin grafis *multi-core acceleration*, ZWCAD 2026 mampu membuka, memutar (*3D Orbit*), serta merevisi master drawing secara instan tanpa mengalami *crash* atau *screen freeze*.
 * **Otomasi Penomoran Batang dan Simpul via Skrip LISP:** Menamai ratusan simpul bola dan batang pipa secara manual sangat rawan kesalahan perakitan di lapangan (*erection error*). ZWCAD mendukung penuh eksekusi skrip AutoLISP dan ZRX API untuk mengekstrak daftar material (*Bill of Materials/BOM*) serta kode batang secara otomatis ke format tabel Excel.
 
-> **📌 Catatan Penting:** ZWCAD 2026 memiliki kompatibilitas 100% native DWG. Anda dapat langsung membuka, mengedit, dan membagikan file gambar kerja dengan konsultan arsitektur dan kontraktor utama tanpa perlu konversi format yang berisiko merusak layer atau koordinat simpul.
+> **Catatan Penting:** ZWCAD 2026 memiliki kompatibilitas 100% native DWG. Anda dapat langsung membuka, mengedit, dan membagikan file gambar kerja dengan konsultan arsitektur dan kontraktor utama tanpa perlu konversi format yang berisiko merusak layer atau koordinat simpul.
 
 ---
 
@@ -64,7 +64,7 @@ Simulasi komparasi pengeluaran lisensi untuk **8 unit komputer drafter struktur 
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 500.000.000 (Setengah Miliar Rupiah)**.
 * Fleksibilitas aset: Lisensi dapat dipindahkan antar-komputer drafter dengan mudah atau didistribusikan melalui server *Network License*.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran piranti lunak sebesar setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan mesin *band saw cutting*, pengujian beban tarik sambungan baut di laboratorium independen, atau sertifikasi K3 konstruksi.
+> **Keputusan Manajemen:** Efisiensi anggaran piranti lunak sebesar setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan mesin *band saw cutting*, pengujian beban tarik sambungan baut di laboratorium independen, atau sertifikasi K3 konstruksi.
 
 ---
 

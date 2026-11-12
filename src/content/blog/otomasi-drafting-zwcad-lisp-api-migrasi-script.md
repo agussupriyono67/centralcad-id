@@ -27,7 +27,7 @@ Engine LISP di ZWCAD 2026 tidak sekadar membaca skrip lama, melainkan mengoptima
 * **Lingkungan Debugging Kode Modern:** Dilengkapi ekstensi **ZWCAD Lisp Debugger** untuk Visual Studio Code, memungkinkan programmer in-house melakukan inspeksi breakpoint, pemantauan variabel (*variable watching*), dan penelusuran galat kode secara profesional.
 * **Ekosistem API Lengkap untuk Integrasi Korporat:** Selain LISP, ZWCAD menyediakan antarmuka pemrograman aplikasi tingkat tinggi seperti **ZRX (setara ARX berbasis C++)**, **.NET (C#/VB.NET)**, dan **VBA**, memudahkan integrasi gambar CAD dengan database ERP perusahaan.
 
-> **📌 Catatan Penting:** Anda tidak memerlukan langkah porting yang melelahkan. Cukup ketik perintah `APPLOAD` di ZWCAD 2026, pilih file `.lsp` atau `.vlx` Anda, klik *Load*, dan seluruh shortcut perintah kustom kantor Anda langsung aktif seketika.
+> **Catatan Penting:** Anda tidak memerlukan langkah porting yang melelahkan. Cukup ketik perintah `APPLOAD` di ZWCAD 2026, pilih file `.lsp` atau `.vlx` Anda, klik *Load*, dan seluruh shortcut perintah kustom kantor Anda langsung aktif seketika.
 
 ---
 
@@ -58,7 +58,7 @@ Skrip geodesi yang mengekstrak koordinat Northing, Easting, dan Elevasi (XYZ) da
 ### 3. Generator Otomatis Balon Part & Daftar BOM Mekanikal
 Skrip penanda nomor balon komponen perakitan mesin (*part ballooning*) yang langsung menyusun tabel daftar kebutuhan material lengkap dengan berat dan spesifikasi bahan.
 
-> **💡 Tips Efisiensi:** Simpan skrip rutin harian Anda di dalam file `zwcad.lsp` di folder instalasi ZWCAD. Dengan langkah ini, seluruh perintah otomasi favorit tim engineering akan otomatis dimuat setiap kali software dibuka.
+> **Tips Efisiensi:** Simpan skrip rutin harian Anda di dalam file `zwcad.lsp` di folder instalasi ZWCAD. Dengan langkah ini, seluruh perintah otomasi favorit tim engineering akan otomatis dimuat setiap kali software dibuka.
 
 ---
 

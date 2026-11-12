@@ -25,7 +25,7 @@ Implementasi ZWCAD Network Floating License memberikan fleksibilitas operasional
 * **Server Terpusat On-Premise Tanpa Ketergantungan Cloud:** Server FlexNet terpasang langsung pada infrastruktur lokal perusahaan (Windows Server atau Linux). Data operasional dan log lisensi berada sepenuhnya di bawah kendali privasi internal tim IT, tanpa risiko terganggu jika koneksi internet publik mati.
 * **Laporan Audit & Monitoring Utilisasi Lisensi Real-Time:** Administrator IT dapat memantau secara langsung siapa saja workstation yang sedang aktif menggunakan software, durasi pemakaian, serta mengekspor berkas log pemakaian untuk analisis kebutuhan ekspansi seat secara objektif.
 
-> **📌 Catatan Penting:** Berbeda dari skema named-user kompetitor yang mengunci software pada alamat email personal karyawan, lisensi jaringan ZWCAD adalah aset permanen milik institusi perusahaan (*perpetual company asset*). Jika karyawan resign atau berpindah divisi, kuota lisensi tetap aman di server perusahaan tanpa perlu repot mengurus transfer kepemilikan akun.
+> **Catatan Penting:** Berbeda dari skema named-user kompetitor yang mengunci software pada alamat email personal karyawan, lisensi jaringan ZWCAD adalah aset permanen milik institusi perusahaan (*perpetual company asset*). Jika karyawan resign atau berpindah divisi, kuota lisensi tetap aman di server perusahaan tanpa perlu repot mengurus transfer kepemilikan akun.
 
 ---
 
@@ -60,7 +60,7 @@ Mari kita telaah simulasi perbandingan biaya pengadaan software CAD untuk divisi
 * Total belanja software selama 5 tahun: Kurang dari seperempat anggaran kompetitor.
 * **Total Dana yang Berhasil Dihemat Korporasi:** **Lebih dari Rp 6.000.000.000 (6 Miliar Rupiah)** yang dapat dialihkan untuk diversifikasi bisnis, riset pengembangan produk, atau ekspansi fasilitas pabrik.
 
-> **💼 Keputusan Manajemen:** Efisiensi anggaran bukan berarti menurunkan kualitas software. ZWCAD 2026 memiliki performa buka file DWG yang lebih cepat, kompatibilitas AutoLISP 100%, serta stabilitas grafis multi-core yang telah dipercaya oleh ratusan perusahaan multinasional di Indonesia.
+> **Keputusan Manajemen:** Efisiensi anggaran bukan berarti menurunkan kualitas software. ZWCAD 2026 memiliki performa buka file DWG yang lebih cepat, kompatibilitas AutoLISP 100%, serta stabilitas grafis multi-core yang telah dipercaya oleh ratusan perusahaan multinasional di Indonesia.
 
 ---
 

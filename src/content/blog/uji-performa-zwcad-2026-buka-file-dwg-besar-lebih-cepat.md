@@ -41,7 +41,7 @@ Pengujian dilakukan menggunakan file gambar kerja DWG riil berukuran **128 MB** 
 | **Konsumsi Memori RAM** | **~850 MB** | ~2.400 MB | **Hemat RAM Hingga 65%** |
 | **Regenerasi Layar (REGEN)** | **1,2 Detik** | 4,8 Detik | **4x Lebih Singkat** |
 
-> **💡 Kesimpulan Uji Teknis:** ZWCAD 2026 terbukti mampu mereduksi waktu tunggu hingga sepertiga waktu normal, memungkinkan drafter bekerja lebih produktif tanpa terganggu jeda loading.
+> **Kesimpulan Uji Teknis:** ZWCAD 2026 terbukti mampu mereduksi waktu tunggu hingga sepertiga waktu normal, memungkinkan drafter bekerja lebih produktif tanpa terganggu jeda loading.
 
 ---
 

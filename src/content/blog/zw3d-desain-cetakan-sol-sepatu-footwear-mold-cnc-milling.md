@@ -27,7 +27,7 @@ ZW3D menggabungkan pemodelan *hybrid solid-surface* Overdrive™ dan modul pemro
 * **Otomasi Grading Ukuran Sol Sepatu (Footwear Size Grading):** Mengubah master desain sol menjadi 10 variasi ukuran kaki yang berbeda secara manual memakan waktu berhari-hari. ZW3D menyediakan modul scaling parametrik terarah yang menjaga ketebalan dinding cetakan dan proporsi fungsional tetap presisi secara otomatis.
 * **Strategi High-Speed Machining (HSM) & Smooth Toolpath CNC:** Cetakan master aluminium dan baja perkakas (*tool steel*) membutuhkan *surface finish* sangat halus untuk mengurangi proses poles manual. Modul CAM ZW3D menghadirkan pemotongan kecepatan tinggi dengan *smooth cornering* dan kontrol *scallop height* mikro untuk menghasilkan cetakan sempurna langsung dari mesin milling.
 
-> **📌 Catatan Penting:** Dengan arsitektur all-in-one ZW3D, data CAD 3D terhubung secara asosiatif (*fully associative*) dengan jalur pahat CAM CNC. Setiap kali ada revisi lekukan sol dari prinsipal merek sepatu, jalur pahat CNC akan diperbarui secara otomatis tanpa perlu ekspor-impor file ulang.
+> **Catatan Penting:** Dengan arsitektur all-in-one ZW3D, data CAD 3D terhubung secara asosiatif (*fully associative*) dengan jalur pahat CAM CNC. Setiap kali ada revisi lekukan sol dari prinsipal merek sepatu, jalur pahat CNC akan diperbarui secara otomatis tanpa perlu ekspor-impor file ulang.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi investasi untuk **6 lisensi komputer (CAD Designer & 
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 550.000.000 (Setengah Miliar Rupiah)**.
 * Nilai tambah: Software tetap aktif digunakan untuk melayani produksi cetakan sepatu tanpa batas waktu.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana piranti lunak lebih dari setengah miliar rupiah dapat dialokasikan langsung untuk membeli perangkat *tool presetter* digital, penambahan stok *solid carbide end mill*, atau peremajaan mesin EDM kawat di lantai pabrik.
+> **Keputusan Manajemen:** Efisiensi dana piranti lunak lebih dari setengah miliar rupiah dapat dialokasikan langsung untuk membeli perangkat *tool presetter* digital, penambahan stok *solid carbide end mill*, atau peremajaan mesin EDM kawat di lantai pabrik.
 
 ---
 

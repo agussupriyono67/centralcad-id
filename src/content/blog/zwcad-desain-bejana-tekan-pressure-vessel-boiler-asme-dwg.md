@@ -27,7 +27,7 @@ ZWCAD 2026 memberikan kombinasi fitur drafting 2D presisi tinggi, pemodelan 3D s
 * **Integrasi Tabel Nozzle Schedule & Ekstraksi Bill of Materials (BOM):** Setiap bejana tekan memiliki puluhan nozzle dengan spesifikasi rating flensa ANSI/ASME (Class 150, 300, 600#) dan ketebalan pipa (*schedule*). ZWCAD memudahkan pembuatan tabel *Nozzle Schedule* terstruktur dengan atribut blok dinamis yang secara otomatis terhubung dengan anotasi gambar kerja.
 * **Performa Ekstrem Menangani Rakitan Skid Peralatan Masif:** Gambar perakitan unit skid bejana tekan lengkap dengan perpipaan (*manifold piping*), katup pengaman (*safety relief valves*), dan struktur baja penopang sering kali menghasilkan file DWG berkapasitas besar. Mesin grafis ZWCAD 2026 yang diperkuat *hardware acceleration* menjamin navigasi pan dan zoom tetap mulus tanpa terjadi kelambatan sistem.
 
-> **📌 Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. File gambar kerja fabrikasi dapat langsung dibagikan dan disetujui oleh *Third Party Inspection* (seperti Depnaker, Lloyd's Register, TÜV, Bureau Veritas) tanpa risiko perubahan dimensi atau hilangnya simbol toleransi pengelasan.
+> **Catatan Penting:** ZWCAD 2026 mendukung format DWG 100% native tanpa konversi. File gambar kerja fabrikasi dapat langsung dibagikan dan disetujui oleh *Third Party Inspection* (seperti Depnaker, Lloyd's Register, TÜV, Bureau Veritas) tanpa risiko perubahan dimensi atau hilangnya simbol toleransi pengelasan.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi biaya pengadaan lisensi untuk **7 unit workstation dr
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 450.000.000 (Empat Ratus Lima Puluh Juta Rupiah)**.
 * Nilai tambah operasional: Lisensi tetap aktif digunakan selamanya untuk memproduksi gambar kerja puluhan proyek boiler dan bejana tekan berikutnya.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana piranti lunak hampir setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan mesin *bevel cutting* otomatis, biaya sertifikasi prosedur las (WPS/PQR), atau pelatihan inspektur las berstandar internasional.
+> **Keputusan Manajemen:** Efisiensi dana piranti lunak hampir setengah miliar rupiah dapat dialokasikan langsung untuk pengadaan mesin *bevel cutting* otomatis, biaya sertifikasi prosedur las (WPS/PQR), atau pelatihan inspektur las berstandar internasional.
 
 ---
 

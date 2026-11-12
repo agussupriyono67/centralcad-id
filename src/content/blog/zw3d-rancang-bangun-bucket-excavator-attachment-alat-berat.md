@@ -27,7 +27,7 @@ ZW3D menyediakan alur kerja terintegrasi mulai dari konsep pemodelan 3D, simulas
 * **Ekstraksi Gambar Kerja Fabrikasi & Cutting List Otomatis:** Bengkel fabrikasi membutuhkan lembar kerja akurat untuk pemotongan pelat baja menggunakan mesin CNC plasma cutting, flame cutting, atau laser cutting. ZW3D secara otomatis menghasilkan proyeksi 2D orthografis detail, daftar kebutuhan material pelat (*BOM cutting list*), serta label penomoran part untuk mempermudah proses perakitan di lantai bengkel.
 * **Pemrograman CAM Terintegrasi untuk Mesin Boring & Milling Pin Bushing:** Rumah pin bushing pada attachment membutuhkan pemesinan presisi tinggi agar tidak oblak saat menerima beban ratusan kilonewton. Modul CAM 2-3 Axis ZW3D memungkinkan programmer membuat jalur pahat CNC milling dan boring secara langsung dari model 3D yang sama tanpa perlu konversi file.
 
-> **📌 Catatan Penting:** Arsitektur terpadu ZW3D memastikan setiap revisi ketebalan pelat atau diameter pin pada model CAD 3D akan memperbarui gambar kerja 2D dan program CAM CNC secara otomatis (*fully associative*), mengeliminasi risiko salah potong pelat baja berharga mahal.
+> **Catatan Penting:** Arsitektur terpadu ZW3D memastikan setiap revisi ketebalan pelat atau diameter pin pada model CAD 3D akan memperbarui gambar kerja 2D dan program CAM CNC secara otomatis (*fully associative*), mengeliminasi risiko salah potong pelat baja berharga mahal.
 
 ---
 
@@ -64,7 +64,7 @@ Berikut simulasi komparasi investasi lisensi untuk **5 unit komputer engineer (C
 * Dana anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 420.000.000 (Empat Ratus Dua Puluh Juta Rupiah)**.
 * Nilai aset perusahaan: Piranti lunak tetap aktif dan legal digunakan untuk memproduksi ribuan unit bucket dan karoseri alat berat selamanya.
 
-> **💼 Keputusan Manajemen:** Penghematan anggaran lebih dari empat ratus juta rupiah dapat dialokasikan langsung untuk pengadaan mesin *rotator welding positioner*, penambahan stok pelat tahan aus Hardox, atau investasi genset cadangan untuk bengkel fabrikasi.
+> **Keputusan Manajemen:** Penghematan anggaran lebih dari empat ratus juta rupiah dapat dialokasikan langsung untuk pengadaan mesin *rotator welding positioner*, penambahan stok pelat tahan aus Hardox, atau investasi genset cadangan untuk bengkel fabrikasi.
 
 ---
 

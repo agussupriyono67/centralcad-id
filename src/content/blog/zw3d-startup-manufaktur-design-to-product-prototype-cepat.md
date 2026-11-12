@@ -24,7 +24,7 @@ ZW3D menggabungkan feature-based modeling (seperti Solidworks) dengan antarmuka 
 - **Sheet metal unfolding** — Langsung ekspor ke NC/CNC programming
 
 <figure style="margin: 25px 0; text-align: center;">
-  <img src="https://images.unsplash.com/photo-1581092165854-9b1ac7a8544e?ixlib=rb-4.0.3&w=800&h=450&fit=crop&q=85" alt="ZW3D 3D modeling interface dengan assembly dan parametric features" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
+  <img src="/images/3d_printer_additive_manufacturing.jpg" alt="ZW3D 3D modeling interface dengan assembly dan parametric features" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
   <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px; font-style: italic;">ZW3D assembly workspace dengan multi-body parts dan constraint management</figcaption>
 </figure>
 

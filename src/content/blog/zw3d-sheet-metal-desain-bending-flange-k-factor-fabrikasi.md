@@ -25,7 +25,7 @@ Modul Sheet Metal di ZW3D 2026 dirancang dengan alur kerja intuitif yang menyede
 * **1-Click Flat Pattern Unfolding:** Mengubah model 3D rakitan plat menjadi pola bentangan datar (*flat pattern*) hanya dengan satu klik. Pola bentangan langsung dilengkapi garis batas tekuk (*bend lines*), informasi arah tekukan (*up/down*), sudut tekuk (*bend angle*), dan radius tekukan yang siap diproduksi.
 * **Fitur Pembentukan Khusus (Forming Tools):** Mempercepat penambahan elemen penguat struktural seperti rusuk pengaku (*ribs*), lubang ventilasi kisi-kisi (*louvers*), cekungan baut (*dimples*), dan embos khusus langsung dari pustaka standar tanpa perlu memodelkan ulang dari nol.
 
-> **📌 Catatan Penting:** ZW3D Sheet Metal 2026 dilengkapi fitur **Convert to Sheet Metal**, memungkinkan Anda mengimpor file solid 3D dari format netral (seperti STEP, IGES, atau Parasolid) dan secara otomatis mengubahnya menjadi komponen sheet metal yang dapat dibentangkan (*unfolded*) tanpa cacat geometri.
+> **Catatan Penting:** ZW3D Sheet Metal 2026 dilengkapi fitur **Convert to Sheet Metal**, memungkinkan Anda mengimpor file solid 3D dari format netral (seperti STEP, IGES, atau Parasolid) dan secara otomatis mengubahnya menjadi komponen sheet metal yang dapat dibentangkan (*unfolded*) tanpa cacat geometri.
 
 ---
 
@@ -56,7 +56,7 @@ Engineer dapat menyimulasikan urutan tahapan tekukan plat langkah demi langkah d
 ### 3. Ekspor DXF Layered Siap Potong
 Pola bentangan datar 2D yang dihasilkan dapat diekspor langsung ke format DXF dengan pemisahan layer otomatis antara garis potong luar (*outer contour*), garis penandaan (*marking*), dan garis tekuk (*bend lines*), memudahkan operator mesin CNC Laser Cutting melakukan proses *cutting*.
 
-> **💡 Tips Rekayasa:** Manfaatkan fitur **Rip Tool** di ZW3D untuk membuka model kotak solid tertutup menjadi lembaran plat terbuka dengan celah radius yang presisi, mempersingkat waktu desain enclosure elektronik hingga 70%.
+> **Tips Rekayasa:** Manfaatkan fitur **Rip Tool** di ZW3D untuk membuka model kotak solid tertutup menjadi lembaran plat terbuka dengan celah radius yang presisi, mempersingkat waktu desain enclosure elektronik hingga 70%.
 
 ---
 

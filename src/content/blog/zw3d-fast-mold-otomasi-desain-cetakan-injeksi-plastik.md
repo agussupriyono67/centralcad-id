@@ -27,7 +27,7 @@ Modul ZW3D Fast Mold dikembangkan khusus untuk menyederhanakan setiap tahapan al
 * **Pustaka Standar Mold Base Terlengkap di Dunia:** Menyediakan ribuan komponen cetakan standar siap pakai dari manufaktur global ternama seperti DME, HASCO, MISUMI, FUTABA, LKM, dan RABOURDIN.
 * **Desain Sistem Pendingin & Injeksi 3D (Cooling & Runner):** Rancang jalur sirkulasi air pendingin, baffle, plug, serta saluran lelehan plastik (*sprue, runner, gate*) secara visual dengan pemeriksaan benturan (*interference check*) otomatis terhadap pin pendorong (*ejector pin*).
 
-> **📌 Catatan Penting:** ZW3D Fast Mold terintegrasi langsung dengan modul CAM pemesinan CNC. Begitu rancangan cetakan selesai, Anda dapat langsung membuat program CNC milling untuk blok cavity tanpa perlu ekspor file ke software lain.
+> **Catatan Penting:** ZW3D Fast Mold terintegrasi langsung dengan modul CAM pemesinan CNC. Begitu rancangan cetakan selesai, Anda dapat langsung membuat program CNC milling untuk blok cavity tanpa perlu ekspor file ke software lain.
 
 ---
 
@@ -61,7 +61,7 @@ Pilih ukuran mold base yang sesuai dari pustaka standar. Tambahkan pin pendorong
 ### 4. Ekstraksi Elektroda EDM Otomatis
 Untuk sudut-sudut dalam rongga cetakan yang tidak dapat dijangkau oleh mata pisau frais milling CNC, manfaatkan modul **EDM Electrode Design** untuk mengekstrak bentuk elektroda tembaga/grafit lengkap dengan lembar koordinat pembuangan percikan api.
 
-> **💡 Tips Mold Making:** Selalu aktifkan fitur **Cooling Channel Interference Check** di ZW3D untuk memastikan saluran air pendingin berdiameter 8–10 mm tidak menembus lubang ejector pin atau baut pengikat pelat.
+> **Tips Mold Making:** Selalu aktifkan fitur **Cooling Channel Interference Check** di ZW3D untuk memastikan saluran air pendingin berdiameter 8–10 mm tidak menembus lubang ejector pin atau baut pengikat pelat.
 
 ---
 

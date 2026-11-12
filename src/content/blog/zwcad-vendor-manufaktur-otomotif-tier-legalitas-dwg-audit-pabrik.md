@@ -29,7 +29,7 @@ Dalam lingkungan produksi massal komponen otomotif presisi—mulai dari komponen
 * **Keamanan Data Desain Komponen Rahasia (Offline Activation):** Perlindungan kerahasiaan kekayaan intelektual (*NDA*) sangat krusial di dunia otomotif. ZWCAD dapat diaktifkan secara mandiri secara offline menggunakan berkas aktivasi *Softkey Digital (Request/Response XML)* tanpa mewajibkan komputer drafter terhubung ke jaringan internet publik dan tanpa perlu dongle USB fisik.
 * **Dukungan API Lengkap untuk Otomasi Skrip Pabrik:** Bagi pabrik otomotif yang memiliki program otomasi internal berbasis AutoLISP, VBA, atau skrip C++, ZWCAD mendukung migrasi skrip secara langsung tanpa perlu pengkodean ulang yang memakan waktu.
 
-> **📌 Catatan Penting:** ZWCAD tidak menerapkan sistem sewa tahunan paksa. Sekali perusahaan Anda berinvestasi membeli lisensi permanen ZWCAD, software tersebut menjadi aset sah milik perseroan selamanya tanpa tagihan berulang tahun berikutnya.
+> **Catatan Penting:** ZWCAD tidak menerapkan sistem sewa tahunan paksa. Sekali perusahaan Anda berinvestasi membeli lisensi permanen ZWCAD, software tersebut menjadi aset sah milik perseroan selamanya tanpa tagihan berulang tahun berikutnya.
 
 ---
 
@@ -64,7 +64,7 @@ Struktur penetapan harga komponen otomotif menuntut efisiensi biaya overhead sek
 * Total kas perusahaan yang berhasil diselamatkan mencapai lebih dari **Rp 1.000.000.000 (1 Miliar Rupiah)**.
 * Seluruh unit lisensi ZWCAD tetap tercatat sah sebagai aset perseroan yang terus menghasilkan keuntungan.
 
-> **💼 Keputusan Manajemen:** Efisiensi dana sebesar 1 miliar rupiah dapat dialokasikan untuk pemeliharaan mesin presisi CNC, pengadaan alat ukur *Coordinate Measuring Machine* (CMM), atau perluasan lini perakitan komponen baru.
+> **Keputusan Manajemen:** Efisiensi dana sebesar 1 miliar rupiah dapat dialokasikan untuk pemeliharaan mesin presisi CNC, pengadaan alat ukur *Coordinate Measuring Machine* (CMM), atau perluasan lini perakitan komponen baru.
 
 ---
 

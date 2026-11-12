@@ -26,7 +26,7 @@ Workshop manufaktur komponen industri, perhiasan, automotive parts, atau peralat
 
 * **Biaya Lisensi Membengkak:** Membeli AutoCAD + Fusion 360 + Mastercam atau Siemens NX hanya untuk tim 5–10 orang jadi beban finansial yang berat.
 
-> **📌 Catatan Industri 4.0:** Pabrik cerdas (smart factory) dimulai dari integrasi data — satu sumber kebenaran CAD/CAM yang diakses oleh semua stakeholder tanpa conversion layer. ZW3D menawarkan prinsip ini dalam satu ekosistem terpadu.
+> **Catatan Industri 4.0:** Pabrik cerdas (smart factory) dimulai dari integrasi data — satu sumber kebenaran CAD/CAM yang diakses oleh semua stakeholder tanpa conversion layer. ZW3D menawarkan prinsip ini dalam satu ekosistem terpadu.
 
 ---
 
@@ -91,10 +91,10 @@ Untuk tim 10 engineer + 5 programmer CNC:
 
 | Aspek | ZW3D 2026 (All-in-One) | Fusion 360 + Mastercam | Solidworks + NX CAM |
 |---|---|---|---|
-| Software Design 3D | ✅ ZW3D | ✅ Fusion | ✅ Solidworks |
-| Software CAM/CNC | ✅ ZW3D | ✅ Mastercam | ✅ NX CAM |
-| Simulasi Manufaktur | ✅ ZW3D | ⚠️ Terbatas | ⚠️ Terbatas |
-| Lisensi Terpadu | ✅ Ya (1 vendor) | ❌ Tidak (2 vendor) | ❌ Tidak (2 vendor) |
+| Software Design 3D | ZW3D | Fusion | Solidworks |
+| Software CAM/CNC | ZW3D | Mastercam | NX CAM |
+| Simulasi Manufaktur | ZW3D | Terbatas | Terbatas |
+| Lisensi Terpadu | Ya (1 vendor) | Tidak (2 vendor) | Tidak (2 vendor) |
 | Investasi Awal | **Lebih Ekonomis** | Lebih mahal | Paling mahal |
 | Learning Curve | Satu interface | Dua interface | Dua interface |
 

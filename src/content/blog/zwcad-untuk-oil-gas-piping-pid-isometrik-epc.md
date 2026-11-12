@@ -27,7 +27,7 @@ Proyek rekayasa fasilitas kilang dan pipa transmisi migas menuntut kecepatan dra
 * **Drafting Gambar Isometrik Pipa Cepat (Isometric Snapping):** Fitur *Isoplane Toggle* (F5) pada ZWCAD mempermudah penyusunan gambar isometrik spool pipa lengkap dengan orientasi elevasi, dimensi kemiringan (*slope*), serta simbol sambungan las (*butt-weld / socket-weld*) dan flens (*flange*).
 * **Kompatibilitas 100% Native DWG/DXF Antar-Disiplin:** File gambar kerja yang dihasilkan dapat langsung dibagikan ke divisi sipil, mekanikal, elektrikal, maupun pihak pemilik proyek (*owner*) tanpa perlu konversi format yang rawan merusak layer atau teks anotasi.
 
-> **📌 Catatan Penting:** Format native DWG pada ZWCAD memastikan seluruh data atribut blok, garis pipa (*centerlines*), dan tabel Bill of Materials (BOM) spool pipa terbaca utuh saat berkolaborasi dengan kontraktor konsorsium multinasional.
+> **Catatan Penting:** Format native DWG pada ZWCAD memastikan seluruh data atribut blok, garis pipa (*centerlines*), dan tabel Bill of Materials (BOM) spool pipa terbaca utuh saat berkolaborasi dengan kontraktor konsorsium multinasional.
 
 ---
 
@@ -64,7 +64,7 @@ Mari tinjau simulasi pengeluaran lisensi CAD untuk **10 kursi drafter & engineer
 * Total anggaran perusahaan yang berhasil diselamatkan: Lebih dari **Rp 650.000.000 (650 Juta Rupiah)**.
 * Lisensi tetap menjadi milik sah perusahaan dan dapat dialihkan ke proyek kilang berikutnya kapan saja.
 
-> **💼 Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD perpipaan dapat dialokasikan untuk sertifikasi keselamatan kerja (HSE), pelatihan keahlian piping engineer, atau pengadaan alat survei lapangan berpresisi tinggi.
+> **Keputusan Manajemen:** Efisiensi ratusan juta rupiah dari pengalihan lisensi CAD perpipaan dapat dialokasikan untuk sertifikasi keselamatan kerja (HSE), pelatihan keahlian piping engineer, atau pengadaan alat survei lapangan berpresisi tinggi.
 
 ---
 

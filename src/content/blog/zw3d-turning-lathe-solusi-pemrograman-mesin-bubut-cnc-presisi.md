@@ -27,7 +27,7 @@ Integrasi menyeluruh antara permodelan parametrik 3D dan kalkulasi lintasan paha
 * **Library Pahat Bubut Berstandar ISO:** Dilengkapi basis data lengkap untuk insert pahat bubut standar (pahat kasar, pahat *finishing*, pahat alur/grooving, hingga pahat ulir luar-dalam).
 * **Simulasi Pemakanan Solid 3D:** Fitur verifikasi visual memungkinkan Anda memeriksa pergerakan chuck, live center, turret, dan pahat untuk memastikan tidak ada potensi tabrakan sebelum kode program dikirim ke mesin.
 
-> **📌 Catatan Penting:** ZW3D Turning mendukung mesin bubut CNC 2-Axis standar, mesin bubut dengan *Live Tooling* (C-Axis / Y-Axis), hingga konfigurasi *Dual Spindle & Dual Turret* untuk produksi massal berkecepatan tinggi.
+> **Catatan Penting:** ZW3D Turning mendukung mesin bubut CNC 2-Axis standar, mesin bubut dengan *Live Tooling* (C-Axis / Y-Axis), hingga konfigurasi *Dual Spindle & Dual Turret* untuk produksi massal berkecepatan tinggi.
 
 ---
 
@@ -68,7 +68,7 @@ ZW3D menyediakan generator post-processor bawaan yang mudah dikonfigurasi untuk 
 * **Controller Mitsubishi & GSK:** Pemrograman kompatibel untuk mesin bubut populer asal Taiwan dan Tiongkok seperti GSK 980TDc dan Mitsubishi M70/M80.
 * **Controller Haas & Mazak:** Template pos khusus untuk pusat pemesinan bubut modern berteknologi tinggi.
 
-> **💡 Tips Implementasi:** Tim aplikasi manufaktur Central CAD Indonesia menyediakan layanan kustomisasi post-processor gratis untuk memastikan G-Code yang dihasilkan 100% cocok dengan mesin di lantai pabrik Anda sejak hari pertama.
+> **Tips Implementasi:** Tim aplikasi manufaktur Central CAD Indonesia menyediakan layanan kustomisasi post-processor gratis untuk memastikan G-Code yang dihasilkan 100% cocok dengan mesin di lantai pabrik Anda sejak hari pertama.
 
 ---
 
