@@ -3,7 +3,7 @@ title: "ZWCAD vs LibreCAD: Perbandingan Fitur Drafting 2D & Investasi Jangka Pan
 description: "Analisis ZWCAD vs LibreCAD untuk 2D CAD drafting. Fitur, kompatibilitas DWG, support, dan TCO untuk bisnis professional."
 pubDate: "2026-11-12"
 author: "Tim Teknis CentralCAD"
-image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&w=1200&h=630&fit=crop&q=85"
+image: "/images/cad_workstation_engineering_desk.jpg"
 tags: ['ZWCAD', 'LibreCAD', 'Perbandingan', '2D CAD', 'Drafting Software']
 keywords: "ZWCAD vs LibreCAD perbandingan fitur 2D drafting, kompatibilitas DWG, software CAD profesional"
 ---

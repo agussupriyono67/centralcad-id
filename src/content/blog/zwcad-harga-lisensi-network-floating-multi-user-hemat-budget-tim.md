@@ -3,7 +3,7 @@ title: "ZWCAD Harga Lisensi Network Floating Multi-User: Hemat Budget Tim Besar"
 description: "Lisensi Network Floating ZWCAD untuk tim 5+ orang. Harga per-user lebih murah, fleksibel borrowing, tanpa dongle fisik."
 pubDate: "2026-11-12"
 author: "Tim Teknis CentralCAD"
-image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&w=1200&h=630&fit=crop&q=85"
+image: "/images/enterprise_license_server_rack_datacenter.jpg"
 tags: ['ZWCAD', 'Lisensi Network', 'Harga', 'Team License', 'Budget Hemat']
 keywords: "ZWCAD harga lisensi network floating, lisensi multi-user tim hemat, floating license management"
 ---
@@ -24,7 +24,7 @@ keywords: "ZWCAD harga lisensi network floating, lisensi multi-user tim hemat, f
 4. **Multi-User Concurrent** — Maksimal 5 user dapat buka ZWCAD bersamaan (jika lisensi = 5)
 
 <figure style="margin: 25px 0; text-align: center;">
-  <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&w=800&h=450&fit=crop&q=85" alt="Diagram Network Floating License Server dengan 5 lisensi shared di 8 workstation" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
+  <img src="/images/cad_workstation_pc_hardware.jpg" alt="Diagram Network Floating License Server dengan 5 lisensi shared di 8 workstation" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
   <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px; font-style: italic;">5 floating licenses dapat di-borrow oleh 8+ workstations sesuai kebutuhan real-time</figcaption>
 </figure>
 

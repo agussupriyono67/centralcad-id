@@ -3,7 +3,7 @@ title: "ZWCAD untuk Arsitek & Kontraktor: Desain Renovasi Rumah Hunian Skala Kec
 description: "Solusi drafting 2D profesional untuk arsitek renovasi hunian. 100% kompatibel DWG, harga lebih hemat, lisensi seumur hidup."
 pubDate: "2026-11-12"
 author: "Tim Teknis CentralCAD"
-image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&w=1200&h=630&fit=crop&q=85"
+image: "/images/architectural_floor_plan_2d_drafting_desk.jpg"
 tags: ['ZWCAD', 'Arsitek', 'Renovasi', '2D Drafting', 'CAD Software']
 keywords: "ZWCAD arsitek renovasi rumah hunian, software drafting 2D profesional, lisensi CAD hemat budget"
 ---

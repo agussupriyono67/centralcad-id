@@ -3,7 +3,7 @@ title: "ZW3D untuk Startup Manufaktur: Design-to-Product Prototype Cepat & Efisi
 description: "Akselerasi product development startup dengan ZW3D. Desain 3D presisi, assembly, generative design. Lisensi perpetual untuk tim kecil."
 pubDate: "2026-11-12"
 author: "Tim Teknis CentralCAD"
-image: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-4.0.3&w=1200&h=630&fit=crop&q=85"
+image: "/images/automated_industrial_machinery_line_assembly_station.jpg"
 tags: ['ZW3D', 'Startup', 'Prototype', 'Product Design', '3D CAD']
 keywords: "ZW3D startup manufaktur prototype design-to-product, software 3D CAD hemat budget, lisensi perpetual tim"
 ---
