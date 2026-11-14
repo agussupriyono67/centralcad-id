@@ -502,7 +502,7 @@ const relatedGuides = [
     <!-- ================== COMPARISON TABLE ================== -->
     <div class="ki-section">
       <h2 class="ki-title k-size40 k-bold">Bandingkan Fitur Lengkap Setiap Edisi ZW3D</h2>
-      <p class="zw3d-table-subtitle">Lihat perbandingan modul pemodelan 3D, sheet metal, mold design, perakitan mesin, dan modul CAM CNC di bawah ini.</p>
+      <p class="zw3d-table-subtitle" style="text-align: center; margin: 0 auto 32px; display: block;">Lihat perbandingan modul pemodelan 3D, sheet metal, mold design, perakitan mesin, dan modul CAM CNC di bawah ini.</p>
       <div set:html={tableHtml} />
     </div>
 
@@ -740,11 +740,12 @@ const relatedGuides = [
   .zw3d-price .ki-hd-wrap.fixed { background-color: #F4F6FD !important; box-shadow: 0 6px 16px rgba(15, 23, 42, .06); }
 
   /* Subtitle tabel perbandingan */
-  .zw3d-table-subtitle {
-    text-align: center;
+  .zw3d-price .zw3d-table-subtitle {
+    display: block;
+    text-align: center !important;
     color: #64748b;
     font-size: 15px;
-    margin: 0 auto 32px;
+    margin: 0 auto 32px !important;
     max-width: 780px;
     padding: 0 16px;
     line-height: 1.5;
