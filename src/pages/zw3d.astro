@@ -2,140 +2,915 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
-import TrialFormSection from '../components/TrialFormSection.astro';
+
+const WA = "https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20ZW3D%20dan%20pembelian%20lisensinya%20ya";
+const TRIAL = "https://hetra.orderonline.id/centralcadid";
+
+type Item = { title: string; tip?: string[]; rows?: string[] };
+type Tab = { key: string; label: string; name: string; syn: string; video: string; items: Item[] };
+
+const tabs: Tab[] = [
+  {
+    key: 'part',
+    label: 'Part Design',
+    name: 'Bangun Part Kompleks dengan Kendali dan Kecepatan',
+    syn: 'Dengan Hybrid Modeling, kapabilitas part design ZW3D memungkinkan Anda membuat dan memodifikasi part kompleks secara presisi dan cepat, diperkuat modul profesional untuk kebutuhan desain lanjutan.',
+    video: '/assets/zw3d-ov/video/Video1.mp4',
+    items: [
+      {
+        title: 'Pemodelan profesional dan akurat untuk part design',
+        tip: [
+          'Kapabilitas pemodelan tangguh yang digerakkan oleh 3D Geometric Modeling Overdrive™ Kernel.',
+          'Kombinasi parametric dan direct modeling — ideal untuk desain detail berbasis aturan maupun perubahan cepat yang intuitif.',
+        ],
+        rows: [
+          '• Parametric Modeling — Buat dan modifikasi model kompleks berdasarkan relasi serta constraint yang telah ditetapkan.',
+          '• Direct Editing — Lakukan perubahan cepat dan tepat sasaran tanpa terikat constraint parametrik.',
+          '• Surface Modeling — Ciptakan permukaan halus dengan presisi, didukung beragam metode pembuatan dan editing surface.',
+        ],
+      },
+      {
+        title: 'Modul khusus untuk skenario lanjutan',
+        rows: ['• Advanced Tools — Sheet metal, structural design, serta modul khusus seperti Harness, kolaborasi ECAD/MCAD, dan Piping.'],
+      },
+      {
+        title: 'Buat dan kelola variasi desain dengan mudah',
+        rows: ['• Design Configuration — Kelola beberapa variasi desain dalam satu file dengan mengatur dimensi, fitur, dan parameter.'],
+      },
+      {
+        title: 'Komunikasikan desain kompleks secara sederhana',
+        rows: ['• Web-Based Viewing — Ekspor ke HTML untuk berbagi cepat dan akses model detail langsung di browser standar.'],
+      },
+    ],
+  },
+  {
+    key: 'assembly',
+    label: 'Assembly Design',
+    name: 'Jaga Assembly Mesin Besar Tetap Responsif',
+    syn: 'ZW3D memungkinkan pengelolaan assembly kompleks dengan mudah lewat tools cerdas yang mempercepat desain, memastikan integrasi presisi, dan memperjelas komunikasi melalui animasi intuitif.',
+    video: '/assets/zw3d-ov/video/Video2.mp4',
+    items: [
+      {
+        title: 'Performa sangat lancar untuk assembly kompleks',
+        tip: ['Arsitektur data assembly yang efisien menjaga rotasi, section, dan editing tetap responsif bahkan pada ribuan komponen.'],
+        rows: [
+          '• Large Assembly Support — Tangani assembly hingga 20.000 komponen dengan alur kerja yang didukung penuh.',
+          '• Lightweight Mode — Muat assembly besar lebih cepat dengan representasi ringan tanpa kehilangan referensi.',
+        ],
+      },
+      {
+        title: 'Tools cerdas untuk mempercepat desain assembly',
+        rows: [
+          '• Smart Constraints — Deteksi otomatis relasi antar komponen untuk perakitan lebih cepat.',
+          '• Assembly Clone — Duplikasi assembly utuh dengan penyesuaian komponen minor secara instan.',
+        ],
+      },
+      {
+        title: 'Menjaga akurasi assembly',
+        rows: ['• Interference Check — Deteksi benturan dan toleransi antar komponen sebelum masuk produksi.'],
+      },
+      {
+        title: 'Menyajikan konsep assembly secara jelas',
+        rows: ['• Exploded View & Animation — Buat presentasi perakitan dan instruksi kerja yang mudah dipahami tim produksi.'],
+      },
+    ],
+  },
+  {
+    key: 'drawing',
+    label: '2D Drawing',
+    name: 'Buat Gambar Produksi yang Selalu Selaras',
+    syn: 'ZW3D menyederhanakan pembuatan gambar 2D dengan mengotomatiskan tugas berulang. Pembuatan gambar yang cepat dan terhubung asosiatif ke model 3D menghasilkan output akurat dan konsisten.',
+    video: '/assets/zw3d-ov/video/Video3.mp4',
+    items: [
+      {
+        title: 'Update asosiatif antara model 3D dan gambar 2D',
+        tip: ['Setiap perubahan pada model 3D langsung memperbarui view, dimensi, dan anotasi terkait tanpa intervensi manual.'],
+        rows: ['• Associative Drawing — Gambar 2D selalu mengikuti geometri terbaru dari model 3D.'],
+      },
+      {
+        title: 'Pembuatan gambar 2D intuitif dan otomatis',
+        rows: [
+          '• Auto Dimensioning — Penempatan dimensi otomatis mengikuti standar drafting yang Anda tetapkan.',
+          '• Smart Balloon & BOM — Nomor part dan bill of materials terhubung langsung ke struktur assembly.',
+        ],
+      },
+      {
+        title: 'Generasi drawing view berperforma tinggi',
+        rows: ['• Fast View Generation — Potongan, detail, dan proyeksi dibuat dalam hitungan detik, bahkan untuk model kompleks.'],
+      },
+    ],
+  },
+  {
+    key: 'cae',
+    label: 'Simulation (CAE)',
+    name: 'Validasi Keputusan Sebelum Logam Dipotong',
+    syn: 'Solusi desain-simulasi terintegrasi untuk desain yang optimal dan keputusan engineering berbasis data.',
+    video: '/assets/zw3d-ov/video/Video4.mp4',
+    items: [
+      {
+        title: 'Sempurnakan desain lebih awal dengan insight akurat',
+        tip: ['Analisis struktural di lingkungan desain memungkinkan iterasi cepat sebelum biaya tooling dan material dikeluarkan.'],
+        rows: ['• Early Validation — Deteksi area kritis sejak tahap konsep, bukan setelah prototipe fisik dibuat.'],
+      },
+      {
+        title: 'Tools simulasi profesional untuk skenario spesifik',
+        rows: [
+          '• Structural Analysis — Analisis tegangan, deformasi, dan faktor keamanan komponen mesin.',
+          '• Modal & Thermal — Evaluasi getaran alami serta distribusi suhu pada part dan assembly.',
+        ],
+      },
+      {
+        title: 'Kompatibel dengan model legacy dan standar industri',
+        rows: ['• Legacy Model Support — Validasi model hasil impor dari CAD lain tanpa perlu rekonstruksi.'],
+      },
+      {
+        title: 'Data akurat dan multi-physics coupling lanjutan',
+        rows: ['• Multi-Physics — Kombinasikan beban struktural, termal, dan dinamik dalam satu studi terpadu.'],
+      },
+    ],
+  },
+  {
+    key: 'cam',
+    label: 'Manufacturing (CAM)',
+    name: 'Ubah Geometri Rilis Menjadi Toolpath Andal',
+    syn: 'Alur kerja desain ke manufaktur yang mulus untuk produksi yang efisien dan konsisten.',
+    video: '/assets/zw3d-ov/video/Video5.mp4',
+    items: [
+      {
+        title: 'Produksi berkualitas dengan strategi machining menyeluruh',
+        tip: ['Strategi roughing hingga finishing 2–5 axis tersedia langsung di lingkungan ZW3D tanpa perpindahan software.'],
+        rows: [
+          '• 2–5 Axis Machining — Dukung kebutuhan milling, drilling, dan contouring untuk part mesin presisi.',
+          '• High-Speed Machining — Optimasi jalur pahat untuk waktu siklus lebih pendek dan usia tool lebih panjang.',
+        ],
+      },
+      {
+        title: 'Kolaborasi desain-ke-manufaktur yang mulus',
+        rows: ['• Associative CAM — Toolpath ikut memperbarui otomatis saat geometri desain berubah.'],
+      },
+      {
+        title: 'Akurasi machining terbukti dengan simulasi lanjutan',
+        rows: ['• Machine Simulation — Verifikasi toolpath, holder, dan fixture di ruang virtual sebelum eksekusi di lantai produksi.'],
+      },
+    ],
+  },
+  {
+    key: 'pdm',
+    label: 'Collaboration (PDM)',
+    name: 'Kendalikan Rekaman Engineering di Dalam ZW3D',
+    syn: 'Manajemen data produk yang ringkas, memungkinkan desain kolaboratif, kendali data, dan rilis dokumen langsung di dalam platform ZW3D.',
+    video: '/assets/zw3d-ov/video/Video6.mp4',
+    items: [
+      {
+        title: 'Dorong produktivitas R&D dengan desain kolaboratif',
+        rows: [
+          '• Fully Embedded in ZW3D — Selesaikan desain produk, kolaborasi tim, dan rilis data langsung di antarmuka 3D yang familiar.',
+          '• Shared Workspace — Folder bersama dengan struktur berjenjang memastikan seluruh tim mengakses file dan data yang sama.',
+          '• Component Reuse in Assembly — Integrasikan subassembly atau part hasil rancangan anggota tim, dengan update asosiatif yang menjaga konsistensi desain.',
+        ],
+      },
+      {
+        title: 'Optimalkan kendali proses untuk meningkatkan kualitas produk',
+        rows: [
+          '• Design Iteration Control — Berpindah antar tahap dan nilai progres desain untuk pengambilan keputusan lebih cepat.',
+          '• Threaded Comments and Reviews — Umpan balik terorganisir dengan riwayat diskusi yang terdokumentasi.',
+          '• Trackable Approval History — Setiap langkah approval tercatat: pengaju, tahap, approver, waktu, dan catatan.',
+        ],
+      },
+      {
+        title: 'Pastikan keamanan data melalui manajemen data terpadu',
+        rows: [
+          '• Precise Access Control — Hak akses fleksibel berdasarkan status proyek dan peran tim.',
+          '• Version Management — Otomasi upgrade versi minor via check-in/check-out, dengan kendali otorisasi pada rilis mayor.',
+          '• Real-Time Data Sync — Perubahan model ditandai seketika, memastikan akses selalu ke versi terbaru.',
+        ],
+      },
+    ],
+  },
+];
+
+const faqs = [
+  { q: 'Apa itu ZW3D?', a: 'ZW3D adalah software rekayasa 3D profesional yang dirancang untuk produsen mesin dan machine builder. ZW3D menyatukan kapabilitas CAD, CAE, dan CAM untuk desain, validasi, dan persiapan manufaktur dalam satu alur kerja yang terhubung.' },
+  { q: 'Untuk apa ZW3D digunakan?', a: 'ZW3D mendukung pekerjaan engineering mesin sehari-hari: part design, assembly kompleks, gambar produksi 2D, simulasi, persiapan machining, dan kolaborasi engineering. ZW3D juga membantu tim mengelola perubahan desain serta menggunakan ulang data engineering lintas proyek.' },
+  { q: 'Apakah ZW3D cocok untuk desain mesin?', a: 'Ya. Alur kerja engineering ZW3D dibangun dengan pendekatan produsen mesin, machine builder, dan tim mechanical engineering sebagai acuan utama.' },
+  { q: 'Apakah ZW3D sudah mencakup CAD, CAE, dan CAM?', a: 'Ya. ZW3D menyediakan kapabilitas CAD, CAE, dan CAM dalam satu lingkungan engineering terhubung, sehingga tim dapat bergerak dari desain mekanikal dan validasi menuju persiapan manufaktur dengan lebih sedikit perpindahan tools.' },
+  { q: 'Bisakah ZW3D membuka file dari software CAD lain?', a: 'ZW3D mendukung lebih dari 25 format impor dan ekspor untuk pertukaran serta penggunaan ulang data engineering lintas lingkungan CAD yang berbeda.' },
+  { q: 'Apakah ZW3D mampu menangani assembly besar?', a: 'ZW3D memiliki kapabilitas large-assembly untuk alur kerja mesin yang menuntut, termasuk alur kerja yang didukung untuk assembly hingga 20.000 komponen.' },
+  { q: 'Apa itu ZW3D WuKong?', a: 'ZW3D WuKong adalah generasi baru ZW3D yang dibangun di atas arsitektur parametrik baru. Dirancang untuk meningkatkan regenerasi model, asosiativitas, dan performa pada alur kerja engineering berat seperti desain mesin kompleks dan assembly besar.' },
+  { q: 'Bisakah saya mencoba ZW3D secara gratis?', a: 'Ya. ZW3D tersedia dengan trial gratis 30 hari berfitur penuh melalui PT Hetra Teknologi Indonesia, sehingga Anda dapat mengevaluasi kapabilitas desain, validasi, dan manufakturnya langsung pada alur kerja Anda sendiri.' },
+];
+
+const stories = [
+  { stat: '65%', label: 'biaya software lebih rendah', desc: 'Desain 40% lebih cepat', company: 'NEXT Robotics', meta: 'MACHINERY · THAILAND', img: '/assets/zw3d-ov/data1.png' },
+  { stat: '40-50%', label: 'efisiensi desain lebih tinggi', desc: 'Hemat renewal ≈ RM50K per tahun', company: 'APEX', meta: 'STEEL PRODUCTS · MALAYSIA', img: '/assets/zw3d-ov/data2.png' },
+  { stat: '20%', label: 'waktu desain terpangkas', desc: 'Putaran konsep lebih cepat', company: 'Cyrus', meta: 'MACHINERY · INDIA', img: '/assets/zw3d-ov/data3.png' },
+  { stat: '2 minggu → 3 hari', label: 'siklus prototipe', desc: 'Review gambar 40% lebih singkat', company: 'Engetak', meta: 'AUTOMOTIVE · BRAZIL', img: '/assets/zw3d-ov/data4.jpg' },
+];
+
+const reviews = [
+  { name: 'Ssasb A.', role: 'Mechanical Engineering CAD', text: 'ZW3D menyatukan CAD dan CAM dalam satu platform, membuat desain dan manufaktur jauh lebih efisien.', star: 5 },
+  { name: 'Zulfadhli H.', role: 'Technical Manager', text: 'ZW3D menawarkan file translator yang tangguh, menangani berbagai format secara efisien dan membantu kolaborasi lintas platform.', star: 4.5 },
+  { name: 'Andri S.', role: 'Machine Design Engineer', text: 'Transisi dari CAD sebelumnya berjalan mulus. Model lama tetap terbaca, dan tim langsung produktif tanpa pelatihan panjang.', star: 4.5 },
+];
 ---
 
 <Layout
-  title="ZW3D CAD/CAM Indonesia — Solusi All-in-One Desain Produk, Mold & Pemesinan CNC"
-  description="Software 3D CAD/CAM terintegrasi untuk manufaktur presisi di Indonesia. Dilengkapi Overdrive Hybrid Modeling, auto mold design, dan pemrograman mesin CNC 2-5 Axis."
+  title="ZW3D CAD/CAM Indonesia — Software 3D Engineering untuk Desain Mesin, Mold & CNC"
+  description="ZW3D: software 3D CAD/CAE/CAM terintegrasi untuk produsen mesin dan manufaktur presisi di Indonesia. Hybrid Modeling, assembly besar, drawing asosiatif, simulasi, dan CAM 2-5 axis dalam satu platform. Lisensi permanen resmi PT Hetra Teknologi Indonesia."
 >
+  <Fragment slot="head">
+    <link rel="stylesheet" href="/assets/zw3d-ov/page.css" />
+    <link rel="stylesheet" href="/assets/zw3d-ov/extra.css" />
+  </Fragment>
+
   <Navbar active="zw3d" />
 
-  <main>
-    <!-- ZW3D Hero -->
-    <section class="relative bg-slate-950 text-white pt-16 pb-24 overflow-hidden">
-      <div class="absolute inset-0 z-0">
-        <img
-          src="/assets/zwsoft/images/Architectural-Design-banner.png"
-          alt="ZW3D Background"
-          class="w-full h-full object-cover opacity-15 filter blur-sm"
-        />
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/95 to-slate-950"></div>
-      </div>
+  <!-- ================= ZW3D PRODUCT PAGE (mirror zwsoft.com/product/zw3d) ================= -->
+  <div class="ov-page zw3d-mirror">
 
-      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">
-          <img src="/assets/clients/Zw3d_Logo_White.webp" alt="ZW3D" class="h-4 w-auto inline" />
-          Solusi Terpadu CAD + CAM All-in-One
+    <!-- hero start -->
+    <div class="ov-heromain" style="position: relative;">
+      <div class="ov-herobg pc_show" style="background-image: url('/assets/zw3d-ov/banner.jpg');"></div>
+      <div class="ov-herobg mobile_show" style="background-image: url('/assets/zw3d-ov/mobile_banner.png');"></div>
+      <div class="ov-herotext">
+        <div class="ov-herobox">
+          <span class="ov-kicker d-bold">INTEGRATED CAD · CAE · CAM · PDM</span>
+          <h1 class="ov-herotitles d-bold">Rekayasa Terhubung.<br />Dibangun untuk <span class="ov-hl d-bold">Mesin.</span></h1>
+          <p class="ov-herotextbox">
+            Bergerak dari konsep mesin menuju produksi di ZW3D — desain, validasi, manufaktur, dan data engineering bekerja dalam satu lingkungan yang terhubung.
+          </p>
+          <div class="ov-herobuttom">
+            <a class="zw-button big d-bold" href={TRIAL} target="_blank" rel="noopener noreferrer">Mulai Trial Gratis 30 Hari</a>
+            <a class="zw-button big d-bold blue" href="/harga">Lihat Harga</a>
+          </div>
+        </div>
+      </div>
+      <div class="ov-hero-video-bpx">
+        <div class="ov-hero-video">
+          <div class="play-box is-video" data-mp4="https://www.youtube.com/embed/OpZgyAEMmZI?rel=0" style="position: static;">
+            <div class="video-play da-play"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero end -->
+
+    <!-- why start -->
+    <section class="ov-sec ov-why">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <span class="ov-kicker d-bold">MENGAPA ZW3D</span>
+          <div class="ov-title-box">
+            <h2 class="ov-title d-bold">Satu lingkungan<br />engineering.<br />Empat keunggulan bisnis.</h2>
+            <p class="ov-desc">Tim mesin membutuhkan lebih dari sekadar tools modeling yang terisolasi. ZW3D menghubungkan keputusan, deliverable, dan know-how yang mengubah niat engineering menjadi pekerjaan siap produksi.</p>
+          </div>
+        </div>
+        <div class="ov-why-grid">
+          <div class="ov-card">
+            <div>
+              <div class="ov-card-ico"><img src="/assets/zw3d-ov/icon-why1.svg" alt="" loading="lazy" /></div>
+              <h3 class="d-bold">Rancang Mesin Lebih Cepat</h3>
+              <p>Dari konsep hingga mesin utuh dengan tools part, assembly, drawing, validasi, dan manufaktur kelas profesional.</p>
+            </div>
+            <a class="ov-link d-bold" href="#capabilities">Lihat keunggulan <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" /></a>
+          </div>
+          <div class="ov-card">
+            <div>
+              <div class="ov-card-ico"><img src="/assets/zw3d-ov/icon-why2.svg" alt="" loading="lazy" /></div>
+              <h3 class="d-bold">Hubungkan Desain ke Produksi</h3>
+              <p>Gambar kerja, simulasi, CAM, dan data produk tetap selaras saat desain terus berubah.</p>
+            </div>
+            <a class="ov-link d-bold" href="#connect">Lihat keunggulan <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" /></a>
+          </div>
+          <div class="ov-card">
+            <div>
+              <div class="ov-card-ico"><img src="/assets/zw3d-ov/icon-why3.svg" alt="" loading="lazy" /></div>
+              <h3 class="d-bold">Pertahankan Pengetahuan Engineering</h3>
+              <p>Gunakan ulang model, metode, standar, dan pengalaman tim alih-alih membangun kembali pekerjaan yang sudah terbukti.</p>
+            </div>
+            <a class="ov-link d-bold" href="#work">Lihat keunggulan <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" /></a>
+          </div>
+          <div class="ov-card">
+            <div>
+              <div class="ov-card-ico"><img src="/assets/zw3d-ov/icon-why4.svg" alt="" loading="lazy" /></div>
+              <h3 class="d-bold">Kendali Penuh</h3>
+              <p>Pilih skema lisensi, deployment, hardware, dan jalur adopsi yang sesuai dengan operasional Anda.</p>
+            </div>
+            <a class="ov-link d-bold" href="#terms">Lihat keunggulan <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why end -->
+
+    <!-- workflow tabs start -->
+    <section class="ov-sec ov-tabs" id="capabilities">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <span class="ov-kicker d-bold">KAPABILITAS</span>
+          <h2 class="ov-title d-bold">Tools Profesional di Seluruh Alur Kerja Engineering Mesin</h2>
+          <p class="ov-desc">Dari part dan assembly hingga drawing, simulasi, CAM, dan kendali data produk — semuanya bekerja dalam satu platform yang terhubung.</p>
         </div>
 
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight">
-          Satu Software untuk <br class="hidden sm:inline" />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-300">
-            Desain 3D, Mold &amp; Pemrograman Mesin CNC
-          </span>
-        </h1>
+        <div class="dd-main">
+          <div class="dd-swiperbox">
+            <div class="dd-swiper">
+              <div class="swiper-container dds-b">
+                <div class="swiper-wrapper">
+                  {tabs.map((t, i) => (
+                    <div class={`swiper-slide dds-item${i === 0 ? ' active' : ''}`} data-tab={t.key}>
+                      <div class="dds-link">
+                        <div class="dds-name d-bold">{t.label}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Tinggalkan kerumitan transfer file antar-software yang berbeda. <strong>ZW3D</strong> menghubungkan alur kerja tim R&amp;D, perancang cetakan (mold), hingga operator mesin CNC dalam satu lingkungan kerja yang sinkron.
-        </p>
+          {tabs.map((t, i) => (
+            <div class={`dd-one${i === 0 ? ' show' : ''}`} data-pane={t.key}>
+              <div class="dd-top">
+                <div class="dd-name d-bold">{t.name}</div>
+                <div class="dd-synopsis">{t.syn}</div>
+              </div>
+              <div class="dd-bottom">
+                <div class="dd-right">
+                  <div class="dd-imgbox">
+                    <div class="dd-img play-box is-video" data-mp4={t.video}>
+                      <video video_src={t.video} muted loop playsinline preload="none" src={t.video}></video>
+                    </div>
+                  </div>
+                </div>
+                <div class="dd-left">
+                  {t.items.map((it) => (
+                    <div class="dd-nav">
+                      <div class="dd-buttom">
+                        <div class="dd-classify d-bold">
+                          {it.title}
+                          {it.tip && (
+                            <div class="dd-query">
+                              <div class="ddq-icon"><img src="/assets/zw3d-ov/warning-circle.svg" alt="" loading="lazy" /></div>
+                              <div class="ddq-sub">
+                                <div class="ddq-box">
+                                  <div class="ddq-textbox">
+                                    {it.tip.map((p) => <p>{p}</p>)}
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      {it.rows && (
+                        <div class="dd-sub">
+                          <div class="dd-tr">
+                            {it.rows.map((r) => {
+                              const idx = r.indexOf(' — ');
+                              return (
+                                <div class="dd-td">
+                                  {idx > 0 ? (
+                                    <><span class="d-bold">{r.slice(0, idx)}</span> — {r.slice(idx + 3)}</>
+                                  ) : r}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
+                      <div class="dd-line"></div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+    <!-- workflow tabs end -->
 
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <a
-            href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer"
-            class="btn-accent text-base py-3.5 px-8"
-          >
-            Download Trial ZW3D 30 Hari
+    <!-- dark platform start -->
+    <section class="ov-sec ov-dark" id="connect">
+      <div class="ov-wrap">
+        <div class="ov-dark-flex">
+          <div class="ov-dark-left">
+            <img src="/assets/zw3d-ov/cax-platform-diagram.svg" alt="Diagram platform CAx terpadu ZW3D" loading="lazy" />
+          </div>
+          <div class="ov-dark-right">
+            <span class="ov-kicker d-bold">TERHUBUNG SEJAK DESAIN</span>
+            <h2 class="ov-title d-bold">Hubungkan Desain ke Produksi</h2>
+            <p class="ov-desc">Perubahan desain seharusnya mendorong pekerjaan engineering maju — bukan memicu pencarian manual di setiap deliverable hilir.</p>
+            <ul class="ov-dark-list">
+              <li class="ov-dark-item">
+                <img src="/assets/zw3d-ov/icon-dark5.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-title d-bold">Asosiatif secara bawaan</p>
+                  <p class="ov-desc-desc">Perbarui drawing, referensi assembly, dan pekerjaan CAM dari desain yang sedang berkembang.</p>
+                </div>
+              </li>
+              <li class="ov-dark-item">
+                <img src="/assets/zw3d-ov/icon-dark6.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-title d-bold">Kurangi risiko serah terima</p>
+                  <p class="ov-desc-desc">Pastikan tim selalu bekerja dari geometri terkini, data tervalidasi, dan rilis yang terkendali.</p>
+                </div>
+              </li>
+              <li class="ov-dark-item">
+                <img src="/assets/zw3d-ov/icon-dark7.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-title d-bold">Lindungi waktu produksi</p>
+                  <p class="ov-desc-desc">Deteksi dampak perubahan lebih awal dan hilangkan pekerjaan persiapan berulang akibat file yang terputus.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="ov-dark-bottom">
+              <div class="ov-dark-bottom-item">
+                <img src="/assets/zw3d-ov/icon-dark8.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-bottom-title d-bold">Lebih Sedikit</p>
+                  <p class="ov-dark-bottom-desc">Update manual</p>
+                </div>
+              </div>
+              <div class="ov-dark-bottom-item">
+                <img src="/assets/zw3d-ov/icon-dark9.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-bottom-title d-bold">Lebih Sedikit</p>
+                  <p class="ov-dark-bottom-desc">Error serah terima</p>
+                </div>
+              </div>
+              <div class="ov-dark-bottom-item">
+                <img src="/assets/zw3d-ov/icon-dark10.svg" alt="" loading="lazy" />
+                <div>
+                  <p class="ov-dark-bottom-title d-bold">Lebih Sedikit</p>
+                  <p class="ov-dark-bottom-desc">Rework produksi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dark platform end -->
+
+    <!-- work start -->
+    <section class="ov-sec ov-work" id="work">
+      <div class="ov-wrap">
+        <span class="ov-kicker d-bold">PENGETAHUAN ENGINEERING TETAP BEKERJA</span>
+        <div class="ov-sec-head">
+          <h2 class="ov-title d-bold">Pertahankan yang Sudah Bekerja.<br />Jangan Mulai dari Nol.</h2>
+          <p class="ov-desc">Model, standar, logika desain, dan orang-orang Anda sudah membawa nilai. ZW3D membantu tim mempertahankan nilai itu sambil memperbaiki alur kerja di sekitarnya.</p>
+        </div>
+        <ul class="ov-work-list">
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work1.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Bawa data CAD eksisting ke depan</h3>
+            <p class="ov-work-desc">Pertukaran 25+ format, atribut dan PMI kunci tetap terjaga, serta geometri dari supplier dan sistem yang ada dapat dipakai ulang.</p>
+          </li>
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work2.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Perbaiki dan edit geometri hasil impor</h3>
+            <p class="ov-work-desc">Perbaiki data yang tidak sempurna dan lakukan perubahan langsung tanpa merekonstruksi riwayat fitur aslinya.</p>
+          </li>
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work3.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Gunakan ulang engineering yang terbukti</h3>
+            <p class="ov-work-desc">Bawa part, subassembly, konfigurasi, template, dan library standar ke program mesin baru.</p>
+          </li>
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work4.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Adaptasi alur kerja yang familiar</h3>
+            <p class="ov-work-desc">Atur shortcut dan alur kerja sehingga engineer berpengalaman dapat memindahkan kebiasaan kerja yang sudah mapan.</p>
+          </li>
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work5.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Bangun kepercayaan tim</h3>
+            <p class="ov-work-desc">Dukung onboarding dengan pelatihan terstruktur, sumber sertifikasi, dan pendampingan implementasi.</p>
+          </li>
+          <li class="ov-work-item">
+            <img class="ov-work-icon" src="/assets/zw3d-ov/icon-work6.png" alt="" loading="lazy" />
+            <h3 class="ov-work-title d-bold">Dapatkan bantuan di tempat Anda bekerja</h3>
+            <p class="ov-work-desc">Akses dukungan teknis lokal PT Hetra Teknologi Indonesia dan jaringan mitra global ZWSOFT untuk kebutuhan deployment regional.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- work end -->
+
+    <!-- terms start -->
+    <section class="ov-sec ov-terms" id="terms">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <span class="ov-kicker d-bold">TETAP DALAM KENDALI</span>
+          <h2 class="ov-title d-bold">Engineering Sesuai Ketentuan Anda.</h2>
+          <p class="ov-desc">Adopsi connected engineering tanpa menyerahkan kendali atas biaya, infrastruktur, atau kecepatan rollout.</p>
+        </div>
+        <ul class="ov-terms-list">
+          <li class="ov-term-item">
+            <img class="ov-term-icon" src="/assets/zw3d-ov/icon-term1.png" alt="" loading="lazy" />
+            <h3 class="ov-term-title d-bold">Miliki lisensinya</h3>
+            <p class="ov-term-desc">Opsi lisensi permanen dan jalur upgrade fleksibel mendukung perencanaan jangka panjang yang dapat diprediksi.</p>
+          </li>
+          <li class="ov-term-item">
+            <img class="ov-term-icon" src="/assets/zw3d-ov/icon-term2.png" alt="" loading="lazy" />
+            <h3 class="ov-term-title d-bold">Berbagi kapasitas</h3>
+            <p class="ov-term-desc">Gunakan network floating license dan fitur borrowing bagi engineer yang perlu bekerja di luar jaringan kantor.</p>
+          </li>
+          <li class="ov-term-item">
+            <img class="ov-term-icon" src="/assets/zw3d-ov/icon-term3.png" alt="" loading="lazy" />
+            <h3 class="ov-term-title d-bold">Hardware yang realistis</h3>
+            <p class="ov-term-desc">ZW3D dirancang berjalan pada workstation Windows kelas menengah, dengan kebutuhan yang dapat ditingkatkan untuk simulasi dan assembly kompleks.</p>
+          </li>
+          <li class="ov-term-item">
+            <img class="ov-term-icon" src="/assets/zw3d-ov/icon-term4.png" alt="" loading="lazy" />
+            <h3 class="ov-term-title d-bold">Adopsi bertahap</h3>
+            <p class="ov-term-desc">Berdampingan dengan sistem 3D CAD yang ada sekarang, lalu perluas per tim, proyek, site, atau alur kerja.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- terms end -->
+
+    <!-- customer results start -->
+    <section class="ov-sec ov-data">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <h2 class="ov-title d-bold">Diukur dari waktu engineering, biaya, dan throughput.</h2>
+          <p class="ov-desc">Tim manufaktur dan rekayasa mesin melaporkan siklus desain lebih cepat, biaya software lebih rendah, dan delivery yang lebih terhubung dengan ZW3D.</p>
+          <div class="swiper-button-box">
+            <div class="ov-data-prev swiper-button-prev disabled" data-carousel-prev="ov-data"></div>
+            <div class="ov-data-next swiper-button-next" data-carousel-next="ov-data"></div>
+          </div>
+        </div>
+        <div class="swiper-container ov-data-swiper" data-carousel="ov-data">
+          <div class="swiper-wrapper">
+            {stories.map((s) => (
+              <div class="swiper-slide">
+                <div class="ov-data-box">
+                  <a href={WA} target="_blank" rel="noopener noreferrer">
+                    <img class="ov-data-img" src={s.img} alt="" loading="lazy" />
+                    <div class="ov-data-body">
+                      <div class="ov-data-stat d-manrope">{s.stat}</div>
+                      <h3 class="d-bold">{s.label}</h3>
+                      <p class="desc text-4-lines">{s.desc}</p>
+                      <p class="ov-data-bottom-title d-bold">{s.company}</p>
+                      <div class="ov-data-bottom">
+                        <p>{s.meta}</p>
+                        <img class="pc_show" src="/assets/zw3d-ov/arrow-right-data.svg" alt="" width="20" loading="lazy" />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- customer results end -->
+
+    <!-- reviews start -->
+    <section class="ov-sec ov-reviews">
+      <div class="ov-wrap">
+        <div class="dj-main">
+          <div class="dj-inner">
+            <div class="dj-cont">
+              <div class="dj-left">
+                <h2 class="dj-titles d-bold">Diakui atas keunggulan dan inovasi</h2>
+                <div class="dj-intro">
+                  Dinilai sebagai high performer kategori CAD pada laporan G2 Winter 2024, serta penerima penghargaan industri manufaktur global.
+                </div>
+              </div>
+              <div class="dj-right">
+                <div class="dj-img"><img src="/assets/zw3d-ov/award1.png" alt="Penghargaan G2 High Performer CAD 2024" loading="lazy" /></div>
+                <div class="dj-img"><img src="/assets/zw3d-ov/award2.png" alt="Penghargaan industri ZW3D" loading="lazy" /></div>
+                <div class="dj-img"><img src="/assets/zw3d-ov/award3.png" alt="Penghargaan inovasi ZW3D" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dk-main">
+          <div class="dk-inner">
+            <div class="dk-cont">
+              <div class="swiper-container dk-b" data-carousel="dk">
+                <div class="swiper-wrapper">
+                  {reviews.map((r) => (
+                    <div class="swiper-slide dk-item">
+                      <div class="dk-link">
+                        <div class="dk-top">
+                          <div class="dk-img"><img src="/assets/zw3d-ov/rd_person4.png" alt="" loading="lazy" /></div>
+                          <div class="dk-text">
+                            <div class="dk-name d-bold">{r.name}</div>
+                            <div class="dk-pro">{r.role}</div>
+                            <div class="dk-exp"></div>
+                          </div>
+                        </div>
+                        <div class="dk-quot"><img src="/assets/zw3d-ov/3d_ov28.png" alt="" loading="lazy" /></div>
+                        <div class="dk-intro">{r.text}</div>
+                        <div class="dk-last">
+                          <div class="dk-star">
+                            <img src="/assets/zw3d-ov/3d_ov-star-gray.png" alt="" class="dk-star-gray" loading="lazy" />
+                            <div class="dk-star-box" style={`width: ${(r.star / 5) * 100}%;`}>
+                              <img src="/assets/zw3d-ov/3d_ov-star1.png" alt="" class="dk-star-yellow" loading="lazy" />
+                            </div>
+                          </div>
+                          <div class="dk-points">
+                            <span class="dk-pt d-bold">{r.star} </span>
+                            <span class="dk-gray">dari <span class="dk-sum d-bold">5</span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- reviews end -->
+
+    <!-- startup start -->
+    <section class="ov-startup">
+      <div class="ov-wrap">
+        <div class="ov-startup-bg">
+          <div class="ov-sec-head">
+            <span class="ov-kicker d-bold">ZWSOFT STARTUP PROGRAM</span>
+            <h2 class="ov-title d-bold">Ubah Ide Hebat Menjadi Kenyataan</h2>
+            <p class="ov-desc">ZWSOFT membantu startup mengubah ide menjadi produk nyata, dari konsep dan desain hingga manufaktur. Melalui ZWSOFT Startup Program, startup yang memenuhi syarat dapat mengakses ZW3D dengan biaya lebih ringan, disertai sumber pelatihan dan dukungan teknis untuk membawa produk ke pasar dan menopang pertumbuhan berikutnya.</p>
+            <a class="ov-link d-bold" href={WA} target="_blank" rel="noopener noreferrer">
+              Daftar Sekarang <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- startup end -->
+
+    <!-- get started start -->
+    <section class="ov-sec ov-get">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <span class="ov-kicker d-bold">SUMBER DAYA &amp; DUKUNGAN</span>
+          <h2 class="ov-title d-bold">Mulai dengan ZW3D</h2>
+          <p class="ov-desc">Semua yang Anda butuhkan untuk mempelajari ZW3D, membangun keterampilan, dan mendapatkan dukungan saat diperlukan.</p>
+        </div>
+        <div class="ov-get-grid">
+          <a href="/blog" class="ov-get-item">
+            <div class="ov-get-item-ico">
+              <img src="/assets/zw3d-ov/icon-get1.svg" alt="" width="36" loading="lazy" />
+              <h3 class="d-bold">Pelajari Panduan Pengguna</h3>
+            </div>
+            <p>Temukan panduan langkah demi langkah dan praktik nyata untuk memulai ZW3D serta memaksimalkan kapabilitasnya.</p>
           </a>
-          <a
-            href="https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20informasi%20untuk%20ZWCAD%20dan%20pembelian%20lisensinya%20ya"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn-primary text-base py-3.5 px-8"
-          >
-            Jadwalkan Live Demo
+          <a href={WA} target="_blank" rel="noopener noreferrer" class="ov-get-item">
+            <div class="ov-get-item-ico">
+              <img src="/assets/zw3d-ov/icon-get2.svg" alt="" width="36" loading="lazy" />
+              <h3 class="d-bold">Bangun Keterampilan Tim</h3>
+            </div>
+            <p>Pelajari ZW3D melalui pelatihan terstruktur dan validasi keahlian melalui program sertifikasi resmi ZWSOFT.</p>
+          </a>
+          <a href={WA} target="_blank" rel="noopener noreferrer" class="ov-get-item">
+            <div class="ov-get-item-ico">
+              <img src="/assets/zw3d-ov/icon-get3.svg" alt="" width="36" loading="lazy" />
+              <h3 class="d-bold">Dukungan Produk &amp; Teknis</h3>
+            </div>
+            <p>Akses sumber teknis dan dukungan profesional untuk membantu menyelesaikan kendala dan menjaga pekerjaan tetap berjalan.</p>
           </a>
         </div>
       </div>
     </section>
+    <!-- get started end -->
 
-    <!-- 4 Main Pillars ZW3D -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <span class="badge-tag bg-cyan-50 text-cyan-800 border border-cyan-200 mb-3">
-            KEMAMPUAN MODUL LENGKAP
-          </span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Alur Kerja Manufaktur End-to-End
-          </h2>
+    <!-- faq start -->
+    <section class="ov-sec ov-faq">
+      <div class="ov-wrap">
+        <div class="ov-sec-head">
+          <span class="ov-kicker d-bold">FAQ</span>
+          <h2 class="ov-title d-bold">Yang biasa ditanyakan tim mesin sebelum berpindah CAD.</h2>
+          <p class="ov-desc">Butuh jawaban alur kerja atau lisensi yang spesifik untuk operasional Anda?</p>
+          <a href={WA} target="_blank" rel="noopener noreferrer" class="ov-link d-bold">
+            Bicara dengan spesialis ZW3D <img class="a_icon" src="/assets/zw3d-ov/arrow-right-blue.svg" alt="" width="14" loading="lazy" />
+          </a>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
-          <!-- Module 1: Product Design -->
-          <div class="cad-card p-6 flex flex-col justify-between">
-            <div>
-              <div class="w-12 h-12 rounded-xl bg-cyan-50 border border-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-xl mb-5">
-                01
+        <div class="ov-faq-list">
+          {faqs.map((f, i) => (
+            <div class={`ov-acc-item${i === 0 ? ' open' : ''}`}>
+              <div class="ov-acc-head">
+                <span class="d-bold">{f.q}</span>
+                <img class="ov-acc-ico" src="/assets/zw3d-ov/chevron-up.svg" alt="" loading="lazy" />
               </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-3">Product Design (CAD)</h3>
-              <p class="text-sm text-slate-600 leading-relaxed mb-4">
-                Ditenagai <strong>Overdrive™ Hybrid Modeling</strong>, memungkinkan Anda menggabungkan solid geometri dan kurva surface bebas secara simultan tanpa batas. Membaca langsung data CAD dari CATIA, NX, SolidWorks, Creo, dan Inventor.
-              </p>
-              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
-                <li>✓ Parametric &amp; Direct Modeling</li>
-                <li>✓ Sheet Metal &amp; Weldment Design</li>
-                <li>✓ Reverse Engineering &amp; Point Cloud</li>
-              </ul>
+              <p class="ov-acc-body" style={i === 0 ? 'display: block;' : ''}>{f.a}</p>
             </div>
-          </div>
-
-          <!-- Module 2: Mold & Die -->
-          <div class="cad-card p-6 flex flex-col justify-between">
-            <div>
-              <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 font-bold text-xl mb-5">
-                02
-              </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-3">Mold &amp; Die Design</h3>
-              <p class="text-sm text-slate-600 leading-relaxed mb-4">
-                Otomasi pemisahan core &amp; cavity tanpa perlu memperbaiki cacat solid secara manual. Menyediakan pustaka standar mold base global (DME, HASCO, FUTABA, LKM) serta modul pendingin dan slider.
-              </p>
-              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
-                <li>✓ Auto Parting Line &amp; Face Split</li>
-                <li>✓ Standard Mold Base &amp; Runner Library</li>
-                <li>✓ Electrode Extraction &amp; Spark Gap</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Module 3: CNC CAM -->
-          <div class="cad-card p-6 flex flex-col justify-between">
-            <div>
-              <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-xl mb-5">
-                03
-              </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-3">2-5 Axis CNC Machining (CAM)</h3>
-              <p class="text-sm text-slate-600 leading-relaxed mb-4">
-                Simulasi lintasan pahat (toolpath) presisi tinggi dengan teknologi QuickMill™. Mendukung proses Milling 2 &amp; 3 Axis, Bubut (Turning), hingga permesinan 5 Axis Simultaneous lengkap dengan deteksi tabrakan.
-              </p>
-              <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-100 pt-3">
-                <li>✓ QuickMill Roughing &amp; Finishing</li>
-                <li>✓ Full Machine Kinematic Simulation</li>
-                <li>✓ Custom Post-Processor (Fanuc, Heidenhain, Siemens)</li>
-              </ul>
-            </div>
-          </div>
-
+          ))}
         </div>
-
       </div>
     </section>
+    <!-- faq end -->
 
-    <!-- Trial Section -->
-    <TrialFormSection />
-  </main>
+    <!-- final cta start -->
+    <section class="ov-cta">
+      <div class="ov-wrap">
+        <h2 class="d-bold">Mulai dengan ZW3D WuKong 2027 sekarang</h2>
+        <p>Mulai ciptakan inovasi dan tingkatkan efisiensi hari ini juga.</p>
+        <div class="ov-cta-btns">
+          <a class="zw-button big d-bold white" href={TRIAL} target="_blank" rel="noopener noreferrer">Trial Gratis</a>
+          <a class="zw-button big d-bold white" href="/harga">Lihat Harga</a>
+          <a class="zw-button big d-bold transparent" href={WA} target="_blank" rel="noopener noreferrer">Hubungi Sales</a>
+        </div>
+      </div>
+    </section>
+    <!-- final cta end -->
+
+  </div>
 
   <Footer />
 </Layout>
+
+<style is:inline>
+  /* ===== Netralkan gaya global situs agar visual identik dengan halaman sumber ===== */
+  .zw3d-mirror { font-family: notosansregular, "Noto Sans", "Helvetica", "Arial", sans-serif; }
+  .zw3d-mirror p { font-family: notosansregular, "Noto Sans", "Helvetica", "Arial", sans-serif; }
+  .zw3d-mirror .ov-sec-head { max-width: 100%; }
+  .zw3d-mirror ul { list-style: none; margin: 0; padding: 0; }
+  .zw3d-mirror h1, .zw3d-mirror h2, .zw3d-mirror h3 { letter-spacing: normal; }
+  .zw3d-mirror a { text-decoration: none; }
+
+  /* Carousel pengganti Swiper: horizontal scroll-snap (tanpa dependensi) */
+  .zw3d-mirror .ov-data-swiper { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .zw3d-mirror .ov-data-swiper::-webkit-scrollbar { display: none; }
+  .zw3d-mirror .ov-data-swiper .swiper-wrapper { display: flex; flex-wrap: nowrap; width: auto !important; height: auto !important; }
+  .zw3d-mirror .ov-data-swiper .swiper-slide { flex: 0 0 33.3333%; width: 33.3333% !important; height: auto !important; scroll-snap-align: start; }
+
+  .zw3d-mirror .dk-b { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .zw3d-mirror .dk-b::-webkit-scrollbar { display: none; }
+  .zw3d-mirror .dk-b .swiper-wrapper { display: flex; flex-wrap: nowrap; width: auto !important; height: auto !important; transform: none !important; }
+  .zw3d-mirror .dk-b .dk-item { flex: 0 0 33.333%; width: 33.333% !important; height: auto !important; scroll-snap-align: start; }
+
+  .zw3d-mirror .dds-b { overflow-x: auto; scrollbar-width: none; }
+  .zw3d-mirror .dds-b::-webkit-scrollbar { display: none; }
+  .zw3d-mirror .dds-b .swiper-wrapper { display: flex; flex-wrap: nowrap; width: auto !important; height: auto !important; }
+  .zw3d-mirror .dds-item { flex-shrink: 0; }
+
+  @media (max-width: 1200px) {
+    .zw3d-mirror .dk-b .dk-item { flex: 0 0 50%; width: 50% !important; }
+    .zw3d-mirror .ov-data-swiper .swiper-slide { flex: 0 0 50%; width: 50% !important; }
+  }
+  @media (max-width: 992px) {
+    .zw3d-mirror .dk-b .dk-item { flex: 0 0 100%; width: 100% !important; }
+    .zw3d-mirror .ov-data-swiper .swiper-slide { flex: 0 0 86%; width: 86% !important; }
+    .zw3d-mirror .dds-item { min-width: 200px; }
+  }
+
+  /* Tab & accordion state */
+  .zw3d-mirror .dd-one { display: none; }
+  .zw3d-mirror .dd-one.show { display: block; }
+  .zw3d-mirror .ov-acc-body { display: none; }
+  .zw3d-mirror .ov-acc-item.open .ov-acc-body { display: block; }
+  .zw3d-mirror .ov-acc-item.open .ov-acc-ico { transform: rotate(180deg); }
+  .zw3d-mirror .ov-acc-ico { transition: transform .25s ease; }
+  .zw3d-mirror .ov-acc-item { cursor: pointer; }
+
+  /* Video player overlay */
+  .zw3d-video-modal {
+    position: fixed; inset: 0; z-index: 9999; display: none;
+    align-items: center; justify-content: center;
+    background: rgba(0, 0, 0, 0.9); padding: 4vw;
+  }
+  .zw3d-video-modal.show { display: flex; }
+  .zw3d-video-modal .inner { position: relative; width: 100%; max-width: 1100px; }
+  .zw3d-video-modal video,
+  .zw3d-video-modal iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 12px; display: block; background: #000; }
+  .zw3d-video-modal .close-btn {
+    position: absolute; top: -46px; right: 0; width: 40px; height: 40px;
+    border: 0; border-radius: 50%; background: rgba(255,255,255,.12); color: #fff;
+    font-size: 22px; line-height: 1; cursor: pointer;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var ROOT_SEL = '.zw3d-mirror';
+
+    function init() {
+      var root = document.querySelector(ROOT_SEL);
+      if (!root) return;
+
+      /* ---- Capability tabs ---- */
+      var tabBtns = root.querySelectorAll('.dds-item');
+      var panes = root.querySelectorAll('.dd-one');
+      tabBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var key = btn.getAttribute('data-tab');
+          tabBtns.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          panes.forEach(function (p) {
+            p.classList.toggle('show', p.getAttribute('data-pane') === key);
+          });
+          if (window.innerWidth < 992) {
+            var pane = root.querySelector('.dd-one.show');
+            if (pane) {
+              var y = pane.getBoundingClientRect().top + window.pageYOffset - 90;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+          }
+        });
+      });
+
+      /* ---- Tooltip (dd-query) ---- */
+      root.querySelectorAll('.dd-query').forEach(function (q) {
+        q.addEventListener('mouseenter', function () { q.classList.add('show'); });
+        q.addEventListener('mouseleave', function () { q.classList.remove('show'); });
+        q.addEventListener('click', function (e) { e.stopPropagation(); q.classList.toggle('show'); });
+      });
+
+      /* ---- FAQ accordion ---- */
+      root.querySelectorAll('.ov-acc-item').forEach(function (item) {
+        item.querySelector('.ov-acc-head').addEventListener('click', function () {
+          var isOpen = item.classList.contains('open');
+          root.querySelectorAll('.ov-acc-item').forEach(function (i) {
+            i.classList.remove('open');
+            var b = i.querySelector('.ov-acc-body'); if (b) b.style.display = '';
+          });
+          if (!isOpen) {
+            item.classList.add('open');
+            var body = item.querySelector('.ov-acc-body'); if (body) body.style.display = 'block';
+          }
+        });
+      });
+
+      /* ---- Video modal ---- */
+      var modal = document.createElement('div');
+      modal.className = 'zw3d-video-modal';
+      modal.innerHTML = '<div class="inner"><button class="close-btn" aria-label="Tutup">&times;</button><div class="slot"></div></div>';
+      document.body.appendChild(modal);
+      var slot = modal.querySelector('.slot');
+      function closeModal() {
+        modal.classList.remove('show');
+        slot.innerHTML = '';
+        document.body.style.overflow = '';
+      }
+      modal.querySelector('.close-btn').addEventListener('click', closeModal);
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+      root.querySelectorAll('.play-box').forEach(function (box) {
+        box.addEventListener('click', function () {
+          var src = box.getAttribute('data-mp4') || '';
+          if (!src) return;
+          if (src.indexOf('youtube') !== -1) {
+            slot.innerHTML = '<iframe src="' + src + '&autoplay=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+          } else {
+            slot.innerHTML = '<video src="' + src + '" controls autoplay playsinline></video>';
+          }
+          modal.classList.add('show');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      /* ---- Autoplay video di tab aktif (muted loop) ---- */
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            var v = en.target.querySelector('video');
+            if (!v) return;
+            if (en.isIntersecting) { v.play().catch(function () {}); } else { v.pause(); }
+          });
+        }, { threshold: 0.35 });
+        root.querySelectorAll('.dd-img').forEach(function (el) { io.observe(el); });
+      }
+    }
+
+    /* ---- Carousel: delegasi klik, tanpa dependensi Swiper ---- */
+    document.addEventListener('click', function (e) {
+      var next = e.target.closest && e.target.closest('[data-carousel-next]');
+      var prev = e.target.closest && e.target.closest('[data-carousel-prev]');
+      if (!next && !prev) return;
+      var key = next ? next.getAttribute('data-carousel-next') : prev.getAttribute('data-carousel-prev');
+      var el = document.querySelector('.zw3d-mirror [data-carousel="' + key + '"]');
+      if (!el) return;
+      var step = el.clientWidth;
+      var slide = el.querySelector('.swiper-slide, .dk-item');
+      if (slide) step = slide.getBoundingClientRect().width * (key === 'dk' ? 1 : 1);
+      var dir = next ? 1 : -1;
+      el.scrollTo(el.scrollLeft + dir * step, 0);
+      setTimeout(function () {
+        var prevBtn = document.querySelector('.zw3d-mirror [data-carousel-prev="' + key + '"]');
+        var nextBtn = document.querySelector('.zw3d-mirror [data-carousel-next="' + key + '"]');
+        var atStart = el.scrollLeft <= 2;
+        var atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 2;
+        if (prevBtn) prevBtn.classList.toggle('disabled', atStart);
+        if (nextBtn) nextBtn.classList.toggle('disabled', atEnd);
+      }, 350);
+    }, true);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
