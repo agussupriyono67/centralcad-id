@@ -30,7 +30,7 @@ const plans = [
     price: 'Rp 127.750.000',
     usd: '$7,000',
     type: 'Desain Mold',
-    rows: ['Semua fitur dalam Standard', 'Desain Elektroda', 'Desain Mold'],
+    rows: ['Semua fitur dalam Standard', 'Desain Elektroda', 'Modul Mold & Die'],
     best: false,
     strong: [0],
   },
@@ -112,14 +112,14 @@ const clients = [
       <div class="kh-inner">
         <h1 class="kh-title k-size48 k-bold">Temukan Edisi ZW3D yang Tepat untuk Bisnis Anda</h1>
         <div class="kh-des k-size16">
-          <span class="k-blue">Lisensi Permanen</span>—bayar sekali, miliki selamanya.<br />
-          <span class="k-blue">Upgrade Fleksibel</span>—pindah ke versi terbaru kapan pun Anda siap.
+          <span class="k-blue">Lisensi Permanen</span> — bayar sekali, miliki selamanya.<br />
+          <span class="k-blue">Upgrade Fleksibel</span> — pindah ke versi terbaru kapan pun Anda siap.
         </div>
 
         <div class="kh-list">
           {plans.map((p) => (
             <div class="kh-item">
-              {p.best && <div class="kh-best"><span class="kh-word k-bold">Pilihan Terbaik</span></div>}
+              {p.best && <div class="kh-best"><span class="kh-word k-bold">Terpopuler</span></div>}
               <div class="kh-name k-size20 k-bold">{p.name}</div>
 
               <div class="kh-price k-size16">
@@ -148,11 +148,12 @@ const clients = [
         </div>
 
         <div class="kh-notice">
-          <p><strong>Catatan:</strong></p>
-          <p>1. Harga di atas adalah lisensi permanen (perpetual) termasuk maintenance satu tahun pertama. Nilai Rupiah dikonversi dari MSRP resmi USD dengan kurs acuan <strong>Rp 18.250/USD</strong>; harga final mengikuti kurs berjalan saat penerbitan invoice.</p>
-          <p>2. Harga retail lokal dan kebijakan upgrade dapat berbeda per wilayah. Mahasiswa dan institusi pendidikan tersedia penawaran non-komersial. Silakan <a class="k-bold" href={WA} target="_blank" rel="noopener noreferrer">hubungi tim sales kami</a> sebagai reseller resmi ZW3D di Indonesia untuk rincian lebih lanjut.</p>
-          <p>3. Harga di atas belum termasuk layanan training dan dukungan teknis tambahan di luar paket standar.</p>
-          <p>4. Harga di atas adalah Manufacturer Suggested Retail Prices (MSRP) dan belum termasuk PPN 11%. Harga bersifat informatif; ZWSOFT berhak mengubah MSRP sewaktu-waktu tanpa pemberitahuan.</p>
+          <p class="kh-notice-title"><strong>Catatan</strong></p>
+          <p>1. Harga di atas adalah lisensi permanen (perpetual) dan sudah termasuk maintenance tahun pertama.</p>
+          <p>2. Nilai Rupiah dikonversi dari MSRP resmi USD memakai kurs acuan <strong>Rp 18.250/USD</strong>. Harga final mengikuti kurs berjalan saat invoice diterbitkan.</p>
+          <p>3. Harga eceran lokal dan kebijakan upgrade dapat berbeda per wilayah. Tersedia penawaran non-komersial untuk mahasiswa dan institusi pendidikan — <a class="k-bold" href={WA} target="_blank" rel="noopener noreferrer">hubungi tim sales kami</a> sebagai reseller resmi ZW3D di Indonesia.</p>
+          <p>4. Belum termasuk pelatihan dan dukungan teknis tambahan di luar paket standar.</p>
+          <p>5. Harga adalah MSRP (Manufacturer Suggested Retail Price) dan belum termasuk PPN 11%. Harga bersifat informatif; ZWSOFT berhak mengubah MSRP sewaktu-waktu tanpa pemberitahuan.</p>
         </div>
       </div>
     </section>
@@ -212,8 +213,17 @@ const clients = [
   .zw3d-price .ki-num { font-size: 15px !important; white-space: nowrap; }
 
   /* Beri ruang agar daftar fitur tidak menempel ke tombol pada edisi dengan baris terbanyak */
-  .zw3d-price .kh-item { padding-bottom: 124px; }
-  .zw3d-price .kh-rows { padding-bottom: 16px; }
+  .zw3d-price .kh-item { padding-bottom: 134px; }
+  .zw3d-price .kh-rows { padding-bottom: 14px; }
+  .zw3d-price .kh-row { font-size: 13.5px; line-height: 1.45; margin-bottom: 9px; }
+
+  /* Pita "Terpopuler" pada kartu Advanced */
+  .zw3d-price .kh-word { font-size: 11px; width: 76px; height: 26px; left: 17px; top: 16px; line-height: 1.1; }
+
+  /* Catatan harga: beri jarak antar butir */
+  .zw3d-price .kh-notice { padding-top: 18px; font-size: 12.5px; line-height: 1.6; }
+  .zw3d-price .kh-notice p { margin: 0 0 8px; }
+  .zw3d-price .kh-notice-title { margin-bottom: 10px !important; letter-spacing: .2px; text-transform: uppercase; }
 
   /* Header tabel sticky: latar solid agar tidak tembus pandang */
   .zw3d-price .ki-hd-wrap.fixed { background-color: #F4F6FD !important; box-shadow: 0 6px 16px rgba(15, 23, 42, .06); }
@@ -268,6 +278,13 @@ const clients = [
     cursor: pointer; font-size: 14px; font-family: notosansbold, sans-serif;
   }
   .zw3d-price .pc-one.gray { color: #9aa4b2; }
+
+  /* Tombol unduh & kontrol tabel di layar kecil */
+  @media (max-width: 992px) {
+    .zw3d-price .pc-btn { display: block; width: 100%; padding: 8px 6px; font-size: 12.5px; line-height: 1.35; }
+    .zw3d-price .pc-btns { margin-top: 8px; text-align: center; }
+    .zw3d-price .pc-one { font-size: 12px; padding: 0 4px; line-height: 22px; }
+  }
 </style>
 
 <script is:inline>
