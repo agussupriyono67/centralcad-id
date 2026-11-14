@@ -1,4 +1,10 @@
 ---
+interface Props {
+  /** URL halaman harga yang dituju tautan daftar harga (default: harga ZWCAD). */
+  hargaHref?: string;
+}
+
+const { hargaHref = '/harga' } = Astro.props;
 const currentYear = new Date().getFullYear();
 ---
 
@@ -43,7 +49,7 @@ const currentYear = new Date().getFullYear();
           <li><a href="/#features" class="hover:text-white transition-colors">Fitur Unggulan 2D CAD</a></li>
           <li><a href="/zw3d" class="hover:text-white transition-colors">ZW3D All-in-One 3D CAD/CAM</a></li>
           <li><a href="/#comparison" class="hover:text-white transition-colors">Perbandingan ZWCAD vs AutoCAD</a></li>
-          <li><a href="/harga" class="hover:text-white transition-colors">Daftar Harga &amp; Skema Lisensi</a></li>
+          <li><a href={hargaHref} class="hover:text-white transition-colors">Daftar Harga &amp; Skema Lisensi</a></li>
           <li><a href="/blog" class="hover:text-white transition-colors text-amber-400 font-semibold">Blog &amp; Panduan CAD/CAM</a></li>
           <li><a href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Download Free Trial 30 Hari</a></li>
         </ul>

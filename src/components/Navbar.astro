@@ -1,14 +1,16 @@
 ---
 interface Props {
   active?: string;
+  /** URL halaman harga yang dituju menu "Harga" (default: harga ZWCAD). */
+  hargaHref?: string;
 }
 
-const { active = 'home' } = Astro.props;
+const { active = 'home', hargaHref = '/harga' } = Astro.props;
 
 const navItems = [
   { name: 'ZWCAD', href: '/#features', id: 'zwcad' },
   { name: 'ZW3D', href: '/zw3d', id: 'zw3d' },
-  { name: 'Harga', href: '/harga', id: 'harga' },
+  { name: 'Harga', href: hargaHref, id: 'harga' },
   { name: 'Blog', href: '/blog', id: 'blog' },
   { name: 'Tentang', href: '/tentang-kami', id: 'tentang' },
   { name: 'Kontak', href: '/hubungi-kami', id: 'kontak' },
