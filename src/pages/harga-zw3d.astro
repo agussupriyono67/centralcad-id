@@ -38,7 +38,7 @@ const plans = [
     name: 'Advanced',
     price: 'Rp 136.875.000',
     usd: '$7,500',
-    type: 'Desain Mesin &amp; Peralatan',
+    type: 'Desain Mesin & Peralatan',
     rows: [
       'Semua fitur dalam Professional',
       'Analisis Statis Linear Dasar (Assembly)',
@@ -92,28 +92,351 @@ const clients = [
   { src: '/assets/zw3d-pricing/clients/client-9.jpg', alt: 'Taiyo Yuden' },
   { src: '/assets/zw3d-pricing/clients/client-10.jpg', alt: 'Bridgestone' },
 ];
+
+const editionGuides = [
+  {
+    name: 'ZW3D Lite',
+    badge: 'Desain Part 3D',
+    summary: 'Cocok untuk perancangan komponen part dasar, reparasi geometri solid/surface, dan pertukaran data multi-CAD.',
+    points: [
+      'Pemodelan parametrik & Direct Editing intuitif',
+      'Wireframe & Surface Modeling dasar',
+      'Import/Export multi-format: STEP, IGES, Parasolid, CATIA, NX, Creo, SolidWorks',
+      'Pembuatan 2D Drawing (gambar kerja) dari model 3D'
+    ],
+    target: 'Drafter 3D pemula, desainer komponen standar, & konversi data antar-CAD.'
+  },
+  {
+    name: 'ZW3D Standard',
+    badge: 'Mekanikal & Sheet Metal',
+    summary: 'Pilihan ideal untuk perancangan mekanikal umum, fabrikasi pelat tekuk, dan konstruksi rangka baja.',
+    points: [
+      'Semua kapabilitas dalam edisi Lite',
+      'Modul Sheet Metal lengkap (bending, flange, auto-unfold)',
+      'Modul Struktur Baja & Weldment untuk rangka mesin',
+      'Analisis Statis Linear Dasar untuk komponen part (FEA)',
+      'Point Cloud & Reverse Engineering dasar'
+    ],
+    target: 'Industri fabrikasi lembaran logam, karoseri, tangki, & perancangan mesin sederhana.'
+  },
+  {
+    name: 'ZW3D Professional',
+    badge: 'Mold & Die Maker',
+    summary: 'Standar industri pembuatan cetakan injeksi plastik dan stamping die dengan otomasi tinggi.',
+    points: [
+      'Semua kapabilitas dalam edisi Standard',
+      'Otomasi parting line dan pemisahan Core & Cavity',
+      'Standard Mold Base Library: DME, HASCO, Misumi, LKM, Futaba',
+      'Perancangan sistem pendingin (Cooling Channels) & slider/lifter',
+      'Desain Elektroda EDM dengan generator gambar kerja otomatis'
+    ],
+    target: 'Tooling shop, produsen mold injeksi plastik, packaging FMCG, & mold komponen otomotif.'
+  },
+  {
+    name: 'ZW3D Advanced',
+    badge: 'Mesin Otomasi & Assembly Besar',
+    summary: 'Solusi terlengkap untuk industri mesin otomatisasi, peralatan berat, dan assembly presisi tinggi.',
+    points: [
+      'Semua kapabilitas dalam edisi Professional',
+      'Mendukung perakitan mesin hingga 20.000 komponen tanpa lag',
+      'ZW3D Motion untuk simulasi kinematika gerakan mekanis',
+      'Perancangan perpipaan 3D (Piping Design)',
+      'Desain Electrical Harness & kolaborasi ECAD-MCAD',
+      'Analisis Statis Linear tingkat Assembly'
+    ],
+    target: 'Pabrikan mesin SPM (Special Purpose Machine), robotika, conveyor, alat berat, & OEM mesin.'
+  },
+  {
+    name: 'ZW3D 2-Axis & 3-Axis Machining',
+    badge: 'CAD/CAM Terintegrasi CNC',
+    summary: 'Kombinasi pemodelan CAD dan pemrograman pemesinan CNC milling/turning dalam satu software terpadu.',
+    points: [
+      'CAD hybrid modeling terintegrasi tanpa perlu konversi file',
+      'Pemesinan Bubut (Turning) 2-Axis & Milling 2-Axis presisi',
+      '3-Axis High-Speed Machining (HSM) dengan teknologi QuickMill',
+      'Verifikasi toolpath dan simulasi pemotongan solid anti-tabrakan',
+      'Post-processor siap pakai untuk Siemens, Fanuc, Heidenhain, Syntec, GSK'
+    ],
+    target: 'Bengkel permesinan CNC (Job Shop), pembuat komponen presisi, & operator mesin CNC milling/bubut.'
+  },
+  {
+    name: 'ZW3D Ultimate',
+    badge: 'Unified CAD · CAM · CAE · PDM',
+    summary: 'Ekosistem terlengkap yang mengintegrasikan seluruh tahapan dari konsep awal hingga benda jadi di lantai pabrik.',
+    points: [
+      'Semua fitur desain CAD Advanced dan modul Mold/Die Professional',
+      'Kapabilitas CAM 2-Axis dan 3-Axis terintegrasi penuh',
+      'Simulasi kekuatan struktural linear tingkat lanjut (CAE)',
+      'Manajemen data perancangan terintegrasi (PDM)',
+      'Opsi kustomisasi modul 4-Axis & 5-Axis Simultaneous Machining'
+    ],
+    target: 'Perusahaan manufaktur terpadu berskala menengah-besar dengan alur R&D hingga produksi mandiri.'
+  }
+];
+
+const valuePillars = [
+  {
+    icon: 'shield',
+    title: '100% Lisensi Permanen (Perpetual)',
+    desc: 'Bebaskan anggaran perusahaan Anda dari biaya sewa tahunan yang kian membengkak. Cukup bayar satu kali, software legal dan menjadi aset milik Anda selamanya tanpa risiko pemutusan akses.'
+  },
+  {
+    icon: 'cube',
+    title: 'Overdrive™ Hybrid Modeling',
+    desc: 'Kernel pemodelan milik ZWSOFT yang memadukan solid dan surface secara fleksibel. Selesaikan masalah geometri rusak (gap/non-manifold) dari file impor tanpa frustrasi.'
+  },
+  {
+    icon: 'sync',
+    title: 'Multi-CAD Translator Bawaan',
+    desc: 'Mampu membuka dan mengedit langsung format file 3D native dari SolidWorks, CATIA, Siemens NX, Creo, dan Inventor, serta format netral STEP, IGES, dan Parasolid tanpa biaya plugin tambahan.'
+  },
+  {
+    icon: 'support',
+    title: 'Dukungan Lokal & Faktur Pajak Resmi',
+    desc: 'Central CAD dioperasikan oleh PT Hetra Teknologi Indonesia (PKP resmi) dengan Faktur Pajak PPN 11%, sertifikat lisensi resmi, pelatihan drafter, serta pembuatan custom post-processor mesin CNC.'
+  }
+];
+
+const faqs = [
+  {
+    q: 'Berapa kisaran harga resmi software ZW3D di Indonesia?',
+    a: 'Harga resmi lisensi ZW3D di Indonesia mulai dari Rp 54.750.000 untuk edisi Lite, Rp 82.125.000 untuk Standard, Rp 127.750.000 untuk Professional (spesialis cetakan mold & die), dan Rp 136.875.000 untuk Advanced (perakitan mesin otomasi besar). Untuk varian CAD/CAM pemesinan CNC terintegrasi, edisi 2-Axis Machining mulai dari Rp 63.875.000 dan 3-Axis Machining Rp 109.500.000. Untuk edisi ZW3D Ultimate terpadu (CAD, CAM, CAE, dan PDM), silakan hubungi tim sales kami untuk penawaran kustom.'
+  },
+  {
+    q: 'Apakah lisensi ZW3D bersifat permanen (perpetual / seumur hidup)?',
+    a: 'Ya, seluruh lisensi ZW3D bersifat perpetual (hak milik permanen). Sekali perusahaan Anda berinvestasi, software dapat digunakan selamanya tanpa kewajiban membayar biaya langganan tahunan berulang (zero subscription fee). Paket pembelian awal sudah mencakup pemeliharaan dan update selama tahun pertama.'
+  },
+  {
+    q: 'Apakah pembelian lisensi ZW3D di Central CAD mendapatkan Faktur Pajak PPN 11%?',
+    a: 'Ya, PT Hetra Teknologi Indonesia (Central CAD) adalah Pengusaha Kena Pajak (PKP) resmi yang menerbitkan Faktur Pajak PPN 11%, sertifikat keaslian lisensi resmi dari ZWSOFT, dan kwitansi resmi untuk setiap pengadaan korporat maupun institusi.'
+  },
+  {
+    q: 'Apa perbedaan antara lisensi Standalone dan Network Floating pada ZW3D?',
+    a: 'Lisensi Standalone dikhususkan untuk 1 PC/laptop engineer tertentu dan dapat dipindahkan secara mandiri saat berganti unit kerja melalui fitur Return License. Sedangkan lisensi Network Floating dipasang pada server lokal kantor, sehingga dapat digunakan secara bergantian (sharing) oleh seluruh engineer di kantor sesuai jumlah concurrent seat yang dimiliki, lengkap dengan fitur borrow lisensi untuk tugas luar.'
+  },
+  {
+    q: 'Apakah ZW3D mampu membuka dan mengedit file dari SolidWorks, Inventor, atau CATIA?',
+    a: 'Sangat mampu. Berkat kernel Overdrive™ Hybrid Modeling, ZW3D memiliki fitur multi-CAD translator bawaan yang mampu membaca, mengedit, dan mengekspor format native SolidWorks, CATIA, NX, PTC Creo, Autodesk Inventor, Solid Edge, serta format standar STEP, IGES, Parasolid (.x_t), SAT, STL, dan DWG tanpa hambatan lisensi konverter tambahan.'
+  },
+  {
+    q: 'Bagaimana cara mencoba ZW3D sebelum memutuskan untuk membeli?',
+    a: 'Central CAD menyediakan trial gratis ZW3D full-featured selama 30 hari. Tim technical support kami siap mendampingi proses instalasi, pengujian fitur perancangan part/mold, hingga simulasi toolpath CAM CNC pada bengkel manufaktur Anda.'
+  }
+];
+
+const relatedGuides = [
+  {
+    title: 'Halaman Fitur Lengkap Software ZW3D CAD/CAM',
+    href: '/zw3d',
+    category: 'Produk Resmi',
+    desc: 'Eksplorasi mendalam teknologi Overdrive Kernel, modul mold design, large assembly, dan integrasi CAM 2-5 Axis.'
+  },
+  {
+    title: 'Komparasi ZW3D vs SolidWorks: Biaya Lisensi & Fitur',
+    href: '/blog/zw3d-vs-solidworks-komparasi-biaya-lisensi-hybrid-modeling-mesin',
+    category: 'Analisis Biaya',
+    desc: 'Perbandingan komprehensif Total Cost of Ownership (TCO), skema lisensi permanen vs sewa, dan kapabilitas hybrid modeling.'
+  },
+  {
+    title: 'Solusi Desain Mold & Pemrograman CNC dalam Satu Software',
+    href: '/blog/zw3d-all-in-one-cad-cam-solusi-desain-mold-dan-pemrograman-cnc',
+    category: 'Studi Kasus Mold',
+    desc: 'Bagaimana ZW3D memangkas waktu pengerjaan cetakan plastik dari desain core/cavity hingga generate G-code mesin milling.'
+  },
+  {
+    title: 'Panduan Spesifikasi Komputer PC / Laptop untuk ZW3D',
+    href: '/blog/spesifikasi-pc-komputer-zwcad-2026-zw3d-hardware-guide',
+    category: 'Hardware Guide',
+    desc: 'Rekomendasi spesifikasi processor, GPU Nvidia RTX/Quadro, RAM, dan storage NVMe untuk performa optimal ZW3D.'
+  },
+  {
+    title: 'Daftar Harga Lisensi ZWCAD 2026 Indonesia (2D/3D CAD)',
+    href: '/harga',
+    category: 'Daftar Harga CAD',
+    desc: 'Informasi harga resmi lisensi permanen ZWCAD Standard, Professional, dan Mechanical MFG tanpa biaya langganan tahunan.'
+  },
+  {
+    title: 'Download Free Trial 30 Hari ZW3D Indonesia',
+    href: '/free-download',
+    category: 'Trial Gratis',
+    desc: 'Coba langsung seluruh fitur ZW3D di komputer kerja Anda tanpa komitmen selama 30 hari penuh.'
+  }
+];
 ---
 
 <Layout
-  title="Harga Lisensi ZW3D 2027 Indonesia — Daftar Harga Edisi Lite, Standard, Professional, Advanced"
-  description="Daftar harga resmi lisensi ZW3D 2027 di Indonesia dalam Rupiah. Edisi Lite, Standard, Professional, Advanced, 2-Axis & 3-Axis Machining, hingga Ultimate. Lisensi permanen (perpetual) termasuk maintenance satu tahun, faktur pajak PPN, dan dukungan teknis PT Hetra Teknologi Indonesia."
+  title="Daftar Harga Lisensi ZW3D Indonesia Resmi — Central CAD"
+  description="Daftar harga resmi lisensi ZW3D di Indonesia. Edisi Lite, Standard, Pro, Advanced & CAM CNC. Lisensi seumur hidup (perpetual), Faktur Pajak PPN & garansi resmi."
+  canonical="https://centralcad.id/harga-zw3d/"
+  ogImage="/images/zw3d-injection-mold-machine.png"
 >
   <Fragment slot="head">
     <link rel="stylesheet" href="/assets/zw3d-pricing/pricing.css" />
     <link rel="stylesheet" href="/assets/zw3d-pricing/table.css" />
+
+    <!-- Schema.org Product, Breadcrumb & FAQ Structured Data -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://centralcad.id/harga-zw3d/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Beranda",
+              "item": "https://centralcad.id/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ZW3D CAD/CAM",
+              "item": "https://centralcad.id/zw3d"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Daftar Harga Lisensi ZW3D",
+              "item": "https://centralcad.id/harga-zw3d"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "@id": "https://centralcad.id/harga-zw3d/#product",
+          "name": "Software ZW3D CAD/CAM Indonesia",
+          "description": "Software All-in-One 3D CAD/CAM berlisensi permanen resmi di Indonesia untuk perancangan produk 3D, cetakan mold/die, serta pemrograman CNC milling dan turning 2-5 Axis.",
+          "brand": {
+            "@type": "Brand",
+            "name": "ZWSOFT"
+          },
+          "category": "Design & Engineering Software",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "ZW3D Lite (3D CAD Part Modeling)",
+              "price": "54750000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "ZW3D Standard (CAD Lanjutan, Sheet Metal, FEA Basic)",
+              "price": "82125000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "ZW3D Professional (Desain Cetakan Mold & Die, Elektrode)",
+              "price": "127750000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "ZW3D Advanced (Desain Mesin Otomasi, Kinematika, Harness)",
+              "price": "136875000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "ZW3D 2-Axis Machining (Integrated CAD/CAM 2-Axis)",
+              "price": "63875000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "ZW3D 3-Axis Machining (Integrated CAD/CAM 3-Axis QuickMill)",
+              "price": "109500000",
+              "priceCurrency": "IDR",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://centralcad.id/harga-zw3d",
+              "seller": {
+                "@type": "Organization",
+                "name": "Central CAD Indonesia",
+                "url": "https://centralcad.id"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://centralcad.id/harga-zw3d/#faq",
+          "mainEntity": faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": f.a
+            }
+          }))
+        }
+      ]
+    })} />
   </Fragment>
 
   <Navbar active="zw3d" hargaHref="/harga-zw3d" />
 
   <div class="ov-page zw3d-price">
 
+    <!-- ================== BREADCRUMB ================== -->
+    <div class="zw3d-crumb-container">
+      <nav aria-label="Breadcrumb" class="zw3d-crumb">
+        <a href="/">Beranda</a>
+        <span class="sep">/</span>
+        <a href="/zw3d">ZW3D CAD/CAM</a>
+        <span class="sep">/</span>
+        <span class="active">Daftar Harga ZW3D</span>
+      </nav>
+    </div>
+
     <!-- ================== PRICING CARDS ================== -->
     <section class="kh-main">
       <div class="kh-inner">
-        <h1 class="kh-title k-size48 k-bold">Temukan Edisi ZW3D yang Tepat untuk Bisnis Anda</h1>
+        <h1 class="kh-title k-size48 k-bold">Daftar Harga Lisensi ZW3D Resmi di Indonesia</h1>
         <div class="kh-des k-size16">
-          <span class="k-blue">Lisensi Permanen</span> — bayar sekali, miliki selamanya.<br />
-          <span class="k-blue">Upgrade Fleksibel</span> — pindah ke versi terbaru kapan pun Anda siap.
+          <span class="k-blue">Lisensi Permanen (Perpetual)</span> — Satu kali investasi untuk kepemilikan seumur hidup tanpa biaya langganan tahunan.<br />
+          <span class="k-blue">Reseller Resmi ZW3D Indonesia</span> — Dilengkapi Faktur Pajak PPN 11%, garansi keaslian, pelatihan, dan dukungan teknis lokal PT Hetra Teknologi Indonesia.
         </div>
 
         <div class="kh-list">
@@ -148,12 +471,12 @@ const clients = [
         </div>
 
         <div class="kh-notice">
-          <p class="kh-notice-title"><strong>Catatan</strong></p>
-          <p>1. Harga di atas adalah lisensi permanen (perpetual) dan sudah termasuk maintenance tahun pertama.</p>
-          <p>2. Nilai Rupiah dikonversi dari MSRP resmi USD memakai kurs acuan <strong>Rp 18.250/USD</strong>. Harga final mengikuti kurs berjalan saat invoice diterbitkan.</p>
-          <p>3. Harga eceran lokal dan kebijakan upgrade dapat berbeda per wilayah. Tersedia penawaran non-komersial untuk mahasiswa dan institusi pendidikan — <a class="k-bold" href={WA} target="_blank" rel="noopener noreferrer">hubungi tim sales kami</a> sebagai reseller resmi ZW3D di Indonesia.</p>
-          <p>4. Belum termasuk pelatihan dan dukungan teknis tambahan di luar paket standar.</p>
-          <p>5. Harga adalah MSRP (Manufacturer Suggested Retail Price) dan belum termasuk PPN 11%. Harga bersifat informatif; ZWSOFT berhak mengubah MSRP sewaktu-waktu tanpa pemberitahuan.</p>
+          <p class="kh-notice-title"><strong>Catatan & Ketentuan Pembelian Lisensi ZW3D</strong></p>
+          <p>1. <strong>Lisensi Permanen (Perpetual):</strong> Hak milik seumur hidup tanpa kewajiban biaya langganan sewa tahunan berulang. Paket pembelian baru sudah termasuk pemeliharaan dan update versi selama tahun pertama.</p>
+          <p>2. <strong>Kurs & Estimasi Harga:</strong> Nilai Rupiah dikonversi dari MSRP resmi USD memakai kurs acuan <strong>Rp 18.250/USD</strong>. Harga final mengikuti kurs acuan Bank Indonesia saat invoice pengadaan diterbitkan.</p>
+          <p>3. <strong>Pajak & Legalitas Perusahaan:</strong> Harga tercantum adalah MSRP dan belum termasuk PPN 11%. PT Hetra Teknologi Indonesia merupakan Pengusaha Kena Pajak (PKP) resmi dan menerbitkan Faktur Pajak PPN 11% sah untuk setiap transaksi korporat.</p>
+          <p>4. <strong>Lisensi Pendidikan:</strong> Tersedia skema lisensi non-komersial khusus untuk mahasiswa, dosen, politeknik, dan universitas di Indonesia — <a class="k-bold" href={WA} target="_blank" rel="noopener noreferrer">hubungi tim edukasi kami</a>.</p>
+          <p>5. <strong>Pelatihan & Implementasi:</strong> Layanan on-site training drafter, kustomisasi template gambar kerja, dan uji coba post-processor mesin CNC tersedia sesuai paket kontrak pengadaan.</p>
         </div>
       </div>
     </section>
@@ -166,7 +489,9 @@ const clients = [
           {[0, 1].map(() => (
             <div class="pb-list">
               {clients.map((c) => (
-                <div class="pb-item"><img src={c.src} alt={c.alt} class="pb-logo" loading="lazy" /></div>
+                <div class="pb-item">
+                  <img src={c.src} alt={c.alt} class="pb-logo" loading="lazy" width="136" height="67" />
+                </div>
               ))}
             </div>
           ))}
@@ -176,18 +501,176 @@ const clients = [
 
     <!-- ================== COMPARISON TABLE ================== -->
     <div class="ki-section">
-      <h2 class="ki-title k-size40 k-bold">Bandingkan Versi &amp; Fitur</h2>
+      <h2 class="ki-title k-size40 k-bold">Bandingkan Fitur Lengkap Setiap Edisi ZW3D</h2>
+      <p class="zw3d-table-subtitle">Lihat perbandingan modul pemodelan 3D, sheet metal, mold design, perakitan mesin, dan modul CAM CNC di bawah ini.</p>
       <div set:html={tableHtml} />
     </div>
+
+    <!-- ================== EDITION GUIDE SECTION ================== -->
+    <section class="zw3d-guide-section" id="panduan-edisi">
+      <div class="zw3d-container">
+        <div class="zw3d-section-header">
+          <span class="zw3d-badge">PANDUAN PEMILIHAN EDISI</span>
+          <h2 class="zw3d-section-title">Panduan Memilih Edisi ZW3D Sesuai Kebutuhan Industri Anda</h2>
+          <p class="zw3d-section-desc">
+            Setiap edisi ZW3D dirancang secara modular agar investasi software selaras dengan kebutuhan spesifik divisi perancangan, permesinan, dan manufaktur perusahaan Anda.
+          </p>
+        </div>
+
+        <div class="zw3d-guide-grid">
+          {editionGuides.map((guide) => (
+            <div class="zw3d-guide-card">
+              <div class="zw3d-guide-header">
+                <span class="zw3d-guide-badge">{guide.badge}</span>
+                <h3 class="zw3d-guide-title">{guide.name}</h3>
+                <p class="zw3d-guide-summary">{guide.summary}</p>
+              </div>
+
+              <div class="zw3d-guide-body">
+                <h4 class="zw3d-guide-points-title">Kapabilitas Utama:</h4>
+                <ul class="zw3d-guide-points">
+                  {guide.points.map((pt) => (
+                    <li>
+                      <svg class="zw3d-check-icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                      <span>{pt}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div class="zw3d-guide-footer">
+                <span class="zw3d-target-label">Rekomendasi Pengguna:</span>
+                <p class="zw3d-target-text">{guide.target}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== VALUE PILLARS SECTION ================== -->
+    <section class="zw3d-pillars-section">
+      <div class="zw3d-container">
+        <div class="zw3d-section-header">
+          <span class="zw3d-badge">VALUE PROPOSITION</span>
+          <h2 class="zw3d-section-title">Mengapa Memilih Lisensi Permanen ZW3D dari Central CAD?</h2>
+          <p class="zw3d-section-desc">
+            Keputusan cerdas bagi direktur teknis, manajer engineering, dan tim pengadaan yang menginginkan efisiensi anggaran jangka panjang dan kepastian hukum lisensi.
+          </p>
+        </div>
+
+        <div class="zw3d-pillars-grid">
+          {valuePillars.map((p) => (
+            <div class="zw3d-pillar-card">
+              <div class="zw3d-pillar-icon-box">
+                {p.icon === 'shield' && (
+                  <svg class="zw3d-pillar-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                )}
+                {p.icon === 'cube' && (
+                  <svg class="zw3d-pillar-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                  </svg>
+                )}
+                {p.icon === 'sync' && (
+                  <svg class="zw3d-pillar-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                  </svg>
+                )}
+                {p.icon === 'support' && (
+                  <svg class="zw3d-pillar-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                )}
+              </div>
+              <h3 class="zw3d-pillar-title">{p.title}</h3>
+              <p class="zw3d-pillar-desc">{p.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== FAQ SECTION ================== -->
+    <section class="zw3d-faq-section" id="faq">
+      <div class="zw3d-container">
+        <div class="zw3d-section-header">
+          <span class="zw3d-badge">TANYA JAWAB</span>
+          <h2 class="zw3d-section-title">Pertanyaan yang Sering Diajukan Seputar Lisensi & Harga ZW3D</h2>
+          <p class="zw3d-section-desc">
+            Informasi lengkap mengenai skema lisensi, keabsahan faktur pajak PPN 11%, dukungan teknis, dan prosedur pengadaan.
+          </p>
+        </div>
+
+        <div class="zw3d-faq-wrap">
+          {faqs.map((faq, idx) => (
+            <details class="zw3d-faq-item" open={idx === 0}>
+              <summary class="zw3d-faq-question">
+                <span>{faq.q}</span>
+                <span class="zw3d-faq-arrow">
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="zw3d-faq-answer">
+                <p>{faq.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+
+        <div class="zw3d-faq-footer">
+          <p class="zw3d-faq-footer-text">Butuh penjelasan spesifik atau proposal resmi untuk pengadaan tim Anda?</p>
+          <a href={WA} target="_blank" rel="noopener noreferrer" class="zw3d-faq-wa-btn">
+            Konsultasikan via WhatsApp (Respon Cepat)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== INTERNAL LINKS / RESOURCES SECTION ================== -->
+    <section class="zw3d-links-section">
+      <div class="zw3d-container">
+        <div class="zw3d-section-header">
+          <span class="zw3d-badge">SUMBER DAYA & PANDUAN</span>
+          <h2 class="zw3d-section-title">Panduan & Referensi Edukasi Terkait ZW3D</h2>
+          <p class="zw3d-section-desc">
+            Pelajari komparasi fitur, tutorial teknis CAD/CAM, dan analisis efisiensi investasi software manufaktur dari tim spesialis Central CAD.
+          </p>
+        </div>
+
+        <div class="zw3d-links-grid">
+          {relatedGuides.map((guide) => (
+            <a href={guide.href} class="zw3d-link-card">
+              <span class="zw3d-link-category">{guide.category}</span>
+              <h3 class="zw3d-link-title">{guide.title}</h3>
+              <p class="zw3d-link-desc">{guide.desc}</p>
+              <div class="zw3d-link-action">
+                <span>Baca Selengkapnya</span>
+                <svg class="zw3d-link-arrow" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
 
     <!-- ================== BOTTOM CTA ================== -->
     <div class="pe-main">
       <div class="pe-inner">
         <div class="pe-box" style="background-image: url('/assets/zw3d-pricing/pc-bg.jpg');">
           <div class="pe-text">
-            <div class="pe-tit p-bold">Butuh bantuan memilih edisi?</div>
-            <div class="pe-des">Tim engineer kami siap membantu memetakan kebutuhan modul dan jumlah seat tim Anda, lalu menyusun penawaran resmi lengkap dengan faktur pajak.</div>
-            <a class="pe-btn p-bold" href={WA} target="_blank" rel="noopener noreferrer">Hubungi Sales</a>
+            <div class="pe-tit p-bold">Konsultasikan Lisensi ZW3D dengan Tim Engineer Kami</div>
+            <div class="pe-des">
+              Bingung menentukan edisi mana yang paling efisien untuk lini produksi Anda? Tim application engineer Central CAD siap memberikan demonstrasi teknis langsung, uji kompatibilitas file, dan penawaran resmi berfaktur pajak PPN 11%.
+            </div>
+            <a class="pe-btn p-bold" href={WA} target="_blank" rel="noopener noreferrer">Hubungi Sales Resmi</a>
           </div>
         </div>
       </div>
@@ -202,9 +685,37 @@ const clients = [
   /* ===== Netralkan gaya global situs agar visual mengikuti halaman sumber ===== */
   .zw3d-price { background: #fff; }
   .zw3d-price ul { list-style: none; margin: 0; padding: 0; }
-  .zw3d-price h1, .zw3d-price h2, .zw3d-price h3 { letter-spacing: normal; }
+  .zw3d-price h1, .zw3d-price h2, .zw3d-price h3, .zw3d-price h4 { letter-spacing: normal; }
   .zw3d-price a { text-decoration: none; }
   .zw3d-price p { margin: 0 0 4px; }
+
+  /* ===== Breadcrumbs ===== */
+  .zw3d-crumb-container {
+    width: 1400px;
+    max-width: 92%;
+    margin: 20px auto 0;
+  }
+  .zw3d-crumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #64748b;
+  }
+  .zw3d-crumb a {
+    color: #475569;
+    transition: color 0.2s;
+  }
+  .zw3d-crumb a:hover {
+    color: #005BFE;
+  }
+  .zw3d-crumb .sep {
+    color: #cbd5e1;
+  }
+  .zw3d-crumb .current {
+    color: #0f172a;
+    font-weight: 600;
+  }
 
   /* Harga Rupiah lebih panjang dari USD — kecilkan agar tetap satu baris */
   .zw3d-price .kh-num-idr { font-size: 26px !important; white-space: nowrap; letter-spacing: -0.5px; }
@@ -221,14 +732,25 @@ const clients = [
   .zw3d-price .kh-word { font-size: 11px; width: 76px; height: 26px; left: 17px; top: 16px; line-height: 1.1; }
 
   /* Catatan harga: beri jarak antar butir */
-  .zw3d-price .kh-notice { padding-top: 18px; font-size: 12.5px; line-height: 1.6; }
+  .zw3d-price .kh-notice { padding-top: 18px; font-size: 13px; line-height: 1.6; }
   .zw3d-price .kh-notice p { margin: 0 0 8px; }
   .zw3d-price .kh-notice-title { margin-bottom: 10px !important; letter-spacing: .2px; text-transform: uppercase; }
 
   /* Header tabel sticky: latar solid agar tidak tembus pandang */
   .zw3d-price .ki-hd-wrap.fixed { background-color: #F4F6FD !important; box-shadow: 0 6px 16px rgba(15, 23, 42, .06); }
 
-  /* ===== Marquee klien (pengganti script asli) ===== */
+  /* Subtitle tabel perbandingan */
+  .zw3d-table-subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 15px;
+    margin: 0 auto 32px;
+    max-width: 780px;
+    padding: 0 16px;
+    line-height: 1.5;
+  }
+
+  /* ===== Marquee klien ===== */
   .zw3d-price .pb-main { width: 100%; padding: 0; margin: 0 0 84px; background: #fff; }
   .zw3d-price .pb-title {
     font-size: 36px; font-weight: 600; color: #222; text-align: center;
@@ -265,7 +787,7 @@ const clients = [
   }
   .zw3d-price .ki-hd-wrap.fixed { top: 81px; }
 
-  /* Tombol "Unduh PDF" memakai kelas .pc-btn dari stylesheet lain */
+  /* Tombol "Unduh PDF" */
   .zw3d-price .pc-btn {
     display: inline-block; line-height: 38px; padding: 0 16px; border-radius: 8px;
     background: #005BFE; color: #fff !important; font-family: notosansbold, sans-serif; font-weight: 700;
@@ -279,11 +801,405 @@ const clients = [
   }
   .zw3d-price .pc-one.gray { color: #9aa4b2; }
 
-  /* Tombol unduh & kontrol tabel di layar kecil */
   @media (max-width: 992px) {
     .zw3d-price .pc-btn { display: block; width: 100%; padding: 8px 6px; font-size: 12.5px; line-height: 1.35; }
     .zw3d-price .pc-btns { margin-top: 8px; text-align: center; }
     .zw3d-price .pc-one { font-size: 12px; padding: 0 4px; line-height: 22px; }
+  }
+
+  /* ===== Shared Styling for New Sections ===== */
+  .zw3d-container {
+    width: 1400px;
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 0 8px;
+  }
+  .zw3d-section-header {
+    text-align: center;
+    max-width: 820px;
+    margin: 0 auto 48px;
+  }
+  .zw3d-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #005BFE;
+    background: rgba(0, 91, 254, 0.08);
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+  .zw3d-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.25;
+    margin: 0 0 16px;
+  }
+  .zw3d-section-desc {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ===== 1. Edition Guide Grid ===== */
+  .zw3d-guide-section {
+    padding: 96px 0 80px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .zw3d-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .zw3d-guide-card {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .zw3d-guide-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -4px rgba(15, 23, 42, 0.08);
+    border-color: #cbd5e1;
+  }
+  .zw3d-guide-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #005BFE;
+    background: #eff6ff;
+    padding: 3px 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  .zw3d-guide-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 10px;
+  }
+  .zw3d-guide-summary {
+    font-size: 13.5px;
+    color: #475569;
+    line-height: 1.55;
+    margin: 0 0 20px;
+    min-height: 42px;
+  }
+  .zw3d-guide-body {
+    border-top: 1px dashed #e2e8f0;
+    padding-top: 16px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+  .zw3d-guide-points-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+    margin: 0 0 10px;
+  }
+  .zw3d-guide-points {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .zw3d-guide-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    color: #1e293b;
+    line-height: 1.45;
+  }
+  .zw3d-check-icon {
+    width: 16px;
+    height: 16px;
+    color: #005BFE;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .zw3d-guide-footer {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #edf2f7;
+    margin-top: auto;
+  }
+  .zw3d-target-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #005BFE;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+  .zw3d-target-text {
+    font-size: 12px;
+    color: #475569;
+    line-height: 1.45;
+    margin: 0;
+  }
+
+  /* ===== 2. Value Pillars Section ===== */
+  .zw3d-pillars-section {
+    padding: 96px 0;
+    background: #ffffff;
+  }
+  .zw3d-pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .zw3d-pillar-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px 24px;
+    transition: all 0.2s;
+  }
+  .zw3d-pillar-card:hover {
+    border-color: #005BFE;
+    box-shadow: 0 8px 20px rgba(0, 91, 254, 0.08);
+  }
+  .zw3d-pillar-icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: #eff6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #005BFE;
+  }
+  .zw3d-pillar-svg {
+    width: 28px;
+    height: 28px;
+  }
+  .zw3d-pillar-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.3;
+    margin: 0 0 12px;
+  }
+  .zw3d-pillar-desc {
+    font-size: 13.5px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ===== 3. FAQ Section ===== */
+  .zw3d-faq-section {
+    padding: 96px 0;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+  }
+  .zw3d-faq-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .zw3d-faq-item {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  .zw3d-faq-item[open] {
+    border-color: #93c5fd;
+    box-shadow: 0 4px 12px rgba(0, 91, 254, 0.06);
+  }
+  .zw3d-faq-question {
+    padding: 20px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    user-select: none;
+  }
+  .zw3d-faq-question::-webkit-details-marker {
+    display: none;
+  }
+  .zw3d-faq-arrow {
+    width: 24px;
+    height: 24px;
+    color: #64748b;
+    flex-shrink: 0;
+    margin-left: 16px;
+    transition: transform 0.2s;
+  }
+  .zw3d-faq-item[open] .zw3d-faq-arrow {
+    transform: rotate(180deg);
+    color: #005BFE;
+  }
+  .zw3d-faq-answer {
+    padding: 0 24px 20px;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 16px;
+  }
+  .zw3d-faq-answer p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .zw3d-faq-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .zw3d-faq-footer-text {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 14px;
+  }
+  .zw3d-faq-wa-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #005BFE;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 91, 254, 0.25);
+    transition: all 0.2s;
+  }
+  .zw3d-faq-wa-btn:hover {
+    background: #004ecc;
+    transform: translateY(-2px);
+  }
+
+  /* ===== 4. Internal Links / Resources ===== */
+  .zw3d-links-section {
+    padding: 96px 0;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+  }
+  .zw3d-links-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .zw3d-link-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .zw3d-link-card:hover {
+    border-color: #005BFE;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 91, 254, 0.08);
+  }
+  .zw3d-link-category {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #005BFE;
+    margin-bottom: 8px;
+  }
+  .zw3d-link-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.4;
+    margin: 0 0 10px;
+    transition: color 0.2s;
+  }
+  .zw3d-link-card:hover .zw3d-link-title {
+    color: #005BFE;
+  }
+  .zw3d-link-desc {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.55;
+    margin: 0 0 20px;
+    flex-grow: 1;
+  }
+  .zw3d-link-action {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #005BFE;
+    margin-top: auto;
+  }
+  .zw3d-link-arrow {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s;
+  }
+  .zw3d-link-card:hover .zw3d-link-arrow {
+    transform: translateX(4px);
+  }
+
+  /* ===== Responsive Breakpoints for New Sections ===== */
+  @media (max-width: 1200px) {
+    .zw3d-guide-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .zw3d-pillars-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .zw3d-links-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .zw3d-section-title {
+      font-size: 26px;
+    }
+    .zw3d-guide-grid {
+      grid-template-columns: 1fr;
+    }
+    .zw3d-pillars-grid {
+      grid-template-columns: 1fr;
+    }
+    .zw3d-links-grid {
+      grid-template-columns: 1fr;
+    }
+    .zw3d-guide-section,
+    .zw3d-pillars-section,
+    .zw3d-faq-section,
+    .zw3d-links-section {
+      padding: 60px 0;
+    }
+    .zw3d-faq-question {
+      font-size: 14.5px;
+      padding: 16px 18px;
+    }
+    .zw3d-faq-answer {
+      padding: 0 18px 16px;
+    }
   }
 </style>
 
