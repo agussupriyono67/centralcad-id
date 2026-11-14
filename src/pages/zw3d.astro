@@ -215,12 +215,74 @@ const reviews = [
 ---
 
 <Layout
-  title="ZW3D CAD/CAM Indonesia — Software 3D Engineering untuk Desain Mesin, Mold & CNC"
-  description="ZW3D: software 3D CAD/CAE/CAM terintegrasi untuk produsen mesin dan manufaktur presisi di Indonesia. Hybrid Modeling, assembly besar, drawing asosiatif, simulasi, dan CAM 2-5 axis dalam satu platform. Lisensi permanen resmi PT Hetra Teknologi Indonesia."
+  title="ZW3D CAD/CAM Indonesia — Software Desain Mesin, Mold & CNC | Central CAD"
+  description="Software ZW3D CAD/CAE/CAM terintegrasi di Indonesia untuk desain mesin, mold cetakan, dan CNC 2-5 axis. Lisensi permanen resmi PT Hetra Teknologi Indonesia."
+  canonical="https://centralcad.id/zw3d"
 >
   <Fragment slot="head">
     <link rel="stylesheet" href="/assets/zw3d-ov/page.css" />
     <link rel="stylesheet" href="/assets/zw3d-ov/extra.css" />
+
+    <!-- Schema.org SoftwareApplication, Breadcrumbs & FAQ Structured Data -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://centralcad.id/zw3d/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Beranda",
+              "item": "https://centralcad.id/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ZW3D CAD/CAM Indonesia",
+              "item": "https://centralcad.id/zw3d"
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://centralcad.id/zw3d/#software",
+          "name": "ZW3D 2026",
+          "operatingSystem": "Windows 11, Windows 10 (64-bit)",
+          "applicationCategory": "DesignApplication",
+          "softwareVersion": "2026",
+          "description": "Software all-in-one 3D CAD/CAE/CAM terintegrasi untuk desain mesin, perancangan cetakan mold injeksi & die, serta pemrograman CNC milling/turning 2-5 Axis.",
+          "downloadUrl": TRIAL,
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "IDR",
+            "lowPrice": "40000000",
+            "highPrice": "150000000",
+            "availability": "https://schema.org/InStock",
+            "url": "https://centralcad.id/harga-zw3d"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Central CAD Indonesia",
+            "alternateName": "PT Hetra Teknologi Indonesia",
+            "url": "https://centralcad.id"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://centralcad.id/zw3d/#faq",
+          "mainEntity": faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": f.a
+            }
+          }))
+        }
+      ]
+    })} />
   </Fragment>
 
   <Navbar active="zw3d" hargaHref="/harga-zw3d" />
@@ -235,7 +297,10 @@ const reviews = [
       <div class="ov-herotext">
         <div class="ov-herobox">
           <span class="ov-kicker d-bold">INTEGRATED CAD · CAE · CAM · PDM</span>
-          <h1 class="ov-herotitles d-bold">Rekayasa Terhubung.<br />Dibangun untuk <span class="ov-hl d-bold">Mesin.</span></h1>
+          <h1 class="ov-herotitles d-bold">
+            <span class="block text-blue-400 text-lg sm:text-2xl font-bold mb-2 tracking-normal">ZW3D CAD/CAM INDONESIA</span>
+            Rekayasa Terhubung.<br />Dibangun untuk <span class="ov-hl d-bold">Mesin &amp; Manufaktur.</span>
+          </h1>
           <p class="ov-herotextbox">
             Bergerak dari konsep mesin menuju produksi di ZW3D — desain, validasi, manufaktur, dan data engineering bekerja dalam satu lingkungan yang terhubung.
           </p>
@@ -549,7 +614,7 @@ const reviews = [
               <div class="swiper-slide">
                 <div class="ov-data-box">
                   <a href={WA} target="_blank" rel="noopener noreferrer">
-                    <img class="ov-data-img" src={s.img} alt="" loading="lazy" />
+                    <img class="ov-data-img" src={s.img} alt={`Studi kasus ZW3D: ${s.company} (${s.label})`} loading="lazy" />
                     <div class="ov-data-body">
                       <div class="ov-data-stat d-manrope">{s.stat}</div>
                       <h3 class="d-bold">{s.label}</h3>
@@ -600,7 +665,7 @@ const reviews = [
                     <div class="swiper-slide dk-item">
                       <div class="dk-link">
                         <div class="dk-top">
-                          <div class="dk-img"><img src="/assets/zw3d-ov/rd_person4.png" alt="" loading="lazy" /></div>
+                          <div class="dk-img"><img src="/assets/zw3d-ov/rd_person4.png" alt={`Ulasan ZW3D oleh ${r.name} (${r.role})`} loading="lazy" /></div>
                           <div class="dk-text">
                             <div class="dk-name d-bold">{r.name}</div>
                             <div class="dk-pro">{r.role}</div>
@@ -710,6 +775,62 @@ const reviews = [
       </div>
     </section>
     <!-- faq end -->
+
+    <!-- ZW3D Blog Silo Section start -->
+    <section class="ov-sec" style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 64px 0;">
+      <div class="ov-wrap">
+        <div class="ov-sec-head" style="margin-bottom: 36px;">
+          <span class="ov-kicker d-bold">PANDUAN &amp; KOMPARASI TEKNIS</span>
+          <h2 class="ov-title d-bold">Artikel &amp; Panduan Rekayasa ZW3D Terkait</h2>
+          <p class="ov-desc">Pelajari komparasi fitur, optimasi modul CAM, dan efisiensi biaya lisensi permanen ZW3D untuk industri manufaktur Anda.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+          <a href="/blog/harga-zw3d-cad-cam-solusi-manufaktur-cnc-mold" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Skema Lisensi</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">Daftar Harga &amp; Skema Lisensi ZW3D CAD/CAM di Indonesia</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Rincian paket ZW3D Mini, Standard, Professional, hingga Premium 2-5 Axis dengan lisensi permanen sekali bayar.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+
+          <a href="/blog/zw3d-vs-fusion-360-biaya-lisensi-cam-manufaktur-indonesia" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Komparasi Software</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">ZW3D vs Fusion 360: Komparasi Biaya Lisensi CAM Manufaktur</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Perbandingan biaya kepemilikan total (TCO), stabilitas pemodelan hybrid, dan kemampuan offline permesinan CNC.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+
+          <a href="/blog/zw3d-vs-autodesk-inventor-komparasi-biaya-cad-cam-sheet-metal" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Komparasi Software</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">ZW3D vs Autodesk Inventor: Analisis Biaya CAD/CAM &amp; Sheet Metal</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Evaluasi modul sheet metal, assembly mesin besar, dan integrasi CAM tanpa perlu plugin pihak ketiga.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+
+          <a href="/blog/zw3d-fast-mold-otomasi-desain-cetakan-injeksi-plastik" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Desain Cetakan</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">ZW3D Fast Mold: Otomasi Desain Cetakan Injeksi Plastik &amp; Die</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Pemisahan core &amp; cavity otomatis, standar mold base internasional (DME, Hasco, Futaba), dan runner design.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+
+          <a href="/blog/zw3d-5-axis-cnc-machining-pemesinan-presisi-kompleks" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Permesinan CNC</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">ZW3D 5-Axis CNC Machining: Pemesinan Presisi Komponen Kompleks</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Strategi milling simultan 5-axis untuk impeller, blade, dan die casting dengan simulasi tabrakan solid.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+
+          <a href="/blog/zw3d-cam-untuk-manufaktur-indonesia-cnc-milling-turning" style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
+            <span style="font-size: 11px; font-weight: 700; color: #005BFE; text-transform: uppercase; margin-bottom: 8px;">Workshop Produksi</span>
+            <h3 class="d-bold" style="font-size: 16px; margin-bottom: 8px; color: #0f172a; line-height: 1.4;">ZW3D CAM untuk Manufaktur Indonesia: Solusi CNC Milling &amp; Turning</h3>
+            <p style="font-size: 13px; color: #64748b; line-height: 1.5; margin-bottom: 16px; flex-grow: 1;">Penyederhanaan alur pemrograman operator CNC dengan post-processor siap pakai untuk beragam kontroler mesin.</p>
+            <span style="font-size: 13px; font-weight: 700; color: #005BFE;">Baca Panduan &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ZW3D Blog Silo Section end -->
 
     <!-- final cta start -->
     <section class="ov-cta">
