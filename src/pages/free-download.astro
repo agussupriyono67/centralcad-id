@@ -3,89 +3,252 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import TrialFormSection from '../components/TrialFormSection.astro';
+
+const downloadUrl = "https://hetra.orderonline.id/centralcadid";
 ---
 
 <Layout
-  title="Download Free Trial ZWCAD 2026 & ZW3D — Evaluasi Resmi 30 Hari"
-  description="Download gratis installer resmi ZWCAD 2026 64-bit dan ZW3D. Evaluasi seluruh fitur drafting 2D/3D tanpa batasan selama 30 hari."
+  title="ZWCAD Download Resmi 2026 (64-Bit) — Free Trial 30 Hari Full Version"
+  description="ZWCAD Download resmi versi 2026 terbaru 64-bit untuk Windows. Dapatkan installer offline trial 30 hari full fitur, 100% kompatibel DWG, tanpa watermark. Unduh gratis di Central CAD Indonesia."
+  canonical="https://centralcad.id/free-download"
 >
+  <Fragment slot="head">
+    <!-- Schema.org SoftwareApplication, Breadcrumb & FAQ Structured Data -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://centralcad.id/free-download/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Beranda",
+              "item": "https://centralcad.id/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ZWCAD Download Resmi 2026",
+              "item": "https://centralcad.id/free-download"
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://centralcad.id/free-download/#zwcad2026",
+          "name": "ZWCAD 2026",
+          "operatingSystem": "Windows 11, Windows 10 (64-bit)",
+          "applicationCategory": "DesignApplication",
+          "softwareVersion": "2026",
+          "fileSize": "550 MB",
+          "downloadUrl": downloadUrl,
+          "description": "Software CAD profesional 2D/3D alternatif terbaik dengan lisensi seumur hidup permanen, 100% native DWG, lebih ringan dan hemat biaya hingga 70%.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock",
+            "description": "Free Trial 30 Hari Full Version Tanpa Watermark"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Central CAD Indonesia",
+            "url": "https://centralcad.id"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://centralcad.id/free-download/#zw3d2026",
+          "name": "ZW3D 2026",
+          "operatingSystem": "Windows 11, Windows 10 (64-bit)",
+          "applicationCategory": "DesignApplication",
+          "softwareVersion": "2026",
+          "fileSize": "2.1 GB",
+          "downloadUrl": downloadUrl,
+          "description": "All-in-one 3D CAD/CAM software untuk pemodelan solid-surface, perancangan cetakan mold, dan pemrograman CNC 2-5 Axis.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock",
+            "description": "Free Trial 30 Hari Full Fitur CAD/CAM"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Central CAD Indonesia",
+            "url": "https://centralcad.id"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://centralcad.id/free-download/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Bagaimana cara melakukan ZWCAD Download 2026 versi gratis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Anda dapat mengunduh installer resmi ZWCAD 2026 64-bit secara gratis dengan mengeklik tombol 'Unduh Installer ZWCAD 2026' di halaman ini. Link installer offline (~550 MB) langsung dikirimkan ke email Anda."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Berapa lama masa aktif free trial ZWCAD 2026?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Masa aktif evaluasi trial ZWCAD adalah 30 hari penuh. Seluruh fitur 2D drafting dan 3D modeling terbuka 100% tanpa watermark pada hasil print/plot gambar DWG Anda."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apa spesifikasi minimum komputer/laptop untuk menjalankan ZWCAD 2026?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spesifikasi minimum: OS Windows 10/11 (64-bit), prosesor Intel Core i3 / AMD multi-core @2.0GHz, RAM minimal 4 GB (disarankan 8 GB atau 16 GB), dan ruang penyimpanan kosong 2 GB SSD."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah file gambar AutoCAD (.DWG) bisa langsung dibuka setelah ZWCAD didownload?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, 100% kompatibel langsung. ZWCAD membaca dan menyimpan file dalam format native .DWG dan .DXF dari versi R14 hingga 2026 tanpa perlu konversi, pergeseran font, atau kerusakan layer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apa yang terjadi setelah masa uji coba 30 hari ZWCAD selesai?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Setelah 30 hari, ZWCAD tetap berfungsi sebagai DWG viewer gratis. Anda dapat melakukan aktivasi lisensi seumur hidup permanen (perpetual) kapan saja tanpa perlu menginstal ulang software."
+              }
+            }
+          ]
+        }
+      ]
+    })} />
+  </Fragment>
+
   <Navbar active="trial" />
 
   <main>
-    <!-- Header -->
+    <!-- Header Hero -->
     <section class="py-16 bg-slate-900 text-white text-center">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-        <span class="badge-tag bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-          TRIAL EVALUASI RESMI
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+          ZWCAD DOWNLOAD RESMI • FREE TRIAL 30 HARI
         </span>
-        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-          Download Installer ZWCAD 2026 &amp; ZW3D
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-['Plus_Jakarta_Sans']">
+          ZWCAD Download Resmi 2026 (64-Bit)
         </h1>
-        <p class="text-slate-300 text-base max-w-2xl mx-auto">
-          Coba gratis selama 30 hari dengan akses fitur penuh (Full Version). Uji coba kecepatan buka file DWG Anda dan rasakan kemudahan transisinya.
+        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          Unduh installer offline resmi ZWCAD 2026 dan ZW3D untuk Windows. Uji coba seluruh fitur drafting 2D &amp; pemodelan 3D tanpa batasan selama 30 hari — 100% kompatibel format .DWG tanpa watermark.
         </p>
       </div>
     </section>
 
     <!-- Download Cards Grid -->
-    <section class="py-16 bg-slate-50">
+    <section class="py-16 bg-slate-50" id="download-cards">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            Pilih Installer Software CAD/CAM Anda
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Seluruh paket installer telah diverifikasi resmi oleh ZWSOFT. Bersih dari malware, stabil, dan siap pakai.
+          </p>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           
           <!-- Card 1: ZWCAD 2026 -->
-          <div class="cad-card p-8 flex flex-col justify-between">
+          <div class="cad-card p-8 flex flex-col justify-between bg-white rounded-2xl border-2 border-blue-600 shadow-lg relative">
+            <div class="absolute -top-3 right-6 bg-blue-600 text-white text-[11px] font-extrabold px-3 py-1 rounded-full tracking-wider uppercase">
+              Paling Populer
+            </div>
+
             <div>
               <div class="flex items-center justify-between mb-4">
-                <img src="/assets/cadindonesia/logos/Logo-Zwcad.png" alt="ZWCAD 2026" class="h-8 w-auto" />
-                <span class="badge-tag bg-blue-100 text-blue-800">Versi Terbaru 2026</span>
+                <img src="/assets/cadindonesia/logos/Logo-Zwcad.png" alt="ZWCAD 2026" class="h-8 w-auto" width="140" height="32" />
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">
+                  Versi 2026 Terbaru
+                </span>
               </div>
 
-              <h2 class="text-2xl font-bold text-slate-900 mb-2">ZWCAD 2026 (64-Bit)</h2>
-              <p class="text-xs text-slate-600 mb-6">
-                Software CAD 2D/3D profesional dengan native format .DWG, antarmuka familiar, serta fitur otomasi pintar.
+              <h3 class="text-2xl font-bold text-slate-900 mb-2">ZWCAD 2026 (64-Bit)</h3>
+              <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+                Software CAD 2D/3D profesional alternatif terbaik AutoCAD dengan format native .DWG, antarmuka familiar, LISP/VBA API, dan performa super ringan.
               </p>
 
-              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-600 space-y-1.5 mb-6">
-                <p><strong>Ukuran File:</strong> ~550 MB</p>
-                <p><strong>OS Didukung:</strong> Windows 11 / 10 (64-bit)</p>
-                <p><strong>Masa Trial:</strong> 30 Hari Full Fitur</p>
-                <p><strong>Format:</strong> Standalone Offline Installer</p>
+              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-700 space-y-2 mb-6">
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Ukuran File:</span>
+                  <span class="font-bold text-slate-900">~550 MB</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Sistem Operasi:</span>
+                  <span class="font-bold text-slate-900">Windows 11 / 10 (64-Bit)</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Masa Evaluasi:</span>
+                  <span class="font-bold text-emerald-700">30 Hari Full Version</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500 font-medium">Watermark Print/Plot:</span>
+                  <span class="font-bold text-emerald-700">Tidak Ada (Bebas Watermark)</span>
+                </div>
               </div>
             </div>
 
             <a
-              href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer" class="btn-accent w-full text-center py-3.5 text-sm"
+              href={downloadUrl} target="_blank" rel="noopener noreferrer" class="btn-accent w-full text-center py-3.5 text-sm font-bold shadow-md hover:shadow-lg transition-all"
             >
-              Unduh Installer ZWCAD 2026
+              Unduh Installer ZWCAD 2026 &rarr;
             </a>
           </div>
 
           <!-- Card 2: ZW3D CAD/CAM -->
-          <div class="cad-card p-8 flex flex-col justify-between">
+          <div class="cad-card p-8 flex flex-col justify-between bg-white rounded-2xl border border-slate-200 shadow-md hover:border-slate-300 transition-all">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <img src="/assets/clients/Zw3d_Logo_White.webp" alt="ZW3D" class="h-6 w-auto filter invert" />
-                <span class="badge-tag bg-cyan-100 text-cyan-800">CAD + CAM</span>
+                <img src="/assets/clients/Zw3d_Logo_White.webp" alt="ZW3D" class="h-6 w-auto filter invert" width="120" height="24" />
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-100 text-cyan-800">
+                  CAD + CAM
+                </span>
               </div>
 
-              <h2 class="text-2xl font-bold text-slate-900 mb-2">ZW3D 2026 (64-Bit)</h2>
-              <p class="text-xs text-slate-600 mb-6">
-                Solusi all-in-one pemodelan 3D solid-surface, perancangan mold cetakan, dan pemrograman mesin CNC 2–5 Axis.
+              <h3 class="text-2xl font-bold text-slate-900 mb-2">ZW3D 2026 (64-Bit)</h3>
+              <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+                Solusi all-in-one pemodelan 3D solid-surface hibrida, perancangan cetakan mold injeksi plastik, dan pemrograman mesin CNC milling/turning 2–5 Axis.
               </p>
 
-              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-600 space-y-1.5 mb-6">
-                <p><strong>Ukuran File:</strong> ~2.1 GB</p>
-                <p><strong>OS Didukung:</strong> Windows 11 / 10 (64-bit)</p>
-                <p><strong>Masa Trial:</strong> 30 Hari Full Fitur</p>
-                <p><strong>Modul:</strong> CAD, Mold, 2-5X Machining</p>
+              <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs text-slate-700 space-y-2 mb-6">
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Ukuran File:</span>
+                  <span class="font-bold text-slate-900">~2.1 GB</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Sistem Operasi:</span>
+                  <span class="font-bold text-slate-900">Windows 11 / 10 (64-Bit)</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-1.5">
+                  <span class="text-slate-500 font-medium">Masa Evaluasi:</span>
+                  <span class="font-bold text-emerald-700">30 Hari Full Version</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500 font-medium">Modul Terintegrasi:</span>
+                  <span class="font-bold text-slate-900">CAD, Fast Mold, 2-5X CNC</span>
+                </div>
               </div>
             </div>
 
             <a
-              href="https://hetra.orderonline.id/centralcadid" target="_blank" rel="noopener noreferrer" class="btn-primary w-full text-center py-3.5 text-sm"
+              href={downloadUrl} target="_blank" rel="noopener noreferrer" class="btn-primary w-full text-center py-3.5 text-sm font-bold shadow-md hover:shadow-lg transition-all"
             >
-              Unduh Installer ZW3D 2026
+              Unduh Installer ZW3D 2026 &rarr;
             </a>
           </div>
 
@@ -94,8 +257,199 @@ import TrialFormSection from '../components/TrialFormSection.astro';
       </div>
     </section>
 
+    <!-- SPESIFIKASI SISTEM (System Requirements) -->
+    <section class="py-16 bg-white border-t border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 mb-2">
+            HARDWARE COMPATIBILITY
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            Spesifikasi Minimum &amp; Rekomendasi Sistem ZWCAD 2026
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Pastikan komputer atau laptop drafter Anda memenuhi spesifikasi di bawah ini untuk performa drafting yang optimal.
+          </p>
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+          <table class="w-full text-left border-collapse min-w-[640px]">
+            <thead>
+              <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                <th class="py-3.5 px-5 w-1/4">Komponen</th>
+                <th class="py-3.5 px-5 w-3/8">Spesifikasi Minimum</th>
+                <th class="py-3.5 px-5 w-3/8 bg-blue-700 text-white">Spesifikasi Direkomendasikan</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Sistem Operasi</td>
+                <td class="py-3.5 px-5">Microsoft Windows 10 / 11 (64-bit)</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">Microsoft Windows 11 (64-bit)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Prosesor (CPU)</td>
+                <td class="py-3.5 px-5">Intel Core i3 / AMD multi-core @2.0 GHz</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">Intel Core i5 / i7 / Ryzen 5/7 @3.0 GHz atau lebih tinggi</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Memori (RAM)</td>
+                <td class="py-3.5 px-5">4 GB RAM</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">8 GB – 16 GB RAM (untuk file DWG besar &amp; 3D)</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Kartu Grafis (GPU)</td>
+                <td class="py-3.5 px-5">1 GB VRAM, mendukung DirectX 11</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">NVIDIA GeForce / Quadro atau AMD Radeon 4 GB+ VRAM</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Penyimpanan (Disk)</td>
+                <td class="py-3.5 px-5">2 GB ruang kosong di drive instalasi</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">SSD (Solid State Drive) dengan ruang kosong 4 GB+</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-5 font-bold text-slate-900">Resolusi Layar</td>
+                <td class="py-3.5 px-5">1024 x 768 True Color</td>
+                <td class="py-3.5 px-5 bg-blue-50/40 font-semibold text-slate-900">1920 x 1080 (FHD) atau 4K Ultra HD Display</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARA INSTALASI CEPAT -->
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 mb-2">
+            PANDUAN PRAKTIS
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            4 Langkah Mudah Download &amp; Instalasi ZWCAD
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Ikuti petunjuk praktis berikut untuk langsung memulai drafting 2D/3D di komputer Anda.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-extrabold flex items-center justify-center mb-4">
+              1
+            </div>
+            <h4 class="font-bold text-slate-900 text-base mb-2">Download File</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Klik tombol unduh installer di halaman ini dan terima link download instan paket installer resmi.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-extrabold flex items-center justify-center mb-4">
+              2
+            </div>
+            <h4 class="font-bold text-slate-900 text-base mb-2">Jalankan Setup</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Klik kanan pada file installer `.exe` yang telah diunduh, lalu pilih opsi <strong>Run as administrator</strong>.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-extrabold flex items-center justify-center mb-4">
+              3
+            </div>
+            <h4 class="font-bold text-slate-900 text-base mb-2">Instalasi Cepat</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Pilih folder instalasi dan klik "Install". Proses instalasi ZWCAD selesai hanya dalam 1–2 menit.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-extrabold flex items-center justify-center mb-4">
+              ✓
+            </div>
+            <h4 class="font-bold text-slate-900 text-base mb-2">Mulai Mendesain</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Buka aplikasi ZWCAD, klik opsi <strong>Trial 30 Hari</strong>, dan langsung buka file DWG Anda tanpa hambatan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION (On-Page Matching Schema) -->
+    <section class="py-16 bg-white border-t border-slate-200" id="faq">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 mb-2">
+            TANYA JAWAB
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+            Pertanyaan Seputar ZWCAD Download &amp; Trial
+          </h2>
+        </div>
+
+        <div class="space-y-4">
+          <div class="p-6 rounded-xl border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-base mb-2">Bagaimana cara melakukan ZWCAD Download 2026 versi gratis?</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Anda dapat mengunduh installer resmi ZWCAD 2026 64-bit secara gratis dengan mengeklik tombol 'Unduh Installer ZWCAD 2026' di halaman ini. Link installer offline (~550 MB) langsung dikirimkan ke email Anda.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-base mb-2">Berapa lama masa aktif free trial ZWCAD 2026?</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Masa aktif evaluasi trial ZWCAD adalah 30 hari penuh. Seluruh fitur 2D drafting dan 3D modeling terbuka 100% tanpa watermark pada hasil print/plot gambar DWG Anda.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-base mb-2">Apa spesifikasi minimum komputer/laptop untuk menjalankan ZWCAD 2026?</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Spesifikasi minimum: OS Windows 10/11 (64-bit), prosesor Intel Core i3 / AMD multi-core @2.0GHz, RAM minimal 4 GB (disarankan 8 GB atau 16 GB), dan ruang penyimpanan kosong 2 GB SSD.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-base mb-2">Apakah file gambar AutoCAD (.DWG) bisa langsung dibuka setelah ZWCAD didownload?</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Ya, 100% kompatibel langsung. ZWCAD membaca dan menyimpan file dalam format native .DWG dan .DXF dari versi R14 hingga 2026 tanpa perlu konversi, pergeseran font, atau kerusakan layer.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-base mb-2">Apa yang terjadi setelah masa uji coba 30 hari ZWCAD selesai?</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Setelah 30 hari, ZWCAD tetap berfungsi sebagai DWG viewer gratis. Anda dapat melakukan aktivasi lisensi seumur hidup permanen (perpetual) kapan saja tanpa perlu menginstal ulang software.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNAL LINKING (SEO Silo ke Harga & Panduan) -->
+    <section class="py-12 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3 class="text-lg sm:text-xl font-bold text-slate-900 mb-4 font-['Plus_Jakarta_Sans']">
+          Ingin Membeli Lisensi Resmi Permanen Tanpa Sewa Tahunan?
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto mb-6">
+          ZWCAD menggunakan skema lisensi permanen (sekali bayar seumur hidup). Hemat biaya pengadaan software engineering perusahaan Anda hingga 70%.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/harga" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white text-xs sm:text-sm font-bold hover:bg-blue-700 transition-colors shadow-sm">
+            Lihat Daftar Harga Resmi ZWCAD 2026 &rarr;
+          </a>
+          <a href="/blog/spesifikasi-pc-komputer-zwcad-2026-zw3d-hardware-guide" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-white border border-slate-300 text-slate-700 text-xs sm:text-sm font-bold hover:bg-slate-100 transition-colors">
+            Baca Panduan Hardware Lengkap
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- Form Section -->
-    <TrialFormSection />
+    <TrialFormSection title="Download Installer Resmi ZWCAD 2026" subtitle="Isi data perusahaan Anda untuk menerima installer resmi 64-bit lengkap dengan panduan aktivasi trial 30 hari langsung ke email Anda." />
   </main>
 
   <Footer />
