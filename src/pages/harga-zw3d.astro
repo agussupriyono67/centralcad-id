@@ -1,0 +1,374 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import tableHtml from '../data/zw3d-price-table.html?raw';
+
+const WA = "https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20penawaran%20lisensi%20ZW3D%20dan%20konsultasi%20edisi%20yang%20tepat%20untuk%20perusahaan%20saya";
+const WA_ULT = "https://wa.me/6281912244662?text=Halo%20centralcad.id%20,%20aku%20mau%20minta%20penawaran%20ZW3D%20Ultimate%20(Unified%20CAD/CAM/CAE/PDM)";
+const TRIAL = "https://hetra.orderonline.id/centralcadid";
+
+const plans = [
+  {
+    name: 'Lite',
+    price: 'Rp 54.750.000',
+    usd: '$3,000',
+    type: 'Desain Produk',
+    rows: ['CAD Dasar'],
+    best: false,
+  },
+  {
+    name: 'Standard',
+    price: 'Rp 82.125.000',
+    usd: '$4,500',
+    type: 'Desain Produk',
+    rows: ['CAD Lanjutan', 'Desain Struktur Baja', 'Analisis Statis Linear Dasar (Part)'],
+    best: false,
+  },
+  {
+    name: 'Professional',
+    price: 'Rp 127.750.000',
+    usd: '$7,000',
+    type: 'Desain Mold',
+    rows: ['Semua fitur dalam Standard', 'Desain Elektroda', 'Desain Mold'],
+    best: false,
+    strong: [0],
+  },
+  {
+    name: 'Advanced',
+    price: 'Rp 136.875.000',
+    usd: '$7,500',
+    type: 'Desain Mesin &amp; Peralatan',
+    rows: [
+      'Semua fitur dalam Professional',
+      'Analisis Statis Linear Dasar (Assembly)',
+      'Harness Design',
+      'ECAD/MCAD Collaboration',
+      'Piping Design',
+      'ZW3D Motion',
+    ],
+    best: true,
+    strong: [0],
+  },
+  {
+    name: '2-Axis Machining',
+    price: 'Rp 63.875.000',
+    usd: '$3,500',
+    type: 'CAD/CAM Terintegrasi',
+    rows: ['Semua fitur dalam Lite', 'CAM 2-Axis'],
+    best: false,
+    strong: [0],
+  },
+  {
+    name: '3-Axis Machining',
+    price: 'Rp 109.500.000',
+    usd: '$6,000',
+    type: 'CAD/CAM Terintegrasi',
+    rows: ['Semua fitur dalam Lite', 'CAM 3-Axis'],
+    best: false,
+    strong: [0],
+  },
+  {
+    name: 'Ultimate',
+    price: null,
+    usd: null,
+    type: 'CAD/CAM/CAE/PDM Terpadu',
+    rows: ['Semua fitur dalam Professional', 'Analisis Statis Linear Dasar (Assembly)', 'CAM 2-Axis', 'CAM 3-Axis'],
+    best: false,
+    strong: [0],
+    quote: true,
+  },
+];
+
+const clients = [
+  { src: '/assets/zw3d-pricing/clients/client-1.jpg', alt: 'Sony' },
+  { src: '/assets/zw3d-pricing/clients/client-2.jpg', alt: 'Mitsubishi Electric' },
+  { src: '/assets/zw3d-pricing/clients/client-3.jpg', alt: 'Hyundai Kefico' },
+  { src: '/assets/zw3d-pricing/clients/client-4.png', alt: 'Johnson Controls' },
+  { src: '/assets/zw3d-pricing/clients/client-5.jpg', alt: 'Yamaha' },
+  { src: '/assets/zw3d-pricing/clients/client-6.jpg', alt: 'Baowu' },
+  { src: '/assets/zw3d-pricing/clients/client-7.jpg', alt: 'SMTCL' },
+  { src: '/assets/zw3d-pricing/clients/client-8.jpg', alt: 'Alcan' },
+  { src: '/assets/zw3d-pricing/clients/client-9.jpg', alt: 'Taiyo Yuden' },
+  { src: '/assets/zw3d-pricing/clients/client-10.jpg', alt: 'Bridgestone' },
+];
+---
+
+<Layout
+  title="Harga Lisensi ZW3D 2027 Indonesia — Daftar Harga Edisi Lite, Standard, Professional, Advanced"
+  description="Daftar harga resmi lisensi ZW3D 2027 di Indonesia dalam Rupiah. Edisi Lite, Standard, Professional, Advanced, 2-Axis & 3-Axis Machining, hingga Ultimate. Lisensi permanen (perpetual) termasuk maintenance satu tahun, faktur pajak PPN, dan dukungan teknis PT Hetra Teknologi Indonesia."
+>
+  <Fragment slot="head">
+    <link rel="stylesheet" href="/assets/zw3d-pricing/pricing.css" />
+    <link rel="stylesheet" href="/assets/zw3d-pricing/table.css" />
+  </Fragment>
+
+  <Navbar active="zw3d" />
+
+  <div class="ov-page zw3d-price">
+
+    <!-- ================== PRICING CARDS ================== -->
+    <section class="kh-main">
+      <div class="kh-inner">
+        <h1 class="kh-title k-size48 k-bold">Temukan Edisi ZW3D yang Tepat untuk Bisnis Anda</h1>
+        <div class="kh-des k-size16">
+          <span class="k-blue">Lisensi Permanen</span>—bayar sekali, miliki selamanya.<br />
+          <span class="k-blue">Upgrade Fleksibel</span>—pindah ke versi terbaru kapan pun Anda siap.
+        </div>
+
+        <div class="kh-list">
+          {plans.map((p) => (
+            <div class="kh-item">
+              {p.best && <div class="kh-best"><span class="kh-word k-bold">Pilihan Terbaik</span></div>}
+              <div class="kh-name k-size20 k-bold">{p.name}</div>
+
+              <div class="kh-price k-size16">
+                {p.quote ? (
+                  <a href={WA_ULT} target="_blank" rel="noopener noreferrer" class="ki-get k-size28 k-bold">Minta Penawaran</a>
+                ) : (
+                  <span class="kh-num k-size36 kh-num-idr" title={`MSRP ${p.usd}`}>{p.price}</span>
+                )}
+              </div>
+
+              <div class="kh-type k-size16" set:html={p.type} />
+
+              <div class="kh-rows">
+                {p.rows.map((r, ri) => (
+                  <div class={`kh-row k-size14${p.strong && p.strong.includes(ri) ? ' k-bold' : ''}`}>{r}</div>
+                ))}
+              </div>
+
+              <a class="kh-btn k-size16 k-bold" href={p.quote ? WA_ULT : WA} target="_blank" rel="noopener noreferrer">Hubungi Sales</a>
+
+              <div class="kh-last">
+                <a href={TRIAL} target="_blank" rel="noopener noreferrer" class="kh-try k-size14 k-bold">Mulai Trial Gratis 30 Hari</a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div class="kh-notice">
+          <p><strong>Catatan:</strong></p>
+          <p>1. Harga di atas adalah lisensi permanen (perpetual) termasuk maintenance satu tahun pertama. Nilai Rupiah dikonversi dari MSRP resmi USD dengan kurs acuan <strong>Rp 18.250/USD</strong>; harga final mengikuti kurs berjalan saat penerbitan invoice.</p>
+          <p>2. Harga retail lokal dan kebijakan upgrade dapat berbeda per wilayah. Mahasiswa dan institusi pendidikan tersedia penawaran non-komersial. Silakan <a class="k-bold" href={WA} target="_blank" rel="noopener noreferrer">hubungi tim sales kami</a> sebagai reseller resmi ZW3D di Indonesia untuk rincian lebih lanjut.</p>
+          <p>3. Harga di atas belum termasuk layanan training dan dukungan teknis tambahan di luar paket standar.</p>
+          <p>4. Harga di atas adalah Manufacturer Suggested Retail Prices (MSRP) dan belum termasuk PPN 11%. Harga bersifat informatif; ZWSOFT berhak mengubah MSRP sewaktu-waktu tanpa pemberitahuan.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== TRUSTED BY ================== -->
+    <section class="pb-main">
+      <h2 class="pb-title p-size40 p-bold">Dipercaya lebih dari 1.400.000 pengguna di seluruh dunia</h2>
+      <div class="pb-wrap">
+        <div class="pb-track">
+          {[0, 1].map(() => (
+            <div class="pb-list">
+              {clients.map((c) => (
+                <div class="pb-item"><img src={c.src} alt={c.alt} class="pb-logo" loading="lazy" /></div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== COMPARISON TABLE ================== -->
+    <div class="ki-section">
+      <h2 class="ki-title k-size40 k-bold">Bandingkan Versi &amp; Fitur</h2>
+      <div set:html={tableHtml} />
+    </div>
+
+    <!-- ================== BOTTOM CTA ================== -->
+    <div class="pe-main">
+      <div class="pe-inner">
+        <div class="pe-box" style="background-image: url('/assets/zw3d-pricing/pc-bg.jpg');">
+          <div class="pe-text">
+            <div class="pe-tit p-bold">Butuh bantuan memilih edisi?</div>
+            <div class="pe-des">Tim engineer kami siap membantu memetakan kebutuhan modul dan jumlah seat tim Anda, lalu menyusun penawaran resmi lengkap dengan faktur pajak.</div>
+            <a class="pe-btn p-bold" href={WA} target="_blank" rel="noopener noreferrer">Hubungi Sales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <Footer />
+</Layout>
+
+<style is:inline>
+  /* ===== Netralkan gaya global situs agar visual mengikuti halaman sumber ===== */
+  .zw3d-price { background: #fff; }
+  .zw3d-price ul { list-style: none; margin: 0; padding: 0; }
+  .zw3d-price h1, .zw3d-price h2, .zw3d-price h3 { letter-spacing: normal; }
+  .zw3d-price a { text-decoration: none; }
+  .zw3d-price p { margin: 0 0 4px; }
+
+  /* Harga Rupiah lebih panjang dari USD — kecilkan agar tetap satu baris */
+  .zw3d-price .kh-num-idr { font-size: 26px !important; white-space: nowrap; letter-spacing: -0.5px; }
+  @media (max-width: 1200px) { .zw3d-price .kh-num-idr { font-size: 22px !important; } }
+  @media (max-width: 992px)  { .zw3d-price .kh-num-idr { font-size: 24px !important; } }
+  .zw3d-price .ki-num { font-size: 15px !important; white-space: nowrap; }
+
+  /* Beri ruang agar daftar fitur tidak menempel ke tombol pada edisi dengan baris terbanyak */
+  .zw3d-price .kh-item { padding-bottom: 124px; }
+  .zw3d-price .kh-rows { padding-bottom: 16px; }
+
+  /* Header tabel sticky: latar solid agar tidak tembus pandang */
+  .zw3d-price .ki-hd-wrap.fixed { background-color: #F4F6FD !important; box-shadow: 0 6px 16px rgba(15, 23, 42, .06); }
+
+  /* ===== Marquee klien (pengganti script asli) ===== */
+  .zw3d-price .pb-main { width: 100%; padding: 0; margin: 0 0 84px; background: #fff; }
+  .zw3d-price .pb-title {
+    font-size: 36px; font-weight: 600; color: #222; text-align: center;
+    line-height: 1.354; margin: 0 auto 56px; max-width: 1400px; padding: 0 4%;
+  }
+  .zw3d-price .pb-wrap { width: 100%; overflow: hidden; }
+  .zw3d-price .pb-track { display: flex; width: max-content; animation: pb-scroll 38s linear infinite; }
+  .zw3d-price .pb-track:hover { animation-play-state: paused; }
+  .zw3d-price .pb-list { display: flex; flex: 0 0 auto; }
+  .zw3d-price .pb-item {
+    width: 168px; height: 76px; display: flex; align-items: center; justify-content: center;
+    flex: 0 0 168px;
+  }
+  .zw3d-price .pb-logo { max-width: 136px; max-height: 67px; width: auto; height: auto; object-fit: contain; }
+  @keyframes pb-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .zw3d-price .pb-track { animation: none; }
+  }
+  @media (max-width: 992px) {
+    .zw3d-price .pb-title { font-size: 26px; margin-bottom: 32px; }
+    .zw3d-price .pb-main { margin-bottom: 48px; }
+    .zw3d-price .pb-item { width: 132px; flex: 0 0 132px; }
+    .zw3d-price .pb-logo { max-width: 108px; max-height: 54px; }
+  }
+
+  /* ===== Judul tabel perbandingan ===== */
+  .zw3d-price .ki-section { padding-top: 0; }
+  .zw3d-price .ki-title {
+    width: 1400px; max-width: 92%; margin: 0 auto 8px; color: #222;
+    text-align: center; line-height: 1.3;
+  }
+  .zw3d-price .ki-hd-wrap.fixed { top: 81px; }
+
+  /* Tombol "Unduh PDF" memakai kelas .pc-btn dari stylesheet lain */
+  .zw3d-price .pc-btn {
+    display: inline-block; line-height: 38px; padding: 0 16px; border-radius: 8px;
+    background: #005BFE; color: #fff !important; font-family: notosansbold, sans-serif; font-weight: 700;
+    text-align: center; transition: all .3s;
+  }
+  .zw3d-price .pc-btn:hover { background: rgba(0, 91, 254, .8); color: #fff; }
+  .zw3d-price .pc-btns { margin-top: 12px; font-size: 0; }
+  .zw3d-price .pc-one {
+    display: inline-block; padding: 0 8px; line-height: 26px; color: #005BFE;
+    cursor: pointer; font-size: 14px; font-family: notosansbold, sans-serif;
+  }
+  .zw3d-price .pc-one.gray { color: #9aa4b2; }
+</style>
+
+<script is:inline>
+  (function () {
+    function init() {
+      var root = document.querySelector('.zw3d-price');
+      if (!root) return;
+
+      var blocks = Array.prototype.slice.call(root.querySelectorAll('.ki-cont .ki-block'));
+
+      /* Semua blok tertutup di awal, lalu buka dua blok pertama (sama seperti sumber) */
+      blocks.forEach(function (b) { b.classList.add('hide'); });
+      [0, 1].forEach(function (i) {
+        if (blocks[i]) blocks[i].classList.remove('hide');
+      });
+      setGray();
+
+      function syncStickyBlocks(idx) {
+        var sticky = root.querySelectorAll('.ki-bot-sticky .ki-block');
+        if (sticky[idx]) sticky[idx].classList.toggle('hide', blocks[idx].classList.contains('hide'));
+      }
+
+      /* Klik judul kategori = buka/tutup blok */
+      root.querySelectorAll('.ki-tr-change').forEach(function (row) {
+        row.addEventListener('click', function () {
+          var block = row.closest('.ki-block');
+          if (!block) return;
+          block.classList.toggle('hide');
+          var idx = blocks.indexOf(block);
+          if (idx > -1) {
+            var sticky = root.querySelectorAll('.ki-bot-sticky .ki-block');
+            if (sticky[idx]) sticky[idx].classList.toggle('hide', block.classList.contains('hide'));
+          }
+          setGray();
+        });
+      });
+
+      /* Highlight kolom saat hover */
+      root.querySelectorAll('.ki-td-one').forEach(function (cell) {
+        cell.addEventListener('mouseenter', function () {
+          var idx = Array.prototype.indexOf.call(cell.parentElement.children, cell);
+          root.querySelectorAll('.ki-td').forEach(function (td) { td.classList.remove('active'); });
+          root.querySelectorAll('.ki-tr').forEach(function (tr) {
+            var td = tr.children[idx];
+            if (td) td.classList.add('active');
+          });
+          var hd = root.querySelector('.ki-hd .ki-td-item:nth-child(' + (idx + 1) + ')');
+          if (hd) hd.classList.add('active');
+        });
+        cell.addEventListener('mouseleave', function () {
+          root.querySelectorAll('.ki-td').forEach(function (td) { td.classList.remove('active'); });
+        });
+      });
+
+      /* Ciutkan / perluas semua */
+      var less = root.querySelector('.pc-less');
+      var more = root.querySelector('.pc-more');
+      if (less) less.addEventListener('click', function () {
+        blocks.forEach(function (b) { b.classList.add('hide'); });
+        root.querySelectorAll('.ki-bot-sticky .ki-block').forEach(function (b) { b.classList.add('hide'); });
+        setGray();
+      });
+      if (more) more.addEventListener('click', function () {
+        blocks.forEach(function (b) { b.classList.remove('hide'); });
+        root.querySelectorAll('.ki-bot-sticky .ki-block').forEach(function (b) { b.classList.remove('hide'); });
+        setGray();
+      });
+
+      function setGray() {
+        if (!less || !more) return;
+        less.classList.remove('gray');
+        more.classList.remove('gray');
+        var hidden = blocks.filter(function (b) { return b.classList.contains('hide'); }).length;
+        if (hidden === 0) more.classList.add('gray');
+        else if (hidden === blocks.length) less.classList.add('gray');
+      }
+
+      /* Header tabel sticky saat scroll */
+      var tgt = root.querySelector('.ki-tgt');
+      var wrap = root.querySelector('.ki-hd-wrap');
+      var space = root.querySelector('.ki-hd-space');
+      if (tgt && wrap && space) {
+        var onScroll = function () {
+          var rect = tgt.getBoundingClientRect();
+          var h = wrap.offsetHeight;
+          var offset = window.innerWidth <= 992 ? 102 : 81;
+          if (rect.top < offset) {
+            wrap.classList.add('fixed');
+            space.style.height = h + 'px';
+          } else {
+            wrap.classList.remove('fixed');
+            space.style.height = '0px';
+          }
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+        onScroll();
+      }
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
+  })();
+</script>
