@@ -49,7 +49,7 @@ const posts = rawPosts.map((post) => {
                 <!-- Featured Image -->
                 <div class="relative h-48 overflow-hidden bg-slate-100">
                   <img
-                    src={post.frontmatter.image}
+                    src={post.frontmatter.image || '/images/cad_workstation_engineering_desk.jpg'}
                     alt={post.frontmatter.title}
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"

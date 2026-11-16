@@ -3,6 +3,7 @@ title: "ZWCAD 2026 untuk Desain Saluran Drainase Perkotaan & Pengendalian Banjir
 description: "Panduan lengkap penggunaan ZWCAD 2026 untuk konsultan perencana drainase perkotaan, stormwater management, dan pengendali banjir dengan format DWG native."
 pubDate: "2026-11-15"
 heroImage: "https://images.unsplash.com/photo-1541888946425-d0fbb18f2495?auto=format&fit=crop&w=1920&q=80"
+image: "/images/water_treatment_plant_clarifier_facility.jpg"
 ---
 
 Pembangunan infrastruktur pengendali banjir dan sistem drainase perkotaan menuntut ketelitian tinggi dari para konsultan perencana sipil. Mengolah data kontur topografi yang masif dan gambar kerja lintas segmen jalan sering kali menjadi beban berat bagi software CAD tradisional yang boros memori.

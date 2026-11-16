@@ -3,7 +3,7 @@ title: "Software CAD Terbaik untuk Arsitektur & Desain Bangunan 2026: ZWCAD vs A
 description: "Panduan memilih software CAD terbaik untuk firma arsitektur dan desain bangunan di Indonesia. Bandingkan fitur ZWCAD 2026 vs AutoCAD dari sisi biaya, kompatibilitas DWG, dan produktivitas drafter."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/images/mechanical-cad-blueprint-layout.jpg"
+image: "/images/architectural_floor_plan_2d_drafting_desk.jpg"
 tags: ['Software CAD Arsitektur', 'ZWCAD Arsitek', 'Desain Bangunan CAD', 'Alternatif AutoCAD']
 keywords: "software cad untuk arsitektur, cad desain bangunan terbaik, zwcad arsitek indonesia, alternatif autocad firma arsitektur, harga software cad arsitektur 2026"
 ---

@@ -3,7 +3,7 @@ title: "Tingkatkan Produktivitas Tim Drafter 40% & Hemat Anggaran CAD Hingga Rp 
 description: "Analisis Return on Investment (ROI) menggunakan ZWCAD 2026 dibanding AutoCAD untuk firma engineering di Indonesia. Lihat bagaimana 50 perusahaan engineering menceritakan penghematan biaya lisensi dan peningkatan produktivitas drafter yang terukur."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/images/zwcad-ifc-bim-3d-model.jpg"
+image: "/images/zwcad_perpetual_license_cost_savings.jpg"
 tags: ['ROI ZWCAD', 'Efisiensi Biaya CAD', 'Produktivitas Drafter', 'Lisensi Permanen']
 keywords: "roi zwcad 2026, efisiensi biaya lisensi cad, produktivitas drafter meningkat, penghematan anggaran software cad indonesia, investasi lisensi zwcad jangka panjang"
 ---

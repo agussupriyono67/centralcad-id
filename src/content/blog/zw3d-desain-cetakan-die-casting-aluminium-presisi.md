@@ -3,6 +3,7 @@ title: "ZW3D 2026 untuk Desain Cetakan Die Casting Logam Presisi: Solusi Mold & 
 description: "Panduan teknis penggunaan ZW3D 2026 untuk perancangan mold die casting aluminium, simulasi aliran logam, dan pemrograman CNC 3-5 axis industri manufaktur."
 pubDate: "2026-11-15"
 heroImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80"
+image: "/images/aluminum_die_casting_engine_block_mold.jpg"
 ---
 
 Industri pengecoran logam bertekanan tinggi (*High Pressure Die Casting* / HPDC) untuk komponen otomotif dan elektronik menuntut keakuratan geometri cetakan (*die mold*) yang sangat tinggi. Kesalahan desain pada jalur pendingin (*cooling channels*) atau sistem gerbang (*gating system*) dapat memicu cacat porositas pada produk aluminium cor.

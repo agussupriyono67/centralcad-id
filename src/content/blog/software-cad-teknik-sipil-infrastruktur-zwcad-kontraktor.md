@@ -3,7 +3,7 @@ title: "Software CAD untuk Teknik Sipil & Infrastruktur: Kenapa ZWCAD 2026 Jadi 
 description: "Panduan software CAD untuk proyek teknik sipil, jalan tol, jembatan, dan infrastruktur di Indonesia. ZWCAD 2026 hadir dengan fitur civil drafting lengkap, lisensi permanen, dan dukungan teknis lokal terpercaya."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/images/zwcad-topographic-gis-survey.jpg"
+image: "/images/topography_drone_aerial_survey_terrain.jpg"
 tags: ['Software CAD Teknik Sipil', 'CAD Infrastruktur', 'ZWCAD Civil', 'Kontraktor CAD Indonesia']
 keywords: "software cad teknik sipil, cad untuk infrastruktur indonesia, zwcad kontraktor sipil, cad jalan tol jembatan, harga lisensi cad sipil 2026"
 ---

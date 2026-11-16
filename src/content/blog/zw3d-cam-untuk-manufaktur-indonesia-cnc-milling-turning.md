@@ -3,7 +3,7 @@ title: "ZW3D CAM untuk Manufaktur Indonesia: Desain Produk hingga Pemrograman Me
 description: "Pelajari bagaimana ZW3D CAM 2026 menjadi solusi terintegrasi untuk manufaktur Indonesia — dari desain 3D produk, analisis fabrikasi, hingga pembuatan toolpath CNC milling dan turning tanpa software tambahan."
 pubDate: "2026-10-25"
 author: "Tim Teknis Central CAD"
-image: "/images/zw3d-cnc-manufacturing-machine.png"
+image: "/images/cnc_machining_center_5axis_automation.jpg"
 tags: ['ZW3D CAM', 'Manufaktur Indonesia', 'Pemrograman CNC', 'Software CAD/CAM Terintegrasi']
 keywords: "zw3d cam untuk manufaktur, software cad cam indonesia, desain produk 3d dan cnc, pemrograman mesin milling dan turning, harga zw3d 2026 Indonesia, alternatif fusion 360 solidworks"
 ---

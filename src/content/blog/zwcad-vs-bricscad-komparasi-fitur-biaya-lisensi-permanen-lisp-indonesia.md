@@ -3,7 +3,7 @@ title: "ZWCAD vs BricsCAD 2026: Perbandingan Fitur, Biaya Lisensi Permanen, dan 
 description: "Bandingkan ZWCAD vs BricsCAD 2026 untuk konsultan dan kontraktor Indonesia. Analisis biaya lisensi permanen, kompatibilitas LISP/ZRX, performa DWG besar, dan skema pengadaan resmi bergaransi."
 pubDate: "2026-11-14"
 author: "Tim Teknis Central CAD"
-image: "/images/geometric_glass_architecture_facade.jpg"
+image: "/images/cad_workstation_pc_hardware.jpg"
 tags: ['ZWCAD vs BricsCAD', 'Alternatif AutoCAD', 'Lisensi Permanen CAD', 'Komparasi Software CAD', 'Software DWG Indonesia']
 keywords: "zwcad vs bricscad indonesia, perbandingan zwcad dan bricscad, harga lisensi bricscad vs zwcad, alternatif autocad format dwg terbaik, software cad permanen lisp support, beli lisensi zwcad resmi"
 ---

@@ -3,7 +3,7 @@ title: "ZWCAD 2026 untuk Desain Facade & Curtain Wall Gedung: Shop Drawing Kaca 
 description: "Panduan lengkap drafting desain fasad gedung dan curtain wall menggunakan ZWCAD 2026 untuk kontraktor spesialis arsitektur di Indonesia. Penyusunan shop drawing kusen alumunium, detail sambungan mullion, dan lisensi permanen hemat biaya."
 pubDate: "2026-10-31"
 author: "Tim Teknis Central CAD"
-image: "/images/geometric_architecture_dome.jpg"
+image: "/images/modern-commercial-building-facade.jpg"
 tags: ['ZWCAD Facade Design', 'Curtain Wall Engineering', 'Shop Drawing Alumunium Kaca', 'Detail Profil Mullion', 'Lisensi Permanen CAD']
 keywords: "software cad desain facade gedung indonesia, zwcad shop drawing curtain wall, gambar kerja kusen alumunium kaca dwg, software drafting kontraktor facade gedung tinggi, beli lisensi zwcad resmi kontraktor arsitektur"
 ---

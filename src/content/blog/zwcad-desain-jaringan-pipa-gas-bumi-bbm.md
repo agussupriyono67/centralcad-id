@@ -3,6 +3,7 @@ title: "ZWCAD 2026 untuk Perencanaan Jaringan Pipa Gas & BBM: Standar Gambar Ker
 description: "Solusi optimal penggunaan ZWCAD 2026 bagi kontraktor EPC migas dan perencana jaringan pipa distribusi gas bumi serta bahan bakar minyak (BBM)."
 pubDate: "2026-11-15"
 heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80"
+image: "/images/oil_gas_industrial_piping_facility.jpg"
 ---
 
 Industri minyak, gas, dan energi (Migas) menuntut presisi tingkat tinggi dalam setiap lembar gambar teknik pipa transmisi maupun fasilitas *above/underground piping*. Kesalahan kecil pada simbol isometrik atau spesifikasi fitting dapat berakibat fatal pada keselamatan operasional proyek EPC.
