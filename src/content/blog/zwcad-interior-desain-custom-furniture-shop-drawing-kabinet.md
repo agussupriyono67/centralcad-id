@@ -3,7 +3,7 @@ title: "ZWCAD 2026 untuk Desain Interior & Custom Furniture: Shop Drawing Detil 
 description: "Software CAD native DWG berlisensi permanen untuk perancangan interior dan custom furniture di Indonesia. Penyusunan shop drawing detail kabinet, kitchen set, potong papan multipleks, dan kompatibilitas file DWG workshop CNC."
 pubDate: "2026-11-16"
 author: "Tim Teknis Central CAD"
-image: "/images/architectural_interior_modern_minimalist_timber_slats.jpg"
+image: "/images/custom_kitchen_set_island_wood_interior.jpg"
 tags: ['ZWCAD Interior', 'Custom Furniture CAD', 'Shop Drawing Kabinet', 'Kitchen Set DWG', 'Lisensi Permanen CAD']
 keywords: "software cad interior custom furniture, zwcad desain kabinet kitchen set dwg, shop drawing interior furniture indonesia, harga lisensi zwcad perancang interior, distributor resmi cad interior furniture"
 ---
@@ -27,6 +27,48 @@ ZWCAD 2026 dirancang untuk mendukung alur kerja cepat dari tahap sketsa konseptu
 * **Kompatibilitas Penuh Format DWG & DXF untuk Mesin CNC:** File gambar kerja dapat langsung diekspor ke format DXF atau diintegrasikan dengan software *nesting* dan mesin CNC *router* untuk pemotongan lembaran multipleks (*plywood*, MDF, PVC board) secara akurat, meminimalkan sisa material terbuang (*waste reduction*).
 
 * **Lisensi Permanen Bebas Sewa Tahunan & Aktivasi Fleksibel:** Menggunakan skema *True Perpetual License* resmi dengan pilihan aktivasi digital *Softkey* via internet maupun offline XML, serta opsi *Network Floating License* yang memungkinkan pembagian *seat* lisensi ke beberapa komputer drafter di studio interior Anda.
+
+---
+
+## Alur Kerja Shop Drawing: Dari Survey Ukur ke Cutting List Produksi
+
+Kesalahan yang paling mahal dalam proyek fit-out bukanlah kesalahan desain, melainkan kesalahan komunikasi antara gambar di studio dan angka di meja potong workshop. ZWCAD 2026 menutup celah tersebut dengan mempertemukan tiga tahap kerja dalam satu file DWG yang sama.
+
+### Tahap 1 — Survey Ukur dan As-Built Drawing
+
+Drafter mencatat dimensi ruang aktual, posisi kolom, elevasi plafon, dan titik instalasi MEP ke dalam *as-built drawing* berskala 1:50. Penggunaan *layer* terpisah untuk dinding eksisting dan elemen baru mencegah gambar survey tertimpa saat desain mulai dikembangkan.
+
+### Tahap 2 — Gambar Kerja Detail per Modul
+
+Setiap modul kabinet dipecah menjadi tampak depan, potongan samping, dan detail sambungan. *Layout viewport* memungkinkan satu file memuat lembar A3 untuk workshop, lembar A1 untuk presentasi klien, dan detail skala 1:5 untuk sambungan engsel tanpa duplikasi objek.
+
+### Tahap 3 — Cutting List dan Ekspor DXF ke CNC
+
+Daftar potong dihasilkan langsung dari geometri panel menggunakan ekstraksi atribut blok atau tabel AutoCAD-compatible, lalu diekspor sebagai DXF per lembar papan. File inilah yang dibaca software *nesting* untuk menyusun tata letak potongan di atas lembaran multipleks 1220 x 2440 mm.
+
+> **Tips Praktis:** Simpan satu file DWG induk untuk setiap unit kabinet, lalu *xref* ke file denah ruangan. Cara ini membuat revisi elevasi plafon atau pergeseran titik lampu tidak merusak detail kabinet yang sudah disetujui klien.
+
+---
+
+## Standar Detail Gambar Kerja yang Wajib Ada dalam Shop Drawing Kabinet
+
+Gambar kerja yang baik harus bisa dibaca oleh tukang kayu tanpa penjelasan tambahan dari drafter. Karena itu, beberapa elemen berikut sebaiknya selalu hadir di setiap lembar produksi.
+
+* **Dimensi berantai (*running dimension*) dan dimensi total:** Memastikan ukuran tiap kompartemen konsisten dengan ukuran keseluruhan modul.
+* **Tebal material dan jenis *finishing*:** Menuliskan spesifikasi multipleks 18 mm, HPL 0.8 mm, atau *edge banding* PVC 2 mm langsung pada keterangan potongan.
+* **Detail *hardware*:** Kode engsel *soft close*, rel laci *full extension*, dan jenis *handle* agar tim purchasing tidak salah membeli komponen.
+* **Toleransi dan *clearance*:** Sisa ruang 2–3 mm pada sisi tarikan laci serta jarak bukaan pintu terhadap dinding.
+* **Nomor modul dan kode panel:** Menjadi kunci pencocokan antara gambar, cutting list, dan label pada panel yang dikirim ke lokasi.
+
+Ketika lima elemen di atas konsisten, tingkat rework di workshop turun signifikan. Pekerjaan yang tadinya harus diulang karena panel kepotong terlalu pendek bisa dicegah hanya dengan satu lembar detail sambungan yang benar.
+
+---
+
+## Otomasi LISP dan Batch Plot untuk Revisi Klien yang Cepat
+
+Proyek interior hampir selalu melalui beberapa putaran revisi. ZWCAD Professional mendukung AutoLISP, ZRX, dan VBA sehingga rutinitas berulang dapat diotomasi sesuai standar internal studio. Skrip sederhana dapat menomori ulang modul kabinet, menghitung total panjang *edge banding*, atau menarik data panel ke file CSV untuk kebutuhan estimasi.
+
+Fitur *Smart Plot* mempercepat pencetakan puluhan lembar gambar kerja ke PDF dalam satu perintah, lengkap dengan penamaan file otomatis berdasarkan nomor lembar. Saat klien meminta revisi akhir sehari sebelum produksi, tim tidak perlu menghabiskan waktu mengekspor gambar satu per satu.
 
 ---
 
