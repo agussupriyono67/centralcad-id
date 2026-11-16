@@ -3,7 +3,7 @@ title: "Perbedaan ZWCAD Standard vs Professional: Tabel Fitur Lengkap & Tips Mem
 description: "Ulasan komparasi mendalam perbedaan fitur ZWCAD Standard vs Professional 2026. Analisis drafting 2D, pemodelan solid 3D ACIS, integrasi API LISP/ZRX/.NET, dan panduan memilih edisi yang tepat."
 pubDate: "2026-11-16"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Professional-Capability.png"
+image: "/assets_zwsoft/images/main-banner-image.png"
 tags: ['ZWCAD Professional vs Standard', 'Perbedaan ZWCAD Standard dan Pro', 'Fitur ZWCAD 2026', 'Lisensi CAD 2D 3D']
 keywords: "perbedaan zwcad standard vs professional, tabel fitur zwcad standard dan pro, apakah zwcad standard bisa 3d, zwcad pro untuk arsitek dan manufaktur, harga zwcad standard vs professional"
 ---
