@@ -444,7 +444,12 @@ body.pc .kc-b-next:hover{background-image: url(./thk-21.png);}
 .kd-last{font-size: 12px;color: #999;line-height: 17px;text-align: center;max-width: 42em;margin: 0 auto;padding-top: 46px;}
 .kd-mid{width: 100%;background-color: #fff;padding: 12px 12px 0;border-radius: 8px;}
 .kd-sticky{width: 100%;background-color: #E9EFFC;border-radius: 4px;font-size: 0;padding-left: 237px;display: flex;}
-.kd-table{width: calc(100% + 9px);max-height: 440px;overflow: auto;padding-right: 9px;}
+.kd-table{width: calc(100% + 9px);max-height: 440px;overflow: auto;padding-right: 9px;scrollbar-width: thin;scrollbar-color: #64748b #fff;}
+@supports not (scrollbar-color: auto){
+	.kd-table{scrollbar-width: auto;}
+	.kd-table::-webkit-scrollbar{width: 5px;background-color: #fff;border-radius: 3px;}
+	.kd-table::-webkit-scrollbar-thumb{background-color: #64748b;border-radius: 3px;}
+}
 .kd-tr{display: flex;padding-left: 237px;}
 .kd-tr:nth-child(2n){background-color: #fafcff;}
 .kd-td{color: #333;line-height: 40px;display: inline-block;vertical-align: top;text-align: center;}
@@ -453,8 +458,6 @@ body.pc .kc-b-next:hover{background-image: url(./thk-21.png);}
 .kd-td:nth-child(3){flex: 1;}
 .kd-ico{width: 20px;height: 20px;vertical-align: middle;}
 .kd-sub{padding-left: 36px;}
-.kd-table::-webkit-scrollbar{width: 5px;;background-color: #fff;border-radius: 3px;}
-.kd-table::-webkit-scrollbar-thumb{background-color: #999;border-radius: 3px;}
 .kd-mid-out{display: none;}
 @media(max-width: 1920px){
 	.kd-main{padding: 5.2vw 0 40px;}
