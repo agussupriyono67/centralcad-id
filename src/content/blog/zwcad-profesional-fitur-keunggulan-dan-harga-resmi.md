@@ -3,7 +3,7 @@ title: "ZWCAD Profesional 2026: Fitur, Keunggulan 3D & Solusi Lisensi Permanen T
 description: "Pelajari fitur lengkap ZWCAD Profesional 2026, kapabilitas 3D modeling, LISP/API, kompatibilitas native DWG, serta harga dan lisensi permanen resmi di Central CAD Indonesia."
 pubDate: "2026-11-19"
 author: "Tim Teknis Central CAD"
-image: "/assets_zwsoft/images/Professional-Capability.png"
+image: "/assets/cadindonesia/images/cadindonesiahero.jpg"
 tags: ['ZWCAD Professional', 'Lisensi CAD Permanen', 'Software CAD 3D', 'Alternatif AutoCAD']
 keywords: "zwcad profesional, zwcad professional indonesia, fitur zwcad profesional, harga zwcad profesional, lisensi permanen zwcad, beli zwcad resmi central cad"
 ---
